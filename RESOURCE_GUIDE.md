@@ -214,5 +214,89 @@ Explanation: Brief explanation of the concept.
 
 ---
 
-*Last Updated: 2025-09-29*
+## Magnetic Fields & Forces
+
+**Key Concepts:**
+- Magnetic force on moving charge: $\vec{F} = q\vec{v} \times \vec{B}$
+- Direction determined by right-hand rule
+- Circular motion in uniform field: r = mv/(qB)
+- Lorentz force: $\vec{F} = q(\vec{E} + \vec{v} \times \vec{B})$
+
+**Critical: Right-Hand Rule for Charged Particles**
+- Cross product $\vec{v} \times \vec{B}$ gives direction for **positive charge**
+- For **negative charge** (electron), force is **opposite** to cross product
+- Essential for particle identification in mass spectrometry/cyclotron problems
+
+**Resources:**
+- [RESOURCE:HyperPhysics - Magnetic Force] http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magfor.html
+- [RESOURCE:Khan Academy - Magnetic Forces] https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-3-magnetic-force-on-a-moving-charge
+- [RESOURCE:Video - Right-Hand Rule] https://www.youtube.com/watch?v=2h4wBK08rhE
+
+---
+
+## Ampère's Law & Magnetic Fields from Currents
+
+**Key Concepts:**
+- Ampère's Law: $\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{enc}$
+- Magnetic field from long straight wire: B = μ₀I/(2πr)
+- Solenoid field: B = μ₀nI (n = turns per length)
+- Coaxial cable: field confined between conductors
+
+**Resources:**
+- [RESOURCE:HyperPhysics - Ampère's Law] http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/amplaw.html
+- [RESOURCE:Khan Academy - Ampère's Law] https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-9-ampere-s-law
+- [RESOURCE:Article - Solenoids] http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html
+
+---
+
+## Magnetic Dipole Moments
+
+**Key Concepts:**
+- Dipole moment: $\vec{\mu}$ = NIA (N=turns, I=current, A=area)
+- Direction: right-hand rule (curl fingers with current, thumb = $\vec{\mu}$)
+- Potential energy: U = −$\vec{\mu}$ · $\vec{B}$
+- Torque: $\vec{\tau}$ = $\vec{\mu}$ × $\vec{B}$
+
+**Common Error:**
+- Must apply right-hand rule carefully to current loop diagram
+- Direction can be ±ĵ, ±î, or ±k̂ depending on current direction
+- Wrong direction flips signs in energy and torque calculations
+
+**Resources:**
+- [RESOURCE:HyperPhysics - Magnetic Dipole] http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magmom.html
+- [RESOURCE:Article - Torque on Current Loop] http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/curloo.html
+
+---
+
+## Cyclotron Motion & Mass Spectrometry
+
+**Key Concepts:**
+- Charged particle in B field: circular motion
+- Radius: r = mv/(qB)
+- Period: T = 2πm/(qB) (independent of velocity!)
+- Frequency: f = qB/(2πm) (cyclotron frequency)
+- Used for particle identification and mass measurement
+
+**Resources:**
+- [RESOURCE:HyperPhysics - Cyclotron] http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/cyclot.html
+- [RESOURCE:Article - Mass Spectrometer] http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/maspec.html
+- [RESOURCE:Video - Cyclotron Motion] https://www.youtube.com/watch?v=D9Afkx6PrCs
+
+---
+
+## Magnetic Force Between Current-Carrying Wires
+
+**Key Concepts:**
+- Force per unit length: F/L = μ₀I₁I₂/(2πd)
+- Parallel currents (same direction): attract
+- Antiparallel currents (opposite direction): repel
+- Right-hand rule: field from wire 1 → force on wire 2
+
+**Resources:**
+- [RESOURCE:HyperPhysics - Force Between Wires] http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/wirfor.html
+- [RESOURCE:Khan Academy - Magnetic Force Between Wires] https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-8-forces-between-currents
+
+---
+
+*Last Updated: 2025-10-19*
 *Quiz Wizard Educational Resources*

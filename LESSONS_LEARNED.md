@@ -1,6 +1,6 @@
 # QuizWiz Development - Lessons Learned
 
-*Last Updated: 2025-10-05*
+*Last Updated: 2025-10-19*
 
 This document captures important lessons learned during QuizWiz development to avoid repeating mistakes and improve future development efficiency.
 
@@ -186,6 +186,151 @@ if (array && array.length > 0) {
 ```javascript
 const encoded = path.split('/').map(encodeURIComponent).join('/');
 ```
+
+---
+
+## 9. Physics Problem Verification - Right-Hand Rule
+
+### Issue
+Incorrect particle identification in cyclotron motion problem due to misapplying the right-hand rule for magnetic force on charged particles.
+
+### Critical Understanding
+For magnetic force $\vec{F} = q(\vec{v} \times \vec{B})$:
+- The cross product $\vec{v} \times \vec{B}$ gives the direction for **POSITIVE charge**
+- For **NEGATIVE charge** (electron), force is **OPPOSITE** to the cross product direction
+- This is critical for particle identification problems
+
+### Example Error
+- B field OUT of page, particle moving COUNTERCLOCKWISE
+- $\vec{v} \times \vec{B}$ points OUTWARD (radially)
+- For proton (+): Force outward → NOT centripetal (wrong!)
+- For electron (−): Force INWARD → centripetal (correct!)
+
+### Solution
+Always:
+1. Identify required force direction (usually toward center for circular motion)
+2. Determine cross product direction using right-hand rule
+3. If force needs to be opposite to cross product → negative charge
+4. If force matches cross product → positive charge
+
+### Cascading Corrections
+When particle type is corrected:
+- **Update mass** in all subsequent calculations (m_e ≠ m_p by factor ~1800)
+- **Recalculate radius**: r = mv/(qB) changes dramatically
+- **Recalculate period**: T = 2πm/(qB) changes significantly
+- Verify ALL dependent parts of multi-part problems
+
+### Best Practice
+- Always verify physics answers against answer keys before finalizing
+- Check direction carefully for vector problems
+- When correcting foundational errors, systematically update ALL dependent calculations
+
+---
+
+## 10. Magnetic Dipole Moment Direction
+
+### Issue
+Incorrect magnetic dipole moment direction due to not carefully applying right-hand rule to current loops.
+
+### Solution
+For current loop in xz-plane:
+- Curl fingers in direction of current flow (as shown in diagram)
+- Thumb points in direction of $\vec{\mu}$
+- Check if this is +ĵ or −ĵ direction
+- **Never assume** - always verify against problem diagram
+
+### Cascading Effects
+When dipole direction is wrong:
+- **Potential energy** U = −$\vec{\mu}$ · $\vec{B}$ sign flips
+- **Torque** $\vec{\tau}$ = $\vec{\mu}$ × $\vec{B}$ components change sign
+- Must update ALL dependent parts (b, c, d)
+
+### Best Practice
+- Draw diagram with current direction clearly marked
+- Apply right-hand rule carefully
+- Double-check against answer key
+- Update all dependent calculations when correcting direction
+
+---
+
+## 11. UI Auto-Load Behavior
+
+### Issue
+Welcome screen appeared briefly but was immediately replaced by auto-loaded quiz content, defeating the purpose of the welcome screen.
+
+### Root Cause
+On page initialization, `populateSidebar()` was called with `autoLoad=true`, which automatically loaded the first quiz of the first test set.
+
+### Solution
+Change initialization to `autoLoad=false` to prevent automatic content loading:
+```javascript
+populateSidebar(firstSubject.testSets, false); // Don't auto-load
+```
+
+### UI State Management
+When designing welcome/landing screens:
+1. **Hide controls** that aren't applicable (timer, navigation, stats)
+2. **Show welcome** by default
+3. **User action triggers** transition: quiz selection → hide welcome, show controls
+4. **Explicit state management**: Check if content exists before rendering
+
+### Best Practice
+- Never auto-load content if you want to show a welcome/landing state
+- Control UI element visibility explicitly based on application state
+- Test initial page load behavior separately from navigation behavior
+
+---
+
+## 12. Code Refactoring for Maintainability
+
+### Issue
+Duplicate code for showing Easter egg messages, making future changes harder.
+
+### Solution
+Create reusable utility functions:
+```javascript
+function showEasterEggMessage(messageHTML) {
+  // Single implementation used by multiple functions
+}
+```
+
+### Pattern
+1. **Identify repeated code** (even if slightly different)
+2. **Extract to function** with parameters for variations
+3. **Call from multiple places** with different messages
+4. **Easier to update** styling, timing, animations in one place
+
+### Best Practice
+- Apply DRY (Don't Repeat Yourself) principle
+- Refactor immediately when you notice duplication
+- Use parameters for variations rather than copying code
+- Future changes only need to be made once
+
+---
+
+## 13. Testing Discipline and User Confirmation
+
+### Issue
+Changes pushed to production without local testing could cause issues.
+
+### Solution
+Always follow this workflow:
+1. **Make changes** in local environment
+2. **Test locally** in browser (refresh with Ctrl+F5 to clear cache)
+3. **Get user confirmation** that changes work as expected
+4. **Then commit and push** to repository
+
+### Benefits
+- Catch issues before they reach production
+- User verifies behavior matches requirements
+- Reduces rollback needs
+- Builds confidence in deployment process
+
+### Best Practice
+- **Never push without testing** "Don't push/commit until changes are confirmed locally"
+- Use browser dev tools to verify JavaScript behavior
+- Test edge cases (welcome screen, empty states, transitions)
+- Get explicit user approval before deploying
 
 ---
 
