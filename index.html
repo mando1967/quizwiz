@@ -1264,41 +1264,46 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
   // Initialize sidebar on load
   initSidebar();
 
+  // Reusable function to show Easter egg messages
+  function showEasterEggMessage(messageHTML) {
+    // Create temporary message overlay
+    const message = document.createElement('div');
+    message.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px 50px; border-radius: 20px; font-size: 1.5rem; font-family: "MedievalSharp", cursive; box-shadow: 0 8px 32px rgba(74, 20, 140, 0.4); z-index: 10000; animation: fadeInScale 0.3s ease-out; text-align: center; line-height: 1.5;';
+    message.innerHTML = messageHTML;
+    document.body.appendChild(message);
+    
+    // Remove after 2.5 seconds with fade out
+    setTimeout(() => {
+      message.style.animation = 'fadeOut 0.3s ease-out';
+      setTimeout(() => message.remove(), 300);
+    }, 2500);
+    
+    // Add animation styles if not already present
+    if (!document.getElementById('easter-egg-styles')) {
+      const style = document.createElement('style');
+      style.id = 'easter-egg-styles';
+      style.textContent = `
+        @keyframes fadeInScale {
+          from { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+          to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+        }
+        @keyframes fadeOut {
+          from { opacity: 1; }
+          to { opacity: 0; }
+        }
+      `;
+      document.head.appendChild(style);
+    }
+  }
+
   function showAnswer() {
     // Easter egg: if no quiz is loaded, show a clever message
     if (!flashcards || flashcards.length === 0) {
       const welcomeScreen = document.getElementById('welcome-screen');
       if (welcomeScreen && welcomeScreen.style.display !== 'none') {
-        // Create temporary message overlay
-        const message = document.createElement('div');
-        message.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px 50px; border-radius: 20px; font-size: 1.5rem; font-family: "MedievalSharp", cursive; box-shadow: 0 8px 32px rgba(74, 20, 140, 0.4); z-index: 10000; animation: fadeInScale 0.3s ease-out; text-align: center;';
-        message.innerHTML = '✨ <strong>QuizWiz</strong> is The Answer! ✨';
-        document.body.appendChild(message);
-        
-        // Remove after 2 seconds with fade out
-        setTimeout(() => {
-          message.style.animation = 'fadeOut 0.3s ease-out';
-          setTimeout(() => message.remove(), 300);
-        }, 2000);
-        
-        // Add animation styles if not already present
-        if (!document.getElementById('easter-egg-styles')) {
-          const style = document.createElement('style');
-          style.id = 'easter-egg-styles';
-          style.textContent = `
-            @keyframes fadeInScale {
-              from { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
-              to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-            }
-            @keyframes fadeOut {
-              from { opacity: 1; }
-              to { opacity: 0; }
-            }
-          `;
-          document.head.appendChild(style);
-        }
+        showEasterEggMessage('✨ <strong>QuizWiz</strong> is The Answer! ✨');
+        return;
       }
-      return;
     }
     
     showingAnswer = true;
@@ -1360,6 +1365,15 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
   }
 
   function prevCard() {
+    // Easter egg: if no quiz is loaded, show a clever message
+    if (!flashcards || flashcards.length === 0) {
+      const welcomeScreen = document.getElementById('welcome-screen');
+      if (welcomeScreen && welcomeScreen.style.display !== 'none') {
+        showEasterEggMessage('There\'s no going back.<br>The future is where it\'s at! 🔮');
+        return;
+      }
+    }
+    
     currentIndex = (currentIndex - 1 + flashcards.length) % flashcards.length;
     showingAnswer = false;
     resetTimerAndAutoStart();
