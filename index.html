@@ -74,7 +74,7 @@
 Your flashcard history will be reset.">🧙 Clear Progress</button>
       </div>
       <!-- Controls Panel -->
-      <div id="controls-panel">
+      <div id="controls-panel" style="display: none;">
         <div class="control-group">
           <label>
             <input type="checkbox" id="randomize-checkbox" onchange="toggleRandomize()">
@@ -111,7 +111,7 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
       </div>
 
       <!-- Top Navigation -->
-      <div class="nav-buttons-top">
+      <div class="nav-buttons-top" style="display: none;">
         <button id="back-btn-top" onclick="prevCard()">← Back</button>
         <span class="tooltip-trigger" data-tooltip="Jump to any problem in the quiz">
           <select id="problem-selector" onchange="jumpToProblem()">
@@ -119,6 +119,14 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
           </select>
         </span>
         <button id="next-btn-top" onclick="nextCard()">Next →</button>
+      </div>
+
+      <!-- Welcome Screen (shown when no quiz selected) -->
+      <div id="welcome-screen" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 400px; padding: 40px; text-align: center;">
+        <img src="https://media.giphy.com/media/TI46fnNHSTJUevmwwe/giphy.gif" alt="Wizard Animation" style="width: 200px; height: 200px; margin-bottom: 30px; filter: hue-rotate(250deg) saturate(1.2);" />
+        <h2 style="color: #4a148c; font-family: 'MedievalSharp', cursive; font-size: 2rem; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(102, 126, 234, 0.3);">Welcome to Quiz Wizard! 🧙</h2>
+        <p style="color: #5e35b1; font-size: 1.1rem; max-width: 500px; line-height: 1.6; margin-bottom: 10px;">Select a test and quiz from the sidebar to begin your magical learning journey.</p>
+        <p style="color: #7e57c2; font-size: 0.95rem; font-style: italic;">✨ Master physics with flashcards, detailed solutions, and instant feedback ✨</p>
       </div>
 
       <div id="flashcard-container"></div>
@@ -208,6 +216,18 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
   }
 
   function renderCard() {
+    // Hide welcome screen and show controls when rendering cards
+    const welcomeScreen = document.getElementById('welcome-screen');
+    if (welcomeScreen) {
+      welcomeScreen.style.display = 'none';
+    }
+    
+    // Show controls and navigation
+    const controlsPanel = document.getElementById('controls-panel');
+    const navTop = document.querySelector('.nav-buttons-top');
+    if (controlsPanel) controlsPanel.style.display = 'flex';
+    if (navTop) navTop.style.display = 'flex';
+    
     const container = document.getElementById('flashcard-container');
     fadeOut(container, () => {
       container.innerHTML = '';
@@ -1001,6 +1021,15 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
     // Clear flashcard display
     const flashcardContainer = document.getElementById('flashcard-container');
     flashcardContainer.innerHTML = '';
+    
+    if (!flashcards || flashcards.length === 0) {
+      document.getElementById('flashcard-container').innerHTML = '';
+      document.getElementById('welcome-screen').style.display = 'flex';
+      return;
+    }
+    
+    // Hide welcome screen when displaying cards
+    document.getElementById('welcome-screen').style.display = 'none';
     
     // Recreate subject tabs to show/hide mode-specific subjects
     if (appConfig) {
