@@ -123,7 +123,7 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
 
       <!-- Welcome Screen (shown when no quiz selected) -->
       <div id="welcome-screen" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 400px; padding: 40px; text-align: center;">
-        <img src="https://media.giphy.com/media/TI46fnNHSTJUevmwwe/giphy.gif" alt="Wizard Animation" style="width: 200px; height: 200px; margin-bottom: 30px; filter: hue-rotate(250deg) saturate(1.2);" />
+        <img src="wizard.jpg" alt="Quiz Wizard" style="max-width: 300px; max-height: 300px; width: auto; height: auto; margin-bottom: 30px; border-radius: 15px; box-shadow: 0 4px 12px rgba(74, 20, 140, 0.2);" />
         <h2 style="color: #4a148c; font-family: 'MedievalSharp', cursive; font-size: 2rem; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(102, 126, 234, 0.3);">Welcome to Quiz Wizard! 🧙</h2>
         <p style="color: #5e35b1; font-size: 1.1rem; max-width: 500px; line-height: 1.6; margin-bottom: 10px;">Select a test and quiz from the sidebar to begin your magical learning journey.</p>
         <p style="color: #7e57c2; font-size: 0.95rem; font-style: italic;">✨ Master physics with flashcards, detailed solutions, and instant feedback ✨</p>
@@ -1247,7 +1247,7 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
     if (filteredSubjects.length > 0) {
       const firstSubject = filteredSubjects[0];
       currentSubject = firstSubject.id;
-      populateSidebar(firstSubject.testSets, true);
+      populateSidebar(firstSubject.testSets, false); // Don't auto-load - show welcome screen
     }
     
     // Auto-close sidebar on mobile/tablet
