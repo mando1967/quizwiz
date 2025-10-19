@@ -1,0 +1,269 @@
+[
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 1,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S19)_p1_img1_prob-unknown.png",
+    "problems_in_page": []
+  },
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 1,
+    "image_index": 2,
+    "outfile": "Quiz 3 (S19)_p1_img2_prob-unknown.png",
+    "problems_in_page": []
+  },
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 3,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S19)_p3_img1_prob0-7-8.png",
+    "problems_in_page": [
+      0,
+      7,
+      8
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 3,
+    "image_index": 2,
+    "outfile": "Quiz 3 (S19)_p3_img2_prob0-7-8.png",
+    "problems_in_page": [
+      0,
+      7,
+      8
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 4,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S19)_p4_img1_prob0-9-11.png",
+    "problems_in_page": [
+      0,
+      9,
+      11
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 4,
+    "image_index": 2,
+    "outfile": "Quiz 3 (S19)_p4_img2_prob0-9-11.png",
+    "problems_in_page": [
+      0,
+      9,
+      11
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 5,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S19)_p5_img1_prob12-13-14-15.png",
+    "problems_in_page": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 5,
+    "image_index": 2,
+    "outfile": "Quiz 3 (S19)_p5_img2_prob12-13-14-15.png",
+    "problems_in_page": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 9,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S19)_p9_img1_prob18.png",
+    "problems_in_page": [
+      18
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S19).pdf",
+    "page": 13,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S19)_p13_img1_prob20.png",
+    "problems_in_page": [
+      20
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S22).pdf",
+    "page": 1,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S22)_p1_img1_prob-unknown.png",
+    "problems_in_page": []
+  },
+  {
+    "pdf": "Quiz 3 (S22).pdf",
+    "page": 1,
+    "image_index": 2,
+    "outfile": "Quiz 3 (S22)_p1_img2_prob-unknown.png",
+    "problems_in_page": []
+  },
+  {
+    "pdf": "Quiz 3 (S22).pdf",
+    "page": 3,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S22)_p3_img1_prob6-7-8.png",
+    "problems_in_page": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S22).pdf",
+    "page": 4,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S22)_p4_img1_prob9-10-11.png",
+    "problems_in_page": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S22).pdf",
+    "page": 5,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S22)_p5_img1_prob2-12-13-14.png",
+    "problems_in_page": [
+      2,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S22).pdf",
+    "page": 6,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S22)_p6_img1_prob15-16-17.png",
+    "problems_in_page": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S22).pdf",
+    "page": 7,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S22)_p7_img1_prob18.png",
+    "problems_in_page": [
+      18
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S22).pdf",
+    "page": 9,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S22)_p9_img1_prob19.png",
+    "problems_in_page": [
+      19
+    ]
+  },
+  {
+    "pdf": "Quiz 3 (S22).pdf",
+    "page": 13,
+    "image_index": 1,
+    "outfile": "Quiz 3 (S22)_p13_img1_prob21.png",
+    "problems_in_page": [
+      21
+    ]
+  },
+  {
+    "pdf": "Quiz 3P (S16).pdf",
+    "page": 1,
+    "image_index": 1,
+    "outfile": "Quiz 3P (S16)_p1_img1_prob-unknown.png",
+    "problems_in_page": []
+  },
+  {
+    "pdf": "Quiz 3P (S16).pdf",
+    "page": 2,
+    "image_index": 1,
+    "outfile": "Quiz 3P (S16)_p2_img1_prob1-2-3.png",
+    "problems_in_page": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "pdf": "Quiz 3P (S16).pdf",
+    "page": 3,
+    "image_index": 1,
+    "outfile": "Quiz 3P (S16)_p3_img1_prob4-5-6-7.png",
+    "problems_in_page": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "pdf": "Quiz 3P (S16).pdf",
+    "page": 4,
+    "image_index": 1,
+    "outfile": "Quiz 3P (S16)_p4_img1_prob8-9-10-11.png",
+    "problems_in_page": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "pdf": "Quiz 3P (S16).pdf",
+    "page": 5,
+    "image_index": 1,
+    "outfile": "Quiz 3P (S16)_p5_img1_prob12-13-14-15.png",
+    "problems_in_page": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "pdf": "Quiz 3P (S16).pdf",
+    "page": 7,
+    "image_index": 1,
+    "outfile": "Quiz 3P (S16)_p7_img1_prob17.png",
+    "problems_in_page": [
+      17
+    ]
+  },
+  {
+    "pdf": "Quiz 3P (S16).pdf",
+    "page": 8,
+    "image_index": 1,
+    "outfile": "Quiz 3P (S16)_p8_img1_prob18.png",
+    "problems_in_page": [
+      18
+    ]
+  },
+  {
+    "pdf": "Quiz 3P (S16).pdf",
+    "page": 9,
+    "image_index": 1,
+    "outfile": "Quiz 3P (S16)_p9_img1_prob19.png",
+    "problems_in_page": [
+      19
+    ]
+  }
+]

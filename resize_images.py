@@ -65,7 +65,17 @@ if __name__ == "__main__":
     os.chdir(Path(__file__).parent)
     
     # Process all quiz sets
-    quiz_sets = ["Quiz 2 V1", "Quiz 2 V2", "Quiz 2 V3", "Quiz 2 V4", "Quiz 2 V5"]
+    quiz_sets = [
+        "Physics/PHYS 214/Test 2/Quiz 2 V1",
+        "Physics/PHYS 214/Test 2/Quiz 2 V2",
+        "Physics/PHYS 214/Test 2/Quiz 2 V3",
+        "Physics/PHYS 214/Test 2/Quiz 2 V4",
+        "Physics/PHYS 214/Test 2/Quiz 2 V5",
+        "Physics/PHYS 214/Test 3/Quiz 3 (16)",
+        "Physics/PHYS 214/Test 3/Quiz 3 (S19)",
+        "Physics/PHYS 214/Test 3/Quiz 3 (S22)",
+        "Physics/PHYS 214/Test 3/Quiz 3 (S24)"
+    ]
     
     for quiz_name in quiz_sets:
         process_quiz_images(quiz_name)

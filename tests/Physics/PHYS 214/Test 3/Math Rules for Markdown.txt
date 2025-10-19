@@ -1,0 +1,53 @@
+Master Math Formatting Rules (Plain Text)
+
+1) Math delimiters
+- Use $...$ for inline math and $$...$$ for display math.
+- Display blocks must be flush left with a blank line before and after.
+- Do not use \(...\), \[...\], or code fences.
+
+2) Multi-line equations
+- Use the LaTeX aligned environment inside a display block.
+- Start with $$ on its own line, then \begin{aligned}.
+- Put one equation per line and end each line with \\.
+- Close with \end{aligned} and $$ on its own line.
+- Always leave a blank line before and after the whole block.
+
+3) Safe TeX symbols only
+- Inside math use ASCII TeX commands only:
+  \cdot (not ·), \times (not ×), - ASCII minus (not Unicode −), \le, \ge, \pm, \approx, ^{\circ}.
+- Use functions like \sin, \cos, \tan, etc.
+- Avoid other Unicode punctuation inside math.
+
+4) Scientific notation and exponents
+- Always write scientific notation as $a \times 10^{n}$ with braces around the exponent.
+- Convert shorthands like 10-5, 10^-5, or 10 – 5 to $10^{-5}$.
+- Convert 10^6 to $10^{6}$ (always brace the exponent).
+- Bare powers of ten must still be wrapped: $10^{n}$.
+
+5) Numbers with units
+- Keep both number and unit inside the same math span and use upright units with \mathrm{...}.
+  Examples: $5 \times 10^{-4}\,\mathrm{N}$, $1.60 \times 10^{-19}\,\mathrm{C}$, $0.50\,\mathrm{T}$.
+- Do not split number and unit across math boundaries (bad: $1.6 \times 10^{-19}$ \mathrm{C}).
+
+6) Vectors
+- Convert any Unicode arrow notation (F⃗ or ⃗F) to \vec{F} and keep it inside math: $\vec{F}$.
+
+7) Accents and derivatives
+- ẋ or /dot x → $\dot{x}$
+- ẍ or /ddot x → $\ddot{x}$
+- x̂ or /hat x → $\hat{x}$
+- x̄ or /bar x → $\bar{x}$
+- x̃ or /tilde x → $\tilde{x}$
+(These macros must be inside $...$.)
+
+8) Operator wrapping rules for \cdot and \times
+- If a line contains \cdot or \times and there is no $...$ in that line, wrap the minimal expression around the operator in $...$.
+  Examples:
+  I1 \cdot I2  →  $I1 \cdot I2$
+  \hat{i} \times \hat{j}  →  $\hat{i} \times \hat{j}$
+
+9) Multiple-choice formatting
+- Each option must be on its own line:
+(a) Option A
+(b) Option B
+(c) Option C

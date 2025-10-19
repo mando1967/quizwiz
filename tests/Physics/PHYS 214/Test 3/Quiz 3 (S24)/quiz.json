@@ -1,0 +1,370 @@
+{
+  "title": "PHYS 214 - Test 3, Quiz 3 (S24)",
+  "questions": [
+    {
+      "number": 1,
+      "points": 3,
+      "question": "What is the unit for magnetic field",
+      "choices": [
+        "(a) Coulomb",
+        "(b) Ampere",
+        "(c) Tesla",
+        "(d) Dollar"
+      ],
+      "answer": "(c) Tesla",
+      "explanation": "The Tesla (T) is the SI unit for magnetic field strength. 1 Tesla = 1 Weber/m² = 1 kg/(A·s²).",
+      "resources": [
+        {
+          "type": "Article - Magnetic Field Units",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magfie.html"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": 3,
+      "question": "Which hand should NOT be used for hand rules discussed in EP2 class",
+      "choices": [
+        "(a) Right",
+        "(b) Left"
+      ],
+      "answer": "(b) Left",
+      "explanation": "The right-hand rule is the standard convention used in physics. The left hand should NOT be used for these rules.",
+      "resources": [
+        {
+          "type": "Khan Academy - Right Hand Rule",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-5-magnetic-field-due-to-current"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": 3,
+      "question": "How are magnet poles called?",
+      "choices": [
+        "(a) Sweet and Sour",
+        "(b) Happy and Sad",
+        "(c) North and South",
+        "(d) Top and Bottom"
+      ],
+      "answer": "(c) North and South",
+      "explanation": "Magnetic poles are called North and South, named after the direction they point relative to Earth's geographic poles.",
+      "resources": [
+        {
+          "type": "Article - Magnetic Poles",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magpole.html"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": 3,
+      "question": "Your EP2 professors name is",
+      "choices": [
+        "(a) Donald Trump",
+        "(b) Willy Wonka",
+        "(c) Josef Jugashvili (also known as Josef Stalin)",
+        "(d) Yurii Maravin"
+      ],
+      "answer": "(d) Yurii Maravin",
+      "explanation": "Professor Yurii Maravin teaches the EP2 course."
+    },
+    {
+      "number": 5,
+      "points": 3,
+      "question": "A charged particle with a velocity $\\vec{v}$, perpendicular to the magnetic field $\\vec{B}$ will travel in a",
+      "choices": [
+        "(a) straight line",
+        "(b) ellipse",
+        "(c) rectangular path",
+        "(d) circle",
+        "(e) McLaren 720S"
+      ],
+      "answer": "(d) circle",
+      "explanation": "When $\\vec{v} \\perp \\vec{B}$, the magnetic force $\\vec{F} = q\\vec{v} \\times \\vec{B}$ is perpendicular to velocity, causing circular motion with radius $r = \\frac{mv}{qB}$.",
+      "resources": [
+        {
+          "type": "Khan Academy - Charged Particle in Magnetic Field",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/lorentz-force/v/lorentz-force"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": 3,
+      "question": "A charged particle with a velocity $\\vec{v}$, parallel to the magnetic field $\\vec{B}$ will travel in a",
+      "choices": [
+        "(a) straight line",
+        "(b) ellipes",
+        "(c) rectangular path",
+        "(d) circle",
+        "(e) Bugatti Chiron Profilée"
+      ],
+      "answer": "(a) straight line",
+      "explanation": "When $\\vec{v} \\parallel \\vec{B}$, the cross product $\\vec{v} \\times \\vec{B} = 0$, so there is no magnetic force and the particle continues in a straight line.",
+      "resources": [
+        {
+          "type": "Article - Motion in Magnetic Fields",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magfor.html"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 3,
+      "question": "Suppose an electron e is headed at us from outer space in the direction shown in the figure below. Which way will the Earth's magnetic field deflect it? Assume the Earth's magnetic field points due north. The relative location of north, east, south, and west, as viewed from the top, is provided in case it is needed.",
+      "choices": [
+        "(a) North",
+        "(b) South",
+        "(c) East",
+        "(d) West",
+        "(e) Nowhere"
+      ],
+      "answer": "(d) West",
+      "explanation": "Electron coming toward us (velocity toward us), B pointing north. Using $\\vec{F} = q\\vec{v} \\times \\vec{B}$ and noting electron has negative charge, the force is opposite to right-hand rule direction, pointing west.",
+      "resources": [
+        {
+          "type": "Article - Lorentz Force",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magfor.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S24)_p3_img1.png"]
+    },
+    {
+      "number": 8,
+      "points": 3,
+      "question": "Which current-carrying wire configuration would produce a magnetic field pattern most similar to that produced by the earth?",
+      "choices": [
+        "(a) A long straight wire",
+        "(b) A toroid",
+        "(c) A solenoid",
+        "(d) A current sheet"
+      ],
+      "answer": "(c) A solenoid",
+      "explanation": "Earth's magnetic field resembles a bar magnet or solenoid, with field lines emerging from one pole and entering the other. A solenoid produces this dipole field pattern.",
+      "resources": [
+        {
+          "type": "Article - Earth's Magnetic Field",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magearth.html"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": 3,
+      "question": "Which way would the magnetic force from the Earth's magnetic field act on this power line? (A power line carries 0.1 A of current in a west-to-east direction across Kansas.)",
+      "choices": [
+        "(a) Up",
+        "(b) Down",
+        "(c) North",
+        "(d) South",
+        "(e) Nowhere"
+      ],
+      "answer": "(b) Down",
+      "explanation": "Using $\\vec{F} = I\\vec{L} \\times \\vec{B}$: current east, B pointing north (horizontal), force points downward by right-hand rule.",
+      "resources": [
+        {
+          "type": "Article - Force on Current-Carrying Wire",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/wirfor.html"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": 3,
+      "question": "Estimate the magnitude of the magnetic force on a 100 m length of the power line. Earth's magnetic field is about $5 \\times 10^{-5}\\,\\mathrm{T}$.",
+      "choices": [
+        "(a) $5 \\times 10^{-4}\\,\\mathrm{N}$",
+        "(b) $5 \\times 10^{-1}\\,\\mathrm{N}$",
+        "(c) $5 \\times 10^{2}\\,\\mathrm{N}$",
+        "(d) $5 \\times 10^{5}\\,\\mathrm{N}$",
+        "(e) $5 \\times 10^{6}$ pineapples"
+      ],
+      "answer": "(a) $5 \\times 10^{-4}\\,\\mathrm{N}$",
+      "explanation": "$F = ILB = (0.1\\,\\text{A})(100\\,\\text{m})(5 \\times 10^{-5}\\,\\text{T}) = 5 \\times 10^{-4}$ N.",
+      "resources": [
+        {
+          "type": "Article - Magnetic Force Calculation",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/wirfor.html"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": 3,
+      "question": "A segment of a wire carries a current i as indicated in the figure below. Which way will the magnetic field from this current be pointing at C?",
+      "choices": [
+        "(a) Up",
+        "(b) Down",
+        "(c) Into the page",
+        "(d) Out of the page",
+        "(e) Nowhere ($\\vec{B}$ = 0)"
+      ],
+      "answer": "(c) Into the page",
+      "explanation": "Using the right-hand rule for a current-carrying wire: thumb points in current direction (upward), fingers curl around showing B field direction. At point C to the right of the wire, field points into the page.",
+      "resources": [
+        {
+          "type": "Khan Academy - Magnetic Field from Wire",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-5-magnetic-field-due-to-current"
+        }
+      ],
+      "images": ["images/Quiz 3 (S24)_p4_img1.png"]
+    },
+    {
+      "number": 12,
+      "points": 3,
+      "question": "Protons are going around a circle in a counterclockwise direction as shown. At the center of the circle, they produce a magnetic field that is:",
+      "choices": [
+        "(a) into the page",
+        "(b) out of the page",
+        "(c) to the left",
+        "(d) to the right",
+        "(e) zero"
+      ],
+      "answer": "(b) out of the page",
+      "explanation": "Protons moving counterclockwise create a current loop. Using right-hand rule: curl fingers in direction of current (counterclockwise), thumb points out of page at center.",
+      "resources": [
+        {
+          "type": "Article - Current Loop Magnetic Field",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/curloo.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S24)_p4_img2.png"]
+    },
+    {
+      "number": 13,
+      "points": 3,
+      "question": "What would you get if you took a bar magnet and cut it in half?",
+      "choices": [
+        "(a) two pieces, one a north pole, and one a south pole",
+        "(b) two shorter magnets, each with a north pole and a south pole",
+        "(c) two pieces, both non-magnetic",
+        "(d) a molten mess from the energy released from within the magnet upon cutting",
+        "(e) an electric shock"
+      ],
+      "answer": "(b) two shorter magnets, each with a north pole and a south pole",
+      "explanation": "Magnetic monopoles do not exist. When you cut a magnet, you always get two complete magnets, each with both north and south poles.",
+      "resources": [
+        {
+          "type": "Article - Magnetic Monopoles",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magpole.html"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": 3,
+      "question": "The magnetic field at the center of the solenoid has a magnitude",
+      "choices": [
+        "(a) B = $1.0 \\times 10^{-4}\\,\\mathrm{T}$",
+        "(b) B = $2.3 \\times 10^{-3}\\,\\mathrm{T}$",
+        "(c) B = $1.9 \\times 10^{-3}\\,\\mathrm{T}$",
+        "(d) B = $3.8 \\times 10^{-2}\\,\\mathrm{T}$"
+      ],
+      "answer": "(b) B = $2.3 \\times 10^{-3}\\,\\mathrm{T}$",
+      "explanation": "For a solenoid: $B = \\mu_0 n I$. From image, solenoid is 10 cm with current 10 A. Counting turns gives approximately 18 turns, so $n = 180\\,\\text{turns/m}$. $B = (4\\pi \\times 10^{-7})(180)(10) \\approx 2.3 \\times 10^{-3}$ T.",
+      "resources": [
+        {
+          "type": "Khan Academy - Solenoid",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-9-electric-current-induces-magnetic-field"
+        }
+      ],
+      "images": ["images/Quiz 3 (S24)_p5_img1.png"]
+    },
+    {
+      "number": 15,
+      "points": 3,
+      "question": "The bar magnet to the left of the solenoid in the picture above will be",
+      "choices": [
+        "(a) Pushed to the right",
+        "(b) Pushed to the left",
+        "(c) Stay the way it is",
+        "(d) Start rotating clockwise",
+        "(e) Start rotating counterclockwise"
+      ],
+      "answer": "(a) Pushed to the right",
+      "explanation": "With current shown, the solenoid's left end becomes a south pole. The bar magnet has N on left, which is attracted to the solenoid's S pole, pushing it to the right.",
+      "resources": [
+        {
+          "type": "Video - Magnetic Forces",
+          "url": "https://www.youtube.com/watch?v=5Dyfr9QQOkE"
+        }
+      ],
+      "images": ["images/Quiz 3 (S24)_p5_img1.png"]
+    },
+    {
+      "number": 16,
+      "points": 3,
+      "question": "A piece of unknown material develops a small magnetic field pointing toward the north pole of the bar magnet when the bar magnet is brought close. The field goes away when the bar magnet is removed. The unknown material is",
+      "choices": [
+        "(a) non-magnetic",
+        "(b) diamagnetic",
+        "(c) paramagnetic",
+        "(d) ferromagnetic"
+      ],
+      "answer": "(c) paramagnetic",
+      "explanation": "Paramagnetic materials develop temporary magnetization aligned with external field but lose it when field is removed. Ferromagnetic materials retain magnetization.",
+      "resources": [
+        {
+          "type": "Article - Paramagnetism",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/para.html"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": 14,
+      "question": "In the figure shown below, a particle moves along a circle in a counterclockwise fashion, in a region of uniform magnetic field B = 0.001 T, pointing out of the page. The particle experiences a magnetic force of magnitude $1.6 \\times 10^{-15}\\,\\mathrm{N}$. You might find the following information useful: e = $1.6 \\times 10^{-19}\\,\\mathrm{C}$, masses of proton and electrons are mp = $1.67 \\times 10^{-27}\\,\\mathrm{kg}$ and me = $9.1 \\times 10^{-31}\\,\\mathrm{kg}$, respectively.\n(a) (3 points) Is the particle a proton or an electron? (Reminder: as for all write-up questions, you have to explain your choice to get the full credit)\n(b) (3 points) Determine the particle's speed.\n(c) (5 points) Determine the radius of the circle.\n(d) (3 points) Determine the period of the motion.",
+      "choices": [],
+      "answer": "SOLUTION:\\n\\nPART (a) - Particle identification: For circular motion, magnetic force must point toward center (inward). B field points OUT of page, particle moves COUNTERCLOCKWISE. Using right-hand rule for $\\\\vec{v} \\\\times \\\\vec{B}$: velocity counterclockwise, B out gives cross product pointing OUTWARD. For POSITIVE charge (proton), force would be outward (wrong!). For NEGATIVE charge (electron), force is opposite direction, pointing INWARD (correct!). Therefore, particle is an ELECTRON.\\n\\nPART (b) - Speed: From $F = |q|vB$: $v = \\\\frac{F}{|q|B} = \\\\frac{1.6 \\\\times 10^{-15}}{(1.6 \\\\times 10^{-19})(0.001)} = 10^7$ m/s\\n\\nPART (c) - Radius: Using electron mass m_e = 9.1 × 10⁻³¹ kg:\\n\\n$r = \\\\frac{m_e v^2}{F} = \\\\frac{(9.1 \\\\times 10^{-31})(10^7)^2}{1.6 \\\\times 10^{-15}} = \\\\frac{9.1 \\\\times 10^{-17}}{1.6 \\\\times 10^{-15}} = 0.057$ m = 5.7 cm\\n\\nAlternatively: $r = \\\\frac{m_e v}{|q|B} = \\\\frac{(9.1 \\\\times 10^{-31})(10^7)}{(1.6 \\\\times 10^{-19})(0.001)} = 0.057$ m\\n\\nPART (d) - Period: $T = \\\\frac{2\\\\pi r}{v} = \\\\frac{2\\\\pi(0.057)}{10^7} = 3.58 \\\\times 10^{-8}$ s = 35.8 ns",
+      "resources": [
+        {
+          "type": "Article - Cyclotron Motion",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/cyclot.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S24)_p7_img1.png"]
+    },
+    {
+      "number": 18,
+      "points": 14,
+      "question": "A coil shown below carries current i = 2.00 A in the direction indicated, is parallel to an xz plane, has 3 turns and an area of $4.00 \\times 10^{-3}$ m², and lies in a uniform magnetic field $\\vec{B}$ = (1.00î + 2.00ĵ + 4.00k̂) mT.\n(a) (4 points) What is the magnitude of the magnetic dipole of the coil?\n(b) (2 points) What is the direction of the magnetic dipole moment (express your answer in terms of axes unit vectors (î, ĵ, and k̂)\n(c) (4 points) What is the potential energy of this magnetic dipole?\n(d) (4 points) What is the torque on this magnetic dipole moment due to the external magnetic field?",
+      "choices": [],
+      "answer": "SOLUTION:\\n\\nPART (a) - Magnitude of magnetic dipole: $\\\\mu = NiA = (3)(2.00)(4.00 \\\\times 10^{-3}) = 0.024$ A\u00b7m\u00b2 = 24 mA\u00b7m\u00b2\\n\\nPART (b) - Direction: Coil is parallel to xz plane, so current loops in xz plane. Using right-hand rule (curl fingers with current direction shown), dipole moment points perpendicular to plane in NEGATIVE y-direction: $\\\\vec{\\\\mu} = -0.024\\\\hat{j}$ or $\\\\vec{\\\\mu} = -24 \\\\times 10^{-2}$ A\u00b7m\u00b2 $\\\\hat{j}$\\n\\nPART (c) - Potential energy: $U = -\\\\vec{\\\\mu} \\\\cdot \\\\vec{B}$\\n\\n$\\\\vec{B}$ = (1.00\u00ee + 2.00\u0135 + 4.00k\u0302) mT = (1.00\u00ee + 2.00\u0135 + 4.00k\u0302) \u00d7 10\u207b\u00b3 T\\n\\n$U = -(-0.024\\\\hat{j}) \\\\cdot [(1.00\\\\hat{i} + 2.00\\\\hat{j} + 4.00\\\\hat{k}) \\\\times 10^{-3}]$\\n\\n$U = +(0.024)(2.00 \\\\times 10^{-3}) = +4.8 \\\\times 10^{-5}$ J = +48 \u00b5J\\n\\nPART (d) - Torque: $\\\\vec{\\\\tau} = \\\\vec{\\\\mu} \\\\times \\\\vec{B} = (-0.024\\\\hat{j}) \\\\times [(1.00\\\\hat{i} + 2.00\\\\hat{j} + 4.00\\\\hat{k}) \\\\times 10^{-3}]$\\n\\nUsing cross product rules: $\\\\hat{j} \\\\times \\\\hat{i} = -\\\\hat{k}$, $\\\\hat{j} \\\\times \\\\hat{j} = 0$, $\\\\hat{j} \\\\times \\\\hat{k} = \\\\hat{i}$\\n\\n$\\\\vec{\\\\tau} = -0.024 \\\\times 10^{-3}[(-1.00\\\\hat{k}) + 0 + (4.00\\\\hat{i})] = (-9.6\\\\hat{i} + 2.4\\\\hat{k}) \\\\times 10^{-5}$ N\u00b7m\\n\\nMagnitude: $|\\\\tau| = \\\\sqrt{(9.6)^2 + (2.4)^2} \\\\times 10^{-5} = 9.9 \\\\times 10^{-5}$ N\u00b7m = 99 \u00b5N\u00b7m",
+      "resources": [
+        {
+          "type": "Article - Magnetic Dipole Moment",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magmom.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S24)_p9_img1.png"]
+    },
+    {
+      "number": 19,
+      "points": 12,
+      "question": "The figure below portrays the cross-section of a long cylindrical conducting cylinder of radius a = 1.00 m. The current in the cylinder is 10 A and uniformly distributed.\n(a) (3 points) What is the magnetic field due to the current at r = 0 m?\n(b) (3 points) What is the current density of the wire?\n(c) (6 points) What is the magnetic field due to the current at r = 0.7 m?",
+      "choices": [],
+      "answer": "SOLUTION:\n\nPART (a) - Field at center: At r = 0, by symmetry, B = 0 T (no enclosed current at exact center point)\n\nPART (b) - Current density: For uniform distribution over cross-section:\n\n$J = \\frac{I}{A} = \\frac{10}{\\pi a^2} = \\frac{10}{\\pi(1.00)^2} = \\frac{10}{\\pi} = 3.18$ A/m²\n\nPART (c) - Field at r = 0.7 m: Using Ampère's Law for r < a (inside conductor):\n\n$\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enc}$\n\nFor circular path at radius r: $B(2\\pi r) = \\mu_0 I_{enc}$\n\nEnclosed current (uniformly distributed): $I_{enc} = J \\cdot \\pi r^2 = \\frac{10}{\\pi} \\cdot \\pi(0.7)^2 = 10(0.49) = 4.9$ A\n\n$B = \\frac{\\mu_0 I_{enc}}{2\\pi r} = \\frac{(4\\pi \\times 10^{-7})(4.9)}{2\\pi(0.7)} = \\frac{4.9 \\times 2 \\times 10^{-7}}{0.7} = 1.4 \\times 10^{-6}$ T = 1.4 µT",
+      "resources": [
+        {
+          "type": "Article - Ampere's Law",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/amplaw.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S24)_p11_img1.png"]
+    },
+    {
+      "number": 20,
+      "points": 10,
+      "question": "Suppose we wish to magnetize a huge volume of a cylinder-shaped spectrometer at the CERN Large Hadron Collider to a value of 4.0 Tesla. We choose a solenoid to achieve this. The solenoid is 20 meters long and 6 meters in diameter. A Physicists-R-Us power supply can deliver 20,000 A to the solenoid.\n(a) (4 points) Show that we need to wrap a conductor outside of the cylinder a total of 3183 times over its full length to produce this field with a given current.\n(b) (2 points) Show that we would need about 60 km of wire\n(c) (4 points) Suppose the wire had a resistance of 1 Ω/km. How much power would be required to operate the solenoid in this case? Does the value you get seem practically achievable? For reference, the Wolf Creek nuclear plant in Burlington, KS can produce electrical power of 1.25 GW.",
+      "choices": [],
+      "answer": "SOLUTION:\n\nPART (a) - Number of turns: For solenoid: $B = \\mu_0 n I = \\mu_0 \\frac{N}{L} I$\n\nSolving for N: $N = \\frac{BL}{\\mu_0 I} = \\frac{(4.0)(20)}{(4\\pi \\times 10^{-7})(20000)} = \\frac{80}{8\\pi \\times 10^{-3}} = \\frac{80000}{8\\pi} = \\frac{10000}{\\pi} = 3183$ turns\n\nPART (b) - Wire length: Each turn wraps around circumference of cylinder. Diameter d = 6 m, so circumference = πd = π(6) = 18.85 m\n\nTotal wire: $L_{wire} = N \\times \\text{circumference} = 3183 \\times 18.85 = 60,000$ m = 60 km\n\nPART (c) - Power required: Total resistance: $R = (1 \\Omega/\\text{km})(60 \\text{ km}) = 60 \\Omega$\n\nPower: $P = I^2R = (20000)^2(60) = 24 \\times 10^9$ W = 24 GW\n\nThis is 24/1.25 = 19.2 times the output of Wolf Creek nuclear plant! This is NOT practically achievable with this simple design. Real superconducting magnets at CERN use superconductors to minimize resistance.",
+      "resources": [
+        {
+          "type": "Article - Solenoid Design",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html"
+        }
+      ]
+    }
+  ]
+}

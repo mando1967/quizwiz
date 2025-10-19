@@ -1,0 +1,22 @@
+How to run locally (quick recap):
+
+Install Tesseract:
+
+macOS: brew install tesseract
+
+Ubuntu/Debian: sudo apt-get update && sudo apt-get install -y tesseract-ocr
+
+Windows: install the UB-Mannheim build (add to PATH)
+
+pip install pillow pytesseract
+
+Unzip the key page images: key_pages_export.zip → key_pages_export/
+
+Run:
+
+python ocr_images_to_md.py --images-dir key_pages_export --out-dir ocr_text --lang eng
+
+
+Optional: if you have math OCR models installed, use --lang eng+equ.
+
+This will produce one Markdown per key in ocr_text/, ready for merging.

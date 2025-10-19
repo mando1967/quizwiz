@@ -8,8 +8,8 @@
         {
           "id": "phys214-test2",
           "name": "PHYS 214 - Test 2",
-          "quizPath": "Physics/PHYS 214 - Test 2",
-          "tutorPath": "Physics/PHYS 214 - Test 2",
+          "quizPath": "Physics/PHYS 214/Test 2",
+          "tutorPath": "Physics/PHYS 214/Test 2",
           "quizVersions": [
             {
               "id": "quiz2v1",
@@ -36,6 +36,38 @@
               "id": "quiz2v5",
               "name": "Quiz 2 V5",
               "imageCount": 7
+            }
+          ]
+        },
+        {
+          "id": "phys214-test3",
+          "name": "PHYS 214 - Test 3",
+          "quizPath": "Physics/PHYS 214/Test 3",
+          "tutorPath": "Physics/PHYS 214/Test 3",
+          "quizVersions": [
+            {
+              "id": "quiz3-16",
+              "name": "Quiz 3 (16)",
+              "imageCount": 7,
+              "isQuizJson": true
+            },
+            {
+              "id": "quiz3-s19",
+              "name": "Quiz 3 (S19)",
+              "imageCount": 8,
+              "isQuizJson": true
+            },
+            {
+              "id": "quiz3-s22",
+              "name": "Quiz 3 (S22)",
+              "imageCount": 6,
+              "isQuizJson": true
+            },
+            {
+              "id": "quiz3-s24",
+              "name": "Quiz 3 (S24)",
+              "imageCount": 7,
+              "isQuizJson": true
             }
           ]
         }

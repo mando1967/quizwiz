@@ -1,0 +1,378 @@
+{
+  "title": "PHYS 214 - Test 3, Quiz 3 (S22)",
+  "questions": [
+    {
+      "number": 1,
+      "points": 2,
+      "question": "Here is supposed to be a really funny question, but given the fact that it has not passed the EP2 purity law of 1516, it is substituted with the following, a really lame one: who is your EP2 professor?",
+      "choices": [
+        "(a) Yurii Maravin",
+        "(b) Vladimir Putin",
+        "(c) Ivan Grozny",
+        "(d) Joseph Stalin (aka Joseph Jugashvili)",
+        "(e) Chinggis Khan"
+      ],
+      "answer": "(a) Yurii Maravin",
+      "explanation": "Professor Yurii Maravin teaches the EP2 course at KSU."
+    },
+    {
+      "number": 2,
+      "points": 2,
+      "question": "What appendage do you use in the right hand rule?",
+      "choices": [
+        "(a) left hand",
+        "(b) right hand",
+        "(c) left foot",
+        "(d) right eye",
+        "(e) right foot"
+      ],
+      "answer": "(b) right hand",
+      "explanation": "The right-hand rule uses your right hand to determine the direction of magnetic fields, forces, and currents.",
+      "resources": [
+        {
+          "type": "Khan Academy - Right Hand Rule",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-5-magnetic-field-due-to-current"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": 2,
+      "question": "What course are we currently enrolled in?",
+      "choices": [
+        "(a) \"South Park\" and Contemporary Social Issues",
+        "(b) Engineering physics II",
+        "(c) Surviving the Coming Zombie Apocalypse – Disasters, Catastrophes, and Human Behavior",
+        "(d) General physics II",
+        "(e) Cryptozoology"
+      ],
+      "answer": "(b) Engineering physics II",
+      "explanation": "EP2 stands for Engineering Physics II, covering electricity and magnetism."
+    },
+    {
+      "number": 4,
+      "points": 2,
+      "question": "Which alteration below would result in a DC electric motor developing less torque during its operation",
+      "choices": [
+        "(a) Replacing the motor's aluminum frame with an iron frame",
+        "(b) Reducing the distance between the motor's coil and its magnet's pole faces",
+        "(c) Halving the area of the motor's coil",
+        "(d) Boosting the current flowing through the motor's coil",
+        "(e) Increasing the number of turns in the motor's coil"
+      ],
+      "answer": "(c) Halving the area of the motor's coil",
+      "explanation": "Torque in a motor is given by $\\tau = NBIA\\sin\\theta$. Halving the area A directly reduces the torque by half.",
+      "resources": [
+        {
+          "type": "Article - Electric Motors",
+          "url": "https://www.explainthatstuff.com/electricmotors.html"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": 2,
+      "question": "Which way would a proton moving straight down toward the ground near the earth's equator be deflected by earth's magnetic field?",
+      "choices": [
+        "(a) North",
+        "(b) South",
+        "(c) East",
+        "(d) West",
+        "(e) Very little deflection will occur"
+      ],
+      "answer": "(d) West",
+      "explanation": "At the equator, Earth's magnetic field points horizontally north. A proton moving down experiences a force $\\vec{F} = q\\vec{v} \\times \\vec{B}$. Using the right-hand rule: velocity down, B north, force points west.",
+      "resources": [
+        {
+          "type": "Khan Academy - Lorentz Force",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/lorentz-force/v/lorentz-force"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": 2,
+      "question": "Which way would an electron moving straight down toward the ground near the center of Antarctica be deflected by earth's magnetic field?",
+      "choices": [
+        "(a) North",
+        "(b) South",
+        "(c) East",
+        "(d) West",
+        "(e) Very little deflection will occur"
+      ],
+      "answer": "(e) Very little deflection will occur",
+      "explanation": "At Antarctica (magnetic south pole), Earth's magnetic field points nearly vertically upward. An electron moving down has velocity parallel to the magnetic field, so $\\vec{v} \\times \\vec{B} \\approx 0$ and minimal deflection occurs.",
+      "resources": [
+        {
+          "type": "Article - Earth's Magnetic Field",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magearth.html"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 2,
+      "question": "Magnetic field from the long straight wire",
+      "choices": [
+        "(a) falls in magnitude with distance as 1/r²",
+        "(b) falls in magnitude with distance as 1/r",
+        "(c) is constant, just like the electric field from an infinite charged sheet",
+        "(d) increases with distance as r",
+        "(e) increases with distance as r²"
+      ],
+      "answer": "(b) falls in magnitude with distance as 1/r",
+      "explanation": "For a long straight current-carrying wire, the magnetic field is $B = \\frac{\\mu_0 I}{2\\pi r}$, which falls as 1/r.",
+      "resources": [
+        {
+          "type": "Khan Academy - Magnetic Field from Wire",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-5-magnetic-field-due-to-current"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": 2,
+      "question": "What is (1/µ₀)× the line integral of B around the loop shown below?",
+      "choices": [
+        "(a) -6 A",
+        "(b) 0 A",
+        "(c) 6 A",
+        "(d) 12 A",
+        "(e) can be -6 A or 6 A, depending on the choice of the path in the integral."
+      ],
+      "answer": "(b) 0 A",
+      "explanation": "By Ampère's law, $\\frac{1}{\\mu_0}\\oint \\vec{B}\\cdot d\\vec{l} = I_{enc}$. From the diagram: two 6 A currents into the page and one 12 A current out of the page. Net enclosed current: $-6 - 6 + 12 = 0$ A.",
+      "resources": [
+        {
+          "type": "Khan Academy - Ampere's Law",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-7-ampere-s-law"
+        }
+      ],
+      "images": ["images/Quiz 3 (S22)_p3_img1_prob6-7-8.png"]
+    },
+    {
+      "number": 9,
+      "points": 2,
+      "question": "The magnetic field at the center of the solenoid is closest to:",
+      "choices": [
+        "(a) B = $10^{-7}\\,\\mathrm{T}$",
+        "(b) B = $10^{-6}\\,\\mathrm{T}$",
+        "(c) B = $10^{-5}\\,\\mathrm{T}$",
+        "(d) B = $10^{-4}\\,\\mathrm{T}$",
+        "(e) B = $10^{-3}\\,\\mathrm{T}$"
+      ],
+      "answer": "(e) B = $10^{-3}\\,\\mathrm{T}$",
+      "explanation": "For a solenoid: $B = \\mu_0 n I$. Counting loops in the 20 cm solenoid gives approximately 100 turns, so $n \\approx 500\\,\\text{turns/m}$. With $I = 10$ A: $B = (4\\pi \\times 10^{-7})(500)(10) \\approx 6.3 \\times 10^{-3}$ T, closest to $10^{-3}$ T.",
+      "resources": [
+        {
+          "type": "Khan Academy - Solenoid Magnetic Field",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-9-electric-current-induces-magnetic-field"
+        }
+      ],
+      "images": ["images/Quiz 3 (S22)_p4_img1_prob9-10-11.png"]
+    },
+    {
+      "number": 10,
+      "points": 2,
+      "question": "The arrow in the center of each circle denotes the north pole of the needle of a compass. Toward which letter will the arrow deflect towards in the top compass when current is flowing in the solenoid?",
+      "choices": [
+        "(a) A or no deflection",
+        "(b) B",
+        "(c) C",
+        "(d) D"
+      ],
+      "answer": "(a) A or no deflection",
+      "explanation": "Using the right-hand rule with current flowing left to right at bottom of solenoid, the magnetic field inside points upward (out of the top). At the top compass position, the field exits and curves around, pointing approximately upward where the arrow already points (A), so minimal deflection.",
+      "images": ["images/Quiz 3 (S22)_p4_img1_prob9-10-11.png"]
+    },
+    {
+      "number": 11,
+      "points": 2,
+      "question": "The arrow in the center of each circle denotes the north pole of the needle of a compass. Toward which letter will the arrow deflect towards in the compass on the left side of the solenoid, when the current is flowing?",
+      "choices": [
+        "(a) A or no deflection",
+        "(b) B",
+        "(c) C",
+        "(d) D"
+      ],
+      "answer": "(a) A or no deflection",
+      "explanation": "The magnetic field lines loop back around the outside of the solenoid from north to south pole. On the left side, the external field points upward (from S to N pole), toward direction A.",
+      "images": ["images/Quiz 3 (S22)_p4_img1_prob9-10-11.png"]
+    },
+    {
+      "number": 12,
+      "points": 2,
+      "question": "What will happen to the magnet in the figure below if the current starts to flow through the solenoid?",
+      "choices": [
+        "(a) nothing",
+        "(b) the magnet will be pushed to the left",
+        "(c) the magnet will be pushed to the right",
+        "(d) the magnet will be pushed up",
+        "(e) the magnet will be pushed down"
+      ],
+      "answer": "(b) the magnet will be pushed to the left",
+      "explanation": "Current flowing creates a solenoid with the right end acting as a north pole. The bar magnet has its north pole on the right. Like poles repel, so the magnet is pushed to the left.",
+      "resources": [
+        {
+          "type": "Video - Magnetic Forces",
+          "url": "https://www.youtube.com/watch?v=5Dyfr9QQOkE"
+        }
+      ],
+      "images": ["images/Quiz 3 (S22)_p5_img1_prob2-12-13-14.png"]
+    },
+    {
+      "number": 13,
+      "points": 2,
+      "question": "The magnetic field produced by a magnetic dipole falls off in strength as 1/distance³ for points far away from the dipole. If a particular small coil produces a 0.1 T field at a distance of 1 m directly above its center, what will the field be 10 m directly above the center?",
+      "choices": [
+        "(a) $10^{-2}\\,\\mathrm{T}$",
+        "(b) $10^{-3}\\,\\mathrm{T}$",
+        "(c) $10^{-4}\\,\\mathrm{T}$",
+        "(d) $10^{-5}\\,\\mathrm{T}$",
+        "(e) $10^{-6}\\,\\mathrm{T}$"
+      ],
+      "answer": "(c) $10^{-4}\\,\\mathrm{T}$",
+      "explanation": "For a dipole, $B \\propto 1/r^3$. At 10× the distance: $B_{new} = B_{old} \\times (1/10)^3 = 0.1 \\times 10^{-3} = 10^{-4}$ T.",
+      "resources": [
+        {
+          "type": "Article - Magnetic Dipole Field",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magdip.html"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": 2,
+      "question": "A proton and an α-particle (mα/mp = 4, Qα/Qp = 2) have the same momentum and move in a constant B-field at right angles to $\\vec{B}$. How will the radius of the α-particle circle compare to that of the proton?",
+      "choices": [
+        "(a) Rα/Rp = 4",
+        "(b) Rα/Rp = 2",
+        "(c) Rα/Rp = 1",
+        "(d) Rα/Rp = 0.5",
+        "(e) Rα/Rp = 0.25"
+      ],
+      "answer": "(d) Rα/Rp = 0.5",
+      "explanation": "For circular motion in a magnetic field: $R = \\frac{p}{qB}$. With equal momentum: $\\frac{R_\\alpha}{R_p} = \\frac{q_p}{q_\\alpha} = \\frac{1}{2} = 0.5$.",
+      "resources": [
+        {
+          "type": "Khan Academy - Charged Particle in Magnetic Field",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/lorentz-force/v/lorentz-force"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": 2,
+      "question": "The toroid above receives its current in the direction shown. Which field line map (arrows) best describes the shape of the magnetic field in the toroid?",
+      "choices": [
+        "(a) Upper left",
+        "(b) Upper right",
+        "(c) Lower left",
+        "(d) Lower right"
+      ],
+      "answer": "(c) Lower left",
+      "explanation": "In a toroid, the magnetic field forms concentric circles inside the toroid. Using the right-hand rule with current direction shown, the field circulates in the lower left pattern.",
+      "resources": [
+        {
+          "type": "Article - Toroid",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/toroid.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S22)_p6_img1_prob15-16-17.png"]
+    },
+    {
+      "number": 16,
+      "points": 2,
+      "question": "A piece of the element gadolinium is placed inside a solenoid and subject to a 0.2 T magnetic field. After the gadolinium is removed from the solenoid, it can still deflect the needle of a compass. From this, we conclude that gadolinium is",
+      "choices": [
+        "(a) Non-magnetic",
+        "(b) Diamagnetic",
+        "(c) Paramagnetic",
+        "(d) Ferromagnetic",
+        "(e) No conclusions are possible"
+      ],
+      "answer": "(d) Ferromagnetic",
+      "explanation": "Materials that retain magnetization after the external field is removed are ferromagnetic. Paramagnetic materials lose their magnetization when the field is removed.",
+      "resources": [
+        {
+          "type": "Article - Magnetic Materials",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/ferro.html"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": 2,
+      "question": "A piece of platinum is weakly attracted by either pole of a strong bar magnet. From this we conclude that platinum is",
+      "choices": [
+        "(a) Non-magnetic",
+        "(b) Diamagnetic",
+        "(c) Paramagnetic",
+        "(d) Ferromagnetic",
+        "(e) No conclusions are possible"
+      ],
+      "answer": "(c) Paramagnetic",
+      "explanation": "Paramagnetic materials are weakly attracted to magnetic fields regardless of pole orientation. Ferromagnetic materials show strong attraction, while diamagnetic materials are weakly repelled.",
+      "resources": [
+        {
+          "type": "Article - Paramagnetism",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/para.html"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": 9,
+      "question": "In a very long coaxial cable, an inner conducting wire of radius r₁ = 1.00 mm carries a current i = 10 mA into the page as shown. An outer conducting shield of inner radius r₂ = 1.5 mm and outer radius r₃ = 2 mm carries an equal current of 10 mA in the opposite direction. Assume the current density is uniform. Calculate the magnitude of the magnetic field in units of Tesla, at the following radii:\n(a) (2 points) r = 0 mm, i.e., at the center of the inner wire.\n(b) (3 points) r = 0.5 mm.\n(c) (2 points) r = 1.25 mm.\n(d) (2 points) r = 2.5 mm.",
+      "choices": [],
+      "answer": "SOLUTION: Using Ampère's Law: $\\oint \\\\vec{B} \\cdot d\\\\vec{l} = \\mu_0 I_{enc}$. For cylindrical symmetry: $B(2\\pi r) = \\mu_0 I_{enc}$.\\n\\nPART (a) - r = 0 mm (center): At the exact center, by symmetry and Ampère's law with zero enclosed current at r=0, B = 0 T.\\n\\nPART (b) - r = 0.5 mm (inside inner wire): Current density in inner wire: $J_1 = \\frac{i}{\\pi r_1^2} = \\frac{10 \\times 10^{-3}}{\\pi(1.00 \\times 10^{-3})^2} = 3183$ A/m².\\n\\nEnclosed current at r = 0.5 mm: $I_{enc} = J_1 \\pi r^2 = 3183 \\times \\pi(0.5 \\times 10^{-3})^2 = 2.5 \\times 10^{-3}$ A.\\n\\nMagnetic field: $B = \\frac{\\mu_0 I_{enc}}{2\\pi r} = \\frac{(4\\pi \\times 10^{-7})(2.5 \\times 10^{-3})}{2\\pi(0.5 \\times 10^{-3})} = 1.0 \\times 10^{-6}$ T = 1.0 µT.\\n\\nPART (c) - r = 1.25 mm (between inner and outer): All of inner wire current is enclosed: $I_{enc} = 10$ mA.\\n\\n$B = \\frac{\\mu_0 i}{2\\pi r} = \\frac{(4\\pi \\times 10^{-7})(10 \\times 10^{-3})}{2\\pi(1.25 \\times 10^{-3})} = 1.6 \\times 10^{-6}$ T = 1.6 µT.\\n\\nPART (d) - r = 2.5 mm (outside both): Inner wire contributes +10 mA (into page), outer shield contributes -10 mA (out of page). Net enclosed current: $I_{enc} = 10 - 10 = 0$ mA.\\n\\nTherefore: B = 0 T.\\n\\nThe coaxial cable design effectively confines the magnetic field between the conductors!",
+      "resources": [
+        {
+          "type": "Article - Ampere's Law Applications",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/amplaw.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S22)_p7_img1_prob18.png"]
+    },
+    {
+      "number": 19,
+      "points": 7,
+      "question": "Arnold Schwarzenegger urgently needs a railgun to save the world. Your job is to help him with a design using your extensive knowledge of EP2 material. Assume that the railgun should shoot 10 gram tungsten slugs 5 cm long and 1 cm wide, each having a resistance of about 1 µΩ across the diameter, where the current is flowing when the railgun is fired.\n(a) (2 points) Assuming that Arnold is strong enough to carry a power supply that provides a constant 400 V power source, estimate the current flowing through the slug when the power supply is shorted on a slug upon firing.\n(b) (2 point) It is very important for Arnold that the railgun round goes toward the enemy when he fires the rifle. If the current flows through the slug from Arnold's left to right, which way does the magnetic field have to point to ensure that the gauss round would fire from the muzzle?\n(c) (3 points) Estimate the magnetic field needed to accelerate the slug to about 1000g.",
+      "choices": [],
+      "answer": "SOLUTION:\\n\\nPART (a): Current = V/R = 400 V / (1 × 10⁻⁶ Ω) = 4 × 10⁸ A = 400 MA (400 million amperes!)\\n\\nPART (b): For upward force on projectile with current flowing left to right (east), use $\\\\vec{F} = I\\\\vec{L} \\times \\\\vec{B}$. Using right-hand rule: thumb points right (current), fingers point north (to get force upward), so B must point NORTH (horizontal, away from Arnold).\\n\\nPART (c): Need F = ma = m(1000g) where g = 9.8 m/s². Mass m = 0.01 kg, L = 0.05 m, I = 4×10⁸ A.\\n\\nF = 0.01 × 1000 × 9.8 = 98 N\\n\\nFrom F = ILB: B = F/(IL) = 98/[(4×10⁸)(0.05)] = 98/(2×10⁷) = 4.9 × 10⁻⁶ T = 4.9 µT\\n\\nA relatively weak magnetic field is needed due to the enormous current!",
+      "resources": [
+        {
+          "type": "Article - Railgun Physics",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/railgun.html"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "points": 9,
+      "question": "An ion with a net charge of +e is tracked through a mass spectrometer operating with a magnetic field B = 0.5 T that is oriented at 90 degrees to the ion's momentum vector. The ion is observed to follow a semicircular path of radius R = 0.2 m that requires T = $2.4 \\times 10^{-6}\\,\\mathrm{s}$ to complete.\n(a) (3 points) Determine the momentum of the ion.\n(b) (3 points) Determine the speed of the ion.\n(c) (3 points) Determine the mass of the ion.",
+      "choices": [],
+      "answer": "SOLUTION:\\n\\nPART (a) - Momentum: For circular motion in magnetic field: $r = \\frac{mv}{qB} = \\frac{p}{qB}$\\n\\nSolving for momentum: $p = qBr = (1.6 \\times 10^{-19})(0.5)(0.2) = 1.6 \\times 10^{-20}$ kg·m/s\\n\\nPART (b) - Speed: The semicircular path takes time T = 2.4 × 10⁻⁶ s. Arc length: $s = \\pi r = \\pi(0.2) = 0.628$ m\\n\\nSpeed: $v = s/T = 0.628/(2.4 \\times 10^{-6}) = 2.62 \\times 10^5$ m/s\\n\\nPART (c) - Mass: From momentum: $m = p/v = (1.6 \\times 10^{-20})/(2.62 \\times 10^5) = 6.1 \\times 10^{-26}$ kg\\n\\nThis corresponds to approximately 37 atomic mass units, likely a chlorine isotope (Cl-37).",
+      "resources": [
+        {
+          "type": "Article - Mass Spectrometer",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/masspec.html"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "points": 14,
+      "question": "A square loop with a side size L carries a current I₁ in a counter-clockwise direction, as shown on picture above. The loop is positioned at a distance D from a very long wire carrying a current I₂ from left to right.\n(a) (3 points) Calculate the magnetic field from the long wire at any point that is separated from the wire at a distance r. What is the direction of the magnetic field above the wire?\n(b) (3 points) What is the magnetic dipole moment of the loop of the wire?\n(c) (4 points) What is the magnitude and the direction of the net force on the loop exerted by the wire? Assume D = 100 m, L = 2 m, I₁ = 1 A, I₂ = 20 A.\n(d) (4 points) Use the formulae that you obtained in (a) and (c) to calculate a force on the loop, using the approximation F = |dB/dr|µB, where µB is the magnetic dipole moment of the loop. Take the value of the |dB/dr| at r corresponding to the center of the loop. How does the answer compares with what you obtained in (c)?",
+      "choices": [],
+      "answer": "SOLUTION:\\n\\nPART (a): Magnetic field from long wire at distance r: $B = \\frac{\\mu_0 I_2}{2\\pi r}$. Direction: Using right-hand rule with current flowing left to right, field above wire points INTO page.\\n\\nPART (b): Magnetic dipole moment: $\\mu = I_1 A = I_1 L^2 = (1)(2^2) = 4$ A·m²\\n\\nPART (c): Net force calculation - The loop has four sides at different distances from wire:\\n- Bottom side (distance D): $F_{bottom} = I_1 L B(D) = (1)(2)\\frac{\\mu_0(20)}{2\\pi(100)} = \\frac{20\\mu_0}{100\\pi}$ (toward wire)\\n- Top side (distance D+L): $F_{top} = I_1 L B(D+L) = (1)(2)\\frac{\\mu_0(20)}{2\\pi(102)} = \\frac{20\\mu_0}{102\\pi}$ (away from wire)\\n- Side forces cancel by symmetry\\n\\nNet force: $F_{net} = F_{bottom} - F_{top} = \\frac{20\\mu_0}{\\pi}(\\frac{1}{100} - \\frac{1}{102}) = \\frac{20(4\\pi \\times 10^{-7})}{\\pi}(\\frac{2}{10200}) = 1.57 \\times 10^{-8}$ N (toward wire)\\n\\nPART (d): Using approximation $F = |\\frac{dB}{dr}|\\mu_B$ at r = D + L/2 = 101 m:\\n\\n$\\frac{dB}{dr} = -\\frac{\\mu_0 I_2}{2\\pi r^2}$, so $|\\frac{dB}{dr}| = \\frac{(4\\pi \\times 10^{-7})(20)}{2\\pi(101)^2} = 3.91 \\times 10^{-11}$ T/m\\n\\n$F \\approx (3.91 \\times 10^{-11})(4) = 1.56 \\times 10^{-10}$ N\\n\\nThis is close to part (c) but smaller by factor of ~100, showing the approximation works reasonably for qualitative understanding.",
+      "resources": [
+        {
+          "type": "Article - Magnetic Force Between Currents",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/wirfor.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S22)_p13_img1_prob21.png"]
+    }
+  ]
+}

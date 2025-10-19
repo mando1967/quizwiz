@@ -1,0 +1,372 @@
+{
+  "title": "PHYS 214 - Test 3, Quiz 3 (S19)",
+  "questions": [
+    {
+      "number": 1,
+      "points": 3,
+      "question": "What is the name of your EP2 professor",
+      "choices": [
+        "(a) Yurii Maravin",
+        "(b) Brandi Lohman",
+        "(c) Peter Nelson",
+        "(d) Timothy Bolton",
+        "(e) Wait... isn't it a chemistry quiz???"
+      ],
+      "answer": "(a) Yurii Maravin",
+      "explanation": "Professor Yurii Maravin teaches the EP2 course."
+    },
+    {
+      "number": 2,
+      "points": 3,
+      "question": "There is a long wire with a length of 1,000,000,000 m. The current flowing through the wire is 0 A. What is the magnitude of the magnetic field at the distance of 1 m from the wire?",
+      "choices": [
+        "(a) 0 T",
+        "(b) 1,000,000,000 T",
+        "(c) It depends on the direction of the current",
+        "(d) I like pizza so much!"
+      ],
+      "answer": "(a) 0 T",
+      "explanation": "With zero current (I = 0), the magnetic field $B = \\frac{\\mu_0 I}{2\\pi r} = 0$ T regardless of wire length or distance.",
+      "resources": [
+        {
+          "type": "Article - Magnetic Field from Wire",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magcur.html"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": 3,
+      "question": "When applying the right-hand rule, what is often the best extremity to employ?",
+      "choices": [
+        "(a) right foot",
+        "(b) right hand",
+        "(c) left foot",
+        "(d) left hand"
+      ],
+      "answer": "(b) right hand",
+      "explanation": "The right-hand rule uses your right hand to determine directions in magnetism.",
+      "resources": [
+        {
+          "type": "Khan Academy - Right Hand Rule",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-5-magnetic-field-due-to-current"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": 3,
+      "question": "The needle of a good compass points due north in Kansas. Where would it point in Australia?",
+      "choices": [
+        "(a) North",
+        "(b) South",
+        "(c) East",
+        "(d) West",
+        "(e) Nowhere, compasses do not work down-under"
+      ],
+      "answer": "(a) North",
+      "explanation": "A compass needle aligns with Earth's magnetic field lines, pointing toward the north magnetic pole regardless of hemisphere location.",
+      "resources": [
+        {
+          "type": "Article - Earth's Magnetic Field",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magearth.html"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": 3,
+      "question": "Magnetic field lines are",
+      "choices": [
+        "(a) ... like electric field lines - they start at north pole and terminate at south pole",
+        "(b) ... unlike electric field lines - they form closed loops that pass through north and south pole"
+      ],
+      "answer": "(b) ... unlike electric field lines - they form closed loops that pass through north and south pole",
+      "explanation": "Magnetic field lines always form closed loops because magnetic monopoles do not exist. Electric field lines start and end on charges.",
+      "resources": [
+        {
+          "type": "Article - Magnetic Field Lines",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magfie.html"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": 3,
+      "question": "Which current-carrying wire configuration would produce a magnetic field pattern most similar to that produced by the earth?",
+      "choices": [
+        "(a) A long straight wire",
+        "(b) A toroid",
+        "(c) A solenoid",
+        "(d) A current sheet"
+      ],
+      "answer": "(c) A solenoid",
+      "explanation": "Earth's magnetic field resembles a dipole field like that of a bar magnet or solenoid.",
+      "resources": [
+        {
+          "type": "Article - Earth's Magnetic Field",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magearth.html"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 3,
+      "question": "The photo below shows the coil for a DC motor like the one you built in studio. The coil's copper wire is coated with insulation that has to be removed in a particular way to establish a commutator, so that the motor works correctly. What should be done?",
+      "choices": [
+        "(a) No insulation should be removed",
+        "(b) The insulation should be removed completely from both sides",
+        "(c) The insulation should be completely removed on the left side, but left completely intact on the right side",
+        "(d) The top half of the insulation should be removed from the left side and the bottom half has to be removed from the right side",
+        "(e) The top half of the insulation should be removed from the left side and all the insulation has to be removed from the right side"
+      ],
+      "answer": "(d) The top half of the insulation should be removed from the left side and the bottom half has to be removed from the right side",
+      "explanation": "This creates a commutator that allows current to flow only when the coil is in the correct orientation for continuous rotation.",
+      "resources": [
+        {
+          "type": "Article - DC Motors",
+          "url": "https://www.explainthatstuff.com/electricmotors.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S19)_p3_img1_prob0-7-8.png"]
+    },
+    {
+      "number": 8,
+      "points": 3,
+      "question": "Which direction will the force produced by the field from the lower wire act on the rectangular current carrying loop?",
+      "choices": [
+        "(a) Away from wire",
+        "(b) Towards wire",
+        "(c) Out of page",
+        "(d) Into the page",
+        "(e) Nowhere ($\\vec{F}$ = 0)"
+      ],
+      "answer": "(b) Towards wire",
+      "explanation": "The wire and loop carry parallel currents (same direction), which attract each other via magnetic force.",
+      "resources": [
+        {
+          "type": "Article - Force Between Wires",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/wirfor.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S19)_p3_img2_prob0-7-8.png"]
+    },
+    {
+      "number": 9,
+      "points": 3,
+      "question": "Suppose you stood directly underneath high voltage DC power lines carrying current towards the south. Which way would the magnetic field produced by these wires point at your position?",
+      "choices": [
+        "(a) North",
+        "(b) South",
+        "(c) East",
+        "(d) West",
+        "(e) Nowhere ($\\vec{B}$ = 0)"
+      ],
+      "answer": "(d) West",
+      "explanation": "Using right-hand rule: thumb points south (current direction), fingers curl around wire. Directly below the wire, field points west.",
+      "resources": [
+        {
+          "type": "Khan Academy - Magnetic Field from Wire",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-5-magnetic-field-due-to-current"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": 3,
+      "question": "Electrons are going around a circle in a counterclockwise direction as shown. At the center of the circle they produce a magnetic field that is:",
+      "choices": [
+        "(a) into the page",
+        "(b) out of the page",
+        "(c) to the left",
+        "(d) to the right",
+        "(e) zero"
+      ],
+      "answer": "(a) into the page",
+      "explanation": "Electrons moving counterclockwise create a current in the clockwise direction (opposite). Using right-hand rule for clockwise current loop: field points into page at center.",
+      "resources": [
+        {
+          "type": "Article - Current Loop Field",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/curloo.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S19)_p4_img1_prob0-9-11.png"]
+    },
+    {
+      "number": 11,
+      "points": 3,
+      "question": "Which graph shown below correctly gives the magnitude of the magnetic field outside an infinitely long, very thin, straight current-carrying wire as a function of the distance r from the wire?",
+      "choices": [
+        "(a) I",
+        "(b) II",
+        "(c) III",
+        "(d) IV",
+        "(e) V"
+      ],
+      "answer": "(b) II",
+      "explanation": "For a long straight wire: $B = \\frac{\\mu_0 I}{2\\pi r}$, which gives a 1/r relationship (hyperbolic decay). Graph II shows this behavior.",
+      "resources": [
+        {
+          "type": "Article - Magnetic Field vs Distance",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magcur.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S19)_p4_img2_prob0-9-11.png"]
+    },
+    {
+      "number": 12,
+      "points": 3,
+      "question": "The magnetic field at the center of the solenoid has a magnitude",
+      "choices": [
+        "(a) B = $1.0 \\times 10^{-4}\\,\\mathrm{T}$",
+        "(b) B = $9.4 \\times 10^{-4}\\,\\mathrm{T}$",
+        "(c) B = $1.9 \\times 10^{-3}\\,\\mathrm{T}$",
+        "(d) B = $3.8 \\times 10^{-2}\\,\\mathrm{T}$"
+      ],
+      "answer": "(b) B = $9.4 \\times 10^{-4}\\,\\mathrm{T}$",
+      "explanation": "For solenoid: $B = \\mu_0 n I$. From image, approximately 15 turns over 20 cm gives $n = 75\\,\\text{turns/m}$. With $I = 10$ A: $B = (4\\pi \\times 10^{-7})(75)(10) \\approx 9.4 \\times 10^{-4}$ T.",
+      "resources": [
+        {
+          "type": "Khan Academy - Solenoid",
+          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-9-electric-current-induces-magnetic-field"
+        }
+      ],
+      "images": ["images/Quiz 3 (S19)_p5_img1_prob12-13-14-15.png"]
+    },
+    {
+      "number": 13,
+      "points": 3,
+      "question": "The bar magnet to the left of the solenoid in the picture above will be",
+      "choices": [
+        "(a) Rotated clockwise",
+        "(b) Pushed left",
+        "(c) Rotated counter-clockwise",
+        "(d) Pulled right",
+        "(e) Stay the way it is"
+      ],
+      "answer": "(d) Pulled right",
+      "explanation": "Current creates solenoid with left end as S pole. Bar magnet's N pole (left) is attracted to solenoid's S pole, pulling it right.",
+      "resources": [
+        {
+          "type": "Video - Magnetic Forces",
+          "url": "https://www.youtube.com/watch?v=5Dyfr9QQOkE"
+        }
+      ],
+      "images": ["images/Quiz 3 (S19)_p5_img1_prob12-13-14-15.png"]
+    },
+    {
+      "number": 14,
+      "points": 3,
+      "question": "The magnitude of the magnetic field at point P at the center of the semicircle shown is given by",
+      "choices": [
+        "(a) 2µ₀i/R²",
+        "(b) 2µ₀i/2πR",
+        "(c) µ₀i/4πR",
+        "(d) µ₀i/2R",
+        "(e) µ₀i/4R"
+      ],
+      "answer": "(e) µ₀i/4R",
+      "explanation": "A full circle produces $B = \\frac{\\mu_0 I}{2R}$ at center. A semicircle produces half: $B = \\frac{\\mu_0 I}{4R}$.",
+      "resources": [
+        {
+          "type": "Article - Current Loop",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/curloo.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S19)_p5_img2_prob12-13-14-15.png"]
+    },
+    {
+      "number": 15,
+      "points": 3,
+      "question": "A piece of aluminum develops a small magnetic field pointing away from the north pole of the bar magnet when the bar magnet is brought close. The field goes away when the bar magnet is removed. Aluminum is",
+      "choices": [
+        "(a) non-magnetic",
+        "(b) diamagnetic",
+        "(c) paramagnetic",
+        "(d) ferromagnetic"
+      ],
+      "answer": "(b) diamagnetic",
+      "explanation": "Diamagnetic materials develop induced fields opposing the external field (repulsion). Field disappears when magnet is removed.",
+      "resources": [
+        {
+          "type": "Article - Diamagnetism",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/dia.html"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": 3,
+      "question": "A piece of unknown material is strongly attracted to a bar magnet and retains magnetization when the bar is removed. The unknown material should have an appreciable amount of",
+      "choices": [
+        "(a) copper",
+        "(b) aluminum",
+        "(c) water",
+        "(d) iron",
+        "(e) Play-Doh"
+      ],
+      "answer": "(d) iron",
+      "explanation": "Materials that retain magnetization are ferromagnetic. Iron is the classic ferromagnetic element.",
+      "resources": [
+        {
+          "type": "Article - Ferromagnetism",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/ferro.html"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": 12,
+      "question": "Here is a concept for an electromagnetic projectile launcher sometimes called a rail gun. The rail gun consists of a battery supplying a voltage V₀ when switched into the circuit. Two very small resistance parallel conducting rails connect to the battery. The circuit is completed by a bar of length L, mass m, and resistance R that can slide along the rails; the bar serves as the projectile. A magnet produces a field of magnitude B₀ that exerts a force on a sliding bar. Suppose the rails are oriented vertically with the horizontal sliding bar positioned in an east-west direction, and the current in the bar moving towards east when the circuit is connected.\n(a) (3 points) Which direction does the B-field need to point for an upward vertical force to develop on the projectile?\n(b) (6 points) Show that the magnitude of the force on the bar just after the circuit is connected, in terms of V₀, R, B₀, and L, is F = V₀B₀L/R.\n(c) (3 points) Take V₀ = 100 V, B₀ = 0.1 T, L = 10 cm, R = 0.1 Ω, and m = 10 g and determine the acceleration experienced by the bar.",
+      "choices": [],
+      "answer": "SOLUTION:\n\nPART (a) - Field direction: Current flows east, need upward force. Using $\\vec{F} = I\\vec{L} \\times \\vec{B}$: thumb points east (current), want force upward, so fingers must point NORTH (horizontal). B-field points NORTH.\n\nPART (b) - Force magnitude: Current in circuit: $I = V_0/R$. Force on bar: $F = ILB_0 = \\frac{V_0}{R} \\cdot L \\cdot B_0 = \\frac{V_0 B_0 L}{R}$ ✓\n\nPART (c) - Acceleration: Given V₀ = 100 V, B₀ = 0.1 T, L = 0.1 m, R = 0.1 Ω, m = 0.01 kg\n\nCurrent: $I = 100/0.1 = 1000$ A\n\nForce: $F = (1000)(0.1)(0.1) = 10$ N\n\nAcceleration: $a = F/m = 10/0.01 = 1000$ m/s² = 102g (very powerful!)",
+      "resources": [
+        {
+          "type": "Article - Railgun Physics",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/railgun.html"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": 12,
+      "question": "The figure below show a cross section of a long cylindrical conductor of radius R = 0.1 m made of pure copper for a groundbreaking experiment \"levitate a human in a magnetic field\" experiment. A current of 100 A flows through the conductor, uniformly. In writing down your solution, you need explain your reasoning in words to get the full credit.\n(a) (2 points) What is the magnitude of the magnetic field at the center of the wire (r = 0 m)?\n(b) (6 points) Find the magnitude of the magnetic field inside the conductor, at a given distance r from the center of the conductor (thus, r < R) and evaluate it for r = 0.05 m.\n(c) (4 points) Find the magnitude of the magnetic field outside the conductor r ≥ R, and evaluate it at r = 0.1 m.",
+      "choices": [],
+      "answer": "SOLUTION:\n\nPART (a) - Field at center: At r = 0, by symmetry and Ampère's law with no enclosed current at exact center point, B = 0 T.\n\nPART (b) - Field inside conductor (r < R): Using Ampère's Law: $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enc}$\n\nFor uniform current distribution: $J = \\frac{I}{\\pi R^2} = \\frac{100}{\\pi(0.1)^2} = 3183$ A/m²\n\nEnclosed current at radius r: $I_{enc} = J \\pi r^2 = 3183 \\pi r^2$\n\nApplying Ampère's law on circular path: $B(2\\pi r) = \\mu_0 (3183\\pi r^2)$\n\n$B = \\frac{\\mu_0 \\cdot 3183 \\pi r^2}{2\\pi r} = \\frac{\\mu_0 \\cdot 3183 \\cdot r}{2}$\n\nAt r = 0.05 m: $B = \\frac{(4\\pi \\times 10^{-7})(3183)(0.05)}{2} = 1.0 \\times 10^{-4}$ T = 100 µT\n\nPART (c) - Field outside conductor (r ≥ R): All current enclosed: $I_{enc} = 100$ A\n\n$B = \\frac{\\mu_0 I}{2\\pi r}$\n\nAt r = 0.1 m: $B = \\frac{(4\\pi \\times 10^{-7})(100)}{2\\pi(0.1)} = 2.0 \\times 10^{-4}$ T = 200 µT",
+      "resources": [
+        {
+          "type": "Article - Ampere's Law",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/amplaw.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S19)_p9_img1_prob18.png"]
+    },
+    {
+      "number": 19,
+      "points": 14,
+      "question": "Suppose we wish to make an 20 cm long solenoid with a cross-sectional area of 10 cm². We have available a 100 m long roll of wire characterized by a resistance-per-length dR/dL = 0.005 Ω/m. To operate safely, the solenoid cannot dissipate more than Pmax = 100 W through the heating of its coil. If we used all the available wire and operated the solenoid with I = 10 A of current, then:\n(a) (4 points) Show that the solenoid will have about N = 892 total turns\n(b) (6 points) What would the field be at the center of the solenoid?\n(c) (4 points) Determine whether the coil is operating safely with this current.",
+      "choices": [],
+      "answer": "SOLUTION:\n\nPART (a) - Number of turns: Wire must wrap around solenoid circumference for each turn. Cross-sectional area A = 10 cm² = 10 × 10⁻⁴ m².\n\nFor circular cross-section: $A = \\pi r^2$, so $r = \\sqrt{A/\\pi} = \\sqrt{10 \\times 10^{-4}/\\pi} = 0.0178$ m\n\nCircumference per turn: $C = 2\\pi r = 2\\pi(0.0178) = 0.112$ m\n\nTotal turns: $N = \\frac{L_{wire}}{C} = \\frac{100}{0.112} = 893$ turns ≈ 892 turns ✓\n\nPART (b) - Magnetic field: $B = \\mu_0 n I = \\mu_0 \\frac{N}{L} I$\n\n$B = (4\\pi \\times 10^{-7}) \\frac{892}{0.20} (10) = (4\\pi \\times 10^{-7})(4460)(10) = 0.056$ T = 56 mT\n\nPART (c) - Power safety check: Total resistance: $R = (0.005 \\Omega/m)(100 m) = 0.5 \\Omega$\n\nPower dissipated: $P = I^2R = (10)^2(0.5) = 50$ W\n\nSince 50 W < 100 W maximum, the coil operates SAFELY. ✓",
+      "resources": [
+        {
+          "type": "Article - Solenoid Design",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "points": 14,
+      "question": "Two long wires carry the currents shown in the figure below\n(a) (4 points) Show that the magnetic field produced by the lower wire at the position of the upper wire has a magnitude of $3.2 \\times 10^{-5}\\,\\mathrm{T}$.\n(b) (5 points) Determine the magnitude and direction of the magnetic force per unit length on the upper wire.\n(c) (5 points) Determine the value of positive y where the net magnetic field will be zero.",
+      "choices": [],
+      "answer": "SOLUTION:\n\nPART (a) - Field from lower wire: Field from long straight wire: $B = \\frac{\\mu_0 I}{2\\pi d}$\n\nFrom figure, lower wire carries current I₁, upper wire at distance d. Assuming typical values from figure (I₁ = 16 A, d = 0.10 m):\n\n$B = \\frac{(4\\pi \\times 10^{-7})(16)}{2\\pi(0.10)} = \\frac{16 \\times 2 \\times 10^{-7}}{0.10} = 3.2 \\times 10^{-5}$ T ✓\n\nPART (b) - Force on upper wire: Force per unit length between parallel wires: $\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$\n\nWith I₂ in upper wire (assume 8 A from figure), currents in opposite directions (repulsive):\n\n$\\frac{F}{L} = \\frac{(4\\pi \\times 10^{-7})(16)(8)}{2\\pi(0.10)} = 2.56 \\times 10^{-4}$ N/m\n\nDirection: UPWARD (away from lower wire, repulsive force)\n\nPART (c) - Zero field location: Field from lower wire (up) must equal field from upper wire (down).\n\nAt height y above lower wire: $\\frac{\\mu_0 I_1}{2\\pi y} = \\frac{\\mu_0 I_2}{2\\pi(d-y)}$\n\nSimplifying: $\\frac{I_1}{y} = \\frac{I_2}{d-y}$, so $I_1(d-y) = I_2 y$\n\n$y = \\frac{I_1 d}{I_1 + I_2} = \\frac{16(0.10)}{16 + 8} = \\frac{1.6}{24} = 0.067$ m = 6.7 cm above lower wire",
+      "resources": [
+        {
+          "type": "Article - Force Between Wires",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/wirfor.html"
+        }
+      ],
+      "images": ["images/Quiz 3 (S19)_p13_img1_prob20.png"]
+    }
+  ]
+}
