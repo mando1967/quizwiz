@@ -92,13 +92,26 @@
           ]
         },
         {
-          "id": "ce333-test2",
-          "name": "CE 333 - Test 2",
-          "quizPath": "Statics/CE 333/Test 2",
+          "id": "ce333-test2a",
+          "name": "CE 333 - Test 2 (A)",
+          "quizPath": "Statics/CE 333",
           "quizVersions": [
             {
-              "id": "test2",
-              "name": "Test 2",
+              "id": "test2a",
+              "name": "Test 2 (A)",
+              "imageCount": 6,
+              "isQuizJson": true
+            }
+          ]
+        },
+        {
+          "id": "ce333-test2b",
+          "name": "CE 333 - Test 2 (B)",
+          "quizPath": "Statics/CE 333",
+          "quizVersions": [
+            {
+              "id": "test2b",
+              "name": "Test 2 (B)",
               "imageCount": 30,
               "isQuizJson": true
             }

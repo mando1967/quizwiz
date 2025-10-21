@@ -406,4 +406,153 @@ From Test 1:
 
 ---
 
+## 15. Coordinate System Orientation - Always Check the Diagram
+
+### Issue
+Assumed standard coordinate convention (z = vertical) when solving 3D statics problem, leading to completely wrong solution.
+
+### Root Cause
+Made assumption based on typical conventions rather than carefully reading the coordinate axes shown in the problem diagram. The diagram clearly showed:
+- x = horizontal
+- y = vertical  
+- z = in/out of screen
+
+This caused the 840 lb downward force to be incorrectly placed in the -z direction instead of the -y direction.
+
+### Impact
+- Moment equations gave impossible results (negative cable tensions)
+- Spent significant time troubleshooting geometry instead of recognizing coordinate system error
+- Solution was off by a factor of 2× (630 vs 1,257 lb for one cable)
+
+### Solution
+**ALWAYS** start problem solving by:
+1. **Identify coordinate system** from diagram FIRST
+2. **Note which axis is vertical** (don't assume it's z)
+3. **Verify force directions** match the coordinate system
+4. **Look for axis labels** in diagram (they're usually there!)
+
+### Correct Approach
+```
+Step 1: Read diagram → x horizontal, y vertical, z depth
+Step 2: 840 lb downward force → (0, -840, 0) in this system
+Step 3: Set up equations with correct force vector
+```
+
+### Best Practice
+- **Never assume coordinate conventions** - different textbooks/problems use different systems
+- **Read the diagram carefully** before starting calculations
+- **Double-check force directions** against the stated coordinate system
+- **If equations give impossible results** (negative tensions, etc.), suspect coordinate system error
+- **Save time** by verifying geometry first rather than troubleshooting math
+
+### Reference
+Problem #2 (3D statics with cables): Correct solution has T_BD = 1,257 lb, T_BE = 1,046 lb when using proper y-vertical coordinate system.
+
+---
+
+## 16. LaTeX Escaping: Answer Field vs Explanation Field
+
+### Issue
+Answer fields were showing raw LaTeX text (e.g., "mathrm" instead of rendering properly) even with correct double backslashes.
+
+### Root Cause
+Different JSON fields require different levels of escaping:
+- **Answer field** (short text): Use `\\,\\mathrm` (double backslash)
+- **Explanation field** (long text): Use `\\\\,\\\\mathrm` (quadruple backslash, or double-escaped)
+
+### Solution
+When LaTeX in answer field doesn't render:
+1. Check if you're using quadruple backslashes (`\\\\\\\\`) - if so, reduce to double (`\\\\`)
+2. For inline math in answer: `$T_{BD} = 1{,}257\\,\\mathrm{lb}$`
+3. For display math in explanation: `$$T_{BD} = 1{,}257\\\\,\\\\mathrm{lb}$$`
+
+### Pattern Recognition
+- Problems 1 and 4 rendered correctly with double backslashes in answer field
+- Problems 2, 3, 5, 6 failed with quadruple backslashes, fixed when changed to double
+
+### Best Practice
+- **Answer field:** Double backslashes (`\\`)
+- **Explanation field:** Quadruple backslashes (`\\\\`) in display math
+- When copying between fields, adjust escaping accordingly
+
+---
+
+## 17. Display Math Block Rendering Issues
+
+### Issue
+Complex LaTeX equations wouldn't render, appearing as raw text instead of formatted math.
+
+### Multiple Causes Discovered
+
+**1. Colon immediately before display math:**
+```json
+❌ "Taking moments about A:\n\n$$equation$$"
+✅ "Taking moments about A.\n\n$$equation$$"
+```
+
+**2. Insufficient blank lines:**
+- Standard: text, blank line (`\n\n`), equation
+- Sometimes needed: text, **two blank lines** (`\n\n\n`), equation
+- Especially after descriptive text ending with colon
+
+**3. Overly complex equations:**
+```json
+❌ $$\vec{r}_{AB} \times (T_{BD}\hat{u}_{BD}) + \vec{r}_{AB} \times (T_{BE}\hat{u}_{BE}) + \vec{r}_{AC} \times \vec{F}_C = \vec{0}$$
+✅ $$\sum \vec{M}_A = \vec{0}$$
+```
+Long equations with multiple subscripts, cross products, and unit vector hats can fail to parse.
+
+**4. Inline math near display math:**
+Avoid complex inline LaTeX (`$\vec{r}_{AB} = (6, 0, 0)$`) immediately before/after display blocks.
+
+### Solution Strategies
+1. **Remove colons** before display math - use periods instead
+2. **Add extra blank line** if equation still doesn't render
+3. **Simplify complex equations** - break into multiple simpler blocks or use summation notation
+4. **Minimize inline math** around display blocks - use plain text when possible
+
+### Best Practice
+- Test rendering after adding each display math block
+- If equation doesn't render, try simplifying before adding more blank lines
+- Keep equations focused and concise
+
+---
+
+## 18. Problem Verification Discipline
+
+### Issue
+Multiple problems had incorrect solutions that made it into quiz.json from answer keys.
+
+### Examples from Test 2 (A)
+1. **Problem #1:** M_D = 20 ft·lb (wrong) vs -120 ft·lb (correct) - off by 6×
+2. **Problem #3:** Used wrong dimensions (middle rectangle 0.5 in vs 0.25 in)
+3. **Problem #5:** Multiple incorrect attempts before finding right load distribution
+4. **Problem #6:** F_FE = 400 lb (wrong) vs 875 lb (correct)
+
+### Root Cause
+- Relying on provided answer keys without independent verification
+- Answer keys themselves can contain errors
+- Not carefully reading dimensions from problem diagrams
+
+### Solution
+**Always solve problems independently:**
+1. **Read diagram carefully** - verify all dimensions, coordinates, orientations
+2. **Set up from first principles** - don't assume key has correct setup
+3. **Solve step-by-step** - show all work to catch errors early
+4. **Verify against multiple sources** - use ChatGPT, hand calculations, etc.
+5. **Check reasonableness** - do magnitudes and signs make sense?
+
+### Verification Checklist
+- [ ] Coordinate system identified from diagram
+- [ ] All dimensions/loads read directly from diagram
+- [ ] Force/moment equilibrium equations set up correctly
+- [ ] Calculation checked with external tool (ChatGPT, calculator)
+- [ ] Answer magnitude and sign are reasonable
+- [ ] Units are correct
+
+### Best Practice
+**Treat answer keys as suggestions, not truth.** Always verify solutions independently before adding to quiz.json. When discrepancies arise, solve from scratch rather than trying to reconcile conflicting answers.
+
+---
+
 *This document should be updated whenever significant lessons are learned during development.*

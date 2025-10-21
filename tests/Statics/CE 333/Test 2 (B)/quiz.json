@@ -1,0 +1,290 @@
+{
+  "title": "CE 333 Statics - Test 2 (B)",
+  "questions": [
+    {
+      "number": 1,
+      "points": 10,
+      "question": "A 300 kg lantern is supported by two cables meeting at a ring $C$. The left cable makes $35^\\circ$ with the ceiling; the right cable makes angle $\\alpha$. Neglect cable weight.\\n(a) Write the scalar equilibrium equations at the ring.\\n(b) If $\\alpha=50^\\circ$, compute tensions $T_A$ and $T_B$ (take $g=9.81\\,\\mathrm{m/s^2}$).",
+      "choices": [],
+      "answer": "**Part (a):** At ring C:\\n$$\\sum F_x = T_A\\cos(35^\\circ) - T_B\\cos(\\alpha) = 0$$\\n$$\\sum F_y = T_A\\sin(35^\\circ) + T_B\\sin(\\alpha) - W = 0$$\\nwhere $W = mg = 2943\\,\\mathrm{N}$.\\n\\n**Part (b):** From horizontal: $T_A = T_B\\cos(50^\\circ)/\\cos(35^\\circ) = 0.785T_B$. Substitute into vertical: $T_B(0.450 + 0.766) = 2943$, so $T_B = 2420\\,\\mathrm{N}$ and $T_A = 1900\\,\\mathrm{N}$.",
+      "explanation": "2D particle equilibrium problem. Resolve cable tensions into x and y components, set sums to zero. Solve system of two equations for two unknowns.",
+      "resources": [{"type": "Video - 2D Equilibrium", "url": "https://www.youtube.com/watch?v=vFD_v5pRBGc"}, {"type": "Article - Particle Equilibrium", "url": "http://www.ecourses.ou.edu/cgi-bin/eBook.cgi?doc=&topic=st&chap_sec=02.1&page=theory"}],
+      "images": ["images/problem_01.png"]
+    },
+    {
+      "number": 2,
+      "points": 3,
+      "question": "Identify the correct reaction set for a smooth pin support in 2D.",
+      "choices": ["(a) Two reaction components $A_x, A_y$", "(b) One unknown vertical reaction only", "(c) A single moment only", "(d) No reactions; it is a roller"],
+      "answer": "(a) Two reaction components $A_x, A_y$",
+      "explanation": "A pin support prevents translation in both x and y directions but allows rotation. Therefore it provides two force reactions ($A_x$ and $A_y$) but no moment reaction.",
+      "resources": [{"type": "Article - Support Types", "url": "https://learnaboutstructures.com/Structural-Supports-and-Loads"}]
+    },
+    {
+      "number": 3,
+      "points": 3,
+      "question": "Which condition must hold for a particle in planar equilibrium?",
+      "choices": ["(a) $\\sum F_x=0$ **and** $\\sum F_y=0$", "(b) $\\sum M_O=0$ only", "(c) $\\sum F=0$ and $\\sum M_O=0$ for any $O$", "(d) $\\sum F_x=\\sum F_y$"],
+      "answer": "(a) $\\sum F_x=0$ **and** $\\sum F_y=0$",
+      "explanation": "For a particle (point mass), equilibrium requires zero resultant force. In 2D this means both components must be zero. Moments are automatically zero since all forces are concurrent at the particle.",
+      "resources": [{"type": "Article - Particle Equilibrium", "url": "http://www.ecourses.ou.edu/cgi-bin/eBook.cgi?doc=&topic=st&chap_sec=02.1&page=theory"}]
+    },
+    {
+      "number": 4,
+      "points": 3,
+      "question": "With positive counterclockwise moments, a force producing clockwise rotation about point $O$ contributes:",
+      "choices": ["(a) Negative moment", "(b) Positive moment", "(c) Zero moment", "(d) Depends only on $O$'s coordinates"],
+      "answer": "(a) Negative moment",
+      "explanation": "If counterclockwise (CCW) is defined as positive, then clockwise (CW) must be negative. This follows the right-hand rule convention consistently used in statics.",
+      "resources": [{"type": "Article - Moment Convention", "url": "https://engineeringstatics.org/Chapter_06-moments.html"}]
+    },
+    {
+      "number": 5,
+      "points": 5,
+      "question": "State how a **force–couple system** can be moved to a new point in a rigid body in planar statics. Provide the transformation formula for the free vector couple.",
+      "choices": [],
+      "answer": "A force-couple system at point A can be moved to point B by: (1) The force vector remains unchanged in magnitude and direction. (2) The couple moment transforms as: $M_B = M_A + \\vec{r}_{AB} \\times \\vec{F}$, or in 2D: $M_B = M_A + d \\cdot F$ where $d$ is the perpendicular distance from B to the line of action of F.",
+      "explanation": "When a force is moved parallel to itself, it creates an additional couple. The total effect at the new point is the original couple plus this transport term.",
+      "resources": [{"type": "Article - Equivalent Systems", "url": "https://engineeringstatics.org/Chapter_07-equivalence.html"}]
+    },
+    {
+      "number": 6,
+      "points": 8,
+      "question": "The beam $AB$ carries the shown point load(s). Write reactions at $A$ (roller) and $B$ (pin) symbolically in terms of $P$ and $Q$ by applying $\\sum F_x, \\sum F_y, \\sum M_A=0$. Clearly state sign conventions.",
+      "choices": [],
+      "answer": "**Sign conventions:** +x right, +y up, +M counterclockwise.\\n\\n**Equations:**\\n$\\sum F_x = B_x = 0$ (no horizontal loads)\\n$\\sum F_y = A_y + B_y - P - Q = 0$\\n$\\sum M_A = B_y \\cdot L - P \\cdot a - Q \\cdot b = 0$\\n\\n**Solutions:**\\n$B_y = (Pa + Qb)/L$ (from moment equation)\\n$A_y = P + Q - B_y$ (from force equation)",
+      "explanation": "Roller at A provides vertical reaction only. Pin at B provides both components. Moment equation about A eliminates $A_y$ for direct solution of $B_y$.",
+      "resources": [{"type": "Article - Beam Reactions", "url": "https://learnaboutstructures.com/Simple-Beam-Reactions"}],
+      "images": ["images/problem_06.png"]
+    },
+    {
+      "number": 7,
+      "points": 8,
+      "question": "The figure shows a rectangular plate with a semicircular **hole**. Using the composite-areas method, write expressions for $\\bar x$ and $\\bar y$ using area algebra (additive for solids, negative for holes). Do not compute numerically.",
+      "choices": [],
+      "answer": "**Composite centroid formulas:**\\n$$\\bar x = \\frac{A_1\\bar x_1 - A_2\\bar x_2}{A_1 - A_2}$$\\n$$\\bar y = \\frac{A_1\\bar y_1 - A_2\\bar y_2}{A_1 - A_2}$$\\n\\nwhere:\\n- Rectangle: $A_1 = bh$, $\\bar x_1 = b/2$, $\\bar y_1 = h/2$\\n- Semicircle void: $A_2 = \\pi r^2/2$, centroid at $4r/(3\\pi)$ from diameter\\n- Net area: $A_{net} = bh - \\pi r^2/2$",
+      "explanation": "Treat holes as negative areas. Weight each component area by its centroid location. Semicircle centroid is offset $4r/(3\\pi)$ from its straight edge.",
+      "resources": [{"type": "Article - Composite Centroids", "url": "https://engineeringstatics.org/Chapter_10-centroids.html"}],
+      "images": ["images/problem_11.png"]
+    },
+    {
+      "number": 8,
+      "points": 3,
+      "question": "True or False: If a 3D rigid body satisfies $\\sum \\vec F=\\vec 0$ and $\\sum \\vec M_O=\\vec 0$ about **one** arbitrary point $O$, then it is in static equilibrium.",
+      "choices": ["(a) True", "(b) False"],
+      "answer": "(a) True",
+      "explanation": "TRUE. If both resultant force and resultant moment about any one point are zero, the body is in complete equilibrium. This gives 6 scalar equations in 3D: $\\sum F_x = \\sum F_y = \\sum F_z = 0$ and $\\sum M_x = \\sum M_y = \\sum M_z = 0$.",
+      "resources": [{"type": "Article - 3D Equilibrium", "url": "https://engineeringstatics.org/Chapter_05-3d-equilibrium.html"}]
+    },
+    {
+      "number": 9,
+      "points": 3,
+      "question": "At a joint with two non-collinear members and **no external load**, the member forces are:",
+      "choices": ["(a) Both zero", "(b) One zero, one non-zero", "(c) Equal and opposite", "(d) Cannot be determined"],
+      "answer": "(a) Both zero",
+      "explanation": "Zero-force member rule: with only two non-parallel forces at a joint, the only way their vector sum can be zero is if both forces are zero. This rule quickly identifies members carrying no load.",
+      "resources": [{"type": "Video - Zero-Force Members", "url": "https://www.youtube.com/watch?v=j0_nYZXHVR4"}]
+    },
+    {
+      "number": 10,
+      "points": 5,
+      "question": "Explain when the **Method of Sections** is preferable to the **Method of Joints** for solving truss member forces.",
+      "choices": [],
+      "answer": "Method of Sections is preferable when: (1) Only specific member forces are needed (not all members), (2) Target members are internal to the truss, (3) Strategic moment equations can isolate unknowns, (4) Time efficiency matters for large trusses. Sections allows direct access by cutting through the truss, while Joints requires sequential solution from supports inward.",
+      "explanation": "Both methods work for any truss, but Sections provides tactical efficiency for finding specific forces without solving the entire structure.",
+      "resources": [{"type": "Article - Method of Sections", "url": "https://engineeringstatics.org/Chapter_06-method-of-sections.html"}]
+    },
+    {
+      "number": 11,
+      "points": 8,
+      "question": "For the two-cable support, find $\\alpha$ such that $T_A=T_B$. Then find the common tension for a $W=3.0\\,\\mathrm{kN}$ load.",
+      "choices": [],
+      "answer": "**Equal tensions:** For symmetric geometry, $\\alpha = \\theta_A$ (both cables at same angle from vertical). With symmetric $45^\\circ$ configuration: from $\\sum F_y = 2T\\sin(45^\\circ) = W$, we get $T = W/(2\\sin 45^\\circ) = 3000/(2 \\times 0.707) = 2.12\\,\\mathrm{kN}$.",
+      "explanation": "Equal cable tensions occur with symmetric geometry. Vertical components sum to weight while horizontal components cancel each other.",
+      "resources": [{"type": "Article - Cable Systems", "url": "http://www.ecourses.ou.edu/cgi-bin/eBook.cgi?doc=&topic=st&chap_sec=03.3&page=theory"}],
+      "images": ["images/problem_11.png"]
+    },
+    {
+      "number": 12,
+      "points": 8,
+      "question": "For the beam, $P=6.0\\,\\mathrm{kN}$ at midspan and $Q=3.0\\,\\mathrm{kN}$ at one-quarter span from $B$. Determine reactions at $A$ and $B$.",
+      "choices": [],
+      "answer": "**Taking moments about A:** $B_y \\cdot L = P(L/2) + Q(3L/4)$, so $B_y = P/2 + 3Q/4 = 3.0 + 2.25 = 5.25\\,\\mathrm{kN}$.\\n\\n**Vertical equilibrium:** $A_y = P + Q - B_y = 6.0 + 3.0 - 5.25 = 3.75\\,\\mathrm{kN}$.\\n\\n**Horizontal:** $B_x = 0$ (no horizontal loads).",
+      "explanation": "Moment about A eliminates $A_y$, solving directly for $B_y$. The load closer to B contributes more to $B_y$, making it larger than $A_y$.",
+      "resources": [{"type": "Article - Beam Analysis", "url": "https://learnaboutstructures.com/Simple-Beam-Reactions"}],
+      "images": ["images/problem_08.png"]
+    },
+    {
+      "number": 13,
+      "points": 10,
+      "question": "Rectangle width $b=700\\,\\mathrm{mm}$, height $h=350\\,\\mathrm{mm}$. Semicircular **void** radius $r=120\\,\\mathrm{mm}$ centered on the $x$-axis as shown. Compute $(\\bar x,\\bar y)$ from the corner at $(0,0)$.",
+      "choices": [],
+      "answer": "**Components:**\\nRectangle: $A_1=245,000\\,\\mathrm{mm^2}$, $(\\bar x_1, \\bar y_1) = (350, 175)\\,\\mathrm{mm}$\\nSemicircle void: $A_2=22,619\\,\\mathrm{mm^2}$, $\\bar y_2 = 4r/(3\\pi) = 50.9\\,\\mathrm{mm}$ from base\\n\\n**Calculation:**\\n$\\bar x = 350\\,\\mathrm{mm}$ (symmetric)\\n$\\bar y = (245000 \\times 175 - 22619 \\times 50.9)/(245000 - 22619) = 187.6\\,\\mathrm{mm}$\\n\\n**Answer:** $(350, 187.6)\\,\\mathrm{mm}$",
+      "explanation": "Removing material from bottom shifts centroid upward. x remains centered due to symmetry. Semicircle centroid formula: $4r/(3\\pi)$ from diameter.",
+      "resources": [{"type": "Article - Composite Areas", "url": "https://engineeringstatics.org/Chapter_10-centroids.html"}],
+      "images": ["images/problem_13.png"]
+    },
+    {
+      "number": 14,
+      "points": 6,
+      "question": "Force $\\vec F=\\langle 300, -200\\rangle\\,\\mathrm{N}$ acts at point with position $\\vec r=\\langle 0.60, 0.25\\rangle\\,\\mathrm{m}$ from $O$. Compute scalar moment $M_O$ using $M_O = \\hat{k}\\cdot (\\vec r \\times \\vec F)$. Give the sign and units.",
+      "choices": [],
+      "answer": "**Cross product:** $\\vec r \\times \\vec F = \\hat{k}[(0.60)(-200) - (0.25)(300)] = \\hat{k}[-120 - 75] = -195\\hat{k}\\,\\mathrm{N\\cdot m}$\\n\\n**Scalar moment:** $M_O = -195\\,\\mathrm{N\\cdot m}$\\n\\nNegative sign indicates **clockwise** rotation about O.",
+      "explanation": "In 2D, cross product gives z-component only. Sign from determinant: negative means clockwise when viewing from positive z-axis.",
+      "resources": [{"type": "Article - Moments", "url": "https://engineeringstatics.org/Chapter_06-moments.html"}]
+    },
+    {
+      "number": 15,
+      "points": 8,
+      "question": "Using the joint at the apex first, write the two equilibrium equations and solve for the two connected member forces **symbolically** in terms of $P$.",
+      "choices": [],
+      "answer": "**At apex with load P (downward) and two members:**\\n$$\\sum F_x = F_1\\cos\\theta_1 - F_2\\cos\\theta_2 = 0$$\\n$$\\sum F_y = F_1\\sin\\theta_1 + F_2\\sin\\theta_2 - P = 0$$\\n\\n**For symmetric truss** ($\\theta_1 = \\theta_2 = \\theta$):\\n$$F_1 = F_2 = \\frac{P}{2\\sin\\theta}$$",
+      "explanation": "Method of Joints: equilibrium at each pin gives 2 equations in 2D. Forces act along member axes. Symmetric geometry simplifies to equal member forces.",
+      "resources": [{"type": "Article - Method of Joints", "url": "https://engineeringstatics.org/Chapter_06-method-of-joints.html"}],
+      "images": ["images/problem_16.png"]
+    },
+    {
+      "number": 16,
+      "points": 8,
+      "question": "A vertical force $F=85\\,\\mathrm{N}$ acts at the free end $C$ of the bent pipe. Using the shown axes, compute the **moment vector** $\\vec M_A=\\vec r_{AC}\\times\\vec F$.",
+      "choices": [],
+      "answer": "Let $\\vec r_{AC} = \\langle x_C, y_C, z_C \\rangle$ be position from A to C, and $\\vec F = \\langle 0, -85, 0 \\rangle\\,\\mathrm{N}$ (downward). Cross product: $\\vec M_A = \\langle -85z_C, 0, 85x_C \\rangle\\,\\mathrm{N\\cdot m}$. Specific values depend on coordinates from figure.",
+      "explanation": "3D moment as cross product of position and force vectors. Each component follows determinant expansion rules.",
+      "resources": [{"type": "Article - 3D Moments", "url": "https://engineeringstatics.org/Chapter_06-3d-moments.html"}],
+      "images": ["images/problem_21.png"]
+    },
+    {
+      "number": 17,
+      "points": 6,
+      "question": "The forearm holds a weight $W=5.0\\,\\mathrm{lb}$ in the hand. Taking distances $r_W=0.30\\,\\mathrm{m}$ from elbow $O$ to the weight line of action and $r_b=0.04\\,\\mathrm{m}$ for the biceps insertion, find $T_b$ for static equilibrium (assume all forces vertical).",
+      "choices": [],
+      "answer": "**Moment equilibrium about O:** $\\sum M_O = T_b \\cdot r_b - W \\cdot r_W = 0$\\n\\nSolving: $T_b = W \\cdot r_W / r_b = 5.0(0.30) / 0.04 = 37.5\\,\\mathrm{lb}$",
+      "explanation": "Biceps must generate larger force due to small moment arm (mechanical disadvantage). Moment equilibrium about pivot eliminates reaction force.",
+      "resources": [{"type": "Article - Levers", "url": "https://www.physicsclassroom.com/class/balance/Lesson-2/The-Lever"}],
+      "images": ["images/problem_26.png"]
+    },
+    {
+      "number": 18,
+      "points": 3,
+      "question": "Which of the following sets is **sufficient** to ensure **planar rigid-body** equilibrium?",
+      "choices": ["(a) $\\sum F_x=\\sum F_y=\\sum M_O=0$", "(b) $\\sum F=0$ only", "(c) $\\sum M_A=\\sum M_B=0$ for two distinct points", "(d) $\\sum F_x=\\sum F_y=0$ only"],
+      "answer": "(a) $\\sum F_x=\\sum F_y=\\sum M_O=0$",
+      "explanation": "Rigid body in 2D requires 3 independent equations: two force components and one moment. This is the standard sufficient set for planar equilibrium.",
+      "resources": [{"type": "Article - Rigid Body Equilibrium", "url": "https://engineeringstatics.org/Chapter_05-equilibrium.html"}]
+    },
+    {
+      "number": 19,
+      "points": 5,
+      "question": "An $8\\,\\mathrm{m}$ beam carries a uniform load $w=4\\,\\mathrm{kN/m}$. Replace it by a single resultant force: give its **magnitude** and **location** from the left end.",
+      "choices": [],
+      "answer": "**Magnitude:** $R = w \\cdot L = 4 \\times 8 = 32\\,\\mathrm{kN}$\\n\\n**Location:** Acts at centroid of uniform load distribution = $L/2 = 4\\,\\mathrm{m}$ from left end.",
+      "explanation": "Uniform distributed load equivalent: total load at geometric center. For rectangular distribution, centroid is at midspan.",
+      "resources": [{"type": "Article - Distributed Loads", "url": "https://engineeringstatics.org/Chapter_08-distributed-loads.html"}]
+    },
+    {
+      "number": 20,
+      "points": 3,
+      "question": "Why must the centroid coordinates carry **length units** even though they are ratios of area moments to area? Provide a one-sentence justification.",
+      "choices": [],
+      "answer": "Centroid coordinates have length units because they represent weighted average positions: $\\bar x = \\int x\\,dA / \\int dA$ has units [length·area]/[area] = [length].",
+      "explanation": "The numerator (first moment of area) has units of length³ (for 2D plates), divided by area gives length.",
+      "resources": [{"type": "Article - Centroids", "url": "https://engineeringstatics.org/Chapter_10-centroids.html"}]
+    },
+    {
+      "number": 21,
+      "points": 10,
+      "question": "A force $\\vec F=\\langle 30,100,-50\\rangle\\,\\mathrm{N}$ acts at point $D(0.2,0.4,0.0)\\,\\mathrm{m}$ on the bent pipe. (a) Compute $\\vec M_O$ about the origin. (b) Find a point on the line of action closest to $O$ (use the wrench reduction).",
+      "choices": [],
+      "answer": "**(a)** $\\vec M_O = \\vec r_D \\times \\vec F = \\langle 0.2, 0.4, 0 \\rangle \\times \\langle 30, 100, -50 \\rangle = \\langle -20, 10, -8 \\rangle\\,\\mathrm{N\\cdot m}$\\n\\n**(b)** Perpendicular distance: $d = |\\vec M_O| / |\\vec F| = \\sqrt{20^2+10^2+8^2} / \\sqrt{30^2+100^2+50^2} = 24.4 / 120.8 = 0.202\\,\\mathrm{m}$. Closest point: $\\vec r_{min} = (\\vec F \\times \\vec M_O) / |\\vec F|^2$.",
+      "explanation": "3D moment from cross product. Wrench reduction finds shortest distance from point to force line of action using moment-force relationship.",
+      "resources": [{"type": "Article - Wrench Reduction", "url": "https://engineeringstatics.org/Chapter_07-force-systems.html"}],
+      "images": ["images/problem_23.png"]
+    },
+    {
+      "number": 22,
+      "points": 8,
+      "question": "Cut the truss to expose members $AC, BC, AB$. With a section through these three members and using $\\sum M$ about a convenient joint, solve for a target member force directly from one scalar equation.",
+      "choices": [],
+      "answer": "**Strategy:** Cut through three members, exposing $F_{AC}$, $F_{BC}$, $F_{AB}$. Take moments about point where two unknowns intersect (e.g., joint C). This eliminates those forces: $\\sum M_C = F_{AB} \\cdot d_{AB,C} + M_{external\\,loads} = 0$, directly solving for $F_{AB}$.",
+      "explanation": "Method of Sections key insight: choose moment center at intersection of unwanted member forces to isolate the target member in one equation.",
+      "resources": [{"type": "Article - Method of Sections", "url": "https://engineeringstatics.org/Chapter_06-method-of-sections.html"}],
+      "images": ["images/problem_19.png"]
+    },
+    {
+      "number": 23,
+      "points": 10,
+      "question": "For the plate with circular hole, suppose an area density varying linearly in $y$: $\\rho(y)=\\rho_0(1+ky)$. Describe how the **center of gravity** shifts relative to the geometric centroid and provide the integral for $\\bar y_G$.",
+      "choices": [],
+      "answer": "With density increasing in +y direction ($k>0$), more mass concentrates toward top, shifting center of gravity **upward** from geometric centroid.\\n\\n**Integral:** $\\bar y_G = \\frac{\\int y\\rho(y)\\,dA}{\\int \\rho(y)\\,dA} = \\frac{\\int y\\rho_0(1+ky)\\,dA}{\\int \\rho_0(1+ky)\\,dA}$",
+      "explanation": "Center of gravity (CG) accounts for mass distribution. Variable density shifts CG toward regions of higher density, unlike geometric centroid which assumes uniform density.",
+      "resources": [{"type": "Article - Center of Gravity", "url": "https://engineeringstatics.org/Chapter_10-center-of-gravity.html"}],
+      "images": ["images/problem_14.png"]
+    },
+    {
+      "number": 24,
+      "points": 10,
+      "question": "A beam has a uniform load $w$ over the left half and a point load $P$ at midspan. (a) Determine reactions. (b) Sketch the **shear** and **moment** diagrams qualitatively, showing key values.",
+      "choices": [],
+      "answer": "**(a) Reactions:** Taking moments about A: $B_y = (w \\cdot L/2 \\cdot L/4 + P \\cdot L/2)/L = wL/8 + P/2$. Vertical equilibrium: $A_y = wL/2 + P - B_y = 3wL/8 + P/2$.\\n\\n**(b) Diagrams:** **Shear:** Starts at $A_y$, decreases linearly (slope $-w$) over left half to midspan, drops by $P$ at midspan, then constant to $-B_y$ at B. **Moment:** Parabolic (concave down) under distributed load, maximum slightly before midspan, then linear decrease (slope = shear) to zero at B.",
+      "explanation": "Distributed loads cause linear shear variation and parabolic moment curves. Point loads create sudden shear jumps and slope changes in moment diagrams.",
+      "resources": [{"type": "Article - Shear and Moment Diagrams", "url": "https://engineeringstatics.org/Chapter_08-internal-forces.html"}, {"type": "Video - Beam Diagrams", "url": "https://www.youtube.com/watch?v=4EWsVxN8LvI"}],
+      "images": ["images/problem_07.png"]
+    },
+    {
+      "number": 25,
+      "points": 8,
+      "question": "A cable from $A$ to $C$ carries tension $T$. Using the coordinates shown, write the direction cosines and the components of the tension vector. Then write the 3 equilibrium equations for a ring at $A$ with two other known forces.",
+      "choices": [],
+      "answer": "**Direction vector:** $\\vec{AC} = \\langle x_C-x_A, y_C-y_A, z_C-z_A \\rangle$, length $L_{AC} = |\\vec{AC}|$.\\n\\n**Unit vector:** $\\hat{u} = \\vec{AC}/L_{AC}$.\\n\\n**Direction cosines:** $\\cos\\alpha = (x_C-x_A)/L_{AC}$, $\\cos\\beta = (y_C-y_A)/L_{AC}$, $\\cos\\gamma = (z_C-z_A)/L_{AC}$.\\n\\n**Tension components:** $\\vec{T} = T\\hat{u} = T\\langle \\cos\\alpha, \\cos\\beta, \\cos\\gamma \\rangle$.\\n\\n**Equilibrium at A:** $\\sum F_x = T\\cos\\alpha + F_{1x} + F_{2x} = 0$ (similarly for y, z).",
+      "explanation": "Cable tension acts along cable axis. Direction cosines are components of the unit direction vector. 3D equilibrium gives 3 scalar equations.",
+      "resources": [{"type": "Article - 3D Forces", "url": "https://engineeringstatics.org/Chapter_02-3d-forces.html"}],
+      "images": ["images/problem_25.png"]
+    },
+    {
+      "number": 26,
+      "points": 8,
+      "question": "Modify the arm so a **counterweight** $W_c$ is strapped at mid-forearm (distance $0.15\\,\\mathrm{m}$ from $O$). (a) Write the scalar moment about $O$. (b) Solve for $T_b$ that minimizes $T_b$ by choosing $W_c$ (treat $W$ fixed).",
+      "choices": [],
+      "answer": "**(a) Moment equation:** $\\sum M_O = T_b(0.04) - W(0.30) + W_c(0.15) = 0$\\n\\n**(b) Solving for $T_b$:** $T_b = \\frac{0.30W - 0.15W_c}{0.04} = 7.5W - 3.75W_c$.\\n\\nTo minimize $T_b$, maximize $W_c$. Setting $T_b = 0$: $W_c = 2W$. However, this creates rotational instability. Practical counterweight limited by system constraints and safety factors.",
+      "explanation": "Counterweight creates opposing moment, reducing required muscle force. Optimum counterweight theoretically eliminates biceps force but compromises stability in practice.",
+      "resources": [{"type": "Article - Levers and Mechanical Advantage", "url": "https://www.physicsclassroom.com/class/balance/Lesson-2/The-Lever"}],
+      "images": ["images/problem_27.png"]
+    },
+    {
+      "number": 27,
+      "points": 6,
+      "question": "Two non-parallel coplanar forces act on a plate: $\\vec F_1=\\langle 100,0\\rangle\\,\\mathrm{N}$ at $(0.2,0)$ and $\\vec F_2=\\langle 0,-150\\rangle\\,\\mathrm{N}$ at $(0.0,0.5)$. Using **Varignon's theorem**, compute $M_O$ about $O$ by summing moments of components.",
+      "choices": [],
+      "answer": "**Varignon's theorem:** Moment of resultant = sum of moments of components.\\n\\nFor $F_1$ at $(0.2, 0)$: $M_{O1} = (0.2)(0) - (0)(100) = 0$\\n\\nFor $F_2$ at $(0.0, 0.5)$: $M_{O2} = (0.0)(-150) - (0.5)(0) = 0$\\n\\n**Wait, recalculate using cross product properly:**\\n$M_{O1} = r_x F_y - r_y F_x = (0.2)(0) - (0)(100) = 0$\\n$M_{O2} = (0)(−150) - (0.5)(0) = 0$\\n\\n**Total:** $M_O = 0\\,\\mathrm{N\\cdot m}$ (both forces pass through or are parallel to position vectors from O).",
+      "explanation": "Varignon's theorem allows moment calculation by summing component moments. Here both forces create zero moment about origin due to their positions.",
+      "resources": [{"type": "Article - Varignon's Theorem", "url": "https://engineeringstatics.org/Chapter_06-varignon.html"}]
+    },
+    {
+      "number": 28,
+      "points": 3,
+      "question": "In a statically determinate planar truss with $m$ members, $j$ joints, and $r$ reaction components, which relation holds?",
+      "choices": ["(a) $m=2j-3$ for simple trusses with $r=3$", "(b) $m+j=r$", "(c) $m=3j-6$", "(d) $m=2j$"],
+      "answer": "(a) $m=2j-3$ for simple trusses with $r=3$",
+      "explanation": "For statically determinate planar truss: $m + r = 2j$ (equations = unknowns). With standard supports providing $r=3$ reactions, this gives $m = 2j - 3$. This is the condition for a simple, stable, determinate truss.",
+      "resources": [{"type": "Article - Truss Determinacy", "url": "https://engineeringstatics.org/Chapter_06-truss-analysis.html"}]
+    },
+    {
+      "number": 29,
+      "points": 8,
+      "question": "State the **parallel-axis theorem** for the second moment of area and apply it to find $I_x$ of a rectangle of width $b$ and height $h$ about an axis through its **top edge**, parallel to the base.",
+      "choices": [],
+      "answer": "**Parallel-axis theorem:** $I_x = I_{x'} + Ad^2$ where $I_{x'}$ is moment about centroidal axis, $A$ is area, and $d$ is distance between parallel axes.\\n\\n**For rectangle:**\\n- Centroidal moment: $I_{x'} = \\frac{bh^3}{12}$\\n- Area: $A = bh$\\n- Distance from centroid to top edge: $d = h/2$\\n\\n**Application:**\\n$$I_x = \\frac{bh^3}{12} + (bh)\\left(\\frac{h}{2}\\right)^2 = \\frac{bh^3}{12} + \\frac{bh^3}{4} = \\frac{bh^3}{3}$$",
+      "explanation": "Parallel-axis theorem relates moment of inertia about any axis to that about parallel centroidal axis. Always increases I when moving away from centroid.",
+      "resources": [{"type": "Article - Second Moments", "url": "https://engineeringstatics.org/Chapter_10-second-moments.html"}, {"type": "Video - Parallel-Axis Theorem", "url": "https://www.youtube.com/watch?v=E6K_8XzT0kk"}]
+    },
+    {
+      "number": 30,
+      "points": 6,
+      "question": "A pure couple $\\vec M=\\langle 12,-6,4\\rangle\\,\\mathrm{N\\cdot m}$ acts on a rigid body. (a) Explain why its moment is the same about any point. (b) Provide one pair of equal/opposite forces separated by a vector $\\vec d$ that realize this couple.",
+      "choices": [],
+      "answer": "**(a) Why moment is independent of point:** A pure couple consists of two equal, opposite forces with parallel lines of action. The moment about any point is the same because the position-dependent terms cancel, leaving only the force-separation effect: $\\vec M = \\vec r_1 \\times \\vec F + \\vec r_2 \\times (-\\vec F) = (\\vec r_1 - \\vec r_2) \\times \\vec F = \\vec d \\times \\vec F$.\\n\\n**(b) One realization:** Choose $\\vec F = \\langle 10, 0, 0 \\rangle\\,\\mathrm{N}$ and solve for $\\vec d$: $\\vec M = \\vec d \\times \\vec F$ gives $\\langle 12, -6, 4 \\rangle = \\langle 0, d_z, -d_y \\rangle \\times \\langle 10, 0, 0 \\rangle = \\langle 0, 10d_z, -10d_y \\rangle$. So $d_z = -0.6\\,\\mathrm{m}$, $d_y = -0.4\\,\\mathrm{m}$. Force pair: $+\\vec F$ at origin, $-\\vec F$ at $(0, -0.4, -0.6)\\,\\mathrm{m}$.",
+      "explanation": "Pure couples are free vectors - their effect is independent of location, only direction and magnitude matter. Many force-pair realizations exist for the same couple.",
+      "resources": [{"type": "Article - Couples", "url": "https://engineeringstatics.org/Chapter_06-couples.html"}]
+    }
+  ]
+}
