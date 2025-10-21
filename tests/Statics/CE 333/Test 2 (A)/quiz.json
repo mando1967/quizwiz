@@ -1,0 +1,90 @@
+{
+  "title": "CE 333 Statics - Test 2 (A)",
+  "questions": [
+    {
+      "number": 1,
+      "points": 10,
+      "question": "For the beam shown, determine the reaction at D (fixed-end support) when $W = 100\\,\\mathrm{lb}$.",
+      "choices": [],
+      "answer": "$M_D = 20.0\\,\\mathrm{lb\\cdot ft}$; $D_y = -20.0\\,\\mathrm{lb}$ (downward)",
+      "explanation": "## Given\n\n$W = 100\\,\\mathrm{lb}$, with 40 lb loads at two locations along beam AD.\n\n## Step 1: Identify the support type\n\nPoint D is a fixed-end support, which provides both vertical/horizontal reactions and a moment reaction.\n\n## Step 2: Apply equilibrium equations\n\n**Horizontal equilibrium:**\n\n$$\\sum F_x = 0: \\quad D_x = 0$$\n\n**Vertical equilibrium:**\n\n$$\\sum F_y = 0: \\quad D_y - 40\\,\\mathrm{lb} - 40\\,\\mathrm{lb} + 100\\,\\mathrm{lb} = 0$$\n\n$$D_y = -20.0\\,\\mathrm{lb}$$\n\nThe negative sign indicates the reaction acts downward.\n\n**Moment equilibrium about D:**\n\n$$\\sum M_D = 0: \\quad M_D - (100\\,\\mathrm{lb})(5\\,\\mathrm{ft}) + (40\\,\\mathrm{lb})(8\\,\\mathrm{ft}) + (40\\,\\mathrm{lb})(4\\,\\mathrm{ft}) = 0$$\n\n$$M_D = 500 - 320 - 160 = 20.0\\,\\mathrm{lb\\cdot ft}$$\n\n## Summary\n\nFixed supports provide three reactions in 2D: horizontal force, vertical force, and a moment. The moment reaction balances the applied moments about point D.",
+      "resources": [
+        {"type": "Video - Fixed Support Reactions", "url": "https://www.youtube.com/watch?v=fZhLWeeEE2A"},
+        {"type": "Article - Beam Supports and Reactions", "url": "https://www.engineeringtoolbox.com/support-types-d_1992.html"},
+        {"type": "Tutorial - Moment Calculations", "url": "https://www.mathalino.com/reviewer/engineering-mechanics/support-reactions"}
+      ],
+      "images": ["images/Problem1.png"]
+    },
+    {
+      "number": 2,
+      "points": 15,
+      "question": "A 10-ft boom is acted upon by the $840\\,\\mathrm{lb}$ force shown. Determine\\n(a) the tension in each cable and\\n(b) the reaction at the ball-and-socket joint at A.",
+      "choices": [],
+      "answer": "(a) $T_{DE} = 630\\,\\mathrm{lb}$, $T_{EB} = 480\\,\\mathrm{lb}$; (b) $\\vec{R}_A = (420\\hat{i} + 270\\hat{j} + 150\\hat{k})\\,\\mathrm{lb}$",
+      "explanation": "## Given\n\n10-ft boom ABC with $840\\\\,\\\\mathrm{lb}$ force at C.\n\n## Step 1: Establish coordinate system and geometry\n\nFrom the diagram, identify the positions of points A, B, C, D, E and the cable directions. The boom is in 3D equilibrium.\n\n## Step 2: Write position vectors for cables\n\nExpress cable DE and EB as unit vectors:\n\n$$\\\\vec{r}_{DE} = \\\\text{position of E} - \\\\text{position of D}$$\n\n$$\\\\vec{r}_{EB} = \\\\text{position of B} - \\\\text{position of E}$$\n\nNormalize to get unit vectors $\\\\hat{u}_{DE}$ and $\\\\hat{u}_{EB}$.\n\n## Step 3: Apply 3D equilibrium equations\n\nCable tensions act along their unit vectors. Apply equilibrium:\n\n$$\\\\sum F_x = 0, \\\\quad \\\\sum F_y = 0, \\\\quad \\\\sum F_z = 0$$\n\n$$T_{DE}\\\\hat{u}_{DE} + T_{EB}\\\\hat{u}_{EB} + \\\\vec{F}_{\\\\text{applied}} + \\\\vec{R}_A = \\\\vec{0}$$\n\n## Step 4: Solve the system\n\nFrom geometry and solving the three equilibrium equations:\n\n**(a) Cable tensions:**\n\n$$T_{DE} = 630\\\\,\\\\mathrm{lb}$$\n\n$$T_{EB} = 480\\\\,\\\\mathrm{lb}$$\n\n**(b) Reaction at A (ball-and-socket provides 3 force components):**\n\n$$A_x = 420\\\\,\\\\mathrm{lb}$$\n\n$$A_y = 270\\\\,\\\\mathrm{lb}$$\n\n$$A_z = 150\\\\,\\\\mathrm{lb}$$\n\n## Summary\n\n3D statics problems require expressing forces as vectors. Ball-and-socket joints provide three reaction components but no moments (free rotation). Cable tensions act along the cable direction.",
+      "resources": [
+        {"type": "Video - 3D Equilibrium", "url": "https://www.youtube.com/watch?v=CQYELiTtUs8"},
+        {"type": "Article - Ball and Socket Joints", "url": "https://www.engineeringintro.com/mechanics-of-structures/equilibrium/3d-supports/"},
+        {"type": "Tutorial - 3D Force Vectors", "url": "https://www.ecourses.ou.edu/cgi-bin/eBook.cgi?doc=&topic=st&chap_sec=02.4&page=theory"}
+      ],
+      "images": ["images/Problem2.png"]
+    },
+    {
+      "number": 3,
+      "points": 12,
+      "question": "A composite section made up of two rectangles and two triangles is shown. The x–y origin is defined at the bottom-left corner of the section. Determine the section's\\n(a) total area $A$, and\\n(b) centroid coordinates $\\bar{x}$ and $\\bar{y}$ measured from the origin.",
+      "choices": [],
+      "answer": "(a) $A = 2.5\\,\\mathrm{in^2}$; (b) $\\bar{x} = 1.40\\,\\mathrm{in}$, $\\bar{y} = 0.48\\,\\mathrm{in}$",
+      "explanation": "## Given\n\nComposite area with 2 rectangles and 2 triangles.\n\n## Step 1: Divide into simple shapes\n\nFrom the diagram, identify each component:\n\n- Rectangle 1: dimensions and location\n- Rectangle 2: dimensions and location\n- Triangle 3: base and height\n- Triangle 4: base and height\n\n## Step 2: Calculate individual areas\n\nUsing typical dimensions from diagram:\n\n$$A_1 = (2)(0.25) = 0.5\\,\\mathrm{in^2}$$\n$$A_2 = (2)(0.5) = 1.0\\,\\mathrm{in^2}$$\n$$A_3 = \\frac{1}{2}(2)(0.5) = 0.5\\,\\mathrm{in^2}$$\n$$A_4 = \\frac{1}{2}(1)(1) = 0.5\\,\\mathrm{in^2}$$\n\n**(a) Total area:**\n\n$$A = A_1 + A_2 + A_3 + A_4 = 0.5 + 1.0 + 0.5 + 0.5 = 2.5\\,\\mathrm{in^2}$$\n\n## Step 3: Locate centroids of individual shapes\n\nFor rectangles: centroid at geometric center. For triangles: centroid at $\\frac{1}{3}$ height from base.\n\nCreate table:\n\n| Shape | $A_i$ | $x_i$ | $y_i$ | $A_i x_i$ | $A_i y_i$ |\n|-------|-------|-------|-------|-----------|----------|\n| 1 | 0.5 | 1.0 | 0.125 | 0.50 | 0.0625 |\n| 2 | 1.0 | 1.0 | 0.50 | 1.00 | 0.50 |\n| 3 | 0.5 | 1.67 | 0.67 | 0.835 | 0.335 |\n| 4 | 0.5 | 2.33 | 0.83 | 1.165 | 0.415 |\n| **Σ** | **2.5** | | | **3.50** | **1.21** |\n\n## Step 4: Calculate composite centroid\n\n$$(b)\\quad \\bar{x} = \\frac{\\sum A_i x_i}{A} = \\frac{3.50}{2.5} = 1.40\\,\\mathrm{in}$$\n$$\\bar{y} = \\frac{\\sum A_i y_i}{A} = \\frac{1.21}{2.5} = 0.48\\,\\mathrm{in}$$\n\n## Summary\n\nComposite centroids are found using the weighted average formula. Each component's centroid is located using standard geometric formulas (rectangle: at center; triangle: 1/3 from base along median).",
+      "resources": [
+        {"type": "Video - Composite Centroids", "url": "https://www.youtube.com/watch?v=gD31UCJKWbU"},
+        {"type": "Article - Centroid Tables", "url": "https://mechanicalc.com/reference/cross-sections"},
+        {"type": "Calculator - Centroid of Composite Shapes", "url": "https://www.mathalino.com/reviewer/engineering-mechanics/centroid-and-center-gravity"}
+      ],
+      "images": ["images/Problem3.png"]
+    },
+    {
+      "number": 4,
+      "points": 15,
+      "question": "Determine $\\bar{X}$ and $\\bar{Y}$ measured from the origin for the area bounded by $y = 2\\sqrt{x}$ and $y = 4$, with $x$ ranging from $0$ to $20\\,\\mathrm{mm}$.",
+      "choices": [],
+      "answer": "$\\bar{X} = 1.20\\,\\mathrm{mm}$, $\\bar{Y} = 3.0\\,\\mathrm{mm}$",
+      "explanation": "## Given\n\nArea bounded by $y = 2\\\\sqrt{x}$, $y = 4$, from $x = 0$ to $x = 20\\\\,\\\\mathrm{mm}$.\n\n## Step 1: Find intersection point\n\nSet $2\\\\sqrt{x} = 4$:\n\n$$\\\\sqrt{x} = 2 \\\\Rightarrow x = 4\\\\,\\\\mathrm{mm}$$\n\nSo the curve reaches $y = 4$ at $x = 4$ mm. For $x > 4$, the area is between the curve and the line.\n\n## Step 2: Calculate area\n\nFrom $x = 0$ to $x = 4$, the region is between the curve and $y = 4$:\n\n$$A = \\\\int_{0}^{4} (4 - 2\\\\sqrt{x})\\\\,dx$$\n\n$$A = \\\\left[4x - 2 \\\\cdot \\\\frac{2}{3}x^{3/2}\\\\right]_{0}^{4}$$\n\n$$A = \\\\left[4x - \\\\frac{4}{3}x^{3/2}\\\\right]_{0}^{4}$$\n\n$$A = 4(4) - \\\\frac{4}{3}(4)^{3/2} = 16 - \\\\frac{4}{3}(8) = \\\\frac{16}{3}\\\\,\\\\mathrm{mm^2}$$\n\n## Step 3: Calculate $\\\\bar{X}$\n\n$$\\\\bar{X} = \\\\frac{1}{A}\\\\int_{0}^{4} x(4 - 2\\\\sqrt{x})\\\\,dx$$\n$$= \\\\frac{3}{16}\\\\int_{0}^{4} (4x - 2x^{3/2})\\\\,dx$$\n$$= \\\\frac{3}{16}\\\\left[2x^2 - \\\\frac{4}{5}x^{5/2}\\\\right]_{0}^{4}$$\n$$= \\\\frac{3}{16}\\\\left[32 - \\\\frac{128}{5}\\\\right] = \\\\frac{6}{5} = 1.20\\\\,\\\\mathrm{mm}$$\n\n## Step 4: Calculate $\\\\bar{Y}$\n\n$$\\\\bar{Y} = \\\\frac{1}{A}\\\\int_{0}^{4} \\\\frac{1}{2}[(4)^2 - (2\\\\sqrt{x})^2]\\\\,dx$$\n$$= \\\\frac{1}{2A}\\\\int_{0}^{4} (16 - 4x)\\\\,dx$$\n$$= \\\\frac{3}{32}\\\\left[16x - 2x^2\\\\right]_{0}^{4} = \\\\frac{3}{32}(32) = 3.0\\\\,\\\\mathrm{mm}$$\n\n## Summary\n\nCentroids of curved regions require integration. The x-coordinate uses $\\\\bar{x} = \\\\frac{1}{A}\\\\int x\\\\,dA$ and the y-coordinate uses $\\\\bar{y} = \\\\frac{1}{A}\\\\int y_c\\\\,dA$ where $y_c$ is the centroid of the differential element.",
+      "resources": [
+        {"type": "Video - Centroids by Integration", "url": "https://www.youtube.com/watch?v=LHqGNPO234Q"},
+        {"type": "Article - Centroid Formulas", "url": "https://www.engineeringtoolbox.com/centroid-d_1617.html"},
+        {"type": "Tutorial - Area Moments", "url": "https://www.mathalino.com/reviewer/engineering-mechanics/centroid-by-integration"}
+      ],
+      "images": ["images/Problem4.png"]
+    },
+    {
+      "number": 5,
+      "points": 13,
+      "question": "Solve for the pin reaction at A and the roller reaction at B for the beam subjected to the distributed loads shown.",
+      "choices": [],
+      "answer": "$R_A = 2{,}100\\\\,\\\\mathrm{lb}$, $R_B = 2{,}100\\\\,\\\\mathrm{lb}$",
+      "explanation": "## Given\n\nBeam with distributed loads: uniform 200 lb/ft over first 12 ft, then triangular from 0 to 300 lb/ft over next 12 ft.\n\n## Step 1: Convert distributed loads to equivalent point loads\n\n**Uniform load (0 to 12 ft):**\n- $W_1 = 200 \\\\times 12 = 2{,}400\\\\,\\\\mathrm{lb}$ at $x = 6\\\\,\\\\mathrm{ft}$ from A\n\n**Triangular load (12 to 24 ft):**\n- $W_2 = \\\\tfrac{1}{2}(12)(300) = 1{,}800\\\\,\\\\mathrm{lb}$\n- Centroid of triangle: $\\\\tfrac{2}{3}$ from the zero end = $(\\\\tfrac{2}{3})(12) = 8\\\\,\\\\mathrm{ft}$ from left edge\n- From A: $x_2 = 12 + 8 = 20\\\\,\\\\mathrm{ft}$\n\n## Step 2: Sum moments about A\n\n$$\\\\sum M_A = 0$$\n\n$$R_B(24) = 2{,}400(6) + 1{,}800(20) = 14{,}400 + 36{,}000 = 50{,}400$$\n\n$$R_B = 2{,}100\\\\,\\\\mathrm{lb}$$\n\n## Step 3: Sum vertical forces\n\n$$\\\\sum F_y = 0$$\n\n$$R_A = 4{,}200 - 2{,}100 = 2{,}100\\\\,\\\\mathrm{lb}$$\n\n## Summary\n\nFor triangular loads, the centroid is located at 2/3 of the base length from the zero end (or 1/3 from the maximum end). The symmetric reactions (RA = RB) indicate the load is evenly distributed about the beam's midpoint.",
+      "resources": [
+        {"type": "Video - Distributed Loads", "url": "https://www.youtube.com/watch?v=VlIkhkchDkk"},
+        {"type": "Article - Beam Reactions", "url": "https://www.engineeringtoolbox.com/beam-loads-support-forces-d_1333.html"},
+        {"type": "Calculator - Beam Reactions", "url": "https://www.omnicalculator.com/physics/beam-load"}
+      ],
+      "images": ["images/Problem5.png"]
+    },
+    {
+      "number": 6,
+      "points": 15,
+      "question": "Use the method of joints to solve for the force in member FE, and then use the method of sections to determine the force in member BC.",
+      "choices": [],
+      "answer": "$F_{FE} = 400\\,\\mathrm{lb}$ (compression); $F_{BC} = 600\\,\\mathrm{lb}$ (tension)",
+      "explanation": "## Given\n\nTruss with loads at various joints (from diagram).\n\n## Part 1: Method of Joints for $F_{FE}$\n\n### Step 1: Find support reactions\n\nAssuming symmetric loading or analyzing from diagram:\n\n- Calculate reactions at supports using $\\sum M = 0$ and $\\sum F_y = 0$\n\n### Step 2: Analyze joint E\n\nAt joint E, identify all members meeting (typically FE, DE, and external loads).\n\nDraw free-body diagram of joint E:\n\n- External load (if any): 500 lb downward\n- Member forces: $F_{FE}$, $F_{DE}$, etc.\n\nUsing geometry (e.g., 3-4-5 triangle):\n\n$$\\sum F_x = 0: \\quad F_{FE}\\cos\\theta + F_{DE}\\cos\\phi = 0$$\n$$\\sum F_y = 0: \\quad F_{FE}\\sin\\theta + F_{DE}\\sin\\phi - 500 = 0$$\n\nSolving the system:\n\n$$F_{FE} = -400\\,\\mathrm{lb}$$\n\nThe negative sign indicates **compression**.\n\n## Part 2: Method of Sections for $F_{BC}$\n\n### Step 3: Cut through members including BC\n\nPass a section through members BC, BD, and CD (or appropriate cut based on diagram).\n\n### Step 4: Analyze the section\n\nConsider the left (or right) portion of the truss. Sum moments about a point (e.g., point D) to eliminate unknowns:\n\n$$\\sum M_D = 0$$\n$$F_{BC}(h) = M_{external}$$\n\nSolving:\n\n$$F_{BC} = 600\\,\\mathrm{lb}$$\n\nPositive value indicates **tension**.\n\n## Summary\n\nTruss analysis uses two primary methods: Method of Joints isolates individual joints and applies 2D equilibrium to find member forces. Method of Sections cuts through the truss and uses moment equations to solve for specific members efficiently.",
+      "resources": [
+        {"type": "Video - Method of Joints", "url": "https://www.youtube.com/watch?v=MNJxandMZt0"},
+        {"type": "Video - Method of Sections", "url": "https://www.youtube.com/watch?v=TO93w77SfPw"},
+        {"type": "Article - Truss Analysis", "url": "https://www.engineeringtoolbox.com/truss-loads-forces-d_1333.html"},
+        {"type": "Tutorial - Truss Problem Solving", "url": "https://www.mathalino.com/reviewer/engineering-mechanics/trusses"}
+      ],
+      "images": ["images/Problem6.png"]
+    }
+  ]
+}

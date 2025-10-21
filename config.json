@@ -90,6 +90,19 @@
               "isQuizJson": true
             }
           ]
+        },
+        {
+          "id": "ce333-test2",
+          "name": "CE 333 - Test 2",
+          "quizPath": "Statics/CE 333/Test 2",
+          "quizVersions": [
+            {
+              "id": "test2",
+              "name": "Test 2",
+              "imageCount": 30,
+              "isQuizJson": true
+            }
+          ]
         }
       ]
     },

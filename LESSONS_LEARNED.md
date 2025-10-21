@@ -16,8 +16,37 @@ LaTeX commands in JSON files were not rendering correctly.
   - Example: `$\\mathbf{F}_2$`, `$\\approx$`, `$\\theta_x$`
 - JSON parser treats `\` as escape character, so `\\` becomes `\` in the actual string
 
+### Critical: Display Math Blocks Need Blank Lines
+When using multiple consecutive display math blocks (`$$...$$`), you **MUST** separate them with blank lines (`\n\n`):
+
+**❌ WRONG (breaks rendering):**
+```json
+{
+  "explanation": "## Step 2\n\n$$A = \\\\int_{0}^{4} f(x)\\\\,dx$$\n$$A = \\\\left[F(x)\\\\right]_{0}^{4}$$\n$$A = F(4) - F(0)$$"
+}
+```
+
+**✅ CORRECT:**
+```json
+{
+  "explanation": "## Step 2\n\n$$A = \\\\int_{0}^{4} f(x)\\\\,dx$$\n\n$$A = \\\\left[F(x)\\\\right]_{0}^{4}$$\n\n$$A = F(4) - F(0)$$"
+}
+```
+
+### Continuation Format (Alternative)
+For multi-step equations, use continuation format (no blank lines needed):
+```json
+{
+  "explanation": "$$\\\\bar{X} = \\\\frac{1}{A}\\\\int_{0}^{4} x f(x)\\\\,dx$$\n$$= \\\\frac{1}{A}\\\\left[F(x)\\\\right]_{0}^{4}$$\n$$= \\\\frac{1}{A}(F(4) - F(0))$$"
+}
+```
+Note: Subsequent lines start with `=` (continuation), not the variable name.
+
 ### Best Practice
-Always use double backslashes for LaTeX in JSON files. Test rendering immediately after adding LaTeX content.
+- Always use double backslashes for LaTeX in JSON files
+- Add blank lines (`\n\n`) between separate display math blocks
+- Use continuation format (`$$=...$$`) for multi-step derivations
+- Test rendering immediately after adding LaTeX content
 
 ---
 
@@ -331,6 +360,49 @@ Always follow this workflow:
 - Use browser dev tools to verify JavaScript behavior
 - Test edge cases (welcome screen, empty states, transitions)
 - Get explicit user approval before deploying
+
+---
+
+## 14. Section Headers in Quiz JSON - Use Markdown Headers, Not Bold
+
+### Issue
+Section labels in quiz answers using `**Label:**` pattern didn't render as bold consistently. This happened multiple times when creating quiz.json files.
+
+### Root Cause
+Bold text (`**text**`) in Markdown has inconsistent rendering when used for section headers, especially with newlines. The proper solution is to use Markdown headers (`##`) for sections instead of bold text.
+
+### Correct Solution
+Use `##` Markdown headers for section labels in the `explanation` field, and keep the `answer` field brief.
+
+**Correct Pattern (from Test 1):**
+```json
+{
+  "answer": "$M_D = 1{,}380\\,\\mathrm{lb\\cdot ft}$ (counterclockwise)",
+  "explanation": "## Given\\n\\n$W = 100\\,\\mathrm{lb}$, with 40 lb loads at A and C.\\n\\n## Step 1: Identify the support type\\n\\nPoint D is a fixed-end support...\\n\\n## Step 2: Sum moments about D\\n\\nTaking counterclockwise moments as positive:\\n\\n$$\\\\Sigma M_D = 40(8)...$$"
+}
+```
+
+### Structure
+1. **answer field**: Brief, concise final answer (like "$M_D = 1{,}380\\,\\mathrm{lb\\cdot ft}$")
+2. **explanation field**: Detailed solution with `##` headers for sections like "## Given", "## Step 1:", "## Step 2:", "## Summary"
+
+### Working Examples
+From Test 1:
+- `## Step 1: Geometry and Distances` ✅
+- `## Given` ✅
+- `## Step 2: Moment of Force P About A` ✅
+- `## Summary` ✅
+
+### Non-Working Pattern
+- `**Step 1:** Description...` ❌ (bold doesn't render as section header)
+- `**Step 1: Identify the support type**\\nPoint D is...` ❌ (bold with newline issues)
+
+### Best Practice
+- Use `##` for main sections in the explanation field
+- Use `###` for subsections if needed
+- Keep answer field brief (just the final answer)
+- Put all detailed work in the explanation field with proper headers
+- Reference Test 1 quiz.json as the template for formatting
 
 ---
 
