@@ -33,7 +33,7 @@
       "resources": [
         {
           "type": "Khan Academy - Right Hand Rule",
-          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-5-magnetic-field-due-to-current"
+          "url": "https://www.khanacademy.org/science/ap-physics-2/ap-magnetic-forces-and-magnetic-fields/x0e2f5a2c:magnetism-and-current-carrying-wires/v/oersteds-experiment-magnetic-field-due-to-current"
         }
       ]
     },
@@ -52,7 +52,7 @@
       "resources": [
         {
           "type": "Article - Magnetic Poles",
-          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magpole.html"
+          "url": "https://www.livescience.com/physics-mathematics/why-do-magnets-have-north-and-south-poles"
         }
       ]
     },
@@ -85,7 +85,7 @@
       "resources": [
         {
           "type": "Khan Academy - Charged Particle in Magnetic Field",
-          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/lorentz-force/v/lorentz-force"
+          "url": "https://www.khanacademy.org/science/in-in-class-12th-physics-india/moving-charges-and-magnetism/x51bd77206da864f3:lorentz-force-definition-of-magnetic-field/v/magnetism-2"
         }
       ]
     },
@@ -205,7 +205,7 @@
       "resources": [
         {
           "type": "Khan Academy - Magnetic Field from Wire",
-          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-5-magnetic-field-due-to-current"
+          "url": "https://www.khanacademy.org/science/ap-physics-2/ap-magnetic-forces-and-magnetic-fields/x0e2f5a2c:magnetism-and-current-carrying-wires/v/oersteds-experiment-magnetic-field-due-to-current"
         }
       ],
       "images": ["images/Quiz 3 (S24)_p4_img1.png"]
@@ -247,7 +247,7 @@
       "resources": [
         {
           "type": "Article - Magnetic Monopoles",
-          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magpole.html"
+          "url": "https://www.livescience.com/physics-mathematics/why-do-magnets-have-north-and-south-poles"
         }
       ]
     },
@@ -266,7 +266,7 @@
       "resources": [
         {
           "type": "Khan Academy - Solenoid",
-          "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/v/magnetism-9-electric-current-induces-magnetic-field"
+          "url": "https://www.khanacademy.org/science/bridge-course-class-12th-physics/x3cfc85e6d33cc178:magnetic-effects-of-current/x3cfc85e6d33cc178:magnetism-ii/v/magnetic-fields-through-solenoids"
         }
       ],
       "images": ["images/Quiz 3 (S24)_p5_img1.png"]
@@ -307,7 +307,7 @@
       "resources": [
         {
           "type": "Article - Paramagnetism",
-          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/para.html"
+          "url": "https://en.wikipedia.org/wiki/Paramagnetism"
         }
       ]
     },
