@@ -92,8 +92,8 @@
         "(c) 0.0010 T",
         "(d) 0.0080 T"
       ],
-      "answer": "(b) 0.0020 T",
-      "explanation": "For solenoid: $B = \\mu_0 n I$. From image, approximately 16 turns over 10 cm gives $n = 160\\,\\text{turns/m}$. $B = (4\\pi \\times 10^{-7})(160)(10) \\approx 2.0 \\times 10^{-3}$ T = 0.0020 T.",
+      "answer": "(a) 0.0040 T",
+      "explanation": "For solenoid: $B = \\mu_0 n I$. From image, approximately 32 turns over 10 cm gives $n = 320\\,\\text{turns/m}$. $B = (4\\pi \\times 10^{-7})(320)(10) \\approx 4.0 \\times 10^{-3}$ T = 0.0040 T.",
       "resources": [
         {
           "type": "Khan Academy - Solenoid",
@@ -192,8 +192,8 @@
         "(c) South",
         "(d) North"
       ],
-      "answer": "(b) Down",
-      "explanation": "Negative charge moving west (velocity west), B pointing north. Using $\\vec{F} = q\\vec{v} \\times \\vec{B}$ with negative charge reverses the right-hand rule direction, giving downward force.",
+      "answer": "(a) Up",
+      "explanation": "Negative charge moving west (velocity west), B pointing north. Using $\\vec{F} = q\\vec{v} \\times \\vec{B}$ with negative charge reverses the right-hand rule direction, giving upward force.",
       "resources": [
         {
           "type": "Article - Lorentz Force",
