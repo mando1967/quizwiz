@@ -1,5 +1,5 @@
 {
-  "title": "PHYS 214 - Test 3, Quiz 3P (S16)",
+  "title": "PHYS 214 - Test 3, Quiz 3 (S16)",
   "questions": [
     {
       "number": 1,
@@ -20,7 +20,7 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magfor.html"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p2_img1_prob1-2-3.png"]
+      "images": ["images/Quiz 3 (S16)_p2_img1_prob1-2-3.png"]
     },
     {
       "number": 2,
@@ -41,7 +41,7 @@
           "url": "https://www.khanacademy.org/science/in-in-class-12th-physics-india/moving-charges-and-magnetism/x51bd77206da864f3:lorentz-force-definition-of-magnetic-field/v/magnetism-2"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p2_img1_prob1-2-3.png"]
+      "images": ["images/Quiz 3 (S16)_p2_img1_prob1-2-3.png"]
     },
     {
       "number": 3,
@@ -100,7 +100,7 @@
           "url": "https://www.khanacademy.org/science/bridge-course-class-12th-physics/x3cfc85e6d33cc178:magnetic-effects-of-current/x3cfc85e6d33cc178:magnetism-ii/v/magnetic-fields-through-solenoids"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p3_img1_prob4-5-6-7.png"]
+      "images": ["images/Quiz 3 (S16)_p3_img1_prob4-5-6-7.png"]
     },
     {
       "number": 6,
@@ -120,7 +120,7 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p3_img1_prob4-5-6-7.png"]
+      "images": ["images/Quiz 3 (S16)_p3_img1_prob4-5-6-7.png"]
     },
     {
       "number": 7,
@@ -160,7 +160,7 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/toroid.html"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p4_img1_prob8-9-10-11.png"]
+      "images": ["images/Quiz 3 (S16)_p4_img1_prob8-9-10-11.png"]
     },
     {
       "number": 9,
@@ -180,7 +180,7 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/toroid.html"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p4_img1_prob8-9-10-11.png"]
+      "images": ["images/Quiz 3 (S16)_p4_img1_prob8-9-10-11.png"]
     },
     {
       "number": 10,
@@ -278,7 +278,7 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magmom.html"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p5_img1_prob12-13-14-15.png"]
+      "images": ["images/Quiz 3 (S16)_p5_img1_prob12-13-14-15.png"]
     },
     {
       "number": 15,
@@ -330,7 +330,7 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/cyclot.html"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p7_img1_prob17.png"]
+      "images": ["images/Quiz 3 (S16)_p7_img1_prob17.png"]
     },
     {
       "number": 18,
@@ -344,7 +344,7 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/wirfor.html"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p8_img1_prob18.png"]
+      "images": ["images/Quiz 3 (S16)_p8_img1_prob18.png"]
     },
     {
       "number": 19,
@@ -358,7 +358,7 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/amplaw.html"
         }
       ],
-      "images": ["images/Quiz 3P (S16)_p9_img1_prob19.png"]
+      "images": ["images/Quiz 3 (S16)_p9_img1_prob19.png"]
     },
     {
       "number": 20,
