@@ -80,8 +80,8 @@
         "(d) West",
         "(e) Very little deflection will occur"
       ],
-      "answer": "(d) West",
-      "explanation": "At the equator, Earth's magnetic field points horizontally north. A proton moving down experiences a force $\\vec{F} = q\\vec{v} \\times \\vec{B}$. Using the right-hand rule: velocity down, B north, force points west.",
+      "answer": "(c) East",
+      "explanation": "At the equator, Earth's magnetic field points horizontally north. A proton moving down experiences a force $\\vec{F} = q\\vec{v} \\times \\vec{B}$. Using the right-hand rule: velocity down, B north, force points east.",
       "resources": [
         {
           "type": "Khan Academy - Lorentz Force",
@@ -140,8 +140,8 @@
         "(d) 12 A",
         "(e) can be -6 A or 6 A, depending on the choice of the path in the integral."
       ],
-      "answer": "(b) 0 A",
-      "explanation": "By Ampère's law, $\\frac{1}{\\mu_0}\\oint \\vec{B}\\cdot d\\vec{l} = I_{enc}$. From the diagram: two 6 A currents into the page and one 12 A current out of the page. Net enclosed current: $-6 - 6 + 12 = 0$ A.",
+      "answer": "(e) can be -6 A or 6 A, depending on the choice of the path in the integral.",
+      "explanation": "By Ampère's law, $\\frac{1}{\\mu_0}\\oint \\vec{B}\\cdot d\\vec{l} = I_{enc}$. The value depends on which currents are enclosed by the chosen loop path.",
       "resources": [
         {
           "type": "Khan Academy - Ampere's Law",
@@ -270,8 +270,8 @@
         "(c) Lower left",
         "(d) Lower right"
       ],
-      "answer": "(c) Lower left",
-      "explanation": "In a toroid, the magnetic field forms concentric circles inside the toroid. Using the right-hand rule with current direction shown, the field circulates in the lower left pattern.",
+      "answer": "(b) Upper right",
+      "explanation": "In a toroid, the magnetic field forms concentric circles inside the toroid. Using the right-hand rule with current direction shown, the field circulates in the upper right pattern.",
       "resources": [
         {
           "type": "Article - Toroid",

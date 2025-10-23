@@ -120,7 +120,7 @@
         "(d) The top half of the insulation should be removed from the left side and the bottom half has to be removed from the right side",
         "(e) The top half of the insulation should be removed from the left side and all the insulation has to be removed from the right side"
       ],
-      "answer": "(d) The top half of the insulation should be removed from the left side and the bottom half has to be removed from the right side",
+      "answer": "(e) The top half of the insulation should be removed from the left side and all the insulation has to be removed from the right side",
       "explanation": "This creates a commutator that allows current to flow only when the coil is in the correct orientation for continuous rotation.",
       "resources": [
         {
@@ -162,8 +162,8 @@
         "(d) West",
         "(e) Nowhere ($\\vec{B}$ = 0)"
       ],
-      "answer": "(d) West",
-      "explanation": "Using right-hand rule: thumb points south (current direction), fingers curl around wire. Directly below the wire, field points west.",
+      "answer": "(c) East",
+      "explanation": "Using right-hand rule: thumb points south (current direction), fingers curl around wire. Directly below the wire, field points east.",
       "resources": [
         {
           "type": "Khan Academy - Magnetic Field from Wire",
@@ -203,8 +203,8 @@
         "(d) IV",
         "(e) V"
       ],
-      "answer": "(b) II",
-      "explanation": "For a long straight wire: $B = \\frac{\\mu_0 I}{2\\pi r}$, which gives a 1/r relationship (hyperbolic decay). Graph II shows this behavior.",
+      "answer": "(e) V",
+      "explanation": "For a long straight wire: $B = \\frac{\\mu_0 I}{2\\pi r}$, which gives a 1/r relationship (hyperbolic decay). Graph V shows this behavior.",
       "resources": [
         {
           "type": "Article - Magnetic Field vs Distance",
@@ -285,8 +285,8 @@
         "(c) paramagnetic",
         "(d) ferromagnetic"
       ],
-      "answer": "(b) diamagnetic",
-      "explanation": "Diamagnetic materials develop induced fields opposing the external field (repulsion). Field disappears when magnet is removed.",
+      "answer": "(c) paramagnetic",
+      "explanation": "Paramagnetic materials develop temporary magnetization aligned with external field but lose it when field is removed.",
       "resources": [
         {
           "type": "Article - Diamagnetism",

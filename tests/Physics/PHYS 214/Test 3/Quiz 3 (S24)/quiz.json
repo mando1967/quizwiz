@@ -160,8 +160,8 @@
         "(d) South",
         "(e) Nowhere"
       ],
-      "answer": "(b) Down",
-      "explanation": "Using $\\vec{F} = I\\vec{L} \\times \\vec{B}$: current east, B pointing north (horizontal), force points downward by right-hand rule.",
+      "answer": "(a) Up",
+      "explanation": "Using $\\vec{F} = I\\vec{L} \\times \\vec{B}$: current east, B pointing north (horizontal), force points upward by right-hand rule.",
       "resources": [
         {
           "type": "Article - Force on Current-Carrying Wire",
@@ -200,8 +200,8 @@
         "(d) Out of the page",
         "(e) Nowhere ($\\vec{B}$ = 0)"
       ],
-      "answer": "(c) Into the page",
-      "explanation": "Using the right-hand rule for a current-carrying wire: thumb points in current direction (upward), fingers curl around showing B field direction. At point C to the right of the wire, field points into the page.",
+      "answer": "(d) Out of the page",
+      "explanation": "Using the right-hand rule for a current-carrying wire: thumb points in current direction (upward), fingers curl around showing B field direction. At point C to the right of the wire, field points out of the page.",
       "resources": [
         {
           "type": "Khan Academy - Magnetic Field from Wire",
@@ -221,8 +221,8 @@
         "(d) to the right",
         "(e) zero"
       ],
-      "answer": "(b) out of the page",
-      "explanation": "Protons moving counterclockwise create a current loop. Using right-hand rule: curl fingers in direction of current (counterclockwise), thumb points out of page at center.",
+      "answer": "(a) into the page",
+      "explanation": "Protons moving counterclockwise create a current loop. Using right-hand rule: curl fingers in direction of current (counterclockwise), thumb points into the page at center.",
       "resources": [
         {
           "type": "Article - Current Loop Magnetic Field",
@@ -282,8 +282,8 @@
         "(d) Start rotating clockwise",
         "(e) Start rotating counterclockwise"
       ],
-      "answer": "(a) Pushed to the right",
-      "explanation": "With current shown, the solenoid's left end becomes a south pole. The bar magnet has N on left, which is attracted to the solenoid's S pole, pushing it to the right.",
+      "answer": "(b) Pushed to the left",
+      "explanation": "With current shown, the solenoid's left end becomes a north pole. The bar magnet has N on left, which is repelled by the solenoid's N pole, pushing it to the left.",
       "resources": [
         {
           "type": "Video - Magnetic Forces",
@@ -302,8 +302,8 @@
         "(c) paramagnetic",
         "(d) ferromagnetic"
       ],
-      "answer": "(c) paramagnetic",
-      "explanation": "Paramagnetic materials develop temporary magnetization aligned with external field but lose it when field is removed. Ferromagnetic materials retain magnetization.",
+      "answer": "(b) diamagnetic",
+      "explanation": "Diamagnetic materials develop induced magnetic fields that oppose the external field. The field disappears when the external magnet is removed.",
       "resources": [
         {
           "type": "Article - Paramagnetism",
