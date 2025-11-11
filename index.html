@@ -123,7 +123,9 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
 
       <!-- Welcome Screen (shown when no quiz selected) -->
       <div id="welcome-screen" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 400px; padding: 40px; text-align: center;">
-        <img src="wizard.jpg" alt="Quiz Wizard" style="max-width: 300px; max-height: 300px; width: auto; height: auto; margin-bottom: 30px; border-radius: 15px; box-shadow: 0 4px 12px rgba(74, 20, 140, 0.2);" />
+        <span id="wizard-logo" class="tooltip-trigger" data-tooltip="" style="display: inline-block; cursor: help;">
+          <img src="wizard.jpg" alt="Quiz Wizard" style="max-width: 300px; max-height: 300px; width: auto; height: auto; margin-bottom: 30px; border-radius: 15px; box-shadow: 0 4px 12px rgba(74, 20, 140, 0.2); display: block;" />
+        </span>
         <h2 style="color: #4a148c; font-family: 'MedievalSharp', cursive; font-size: 2rem; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(102, 126, 234, 0.3);">Welcome to Quiz Wizard! 🧙</h2>
         <p style="color: #5e35b1; font-size: 1.1rem; max-width: 500px; line-height: 1.6; margin-bottom: 10px;">Select a test and quiz from the sidebar to begin your magical learning journey.</p>
         <p style="color: #7e57c2; font-size: 0.95rem; font-style: italic;">✨ Master physics with flashcards, detailed solutions, and instant feedback ✨</p>
@@ -164,7 +166,67 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
   let originalQuestionIndex = -1; // Track original index when in review
   let performanceStats = { correct: 0, incorrect: 0, total: 0 }; // Track overall performance
 
+  // Inspirational quotes for wizard logo
+  const inspirationalQuotes = [
+    "Do the best you can until you know better. Then when you know better, do better. - Maya Angelou",
+    "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self. - Ernest Hemingway",
+    "Stay afraid, but do it anyway. What's important is the action. You don't have to wait to be confident. Just do it and eventually the confidence will follow. - Carrie Fisher",
+    "One can choose to go back toward safety or forward toward growth. Growth must be chosen again and again; fear must be overcome again and again. - Abraham Maslow",
+    "We can't become what we need to be by remaining what we are. - Oprah Winfrey",
+    "When we're growing up, there are all sorts of people telling us what to do when really what we need is space to work out who to be. - Elliot Page",
+    "If there is no struggle, there is no progress. - Frederick Douglass",
+    "Permit yourself to change your mind when something is no longer working for you. - Nedra Glover Tawwab",
+    "Be not afraid of growing slowly; be afraid only of standing still. - Chinese Proverb",
+    "Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending. - Carl Bard",
+    "Change brings opportunity. - Nido Qubein",
+    "Sometimes good things fall apart so better things could fall together. - Marilyn Monroe",
+    "Incredible change happens in your life when you decide to take control of what you have power over instead of craving control over what you don't. - Steve Maraboli",
+    "Recognizing that you are not where you want to be is a starting point to begin changing your life. - Deborah Day",
+    "People who are crazy enough to think they can change the world are the ones who do. - Rob Siltanen",
+    "I am no longer accepting the things I cannot change. I am changing the things I cannot accept. - Angela Davis",
+    "What you do makes a difference, and you have to decide what kind of difference you want to make. - Jane Goodall",
+    "Change is made of choices, and choices are made of character. - Amanda Gorman",
+    "Tradition is nothing but ancestral peer pressure. - Indya Moore",
+    "Change is the law of life and those who look only to the past or present are certain to miss the future. - John F. Kennedy",
+    "Education is the passport to the future, for tomorrow belongs to those who prepare for it today. - Malcolm X",
+    "A well-educated mind will always have more questions than answers. - Helen Keller",
+    "Our greatest natural resource is the minds of our children. - Walt Disney",
+    "Education is not preparation for life; education is life itself. - John Dewey",
+    "You cannot uneducate the person who has learned to read. - Cesar Chavez",
+    "Everyone you will ever meet knows something you don't. - Bill Nye",
+    "An investment in knowledge pays the best interest. - Benjamin Franklin",
+    "Education is the most powerful weapon which you can use to change the world. - Nelson Mandela",
+    "The whole purpose of education is to turn mirrors into windows. - Sydney J. Harris",
+    "One child, one teacher, one book, one pen can change the world. - Malala Yousafzai",
+    "Strive not to be a success, but rather to be of value. - Albert Einstein",
+    "The swiftest way to triple your success is to double your investment in personal development. - Robin Sharma",
+    "I would like to think that all of my successes in life are really just the fruit of my failures. - Yvie Oddly",
+    "Someone is sitting in the shade today because someone planted a tree a long time ago. - Warren Buffett",
+    "Always work hard and have fun in what you do because I think that's when you're more successful. You have to choose to do it. - Simone Biles",
+    "I'm a great believer in luck, and I find the harder I work the more I have of it. - Thomas Jefferson",
+    "Failure is not the opposite of success; it is a stepping stone towards it. - Sundar Pichai",
+    "When someone tells me 'no,' it doesn't mean I can't do it, it simply means I can't do it with them. - Karen E. Quinones Miller",
+    "Every strike brings me closer to the next home run. - Babe Ruth",
+    "Success isn't about the end result, it's about what you learn along the way. - Vera Wang",
+    "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover. - Mark Twain",
+    "We are products of our past, but we don't have to be prisoners of it. - Rick Warren",
+    "You can waste your lives drawing lines. Or you can live your life crossing them. - Shonda Rhimes",
+    "You are the one that possesses the keys to your being. You carry the passport to your own happiness. - Diane von Furstenberg",
+    "When you get into a tight place and everything goes against you… never give up then, for that is just the place and time that the tide will turn. - Harriet Beecher Stowe",
+    "Accept responsibility for your life. Know that it is you who will get you where you want to go, no one else. - Les Brown",
+    "Once we believe in ourselves, we can risk curiosity, wonder, spontaneous delight, or any experiences that reveals the human spirit. - e.e. cummings",
+    "If you don't make the time to work on creating the life you want, you're eventually going to be forced to spend a lot of time dealing with a life you don't want. - Kevin Ngo",
+    "It is never too late to be who you might have been. - George Eliot",
+    "The way I see it, if you want the rainbow, you gotta put up with the rain. - Dolly Parton"
+  ];
 
+  function updateWizardQuote() {
+    const wizardLogo = document.getElementById('wizard-logo');
+    if (wizardLogo) {
+      const randomQuote = inspirationalQuotes[Math.floor(Math.random() * inspirationalQuotes.length)];
+      wizardLogo.setAttribute('data-tooltip', randomQuote);
+    }
+  }
 
   function fadeOut(element, callback) {
     element.style.opacity = 0;
@@ -736,6 +798,7 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
       populateProblemSelector();
       renderCard();
       updateStatsDisplay();
+      updateClearProgressTooltip();
       
       // Highlight wizard mode in sidebar
       document.querySelectorAll('.accordion-item').forEach(el => el.classList.remove('active'));
@@ -924,6 +987,7 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
         
         renderCard();
         updateStatsDisplay();
+        updateClearProgressTooltip();
       });
   }
 
@@ -1700,6 +1764,27 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
       
       alert('Answer selections cleared! Your performance statistics are preserved.');
     }
+  }
+
+  function updateClearProgressTooltip() {
+    const clearBtn = document.querySelector('.clear-progress-btn');
+    if (!clearBtn) return;
+    
+    if (!currentQuizSet) {
+      clearBtn.setAttribute('data-tooltip', 'You can only improve progress with QuizWiz, Kimosabe');
+    } else {
+      clearBtn.setAttribute('data-tooltip', 'Clear your progress, statistics, and answers for the current quiz.\nYour flashcard history will be reset.');
+    }
+  }
+
+  // Initialize tooltips on page load
+  updateClearProgressTooltip();
+  updateWizardQuote();
+  
+  // Add event listener to change quote on each hover
+  const wizardLogo = document.getElementById('wizard-logo');
+  if (wizardLogo) {
+    wizardLogo.addEventListener('mouseenter', updateWizardQuote);
   }
 </script>
 
