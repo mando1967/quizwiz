@@ -420,6 +420,18 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
           ? `<div class="explanation" style="display: ${showingAnswer ? 'block' : 'none'};"><span class="explanation-label">Explanation</span><div class="explanation-text">${typeof marked !== 'undefined' && marked.parse && data.explanation ? marked.parse(data.explanation) : (data.explanation || '')}</div></div>`
           : '';
         
+        // Add detailed explanation section if available (collapsible)
+        const detailedExplanationHtml = (data.detailed_explanation && data.answer && !data.seeKey && showingAnswer)
+          ? `<div class="detailed-explanation-container" style="display: block;">
+              <button class="detailed-explanation-toggle" onclick="toggleDetailedExplanation(${currentIndex})">
+                <span class="toggle-icon">▶</span> View Detailed Explanation
+              </button>
+              <div class="detailed-explanation-content" id="detailed-explanation-${currentIndex}" style="display: none;">
+                <div class="detailed-explanation-text">${typeof marked !== 'undefined' && marked.parse && data.detailed_explanation ? marked.parse(data.detailed_explanation) : (data.detailed_explanation || '')}</div>
+              </div>
+            </div>`
+          : '';
+        
         // Add resource links if available - always show when answer is revealed (even for seeKey problems)
         const resourcesHtml = (data.resources && data.resources.length > 0 && showingAnswer)
           ? `<div class="resources">
@@ -430,48 +442,30 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
             </div>`
           : '';
 
-        // Extract key terms from question title
-        let rawText = (data.title || term).replace(/^\d+\.\s*/, '').replace(/\([a-z]\)\s*/i, '').trim();
-        // Remove LaTeX, images, and extra whitespace
-        rawText = rawText.replace(/\$.*?\$/g, '').replace(/\[IMAGE:.*?\]/g, '').replace(/\s+/g, ' ').trim();
+        // Build search query with question and answer
+        let rawText = (data.title || term).replace(/^\d+\.\s*/, '').replace(/\(?\d+\s+points?\)?/i, '').trim();
+        // Remove LaTeX for readability, but keep the question structure
+        rawText = rawText.replace(/\$[^$]+\$/g, '[equation]').replace(/\[IMAGE:.*?\]/g, '').replace(/\s+/g, ' ').trim();
         
-        // Extract key physics/science concepts (common terms) - plurals and singular forms
-        const keyTerms = ['capacitors?', 'resistors?', 'circuits?', 'voltage', 'current', 'charges?', 
-                          'electric fields?', 'magnetic fields?', 'potential', 'energy', 'power', 
-                          'forces?', 'acceleration', 'velocity', 'momentum', 'waves?', 'frequency', 
-                          'resistance', 'inductance', 'batteries?', 'particles?', 'electrons?', 
-                          'protons?', 'fields?', 'flux', 'capacitance', 'dielectric'];
+        // Limit question length for the search box (keep it reasonable)
+        if (rawText.length > 150) {
+          rawText = rawText.substring(0, 150) + '...';
+        }
         
-        let foundTerms = [];
-        const lowerText = rawText.toLowerCase();
+        // Format the search query: Question + Answer + Request for detailed explanation
+        let searchQuery = `Provide a detailed explanation for: ${rawText}`;
         
-        // Find all matching key terms in the question (limit to first 2-3 most relevant)
-        for (let termPattern of keyTerms) {
-          const regex = new RegExp('\\b(' + termPattern + ')\\b', 'i');
-          const match = lowerText.match(regex);
-          if (match && !foundTerms.includes(match[1])) {
-            foundTerms.push(match[1]);
-            if (foundTerms.length >= 3) break; // Limit to 3 terms max
+        // Add the answer if available
+        if (data.answer) {
+          // Clean up the answer - remove extra formatting but keep the core content
+          let cleanAnswer = data.answer.replace(/\$[^$]+\$/g, '[value]').replace(/\s+/g, ' ').trim();
+          if (cleanAnswer.length > 100) {
+            cleanAnswer = cleanAnswer.substring(0, 100) + '...';
           }
+          searchQuery += ` Answer: ${cleanAnswer}.`;
         }
         
-        // If no key terms found, extract important-looking words (nouns, typically capitalized or technical)
-        if (foundTerms.length === 0) {
-          const words = rawText.split(/\s+/).filter(w => w.length > 4);
-          foundTerms = words.slice(0, 2);
-        }
-        
-        // Format the search query with quoted terms
-        let searchQuery = 'Tell me more about ';
-        if (foundTerms.length === 1) {
-          searchQuery += `"${foundTerms[0]}"`;
-        } else if (foundTerms.length === 2) {
-          searchQuery += `"${foundTerms[0]}" and "${foundTerms[1]}"`;
-        } else if (foundTerms.length >= 3) {
-          searchQuery += foundTerms.slice(0, -1).map(t => `"${t}"`).join(', ') + ` and "${foundTerms[foundTerms.length - 1]}"`;
-        } else {
-          searchQuery = rawText.substring(0, 60); // Fallback
-        }
+        searchQuery += ' Explain why this is correct.';
         
         // Add Google AI search box - only show when answer is revealed
         const searchHtml = showingAnswer
@@ -491,11 +485,12 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
             </div>`
           : '';
         
-        // Combine explanation, resources, and search into one frame
+        // Combine explanation, detailed explanation, resources, and search into one frame
         // For seeKey problems, still show resources and search
-        const learningFrame = (explanationHtml || resourcesHtml || searchHtml) && showingAnswer
+        const learningFrame = (explanationHtml || detailedExplanationHtml || resourcesHtml || searchHtml) && showingAnswer
           ? `<div class="learning-frame">
               ${explanationHtml}
+              ${detailedExplanationHtml}
               ${resourcesHtml}
               ${searchHtml}
             </div>`
@@ -731,14 +726,16 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
       
       // Load all quiz versions for this test set
       for (const quiz of testSet.quizVersions) {
-        const path = `${basePath}/${quiz.name}/flashcards.txt?t=${Date.now()}`;
+        // Determine file type and parser based on quiz configuration
+        const fileName = quiz.isQuizJson ? 'quiz.json' : 'flashcards.txt';
+        const path = `${basePath}/${quiz.name}/${fileName}?t=${Date.now()}`;
         const response = await fetch(path);
         if (!response.ok) {
           console.warn(`Failed to load ${quiz.name}`);
           continue;
         }
         const data = await response.text();
-        const cards = parseFlashcards(data);
+        const cards = quiz.isQuizJson ? parseQuizJson(data) : parseFlashcards(data);
         
         // Add source info to each card and update image paths
         cards.forEach(card => {
@@ -854,7 +851,8 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
         title: questionLines[0],
         choices: q.choices,
         answer: q.answer,
-        explanation: q.explanation
+        explanation: q.explanation,
+        detailed_explanation: q.detailed_explanation
       };
       
       // Add images if present
@@ -1481,6 +1479,27 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
     userSelections = {}; // Clear selections when randomizing
     resetTimer();
     renderCard();
+  }
+
+  function toggleDetailedExplanation(index) {
+    const content = document.getElementById(`detailed-explanation-${index}`);
+    const button = event.target.closest('.detailed-explanation-toggle');
+    const icon = button.querySelector('.toggle-icon');
+    
+    if (content.style.display === 'none') {
+      content.style.display = 'block';
+      icon.textContent = '▼';
+      button.innerHTML = `<span class="toggle-icon">▼</span> Hide Detailed Explanation`;
+    } else {
+      content.style.display = 'none';
+      icon.textContent = '▶';
+      button.innerHTML = `<span class="toggle-icon">▶</span> View Detailed Explanation`;
+    }
+    
+    // Re-typeset math in the detailed explanation if MathJax is available
+    if (window.MathJax && window.MathJax.typesetPromise) {
+      window.MathJax.typesetPromise([content]).catch(err => console.error('MathJax typeset error:', err));
+    }
   }
 
   function updateTimer() {
