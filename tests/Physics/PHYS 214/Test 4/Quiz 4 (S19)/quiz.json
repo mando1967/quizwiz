@@ -1,0 +1,617 @@
+{
+  "title": "Physics 214/224 Quiz 4 (S19) — JSON Extraction",
+  "questions": [
+    {
+      "number": 1,
+      "points": 3,
+      "question": "Faraday's law states that an induced emf is proportional to",
+      "choices": [
+        "(a) the rate of change of the magnetic field",
+        "(b) the rate of change of the electric field",
+        "(c) the rate of change of the magnetic flux",
+        "(d) the rate of change of the electric flux",
+        "(e) zero"
+      ],
+      "answer": "(c) the rate of change of the magnetic flux",
+      "explanation": "Faraday's law is $\\mathcal{E} = -d\\Phi_B/dt$, where $\\Phi_B$ is the magnetic flux through the loop.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": 3,
+      "question": "In the mutual inductance circuit with a battery, switch S, and a secondary loop with galvanometer G, when will G show a non-zero reading?",
+      "choices": [
+        "(a) only just after S is closed",
+        "(b) only just after S is opened",
+        "(c) only while S is kept closed",
+        "(d) never",
+        "(e) only just after S is opened or closed"
+      ],
+      "answer": "(e) only just after S is opened or closed",
+      "explanation": "Only a changing current in the primary loop changes the magnetic flux through the secondary, inducing a transient emf when S is opened or closed.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": 3,
+      "question": "A square loop of wire lies in the plane of the page. A decreasing magnetic field is directed into the page. The induced current in the loop is",
+      "choices": [
+        "(a) counterclockwise",
+        "(b) clockwise",
+        "(c) zero",
+        "(d) up the left edge and from right to left along the top edge",
+        "(e) through the middle of the page"
+      ],
+      "answer": "(b) clockwise",
+      "explanation": "As into-page flux decreases, the induced current must create into-page field to oppose the change, which is produced by a clockwise current.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": 3,
+      "question": "The stored energy in an inductor",
+      "choices": [
+        "(a) depends, in sign, upon the direction of the current",
+        "(b) depends on the rate of change of current",
+        "(c) is proportional to the square of inductance",
+        "(d) has units J/H",
+        "(e) is none of the above"
+      ],
+      "answer": "(e) is none of the above",
+      "explanation": "The energy stored in an inductor is $U = \\tfrac12 L I^{2}$; it depends on $L$ and the square of the current, not on the sign or rate of change, and none of the listed statements is correct.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": 3,
+      "question": "A long straight wire carries a constant current upward and lies to the left of a rectangular conducting loop. While the wire is being moved toward the loop, the current in the loop is",
+      "choices": [
+        "(a) zero",
+        "(b) clockwise",
+        "(c) counterclockwise",
+        "(d) clockwise in the left side and counterclockwise in the right side",
+        "(e) counterclockwise in the left side and clockwise in the right side"
+      ],
+      "answer": "(c) counterclockwise",
+      "explanation": "Moving the wire closer increases into-page flux through the loop, so the induced current is counterclockwise to create an out-of-page field opposing the increase.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": 3,
+      "question": "With the same geometry as Question 5, if the straight wire is fixed but its current increases in time, the current in the loop is",
+      "choices": [
+        "(a) zero",
+        "(b) clockwise",
+        "(c) counterclockwise",
+        "(d) clockwise in the left side and counterclockwise in the right side",
+        "(e) counterclockwise in the left side and clockwise in the right side"
+      ],
+      "answer": "(c) counterclockwise",
+      "explanation": "An increasing current increases into-page flux; the loop responds with a counterclockwise current to produce an opposing out-of-page field.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 3,
+      "question": "A coil of wire having 5 turns has inductance $L$. The inductance of a similar coil having 20 turns is",
+      "choices": [
+        "(a) $4L$",
+        "(b) $L/4$",
+        "(c) $16L$",
+        "(d) $L/16$",
+        "(e) $L$"
+      ],
+      "answer": "(c) $16L$",
+      "explanation": "For similar geometry, inductance is proportional to $N^{2}$, so increasing turns by factor 4 multiplies $L$ by $16$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": 3,
+      "question": "A $3.5\\,\\mathrm{mH}$ inductor and a $4.5\\,\\mathrm{mH}$ inductor are connected in parallel. The equivalent inductance is",
+      "choices": [
+        "(a) $0.13\\,\\mathrm{mH}$",
+        "(b) $0.51\\,\\mathrm{mH}$",
+        "(c) $1.0\\,\\mathrm{mH}$",
+        "(d) $2.0\\,\\mathrm{mH}$",
+        "(e) $8.0\\,\\mathrm{mH}$"
+      ],
+      "answer": "(d) $2.0\\,\\mathrm{mH}$",
+      "explanation": "For parallel inductors, $1/L_{\\text{eq}} = 1/L_1 + 1/L_2$. Here $1/L_{\\text{eq}} \\approx 1/3.5 + 1/4.5$, giving $L_{\\text{eq}} \\approx 2.0\\,\\mathrm{mH}$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": 3,
+      "question": "A diagram shows a self-induced emf directed to the right across an inductor while the current $i$ is also to the right. The current $i$ is",
+      "choices": [
+        "(a) increasing",
+        "(b) decreasing",
+        "(c) not changing",
+        "(d) either increasing or decreasing",
+        "(e) one of the three: increasing or decreasing or not changing"
+      ],
+      "answer": "(b) decreasing",
+      "explanation": "The inductor's emf always opposes changes in current. If the induced emf is in the same direction as $i$, it is trying to maintain the current against a decrease, so $i$ must be decreasing.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": 3,
+      "question": "Which change has the greatest effect in decreasing the oscillation frequency of an LC circuit?",
+      "choices": [
+        "(a) using $L/2$ and $C/2$",
+        "(b) using $L/2$ and $2C$",
+        "(c) using $2L$ and $C/2$",
+        "(d) using $2L$ and $2C$"
+      ],
+      "answer": "(d) using $2L$ and $2C$",
+      "explanation": "The frequency is $f = 1/(2\\pi\\sqrt{LC})$. Only choice (d) increases $LC$ by factor 4, reducing $f$ by factor 2.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": 3,
+      "question": "Radio receivers are tuned by adjusting the capacitor of an LC circuit. If $C = C_1$ for frequency $600\\,\\mathrm{kHz}$, what must $C$ be for $1200\\,\\mathrm{kHz}$?",
+      "choices": [
+        "(a) $C_1/2$",
+        "(b) $C_1/4$",
+        "(c) $2C_1$",
+        "(d) $4C_1$",
+        "(e) $\\sqrt{2}C_1$"
+      ],
+      "answer": "(b) $C_1/4$",
+      "explanation": "Since $f \\propto 1/\\sqrt{C}$, doubling $f$ requires $C$ four times smaller.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": 3,
+      "question": "At least two transformers operate between us in Manhattan and the Jeffrey Energy Center in Bellevue. What kind of transformers are they?",
+      "choices": [
+        "(a) Jeffrey: step-up; Manhattan: step-up.",
+        "(b) Jeffrey: step-up; Manhattan: step-down.",
+        "(c) Jeffrey: step-down; Manhattan: step-up.",
+        "(d) Jeffrey: step-down; Manhattan: step-down."
+      ],
+      "answer": "(b) Jeffrey: step-up; Manhattan: step-down.",
+      "explanation": "Voltage is stepped up at the plant for transmission and stepped down near consumers.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": 3,
+      "question": "The rapid exponential decay in just a few cycles of the charge in an RLC circuit is most likely due to",
+      "choices": [
+        "(a) a large inductance",
+        "(b) a large capacitance",
+        "(c) a large resistance",
+        "(d) a small capacitance",
+        "(e) a small resistance"
+      ],
+      "answer": "(c) a large resistance",
+      "explanation": "Damping in an RLC circuit is controlled by $R$; large $R$ gives strong damping and rapid decay.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": 3,
+      "question": "In a series RLC circuit with natural angular frequency $\\omega_0$, the source angular frequency $\\omega$ is varied while holding the emf amplitude fixed. For which value of $\\omega$ is the current amplitude greatest?",
+      "choices": [
+        "(a) $\\omega_0/5$",
+        "(b) $\\omega_0/2$",
+        "(c) $\\omega_0$",
+        "(d) $2\\omega_0$",
+        "(e) None of them (they all produce the same amplitude)"
+      ],
+      "answer": "(c) $\\omega_0$",
+      "explanation": "The current amplitude is maximal at resonance when $\\omega = \\omega_0$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": 3,
+      "question": "When the frequency of the oscillator in a series RLC circuit is doubled, what happens to the capacitive reactance?",
+      "choices": [
+        "(a) it is doubled",
+        "(b) it is halved",
+        "(c) the impedance is doubled",
+        "(d) the current amplitude is doubled",
+        "(e) the current amplitude is halved"
+      ],
+      "answer": "(b) it is halved",
+      "explanation": "Capacitive reactance is $X_C = 1/(\\omega C)$; doubling $\\omega$ halves $X_C$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": 3,
+      "question": "If one connects a $1.5\\,\\mathrm{V}$ AA battery to the primary coil of a transformer with $N_1 = 100$ turns and $N_2 = 1000$ turns, what is the potential difference in the secondary coil?",
+      "choices": [
+        "(a) $1.5\\,\\mathrm{V}$",
+        "(b) $15\\,\\mathrm{V}$",
+        "(c) $0.15\\,\\mathrm{V}$",
+        "(d) $0\\,\\mathrm{V}$"
+      ],
+      "answer": "(d) $0\\,\\mathrm{V}$",
+      "explanation": "A transformer requires changing flux; with a DC battery there is no time-varying magnetic field, so no sustained emf is induced in the secondary.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
+        }
+      ]
+    },
+    {
+      "number": "17 (a)",
+      "points": 2,
+      "question": "In the sliding rod setup with rails separated by distance $L$ and rod at position $x$ from the end strip in a uniform field $B$ out of the page, find the magnetic flux through the rectangular loop.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": "17 (b)",
+      "points": 3,
+      "question": "For $B = 0.50\\,\\mathrm{T}$, $L = 0.10\\,\\mathrm{m}$, and rod speed $v = 0.10\\,\\mathrm{m/s}$, what is the magnitude of the induced emf?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": "17 (c)",
+      "points": 3,
+      "question": "If the rod has resistance $10\\,\\Omega$ and the rails and strip have negligible resistance, what is the current in the rod?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": "17 (d)",
+      "points": 4,
+      "question": "What external force is required to pull the rod to the right at constant speed?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": "18 (a)",
+      "points": 2,
+      "question": "A $10\\,\\mathrm{cm}$ long air-core solenoid has $20{,}000$ turns and cross-sectional area $1.0\\,\\mathrm{cm^{2}}$, carrying $3.0\\,\\mathrm{A}$. Show that the magnetic field inside is $B \\approx 0.75\\,\\mathrm{T}$.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": "18 (b)",
+      "points": 3,
+      "question": "Show that the total flux linkage (sum over all turns) is $\\Phi_B = 1.5\\,\\mathrm{Wb}$.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": "18 (c)",
+      "points": 3,
+      "question": "Determine the inductance of the coil.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": "19 (a)",
+      "points": 3,
+      "question": "In the circuit with a $6\\,\\mathrm{V}$ battery of internal resistance $5\\,\\Omega$, an ideal $0.5\\,\\mathrm{H}$ inductor, and a $120\\,\\Omega$ bulb connected as shown, find the bulb current just after the switch is closed.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ],
+      "images": [
+        "images/q19_rl_lamp_circuit.png"
+      ]
+    },
+    {
+      "number": "19 (b)",
+      "points": 3,
+      "question": "A long time after the switch is closed in Question 19, show that the inductor current is $1.2\\,\\mathrm{A}$.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ],
+      "images": [
+        "images/q19_rl_lamp_circuit.png"
+      ]
+    },
+    {
+      "number": "19 (c)",
+      "points": 3,
+      "question": "After the circuit reaches steady state, the switch is reopened. Find the bulb current just after reopening.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ],
+      "images": [
+        "images/q19_rl_lamp_circuit.png"
+      ]
+    },
+    {
+      "number": "19 (d)",
+      "points": 3,
+      "question": "How long after reopening the switch will the bulb current drop to one third of its maximum value?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ],
+      "images": [
+        "images/q19_rl_lamp_circuit.png"
+      ]
+    },
+    {
+      "number": "20 (a)",
+      "points": 2,
+      "question": "In the circuit with capacitors $C_1 = 4.00\\,\\mu\\mathrm{F}$, $C_2 = 2.50\\,\\mu\\mathrm{F}$, and $C_3 = 3.50\\,\\mu\\mathrm{F}$ in parallel, what is the effective capacitance?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ],
+      "images": [
+        "images/q20_rlc_network.png"
+      ]
+    },
+    {
+      "number": "20 (b)",
+      "points": 3,
+      "question": "For driving frequency $f_d = 50\\,\\mathrm{Hz}$, determine the capacitive reactance of the effective capacitance.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ],
+      "images": [
+        "images/q20_rlc_network.png"
+      ]
+    },
+    {
+      "number": "20 (c)",
+      "points": 2,
+      "question": "With inductors $L_1 = 1.70\\,\\mathrm{mH}$ and $L_2 = 2.30\\,\\mathrm{mH}$ in series, what is the effective inductance?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ],
+      "images": [
+        "images/q20_rlc_network.png"
+      ]
+    },
+    {
+      "number": "20 (d)",
+      "points": 3,
+      "question": "For $f_d = 50\\,\\mathrm{Hz}$, determine the inductive reactance of the effective inductance.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ],
+      "images": [
+        "images/q20_rlc_network.png"
+      ]
+    },
+    {
+      "number": "20 (e)",
+      "points": 4,
+      "question": "What is the resonant frequency of the circuit?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ],
+      "images": [
+        "images/q20_rlc_network.png"
+      ]
+    },
+    {
+      "number": "20 (f)",
+      "points": 4,
+      "question": "At the resonant frequency, the generator provides a peak voltage $V_0 = 171\\,\\mathrm{V}$. What is the peak current in the circuit?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ],
+      "images": [
+        "images/q20_rlc_network.png"
+      ]
+    }
+  ]
+}

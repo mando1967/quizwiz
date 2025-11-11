@@ -1,0 +1,546 @@
+{
+  "title": "Physics 214/224 Quiz 4 (S22) — JSON Extraction",
+  "questions": [
+    {
+      "number": 1,
+      "points": 2,
+      "question": "A magnet is moved south-pole-first from a position below a fixed horizontal circular coil toward its center. Viewed from above, what is the direction of the induced current?",
+      "choices": [
+        "(a) clockwise",
+        "(b) counterclockwise",
+        "(c) no current will flow"
+      ],
+      "answer": "(b) counterclockwise",
+      "explanation": "The approaching south pole increases upward (out-of-page) flux through the coil; to oppose this increase, the induced field must be downward, requiring a counterclockwise current when viewed from above.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": 2,
+      "question": "The magnet is held fixed with the horizontal coil located halfway between its north and south poles. What is the induced current direction?",
+      "choices": [
+        "(a) clockwise",
+        "(b) counterclockwise",
+        "(c) no current will flow"
+      ],
+      "answer": "(c) no current will flow",
+      "explanation": "With both magnet and coil fixed, the magnetic flux through the coil is constant, so Faraday’s law gives zero induced emf and no current.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": 2,
+      "question": "The coil is moved upward away from the nearer north pole of the magnet. Viewed from above, what is the induced current direction?",
+      "choices": [
+        "(a) clockwise",
+        "(b) counterclockwise",
+        "(c) no current will flow"
+      ],
+      "answer": "(b) counterclockwise",
+      "explanation": "As the coil moves upward away from the north pole below, the downward (into the page) magnetic flux through the coil decreases. By Lenz's law, the induced current must create a downward field to oppose this decrease. Using the right-hand rule, a counterclockwise current (viewed from above) produces a magnetic field pointing downward through the coil.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": 2,
+      "question": "Which statement is most correct for capacitors operating in AC circuits?",
+      "choices": [
+        "(a) Capacitors are short circuits at low frequencies and open circuits at high frequencies.",
+        "(b) Capacitors are short circuits at high frequencies and open circuits at low frequencies.",
+        "(c) Capacitors impede the current the same way at all frequencies.",
+        "(d) Capacitors cannot operate in AC circuits."
+      ],
+      "answer": "(b) Capacitors are short circuits at high frequencies and open circuits at low frequencies.",
+      "explanation": "The capacitive reactance is $X_C = 1/(\\omega C)$, so it is large at low frequencies (blocking current) and small at high frequencies (acting like a short).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": 2,
+      "question": "Which statement is most correct for inductors operating in AC circuits?",
+      "choices": [
+        "(a) Inductors are short circuits at low frequencies and open circuits at high frequencies.",
+        "(b) Inductors are short circuits at high frequencies and open circuits at low frequencies.",
+        "(c) Inductors impede the current the same way at all frequencies.",
+        "(d) Inductors cannot operate in AC circuits."
+      ],
+      "answer": "(a) Inductors are short circuits at low frequencies and open circuits at high frequencies.",
+      "explanation": "Inductive reactance is $X_L = \\omega L$, so it is small at low frequency (almost a short) and large at high frequency (significant opposition).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": 2,
+      "question": "Which statement is most correct for resistors operating in AC circuits?",
+      "choices": [
+        "(a) Resistors are short circuits at low frequencies and open circuits at high frequencies.",
+        "(b) Resistors are short circuits at high frequencies and open circuits at low frequencies.",
+        "(c) Resistors impede the current the same way at all frequencies.",
+        "(d) Resistors cannot operate in AC circuits."
+      ],
+      "answer": "(c) Resistors impede the current the same way at all frequencies.",
+      "explanation": "For an ideal resistor, $V$ and $I$ are related by Ohm’s law with no frequency dependence.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 2,
+      "question": "In the LR circuit shown (time constant $\\tau = 30\\,\\mathrm{s}$, ideal inductor), the switch has been open a long time. Just after the switch is closed, how does the light bulb respond?",
+      "choices": [
+        "(a) The light will remain dim.",
+        "(b) The light would come on and continue to stay on with a constant brightness.",
+        "(c) The light would come on and then begin to dim gradually.",
+        "(d) The light would briefly flash and then immediately turn off.",
+        "(e) The circuit will explode!"
+      ],
+      "answer": "(c) The light would come on and then begin to dim gradually.",
+      "explanation": "Initially the inductor resists current change, so current and bulb brightness grow from zero; as current approaches steady state, the inductor behaves like a short and the bulb current decreases, so it dims.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ],
+      "images": [
+        "images/q07_lr_circuit.png"
+      ]
+    },
+    {
+      "number": 8,
+      "points": 2,
+      "question": "With the same LR circuit, after the switch has been closed for a very long time, how would the solenoid and the lamp feel to the touch?",
+      "choices": [
+        "(a) Both the solenoid and the lamp would feel very hot.",
+        "(b) Both the solenoid and the lamp would feel cold.",
+        "(c) The solenoid would feel hot while the lamp would feel cold.",
+        "(d) The solenoid would feel cold while the lamp would feel hot."
+      ],
+      "answer": "(b) Both the solenoid and the lamp would feel cold.",
+      "explanation": "After a long time in steady state, the current through the inductor is constant. The ideal inductor acts as a short circuit (zero resistance), so essentially all current flows through it and bypasses the lamp. With negligible current through the lamp and zero resistance in the ideal inductor, no power is dissipated in either component, so both remain cold.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ],
+      "images": [
+        "images/q07_lr_circuit.png"
+      ]
+    },
+    {
+      "number": 9,
+      "points": 2,
+      "question": "Again using the LR circuit, after the switch has been closed a long time, it is suddenly opened. What happens to the light?",
+      "choices": [
+        "(a) The light would remain lit.",
+        "(b) The light would remain off.",
+        "(c) The light would come on brightly and then begin to dim gradually.",
+        "(d) The light would briefly flash and then immediately turn off."
+      ],
+      "answer": "(c) The light would come on brightly and then begin to dim gradually.",
+      "explanation": "When the switch opens, the inductor opposes the change in current by maintaining current flow through the only remaining path: through the lamp. This creates a new RL decay circuit with the lamp and inductor. The current (and brightness) starts at its steady-state value and then decays exponentially with time constant τ = L/R_lamp, causing the light to dim gradually.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ],
+      "images": [
+        "images/q07_lr_circuit.png"
+      ]
+    },
+    {
+      "number": 10,
+      "points": 2,
+      "question": "A circular parallel-plate capacitor is being charged by a current in the connecting wire to the left. Between the plates, what is the direction of the displacement current $i_d$?",
+      "choices": [
+        "(a) leftward",
+        "(b) rightward",
+        "(c) zero (no displacement current)",
+        "(d) it changes from leftward to rightward",
+        "(e) impossible to determine"
+      ],
+      "answer": "(a) leftward",
+      "explanation": "The displacement current has the same direction as the conduction current would have if it could flow through the capacitor. Since current flows leftward in the wire to charge the left plate, the displacement current between the plates is also leftward, maintaining current continuity in the circuit.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 16.3 Displacement Current and Magnetic Fields",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-3-displacement-current"
+        }
+      ],
+      "images": [
+        "images/q10_capacitor_parallel_plates.png"
+      ]
+    },
+    {
+      "number": 11,
+      "points": 2,
+      "question": "For the same charging capacitor, what is the direction of the magnetic field at point $P$ between the plates?",
+      "choices": [
+        "(a) into the page",
+        "(b) out of the page",
+        "(c) zero because there is no real current between the plates"
+      ],
+      "answer": "(a) into the page",
+      "explanation": "The circular magnetic field around the displacement current follows the right-hand rule; with $i_d$ to the right, the field at the indicated point is into the page.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 16.3 Displacement Current and Magnetic Fields",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-3-displacement-current"
+        }
+      ],
+      "images": [
+        "images/q10_capacitor_parallel_plates.png"
+      ]
+    },
+    {
+      "number": 12,
+      "points": 2,
+      "question": "A circular parallel-plate capacitor with plate area $1.0\\,\\mathrm{m^2}$ is being charged by a $2.0\\,\\mathrm{A}$ current. What is the displacement current through a $0.20\\,\\mathrm{m^2}$ area, coaxial and fully between the plates?",
+      "choices": [
+        "(a) $2.0\\,\\mathrm{A}$",
+        "(b) $1.0\\,\\mathrm{A}$",
+        "(c) $0.60\\,\\mathrm{A}$",
+        "(d) $0.40\\,\\mathrm{A}$",
+        "(e) $0.20\\,\\mathrm{A}$"
+      ],
+      "answer": "(d) $0.40\\,\\mathrm{A}$",
+      "explanation": "Displacement current density is uniform, so $i_d = I( A'/A ) = 2.0(0.20/1.0) = 0.40\\,\\mathrm{A}$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 16.3 Displacement Current and Magnetic Fields",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-3-displacement-current"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": 2,
+      "question": "When you decrease the frequency of the oscillator in a series RLC circuit by half, what happens to the capacitive reactance?",
+      "choices": [
+        "(a) it is doubled",
+        "(b) it is halved",
+        "(c) the impedance is doubled",
+        "(d) the current amplitude is doubled",
+        "(e) the current amplitude is halved"
+      ],
+      "answer": "(a) it is doubled",
+      "explanation": "Since $X_C = 1/(\\omega C)$, halving $\\omega$ doubles $X_C$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": 2,
+      "question": "In the AC circuit whose emf $\\mathcal{E}(t)$ (red) and current $i(t)$ (green) versus time are shown, the circuit's load is",
+      "choices": [
+        "(a) mainly capacitive",
+        "(b) mainly inductive",
+        "(c) none of the above"
+      ],
+      "answer": "(b) mainly inductive",
+      "explanation": "In the plot the current lags the voltage, characteristic of a net inductive reactance.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ],
+      "images": [
+        "images/q14_Emf_current_waveforms.png"
+      ]
+    },
+    {
+      "number": 15,
+      "points": 2,
+      "question": "Light is called polarized if",
+      "choices": [
+        "(a) the direction of propagation is always $90^{\\circ}$ to $\\vec E$.",
+        "(b) the electric field $\\vec E$ and direction of propagation are always in the same plane.",
+        "(c) the magnetic field $\\vec B$ is always $90^{\\circ}$ to $\\vec E$.",
+        "(d) the direction of propagation is always $90^{\\circ}$ to both $\\vec E$ and $\\vec B$.",
+        "(e) it is about to go through fancy polarized sunglasses."
+      ],
+      "answer": "(b) the electric field $\\vec E$ and direction of propagation are always in the same plane.",
+      "explanation": "For linearly polarized light, the electric field oscillates in a fixed plane as the wave propagates.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 – 2.5 Polarization",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-5-polarization"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": 2,
+      "question": "Unpolarized light with intensity $I_0$ passes through a polarizer with transmission axis at $0^{\\circ}$. What is the transmitted intensity $I_1$ relative to $I_0$?",
+      "choices": [
+        "(a) $I_1/I_0 = 0$",
+        "(b) $I_1/I_0 = 1/4$",
+        "(c) $I_1/I_0 = 1/\\sqrt{2}$",
+        "(d) $I_1/I_0 = 1/2$",
+        "(e) $I_1/I_0 = 2$"
+      ],
+      "answer": "(d) $I_1/I_0 = 1/2$",
+      "explanation": "An ideal polarizer transmits half the intensity of unpolarized light: $I_1 = I_0/2$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 – 2.5 Polarization",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-5-polarization"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": 2,
+      "question": "The light from Q16 then passes through a second polarizer at $45^{\\circ}$ relative to the first. What is the final intensity $I_2$ relative to $I_0$?",
+      "choices": [
+        "(a) $I_2/I_0 = 0$",
+        "(b) $I_2/I_0 = 1/4$",
+        "(c) $I_2/I_0 = 1/\\sqrt{2}$",
+        "(d) $I_2/I_0 = 1/2$",
+        "(e) $I_2/I_0 = 2$"
+      ],
+      "answer": "(b) $I_2/I_0 = 1/4$",
+      "explanation": "After the first polarizer $I_1 = I_0/2$; the second gives $I_2 = I_1\\cos^{2}45^{\\circ} = (1/2)(1/2)I_0 = I_0/4$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 – 2.5 Polarization",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-5-polarization"
+        }
+      ]
+    },
+    {
+      "number": "18 (a)",
+      "points": 2,
+      "question": "For the loop in a uniform field with flux $\\Phi_B(t) = (2.0 t^{2} - 3.2 t)\\,\\mathrm{mWb}$ (field out of the page), write an expression for the induced emf for $t>0$.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ],
+      "images": [
+        "images/q18_flux_loop.png"
+      ]
+    },
+    {
+      "number": "18 (b)",
+      "points": 2,
+      "question": "Using $\\Phi_B(t) = (2.0 t^{2} - 3.2 t)\\,\\mathrm{mWb}$, what is the magnitude of the induced emf at $t = 2.0\\,\\mathrm{s}$?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ],
+      "images": [
+        "images/q18_flux_loop.png"
+      ]
+    },
+    {
+      "number": "18 (c)",
+      "points": 4,
+      "question": "For the same loop, determine the direction of current through the resistor $R$ at $t = 2.0\\,\\mathrm{s}$ (left, right, or no current).",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ],
+      "images": [
+        "images/q18_flux_loop.png"
+      ]
+    },
+    {
+      "number": "18 (d)",
+      "points": 2,
+      "question": "Find a time $t>0$ when there is no induced current through the resistor.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ],
+      "images": [
+        "images/q18_flux_loop.png"
+      ]
+    },
+    {
+      "number": "19 (a)",
+      "points": 3,
+      "question": "A $20\\,\\mathrm{cm}$-long, radius $3.0\\,\\mathrm{cm}$ iron core (relative permeability $\\mu_r = 600$) has $N=1000$ turns wound around it and is connected as an inductor in an AC circuit. Draw a schematic of the resulting inductor–capacitor system.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": "19 (b)",
+      "points": 3,
+      "question": "Using the given dimensions, calculate the inductance of the coil.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": "19 (c)",
+      "points": 2,
+      "question": "The two parallel $20\\,\\mathrm{cm^{2}}$ plates separated by $1.0\\,\\mathrm{mm}$ form a capacitor. Calculate its capacitance.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": "19 (d)",
+      "points": 3,
+      "question": "What operating frequency of the AC source will maximize heating of the long wire (i.e., produce resonance in the LC combination)?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "points": 12,
+      "question": "In the series RLC circuit with $R = 10.0\\,\\Omega$, $L = 20\\,\\mathrm{mH}$, $C = 0.60\\,\\mu\\mathrm{F}$, and rms source voltage $E = 120\\,\\mathrm{V}$ at variable frequency $f$, determine the resonance frequency and discuss how the current amplitude and phase depend on $f$ relative to resonance.",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        },
+        {
+          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
+        }
+      ],
+      "images": [
+        "images/q20_rlc_circuit.png"
+      ]
+    },
+    {
+      "number": "21 (a)",
+      "points": 3,
+      "question": "Liquid argon scintillation light has wavelength $\\lambda_{\\text{in}} = 128\\,\\mathrm{nm}$. A wavelength shifter re-emits light with frequency 3.5 times smaller. What is the wavelength of the re-emitted light?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 16.1 Maxwells Equations and EM Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": "21 (b)",
+      "points": 3,
+      "question": "The intensity of the re-emitted light is half of the incident scintillation light. What is the ratio of magnetic field amplitudes $B_{\\text{out}}/B_{\\text{in}}$ for the two waves?",
+      "choices": [],
+      "answer": "See answer key PDF for detailed solution.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 – 16.1 Maxwells Equations and EM Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    }
+  ]
+}

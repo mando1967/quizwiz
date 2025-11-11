@@ -180,10 +180,10 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
     selector.innerHTML = '<option value="">Jump to...</option>';
     
     flashcards.forEach((card, idx) => {
-      // Extract problem number from title or term
+      // Extract problem number from title or term (handles "22 (c)" format)
       const text = card.title || card.term || '';
-      const match = text.match(/^(\d+)\./);
-      const problemNum = match ? match[1] : (idx + 1);
+      const match = text.match(/^([^.]+)\./);
+      const problemNum = match ? match[1].trim() : (idx + 1);
       
       const option = document.createElement('option');
       option.value = idx;
@@ -1522,9 +1522,9 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
       const card = flashcards[currentIndex];
       const sourceQuiz = card.sourceQuiz || 'Unknown';
       
-      // Extract problem number from title
-      const problemMatch = (card.title || card.term || '').match(/^(\d+)\./);  
-      const problemNum = problemMatch ? problemMatch[1] : '?';
+      // Extract problem number from title (handles "22 (c)" format)
+      const problemMatch = (card.title || card.term || '').match(/^([^.]+)\./);  
+      const problemNum = problemMatch ? problemMatch[1].trim() : '?';
       
       display.textContent = `${sourceQuiz} - #${problemNum} | ${currentIndex + 1} of ${flashcards.length}${reviewText}`;
     } else {

@@ -1,0 +1,1178 @@
+{
+  "title": "HRW 12e Conceptual Practice Quiz \u2014 LaTeX Math Variant",
+  "questions": [
+    {
+      "number": 1,
+      "points": 2,
+      "question": "What does Lenz's law state about the direction of an induced current?",
+      "choices": [
+        "(a) It enhances the change in flux",
+        "(b) It is independent of flux changes",
+        "(c) It always flows clockwise",
+        "(d) It opposes the change in flux that produced it"
+      ],
+      "answer": "(d) It opposes the change in flux that produced it",
+      "explanation": "Lenz's law says the induced current creates a magnetic effect that opposes the change in magnetic flux (consistent with energy conservation).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "points": 2,
+      "question": "According to Faraday's law, the magnitude of the induced emf in a loop is proportional to:",
+      "choices": [
+        "(a) The magnetic field strength only",
+        "(b) The loop resistance",
+        "(c) The rate of change of magnetic flux",
+        "(d) The loop circumference"
+      ],
+      "answer": "(c) The rate of change of magnetic flux",
+      "explanation": "Faraday's law is $\\lvert\\mathcal{E}\\rvert = \\left|\\dfrac{d\\Phi_B}{dt}\\right|$, so only how fast the flux changes matters.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": 2,
+      "question": "Which expression correctly defines magnetic flux through a flat loop area $A$ in field $B$ at angle $\\theta$?",
+      "choices": [
+        "(a) $\\Phi_B = BA$",
+        "(b) $\\Phi_B = B/A$",
+        "(c) $\\Phi_B = BA\\cos\\theta$",
+        "(d) $\\Phi_B = BA\\sin\\theta$"
+      ],
+      "answer": "(c) $\\Phi_B = BA\\cos\\theta$",
+      "explanation": "Magnetic flux is $\\Phi_B = \\vec B\\cdot\\vec A = BA\\cos\\theta$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": 2,
+      "question": "In motional emf, charges in a conductor moving with velocity $\\vec v$ through field $\\vec B$ are separated by which force?",
+      "choices": [
+        "(a) $q\\vec E$",
+        "(b) Gravity",
+        "(c) $q\\vec v\\times\\vec B$",
+        "(d) Nuclear force"
+      ],
+      "answer": "(c) $q\\vec v\\times\\vec B$",
+      "explanation": "The magnetic part of the Lorentz force drives positive and negative charges to opposite ends, creating an emf.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": 2,
+      "question": "A loop enters a region of increasing magnetic field into the page. To oppose the change, the induced current's own magnetic field points:",
+      "choices": [
+        "(a) Into the page",
+        "(b) Out of the page",
+        "(c) Horizontally",
+        "(d) It is zero"
+      ],
+      "answer": "(b) Out of the page",
+      "explanation": "To oppose the increasing into-page flux, the induced current creates a field out of the page.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ],
+      "images": [
+        "images/em_induction_loop.png"
+      ]
+    },
+    {
+      "number": 6,
+      "points": 2,
+      "question": "The negative sign in Faraday's law $\\mathcal{E} = -\\dfrac{d\\Phi_B}{dt}$ expresses:",
+      "choices": [
+        "(a) A meaningless sign convention",
+        "(b) That emf is always negative",
+        "(c) Lenz's law: induced emf opposes flux changes",
+        "(d) That flux is always decreasing"
+      ],
+      "answer": "(c) Lenz's law: induced emf opposes flux changes",
+      "explanation": "It encodes that induced currents resist the change that produces them.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 2,
+      "question": "Eddy currents are:",
+      "choices": [
+        "(a) DC currents in batteries",
+        "(b) Loops of induced current in bulk conductors",
+        "(c) Only currents in superconductors",
+        "(d) Hypothetical with no real effects"
+      ],
+      "answer": "(b) Loops of induced current in bulk conductors",
+      "explanation": "Changing magnetic fields induce circulating currents that cause heating and magnetic braking.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": 2,
+      "question": "Which situation will NOT induce an emf in a conducting loop?",
+      "choices": [
+        "(a) Changing the magnetic field through the loop",
+        "(b) Changing the loop's area in a magnetic field",
+        "(c) Rotating the loop in a magnetic field",
+        "(d) Keeping field, area, and orientation all constant"
+      ],
+      "answer": "(d) Keeping field, area, and orientation all constant",
+      "explanation": "With constant magnetic flux, Faraday's law gives zero induced emf.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": 2,
+      "question": "A transformer operates primarily due to:",
+      "choices": [
+        "(a) Coulomb's law",
+        "(b) Faraday's law of induction",
+        "(c) Gauss's law for magnetism",
+        "(d) Ohm's law"
+      ],
+      "answer": "(b) Faraday's law of induction",
+      "explanation": "A changing magnetic flux in the core induces emfs in primary and secondary windings.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": 2,
+      "question": "The SI unit of magnetic flux is:",
+      "choices": [
+        "(a) Tesla",
+        "(b) Weber",
+        "(c) Henry",
+        "(d) Volt"
+      ],
+      "answer": "(b) Weber",
+      "explanation": "One weber is one tesla-square-meter of magnetic flux.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": 2,
+      "question": "In an RL circuit, the time constant $\\tau$ is:",
+      "choices": [
+        "(a) $R/L$",
+        "(b) $L/R$",
+        "(c) $RC$",
+        "(d) $1/RC$"
+      ],
+      "answer": "(b) $L/R$",
+      "explanation": "For an RL circuit $\\tau = L/R$, setting the rate at which current approaches steady state.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": 2,
+      "question": "Immediately after an RL circuit is connected to a DC source, the ideal inductor:",
+      "choices": [
+        "(a) Allows full current instantly",
+        "(b) Opposes any change in current, acting like an open circuit",
+        "(c) Behaves like a capacitor",
+        "(d) Has no effect"
+      ],
+      "answer": "(b) Opposes any change in current, acting like an open circuit",
+      "explanation": "Inductors resist sudden changes in current, so the initial current is limited.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": 2,
+      "question": "Long after connection to a DC source, the ideal inductor in an RL circuit behaves like:",
+      "choices": [
+        "(a) An open circuit",
+        "(b) A short circuit (wire)",
+        "(c) A large resistor",
+        "(d) A capacitor"
+      ],
+      "answer": "(b) A short circuit (wire)",
+      "explanation": "Once current is steady, the inductor's voltage drop goes to zero.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": 2,
+      "question": "The energy stored in an inductor is:",
+      "choices": [
+        "(a) $LI$",
+        "(b) $\\tfrac12 LI^2$",
+        "(c) $\\tfrac12 CV^2$",
+        "(d) $RI^2$"
+      ],
+      "answer": "(b) $\\tfrac12 LI^2$",
+      "explanation": "An inductor stores magnetic energy given by $U = \\tfrac12 LI^2$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": 2,
+      "question": "The SI unit of inductance is:",
+      "choices": [
+        "(a) Tesla",
+        "(b) Weber",
+        "(c) Henry",
+        "(d) Ohm"
+      ],
+      "answer": "(c) Henry",
+      "explanation": "One henry corresponds to one weber per ampere.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": 2,
+      "question": "The induced emf across an inductor is:",
+      "choices": [
+        "(a) $\\mathcal{E} = LI$",
+        "(b) $\\mathcal{E} = -L\\,\\dfrac{dI}{dt}$",
+        "(c) $\\mathcal{E} = IR$",
+        "(d) $\\mathcal{E} = qvB$"
+      ],
+      "answer": "(b) $\\mathcal{E} = -L\\,\\dfrac{dI}{dt}$",
+      "explanation": "This shows the inductor's emf opposes changes in current.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": 2,
+      "question": "Increasing $L$ (with $R$ fixed) in an RL circuit makes the current reach steady state:",
+      "choices": [
+        "(a) Faster",
+        "(b) More slowly",
+        "(c) At the same rate",
+        "(d) Oscillatory"
+      ],
+      "answer": "(b) More slowly",
+      "explanation": "A larger inductance increases $\\tau = L/R$, slowing the rise.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": 2,
+      "question": "Placing a ferromagnetic core inside a coil generally:",
+      "choices": [
+        "(a) Decreases its inductance",
+        "(b) Increases its inductance",
+        "(c) Leaves inductance unchanged",
+        "(d) Eliminates inductance"
+      ],
+      "answer": "(b) Increases its inductance",
+      "explanation": "A high-permeability core increases magnetic flux linkage.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "points": 2,
+      "question": "In the RL circuit diagram, which element stores energy in a magnetic field?",
+      "choices": [
+        "(a) Battery",
+        "(b) Resistor",
+        "(c) Inductor",
+        "(d) Switch"
+      ],
+      "answer": "(c) Inductor",
+      "explanation": "Energy is stored in the magnetic field of the inductor.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ],
+      "images": [
+        "images/rl_circuit_diagram.png"
+      ]
+    },
+    {
+      "number": 20,
+      "points": 2,
+      "question": "Self-inductance is:",
+      "choices": [
+        "(a) Induction of emf in a coil by its own changing current",
+        "(b) Induction only between two distinct coils",
+        "(c) A property unique to resistors",
+        "(d) A purely electrostatic effect"
+      ],
+      "answer": "(a) Induction of emf in a coil by its own changing current",
+      "explanation": "A changing current alters its own flux and so induces an emf in the same circuit.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 14.4 RL Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "points": 2,
+      "question": "A standard AC source voltage is usually written as:",
+      "choices": [
+        "(a) $V(t) = V_0 t$",
+        "(b) $V(t) = V_0\\sin(\\omega t)$",
+        "(c) $V(t) = IR$",
+        "(d) $V(t) = V_0 e^{t}$"
+      ],
+      "answer": "(b) $V(t) = V_0\\sin(\\omega t)$",
+      "explanation": "An ideal sinusoidal source is described by amplitude $V_0$ and angular frequency $\\omega$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ],
+      "images": [
+        "images/ac_waveform.png"
+      ]
+    },
+    {
+      "number": 22,
+      "points": 2,
+      "question": "The rms value of $V(t) = V_0\\sin(\\omega t)$ is:",
+      "choices": [
+        "(a) $V_0$",
+        "(b) $V_0/2$",
+        "(c) $V_0/\\sqrt{2}$",
+        "(d) $\\sqrt{2}V_0$"
+      ],
+      "answer": "(c) $V_0/\\sqrt{2}$",
+      "explanation": "The rms value gives the DC voltage that would deliver the same average power.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "points": 2,
+      "question": "In a purely resistive AC circuit, current and voltage are:",
+      "choices": [
+        "(a) In phase",
+        "(b) 90^\\circ out of phase",
+        "(c) 180^\\circ out of phase",
+        "(d) Unrelated"
+      ],
+      "answer": "(a) In phase",
+      "explanation": "Both reach maxima and zeros at the same instants.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "points": 2,
+      "question": "The inductive reactance is:",
+      "choices": [
+        "(a) $X_L = 1/(\\omega C)$",
+        "(b) $X_L = \\omega L$",
+        "(c) $X_L = R$",
+        "(d) $X_L = 1/R$"
+      ],
+      "answer": "(b) $X_L = \\omega L$",
+      "explanation": "Opposition of an inductor to AC increases linearly with frequency.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "points": 2,
+      "question": "The capacitive reactance is:",
+      "choices": [
+        "(a) $X_C = 1/(\\omega C)$",
+        "(b) $X_C = \\omega C$",
+        "(c) $X_C = R$",
+        "(d) $X_C = \\omega L$"
+      ],
+      "answer": "(a) $X_C = 1/(\\omega C)$",
+      "explanation": "A capacitor's reactance decreases with increasing frequency.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "points": 2,
+      "question": "In a purely inductive AC circuit, current:",
+      "choices": [
+        "(a) Leads voltage by 90^\\circ",
+        "(b) Lags voltage by 90^\\circ",
+        "(c) Is in phase",
+        "(d) Is zero"
+      ],
+      "answer": "(b) Lags voltage by 90^\\circ",
+      "explanation": "Voltage leads current in an ideal inductor.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "points": 2,
+      "question": "In a purely capacitive AC circuit, current:",
+      "choices": [
+        "(a) Leads voltage by 90^\\circ",
+        "(b) Lags voltage by 90^\\circ",
+        "(c) Is in phase",
+        "(d) Is opposite in phase"
+      ],
+      "answer": "(a) Leads voltage by 90^\\circ",
+      "explanation": "Current leads voltage in an ideal capacitor.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "points": 2,
+      "question": "Impedance $Z$ in AC circuits is:",
+      "choices": [
+        "(a) Only the resistance $R$",
+        "(b) The complex combination of resistance and reactance",
+        "(c) Always purely imaginary",
+        "(d) Always purely real"
+      ],
+      "answer": "(b) The complex combination of resistance and reactance",
+      "explanation": "Impedance generalizes resistance to include frequency-dependent reactance.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "points": 2,
+      "question": "A phasor diagram is primarily used to represent:",
+      "choices": [
+        "(a) Static electric fields",
+        "(b) Phase relationships between AC quantities",
+        "(c) Circuit schematics",
+        "(d) Particle trajectories"
+      ],
+      "answer": "(b) Phase relationships between AC quantities",
+      "explanation": "Phasors show magnitudes and relative phases as rotating vectors.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "points": 2,
+      "question": "Rms values are particularly useful because they:",
+      "choices": [
+        "(a) Equal peak values",
+        "(b) Directly relate to average power like DC values",
+        "(c) Remove phase information",
+        "(d) Are easier to graph"
+      ],
+      "answer": "(b) Directly relate to average power like DC values",
+      "explanation": "They allow you to use $P = VI$ in AC as with DC.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "points": 2,
+      "question": "In a series RLC circuit at resonance, the net reactance is:",
+      "choices": [
+        "(a) Positive",
+        "(b) Negative",
+        "(c) Zero",
+        "(d) Infinite"
+      ],
+      "answer": "(c) Zero",
+      "explanation": "At resonance, $X_L = X_C$, so they cancel and $Z = R$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ],
+      "images": [
+        "images/rlc_resonance.png"
+      ]
+    },
+    {
+      "number": 32,
+      "points": 2,
+      "question": "At resonance in a series RLC circuit, the current for a given source is:",
+      "choices": [
+        "(a) Minimum",
+        "(b) Maximum",
+        "(c) Zero",
+        "(d) Undefined"
+      ],
+      "answer": "(b) Maximum",
+      "explanation": "With minimal impedance, the current amplitude is largest.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ],
+      "images": [
+        "images/rlc_resonance.png"
+      ]
+    },
+    {
+      "number": 33,
+      "points": 2,
+      "question": "The resonant angular frequency $\\omega_0$ of a series RLC circuit is:",
+      "choices": [
+        "(a) $1/RC$",
+        "(b) $1/\\sqrt{LC}$",
+        "(c) $R/L$",
+        "(d) $\\sqrt{LC}$"
+      ],
+      "answer": "(b) $1/\\sqrt{LC}$",
+      "explanation": "This makes $X_L = X_C$ so reactive effects cancel.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "points": 2,
+      "question": "The quality factor $Q$ of a resonance describes:",
+      "choices": [
+        "(a) Only resistance",
+        "(b) Sharpness (selectivity) of the resonance peak",
+        "(c) Circuit size",
+        "(d) Battery life"
+      ],
+      "answer": "(b) Sharpness (selectivity) of the resonance peak",
+      "explanation": "Higher $Q$ means a narrower resonance curve.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ],
+      "images": [
+        "images/rlc_resonance.png"
+      ]
+    },
+    {
+      "number": 35,
+      "points": 2,
+      "question": "A power factor near 1 indicates:",
+      "choices": [
+        "(a) Mostly reactive power",
+        "(b) Mostly real (useful) power",
+        "(c) No power delivered",
+        "(d) Infinite impedance"
+      ],
+      "answer": "(b) Mostly real (useful) power",
+      "explanation": "Voltage and current are nearly in phase.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "points": 2,
+      "question": "Capacitors are added to inductive loads mainly to:",
+      "choices": [
+        "(a) Increase frequency",
+        "(b) Correct (improve) power factor",
+        "(c) Increase resistance",
+        "(d) Eliminate real power"
+      ],
+      "answer": "(b) Correct (improve) power factor",
+      "explanation": "They compensate inductive reactance, reducing reactive power.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "points": 2,
+      "question": "In an ideal transformer, $V_s/V_p$ equals:",
+      "choices": [
+        "(a) $N_p/N_s$",
+        "(b) $N_s/N_p$",
+        "(c) $I_p/I_s$",
+        "(d) $I_s/I_p$"
+      ],
+      "answer": "(b) $N_s/N_p$",
+      "explanation": "Voltage ratio equals turns ratio in an ideal transformer.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "points": 2,
+      "question": "For an ideal transformer, neglecting losses:",
+      "choices": [
+        "(a) Input power equals output power",
+        "(b) Input power is twice output power",
+        "(c) Output power is zero",
+        "(d) Power is not conserved"
+      ],
+      "answer": "(a) Input power equals output power",
+      "explanation": "Energy conservation requires $P_p \\approx P_s$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "points": 2,
+      "question": "Above resonance, a series RLC circuit behaves mainly:",
+      "choices": [
+        "(a) Capacitive",
+        "(b) Inductive",
+        "(c) Resistive",
+        "(d) Superconducting"
+      ],
+      "answer": "(b) Inductive",
+      "explanation": "For $\\omega > \\omega_0$, $X_L > X_C$, so net reactance is inductive.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ],
+      "images": [
+        "images/rlc_resonance.png"
+      ]
+    },
+    {
+      "number": 40,
+      "points": 2,
+      "question": "Below resonance, a series RLC circuit behaves mainly:",
+      "choices": [
+        "(a) Capacitive",
+        "(b) Inductive",
+        "(c) Resistive",
+        "(d) Superconducting"
+      ],
+      "answer": "(a) Capacitive",
+      "explanation": "For $\\omega < \\omega_0$, $X_C > X_L$, so net reactance is capacitive.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+        }
+      ],
+      "images": [
+        "images/rlc_resonance.png"
+      ]
+    },
+    {
+      "number": 41,
+      "points": 2,
+      "question": "Gauss's law for magnetism states:",
+      "choices": [
+        "(a) $\\nabla\\cdot\\vec B = \\mu_0\\rho_m$",
+        "(b) Net magnetic flux through any closed surface is zero",
+        "(c) Magnetic field lines start on magnetic charges",
+        "(d) Magnetic field is always uniform"
+      ],
+      "answer": "(b) Net magnetic flux through any closed surface is zero",
+      "explanation": "It reflects the absence of isolated magnetic monopoles.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "points": 2,
+      "question": "In vacuum, the speed of light is given by:",
+      "choices": [
+        "(a) $c = \\mu_0\\epsilon_0$",
+        "(b) $c = 1/(\\mu_0\\epsilon_0)$",
+        "(c) $c = 1/\\sqrt{\\mu_0\\epsilon_0}$",
+        "(d) $c = \\sqrt{\\mu_0/\\epsilon_0}$"
+      ],
+      "answer": "(c) $c = 1/\\sqrt{\\mu_0\\epsilon_0}$",
+      "explanation": "Maxwell showed that this equals the speed of electromagnetic waves.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "points": 2,
+      "question": "In an electromagnetic plane wave, the fields satisfy:",
+      "choices": [
+        "(a) $\\vec E \\parallel \\vec B \\parallel$ propagation",
+        "(b) $\\vec E \\perp \\vec B$ and both $\\perp$ propagation",
+        "(c) $\\vec E$ only along propagation",
+        "(d) $\\vec B$ only along propagation"
+      ],
+      "answer": "(b) $\\vec E \\perp \\vec B$ and both $\\perp$ propagation",
+      "explanation": "EM waves are transverse waves.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "images": [
+        "images/em_wave.png"
+      ]
+    },
+    {
+      "number": 44,
+      "points": 2,
+      "question": "The displacement current term was added to Ampere's law to:",
+      "choices": [
+        "(a) Change Gauss's law",
+        "(b) Match Faraday's law",
+        "(c) Ensure consistency with charge conservation in time-varying fields",
+        "(d) Remove magnetic fields"
+      ],
+      "answer": "(c) Ensure consistency with charge conservation in time-varying fields",
+      "explanation": "It allows Ampere-Maxwell law to hold where electric fields change but no conduction current flows.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "points": 2,
+      "question": "The Poynting vector $\\vec S$ represents:",
+      "choices": [
+        "(a) Charge density",
+        "(b) Energy flux (power per unit area) of EM waves",
+        "(c) Magnetic monopole current",
+        "(d) Phase difference"
+      ],
+      "answer": "(b) Energy flux (power per unit area) of EM waves",
+      "explanation": "Its direction is the direction of energy propagation.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "points": 2,
+      "question": "Electromagnetic waves carry:",
+      "choices": [
+        "(a) Only electric energy",
+        "(b) Only magnetic energy",
+        "(c) Both energy and momentum",
+        "(d) Neither energy nor momentum"
+      ],
+      "answer": "(c) Both energy and momentum",
+      "explanation": "They can transfer energy and exert radiation pressure.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "points": 2,
+      "question": "For a plane EM wave in free space, the ratio $E_0/B_0$ is:",
+      "choices": [
+        "(a) 1",
+        "(b) $c$",
+        "(c) $1/c$",
+        "(d) 0"
+      ],
+      "answer": "(b) $c$",
+      "explanation": "Electric and magnetic fields are related by $E_0 = c B_0$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "points": 2,
+      "question": "A linearly polarized EM wave is one in which:",
+      "choices": [
+        "(a) The frequency changes with time",
+        "(b) The electric field oscillates along a fixed direction",
+        "(c) The direction of propagation changes randomly",
+        "(d) The magnetic field is zero"
+      ],
+      "answer": "(b) The electric field oscillates along a fixed direction",
+      "explanation": "Polarization refers to the orientation of the electric field vector.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "points": 2,
+      "question": "Most radio-frequency EM waves are generated by:",
+      "choices": [
+        "(a) Static charges",
+        "(b) Accelerating charges or oscillating currents",
+        "(c) Permanent magnets",
+        "(d) Nuclear reactions only"
+      ],
+      "answer": "(b) Accelerating charges or oscillating currents",
+      "explanation": "Time-varying currents radiate EM waves.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "points": 2,
+      "question": "The diagram showing perpendicular $\\vec E$ and $\\vec B$ traveling together represents:",
+      "choices": [
+        "(a) Sound wave",
+        "(b) Water wave",
+        "(c) Electromagnetic plane wave",
+        "(d) Standing wave on a string"
+      ],
+      "answer": "(c) Electromagnetic plane wave",
+      "explanation": "Mutually perpendicular fields moving in one direction are characteristic of EM waves.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2 \u2013 16.1 Maxwell\u2019s Equations and Electromagnetic Waves",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "images": [
+        "images/em_wave.png"
+      ]
+    },
+    {
+      "number": 51,
+      "points": 2,
+      "question": "Snell's law is:",
+      "choices": [
+        "(a) $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$",
+        "(b) $F = ma$",
+        "(c) $V = IR$",
+        "(d) $pV = nRT$"
+      ],
+      "answer": "(a) $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$",
+      "explanation": "It relates angles of incidence and refraction through indices of refraction.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "points": 2,
+      "question": "When light enters a medium with higher $n$, it:",
+      "choices": [
+        "(a) Speeds up and bends away from the normal",
+        "(b) Slows down and bends toward the normal",
+        "(c) Slows down and bends away from the normal",
+        "(d) Is unchanged"
+      ],
+      "answer": "(b) Slows down and bends toward the normal",
+      "explanation": "Higher index means lower speed and bending toward the normal.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "points": 2,
+      "question": "Total internal reflection occurs when light:",
+      "choices": [
+        "(a) Goes from low $n$ to high $n$",
+        "(b) Goes from high $n$ to low $n$ with $\\theta > \\theta_c$",
+        "(c) Strikes any mirror",
+        "(d) Travels in vacuum"
+      ],
+      "answer": "(b) Goes from high $n$ to low $n$ with $\\theta > \\theta_c$",
+      "explanation": "Above the critical angle no refracted ray appears.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "points": 2,
+      "question": "For a plane mirror, the angle of reflection equals:",
+      "choices": [
+        "(a) Angle of refraction",
+        "(b) Angle of incidence",
+        "(c) Critical angle",
+        "(d) 90^\\circ"
+      ],
+      "answer": "(b) Angle of incidence",
+      "explanation": "Law of reflection: $\\theta_r = \\theta_i$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "points": 2,
+      "question": "The index of refraction is defined by:",
+      "choices": [
+        "(a) $n = v/c$",
+        "(b) $n = c/v$",
+        "(c) $n = 1/v$",
+        "(d) $n = c$"
+      ],
+      "answer": "(b) $n = c/v$",
+      "explanation": "It is the ratio of light speed in vacuum to that in the medium.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "points": 2,
+      "question": "If $n_2 < n_1$, the refracted ray:",
+      "choices": [
+        "(a) Bends toward the normal",
+        "(b) Bends away from the normal",
+        "(c) Always undergoes total internal reflection",
+        "(d) Disappears"
+      ],
+      "answer": "(b) Bends away from the normal",
+      "explanation": "Smaller index gives a larger angle to the normal.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "points": 2,
+      "question": "At Brewster's angle, the reflected light is:",
+      "choices": [
+        "(a) Unpolarized",
+        "(b) Circularly polarized",
+        "(c) Linearly polarized",
+        "(d) Completely absorbed"
+      ],
+      "answer": "(c) Linearly polarized",
+      "explanation": "Reflected light at this angle is fully polarized in one direction.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "points": 2,
+      "question": "A ray entering along the normal ($\\theta = 0$) into a new medium:",
+      "choices": [
+        "(a) Bends toward the surface",
+        "(b) Bends away from the surface",
+        "(c) Continues straight without bending",
+        "(d) Totally reflects"
+      ],
+      "answer": "(c) Continues straight without bending",
+      "explanation": "Snell's law gives equal angles (zero).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "points": 2,
+      "question": "A correct refraction diagram from air to glass shows the refracted ray:",
+      "choices": [
+        "(a) Bending toward the normal",
+        "(b) Bending away from the normal",
+        "(c) Parallel to the surface",
+        "(d) Returning to air"
+      ],
+      "answer": "(a) Bending toward the normal",
+      "explanation": "Because $n_{glass} > n_{air}$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ],
+      "images": [
+        "images/refraction_diagram.png"
+      ]
+    },
+    {
+      "number": 60,
+      "points": 2,
+      "question": "Angles of incidence and refraction are always measured:",
+      "choices": [
+        "(a) From the surface",
+        "(b) From the normal",
+        "(c) From the vertical",
+        "(d) Arbitrarily"
+      ],
+      "answer": "(b) From the normal",
+      "explanation": "This convention is required for Snell's law.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3 \u2013 1.3 Refraction",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ]
+    }
+  ]
+}

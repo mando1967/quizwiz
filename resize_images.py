@@ -74,7 +74,12 @@ if __name__ == "__main__":
         "Physics/PHYS 214/Test 3/Quiz 3 (16)",
         "Physics/PHYS 214/Test 3/Quiz 3 (S19)",
         "Physics/PHYS 214/Test 3/Quiz 3 (S22)",
-        "Physics/PHYS 214/Test 3/Quiz 3 (S24)"
+        "Physics/PHYS 214/Test 3/Quiz 3 (S24)",
+        "Physics/PHYS 214/Test 4/Quiz 4P (S16)",
+        "Physics/PHYS 214/Test 4/Quiz 4 (S19)",
+        "Physics/PHYS 214/Test 4/Quiz 4 (S21)",
+        "Physics/PHYS 214/Test 4/Quiz 4 (S22)",
+        "Physics/PHYS 214/Test 4/Quiz 4 (S24)"
     ]
     
     for quiz_name in quiz_sets:
