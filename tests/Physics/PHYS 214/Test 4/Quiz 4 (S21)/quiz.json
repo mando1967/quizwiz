@@ -1,5 +1,5 @@
 {
-  "title": "Physics 214/224 Quiz 4 (S21) — JSON Extraction",
+  "title": "Physics 214/224 Quiz 4 (S21) \u2014 JSON Extraction",
   "questions": [
     {
       "number": 1,
@@ -16,10 +16,11 @@
       "explanation": "Faraday's law states $\\mathcal{E} = -\\dfrac{d\\Phi_B}{dt}$ where $\\mathcal{E} = \\oint \\vec{E}\\cdot d\\vec{l}$ is taken around the boundary loop of the chosen surface.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Faraday's law connects induced emf to changing magnetic flux: $\\mathcal{E}=-\\dfrac{d\\Phi_B}{dt}$ with $\\mathcal{E}=\\oint \\vec E\\cdot d\\vec l$.\n- **Key steps:** The line integral that defines $\\mathcal{E}$ is taken **around the boundary** of whatever surface you choose to compute $\\Phi_B=\\int\\vec B\\cdot d\\vec A$. Different surfaces that share the same boundary give the same $\\mathcal{E}$.\n- **Why correct:** Choice (b) matches the boundary-loop integral that defines emf in Faraday\u2019s law.\n- **Why others are wrong:** (a) restricts to conducting circuits (Faraday\u2019s law applies to nonconducting loops as well). (c) and (d) confuse the surface integral (flux) with the line integral (emf)."
     },
     {
       "number": 2,
@@ -36,10 +37,11 @@
       "explanation": "Only when the current in the primary changes does the shared flux change, inducing a transient emf and current in the secondary.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Mutual induction\u2014changing current in the primary changes the core flux, which induces an emf in the secondary: $\\mathcal{E}_s=-N_s\\,\\dfrac{d\\Phi_B}{dt}$.\n- **Key steps:** When S is **closed or opened**, $dI_p/dt\\neq 0$ so the shared flux changes and G deflects. With S steadily closed, $I_p$ is constant $\\Rightarrow d\\Phi_B/dt=0$ and G reads zero.\n- **Why correct:** Only the **transients** (just after closing/opening) create a nonzero induced current\u2014choice (d).\n- **Why others are wrong:** A steady current in the primary does not produce a steady current in an isolated secondary."
     },
     {
       "number": 3,
@@ -56,18 +58,19 @@
       "explanation": "The motional emf $BLv$ is canceled if $d\\Phi_B/dt$ from the changing $B$ has equal magnitude and opposite sign, requiring a linear decrease in $B$ with appropriate slope.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
       "images": [
         "images/q3_rod_rails.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** The total emf around the loop is the sum of motional emf and induction from changing $B$: $\\mathcal{E}_\\text{net}=BLv - \\dfrac{d(BA)}{dt}$.\n- **Key steps:** With area $A=Lx$ and $x=vt$, the motional term is $BLv$. To make $\\mathcal{E}_\\text{net}=0$ for uniform $v$, one needs $\\dfrac{dB}{dt}$ of **opposite sign** and constant slope so that $A\\,dB/dt$ cancels $BLv$ at the chosen instant.\n- **Why correct:** A **linear decrease** of $B$ in time can cancel the motional term with the appropriate slope\u2014choice (c).\n- **Why others are wrong:** Constant or quadratic-in-time $B$ will not provide the right cancellation behavior."
     },
     {
       "number": 4,
       "points": 3,
-      "question": "A uniform magnetic field $B$ through a conducting loop varies in four equal time intervals (1–4) as shown in the graph (linear increase, constant, linear decrease, larger constant). Rank the magnitude of the induced emf from least to greatest.",
+      "question": "A uniform magnetic field $B$ through a conducting loop varies in four equal time intervals (1\u20134) as shown in the graph (linear increase, constant, linear decrease, larger constant). Rank the magnitude of the induced emf from least to greatest.",
       "choices": [
         "(a) 1, 2, 3, 4",
         "(b) 2, 4, 3, 1",
@@ -79,15 +82,16 @@
       "explanation": "The induced emf magnitude is $|d\\Phi_B/dt|$. It is zero when $B$ is constant (intervals 2 and 4) and largest where the slope is largest; comparing slopes gives the stated order.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** $|\\mathcal{E}| = \\big|\\dfrac{d\\Phi_B}{dt}\\big| = A\\,\\big|\\dfrac{dB}{dt}\\big|$ for uniform $B$ and fixed loop.\n- **Key steps:** Intervals with **constant** $B$ (2 and 4) have zero slope $\\Rightarrow$ zero emf and tie for **least**. Among changing segments, the one with the **larger slope** gives larger emf.\n- **Why correct:** Ordering least\u2192greatest is 2=4 (zero), then the smaller-slope ramp (3), then the larger-slope ramp (1): choice (b) states 2,4,3,1."
     },
     {
       "number": 5,
       "points": 3,
-      "question": "A magnet moves toward a loop made from non-conductive material (wood) lying in the $x$–$z$ plane, centered at the origin, along the $+y$-axis. What is the direction of the induced electric field at the top point $P$ of the loop?",
+      "question": "A magnet moves toward a loop made from non-conductive material (wood) lying in the $x$\u2013$z$ plane, centered at the origin, along the $+y$-axis. What is the direction of the induced electric field at the top point $P$ of the loop?",
       "choices": [
         "(a) Nowhere, because the ring is made of wood.",
         "(b) Along the positive $x$-axis direction.",
@@ -100,13 +104,14 @@
       "explanation": "A changing flux induces a nonconservative electric field in space regardless of conductivity; Lenz's law gives a tangential field at $P$ along $+x$ to oppose the approaching magnet.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
       "images": [
         "images/q5_magnet_loop_P.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** A changing magnetic flux induces a **nonconservative** electric field in space, even without a conductor, curling per Faraday\u2019s law.\n- **Key steps:** The magnet approaching increases into-page flux; by Lenz\u2019s law, the induced $\\vec E$ encircles the region to oppose that increase. At the **top** point $P$, the tangential direction of that circulation is along $+x$.\n- **Why correct:** The field direction at $P$ is along $+x$\u2014choice (b). Conductivity of the ring is irrelevant to the existence of $\\vec E$."
     },
     {
       "number": 6,
@@ -123,10 +128,11 @@
       "explanation": "Again, $\\mathcal{E} = -d\\Phi_B/dt$, where $\\Phi_B$ is the magnetic flux through the loop.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Faraday\u2019s law: $\\mathcal{E}=-\\dfrac{d\\Phi_B}{dt}$; what matters is the **flux**, not just $B$ alone.\n- **Key steps:** Changes in $B$, $A$, or orientation (angle) change $\\Phi_B=BA\\cos\\theta$ and thus produce an emf.\n- **Why correct:** (c) states the dependence on rate of change of **magnetic flux**."
     },
     {
       "number": 7,
@@ -143,14 +149,15 @@
       "explanation": "Inductive reactance is $X_L = \\omega L$, so inductors act more like open circuits at high frequency, not short circuits; the other statements are correct.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
         },
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concepts:** $X_R=R$ (independent of $f$), $X_C=1/(\\omega C)$ (small at high $f$), $X_L=\\omega L$ (large at high $f$). Phases: resistor in phase; capacitor current **leads**; inductor current **lags**.\n- **Key steps:** At high $f$, an inductor behaves more like an **open** (large reactance), not a short. A capacitor behaves more like a **short** (small reactance).\n- **Why correct:** Statement (c) reverses the inductor behavior and is therefore **false**."
     },
     {
       "number": 8,
@@ -166,14 +173,15 @@
       "explanation": "In an inductive circuit current lags voltage, whereas in a capacitive circuit current leads.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
         },
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Phase relations\u2014inductive loads make current **lag** voltage; capacitive loads make current **lead**.\n- **Key steps:** Observation \u201ccurrent lags voltage\u201d uniquely indicates a predominantly **inductive** load.\n- **Why correct:** Choice (b) matches the lagging phase characteristic of inductors."
     },
     {
       "number": 9,
@@ -189,14 +197,15 @@
       "explanation": "With $f_0 = 1/(2\\pi\\sqrt{LC})$, solving for $C$ at $97.9\\,\\mathrm{MHz}$ and the given $L$ gives about $1.06\\times10^{-12}\\,\\mathrm{F}$.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
         },
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Series LC resonance: $f_0=\\dfrac{1}{2\\pi\\sqrt{LC}}$. Solve for $C$ at a given $f_0$ and $L$.\n- **Key steps:** $C=\\dfrac{1}{(2\\pi f_0)^2 L}$. With $f_0=97.9\\,\\mathrm{MHz}$ and $L=2.5\\,\\mu\\mathrm{H}$, one finds $C\\approx1.06\\,\\mathrm{pF}$.\n- **Why correct:** Choice (b) is consistent with the numerical evaluation and correct units."
     },
     {
       "number": 10,
@@ -213,14 +222,15 @@
       "explanation": "Doubling identical inductors in series doubles $L$; doubling identical capacitors in series halves $C$, so $LC$ is unchanged and $f = 1/(2\\pi\\sqrt{LC})$ stays the same.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
         },
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** For identical elements in series: $L_{\\text{series}}$ adds; $C_{\\text{series}}$ **reduces** ($1/C$ adds). The natural frequency depends on the product $LC$.\n- **Key steps:** Doubling the number of identical inductors in series doubles $L$; doubling identical capacitors in series halves $C$ $\\Rightarrow$ $LC$ unchanged.\n- **Why correct:** Since $f=\\dfrac{1}{2\\pi\\sqrt{LC}}$, unchanged $LC$ means unchanged $f$\u2014choice (c)."
     },
     {
       "number": 11,
@@ -237,10 +247,11 @@
       "explanation": "Energy in the capacitor is $U_C = \\tfrac12 C V^{2}$. With the same $C$, $V \\propto \\sqrt{U_C}$; $40/360 = (V/15)^{2}$ gives $V = 5\\,\\mathrm{V}$.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.4 RLC Series Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.4 RLC Series Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-rlc-series-circuits"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Capacitor energy $U_C=\\tfrac12 C V^2$; for the **same** $C$, $V\\propto\\sqrt{U_C}$.\n- **Key steps:** $\\dfrac{U_C}{U_{\\max}}=(\\dfrac{V}{V_{\\max}})^2$. With $U_C=40\\,\\mu\\mathrm{J}$, $U_{\\max}=360\\,\\mu\\mathrm{J}$, $V_{\\max}=15\\,\\mathrm{V}$, solve $40/360=(V/15)^2$ to get $V=5\\,\\mathrm{V}$.\n- **Why correct:** Choice (b) matches the square-root scaling with energy."
     },
     {
       "number": 12,
@@ -257,10 +268,11 @@
       "explanation": "The magnitude $Z = \\sqrt{R^{2} + (X_L - X_C)^{2}}$ decreases when $R$ is reduced, all else fixed.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.4 RLC Series Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.4 RLC Series Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-rlc-series-circuits"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Series RLC impedance: $Z=\\sqrt{R^2+(X_L-X_C)^2}$. With $L$ and $C$ fixed, reducing $R$ reduces $Z$.\n- **Key steps:** Changing only $R$: smaller $R$ $\\Rightarrow$ smaller $Z$ regardless of $X_L$ and $X_C$ difference.\n- **Why correct:** Choice (e) is the only option that guarantees a decrease in $Z$."
     },
     {
       "number": 13,
@@ -277,14 +289,15 @@
       "explanation": "Since $X_C = 1/(\\omega C)$, halving $\\omega$ doubles $X_C$.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
         },
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** $X_C=\\dfrac{1}{\\omega C}$. Frequency and capacitive reactance are inversely proportional.\n- **Key steps:** Halving $\\omega$ doubles $X_C$.\n- **Why correct:** Choice (a) states the correct relationship."
     },
     {
       "number": 14,
@@ -301,14 +314,15 @@
       "explanation": "In a pure inductive reactance, the current lags the voltage by $90^{\\circ}$, i.e. one-quarter period.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
         },
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** In a pure inductor, $v_L=L\\,di/dt$ and current **lags** voltage by $90^{\\circ}$.\n- **Key steps:** A $90^{\\circ}$ phase difference corresponds to **one-quarter of a cycle**.\n- **Why correct:** Choice (b) gives the correct fraction of a period."
     },
     {
       "number": 15,
@@ -325,10 +339,11 @@
       "explanation": "Secondary voltage is $V_s = P/I_s = 10{,}000/25 = 400\\,\\mathrm{V}$. For 1:4 step down, $V_p = 4V_s = 1600\\,\\mathrm{V}$.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.6 Transformers",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Ideal transformer: $P_p\\approx P_s$, $V_s/V_p=N_s/N_p$, and $I_s/I_p=N_p/N_s$.\n- **Key steps:** $V_s=P/I_s=10{,}000/25=400\\,\\mathrm{V}$. For 1:4 step-down, $V_p=4V_s=1600\\,\\mathrm{V}$.\n- **Why correct:** Choice (c) matches the turns ratio and power relation."
     },
     {
       "number": 16,
@@ -345,10 +360,11 @@
       "explanation": "For an ideal transformer, $V_s/V_p = N_s/N_p = 8$, so $I_s/I_p = N_p/N_s = 1/8$; thus $I_p = 8 I_s$ is larger.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.6 Transformers",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** $V_s/V_p=N_s/N_p=8$ and $I_s/I_p=N_p/N_s=1/8$ for an ideal transformer.\n- **Key steps:** Since $I_s=(1/8)I_p$, the **primary current** must be larger: $I_p=8I_s$.\n- **Why correct:** Choice (d) is consistent with power balance and the turns ratio."
     },
     {
       "number": 17,
@@ -365,10 +381,11 @@
       "explanation": "A transformer requires a changing flux; with DC, only a brief transient occurs when connected, so the steady-state secondary current is zero.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.6 Transformers",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Transformers require **time-varying** flux: $\\mathcal{E}_s=-N_s\\,d\\Phi_B/dt$. DC produces no sustained $d\\Phi_B/dt$.\n\n- **Key steps:** Three 9 V batteries and a resistor provide DC. After the brief switching transient, flux is constant $\\Rightarrow d\\Phi_B/dt=0$.\n\n- **Why correct:** Secondary current is zero in steady state\u2014choice (a)."
     },
     {
       "number": 18,
@@ -385,14 +402,15 @@
       "explanation": "Approximate $I_{\\text{rms}} = P/V = 85/120 \\approx 0.71\\,\\mathrm{A}$, so $I_0 = \\sqrt{2}I_{\\text{rms}} \\approx 1.0\\,\\mathrm{A}$.",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.2 Simple AC Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
         },
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** For (approximately) resistive loads, $I_{\\text{rms}}=P/V$ and $I_0=\\sqrt{2}\\,I_{\\text{rms}}$.\n- **Key steps:** $I_{\\text{rms}}=85/120\\approx0.71\\,\\mathrm{A}$; thus $I_0\\approx \\sqrt{2}\\times0.71\\approx1.0\\,\\mathrm{A}$.\n- **Why correct:** Choice (b) matches the computed peak current (ignoring power factor details)."
     },
     {
       "number": "19 (a)",
@@ -402,45 +420,48 @@
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
       "images": [
         "images/q19_square_loop_flux.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** For a square loop of side $a$, area is $A=a^2$ and $\\Phi_B=BA$ (uniform $\\vec B$).\n- **Key steps:** Here $a=0.10\\,\\mathrm{m}\\Rightarrow A=0.010\\,\\mathrm{m^2}$. At $t=2.0\\,\\mathrm{s}$, $\\Phi_B=11.0+2.0\\times2.0=15.0\\,\\mathrm{Wb}$. Then $B=\\Phi_B/A=15.0/0.010=1.5\\times10^3\\,\\mathrm{T}$ (unphysical but follows the algebra in the prompt).\n- **Use:** This step-by-step method shows how $B$ is inferred from a specified flux function."
     },
     {
       "number": "19 (b)",
       "points": 4,
-      "question": "With the same loop and a battery of emf $1.5\\,\\mathrm{V}$ in series, what is the net emf in the circuit at $t = 2.0\\,\\mathrm{s}$?",
+      "question": "A square loop of side $0.10\\,\\mathrm{m}$ is in a region where the magnetic flux is $\\Phi_B(t) = 11.0\\,\\mathrm{Wb} + 2.0\\,\\mathrm{Wb/s}\\,t$. A battery of emf $1.5\\,\\mathrm{V}$ is in series with the loop.\n\nWhat is the net emf in the circuit at $t = 2.0\\,\\mathrm{s}$?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
       "images": [
         "images/q19_square_loop_flux.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Net emf includes the source plus the induced emf: $\\mathcal{E}_\\text{net}=E_\\text{battery}-\\dfrac{d\\Phi_B}{dt}$ (with sign set by Lenz\u2019s law and loop orientation).\n- **Key steps:** Here $d\\Phi_B/dt=2.0\\,\\mathrm{Wb/s}\\equiv2.0\\,\\mathrm{V}$ (constant). Compare its sign with the battery\u2019s orientation to decide whether it **adds** or **opposes** the $1.5\\,\\mathrm{V}$ source.\n- **Outcome:** Compute $\\mathcal{E}_\\text{net}$ by adding algebraically the two contributions."
     },
     {
       "number": "19 (c)",
       "points": 3,
-      "question": "At $t = 2.0\\,\\mathrm{s}$, what is the direction of current in the loop?",
+      "question": "A square loop of side $0.10\\,\\mathrm{m}$ is in a region where the magnetic flux is $\\Phi_B(t) = 11.0\\,\\mathrm{Wb} + 2.0\\,\\mathrm{Wb/s}\\,t$. A battery of emf $1.5\\,\\mathrm{V}$ is in series with the loop.\n\nAt $t = 2.0\\,\\mathrm{s}$, what is the direction of current in the loop?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
       "images": [
         "images/q19_square_loop_flux.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Lenz\u2019s law sets the induced current direction to oppose **increase** in flux.\n- **Key steps:** Since $d\\Phi_B/dt>0$, the induced magnetic field must be opposite the existing $\\vec B$ direction. Use the right-hand rule around the loop to pick the current sense (clockwise vs. counterclockwise) that produces the opposing field.\n- **Outcome:** The direction follows from your loop orientation convention in part (b)."
     },
     {
       "number": "20 (a)",
@@ -450,45 +471,48 @@
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
       "images": [
         "images/q20_rl_network.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** At $t=0^+$, an ideal inductor acts like an **open** (current through $L$ cannot jump). Use Ohm\u2019s law on the remaining resistive paths.\n- **Key steps:** Redraw the network with the inductor branch open; compute currents through $R_1$ and $R_2$ from the battery division (with $R_3$ as connected in the diagram).\n- **Outcome:** $i_1$ and $i_2$ follow directly from series/parallel combinations at $t=0^+$."
     },
     {
       "number": "20 (b)",
       "points": 5,
-      "question": "After a long time with switch $S$ closed, what are $i_1$ and $i_2$?",
+      "question": "In the circuit with $E = 10\\,\\mathrm{V}$, $R_1 = R_2 = R_3 = 10\\,\\mathrm{k\\Omega}$, inductor $L = 2\\,\\mathrm{H}$, and switch $S$, after a long time with switch $S$ closed:\n\nWhat are currents $i_1$ (through $R_1$) and $i_2$ (through $R_2$) as labeled?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
       "images": [
         "images/q20_rl_network.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** As $t\\to\\infty$, an ideal inductor behaves like a **short** (zero voltage across $L$). Recompute currents in the DC steady state.\n- **Key steps:** Replace $L$ by a wire, reduce the circuit, and apply Ohm\u2019s law and current division to find $i_1$ and $i_2$.\n- **Outcome:** The long-time currents show how the inductor eventually carries DC without drop."
     },
     {
       "number": "20 (c)",
       "points": 3,
-      "question": "Immediately after the stabilized currents from part (b), the switch $S$ is reopened. What are $i_1$ and $i_2$ just after reopening?",
+      "question": "In the circuit with $E = 10\\,\\mathrm{V}$, $R_1 = R_2 = R_3 = 10\\,\\mathrm{k\\Omega}$, inductor $L = 2\\,\\mathrm{H}$, and switch $S$. After the stabilized currents are reached with $S$ closed, the switch $S$ is reopened.\n\nWhat are currents $i_1$ (through $R_1$) and $i_2$ (through $R_2$) just after reopening?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
       "images": [
         "images/q20_rl_network.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Upon opening the switch after steady state, inductor current is **continuous** and must find a path through the resistors; directions may flip to sustain $I$.\n- **Key steps:** Determine the discharge loop containing $L$ and the resistors once $S$ is open; immediately after opening, $i_1$ and $i_2$ are those that keep the inductor current unchanged.\n- **Outcome:** Use the pre-opening current through $L$ as the initial condition for the decay."
     },
     {
       "number": "21 (a)",
@@ -498,49 +522,53 @@
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Inductance from flux linkage: $L=\\dfrac{N\\Phi_B}{I}$. For a single-turn equivalent ($N=1$), $L=\\Phi_B/I$.\n- **Key steps:** With $\\Phi_B=40\\,\\mathrm{T\\,m^2}$ at $I=20\\,\\mathrm{A}$, $L=40/20=2\\,\\mathrm{H}$.\n- **Why this works:** It follows the definition of inductance via total flux linkage per current."
     },
     {
       "number": "21 (b)",
       "points": 3,
-      "question": "What voltage drop develops across the coil if the current increases uniformly from $0$ to $20\\,\\mathrm{A}$ in $10\\,\\mathrm{s}$?",
+      "question": "A coil intercepts flux $\\Phi_B = 40\\,\\mathrm{T\\,m^{2}}$ when it carries current $i = 20\\,\\mathrm{A}$, giving inductance $L = 2\\,\\mathrm{H}$.\n\nWhat voltage drop develops across the coil if the current increases uniformly from $0$ to $20\\,\\mathrm{A}$ in $10\\,\\mathrm{s}$?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Inductor voltage: $v_L=L\\,\\dfrac{dI}{dt}$.\n- **Key steps:** Linear ramp from $0$ to $20\\,\\mathrm{A}$ in $10\\,\\mathrm{s}$ gives $dI/dt=2\\,\\mathrm{A/s}$. With $L=2\\,\\mathrm{H}$, $v_L=(2)(2)=4\\,\\mathrm{V}$ (polarity set by Lenz\u2019s law).\n- **Use:** This gives the induced drop across the coil during the ramp."
     },
     {
       "number": "21 (c)",
       "points": 3,
-      "question": "If the coil is de-energized through a $200\\,\\Omega$ resistor, how long does it take for the current to fall from $20\\,\\mathrm{A}$ to $5\\,\\mathrm{A}$?",
+      "question": "A coil with inductance $L = 2\\,\\mathrm{H}$ carries current $20\\,\\mathrm{A}$. If the coil is de-energized through a $200\\,\\Omega$ resistor, how long does it take for the current to fall from $20\\,\\mathrm{A}$ to $5\\,\\mathrm{A}$?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** RL decay: $I(t)=I_0 e^{-tR/L}$ with time constant $\\tau=L/R$.\n- **Key steps:** Here $\\tau=2/200=0.010\\,\\mathrm{s}$. Solve $I/I_0=e^{-t/\\tau}$ with $I_0=20\\,\\mathrm{A}$ and $I=5\\,\\mathrm{A}$ to get $t=\\tau\\ln(20/5)=\\tau\\ln 4$.\n- **Outcome:** Numeric evaluation gives a short decay time consistent with the large $R$."
     },
     {
       "number": "21 (d)",
       "points": 3,
-      "question": "How much heat energy is dissipated in the resistor if the coil is completely de-energized?",
+      "question": "A coil with inductance $L = 2\\,\\mathrm{H}$ carries current $20\\,\\mathrm{A}$ and is de-energized through a $200\\,\\Omega$ resistor. How much heat energy is dissipated in the resistor if the coil is completely de-energized?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
+          "type": "OpenStax University Physics Vol. 2 \u2013 13.1 Faraday\u2019s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Energy conservation: all stored magnetic energy dissipates as heat when fully de-energized.\n- **Key steps:** Initial energy $U_0=\\tfrac12 L I_0^2=\\tfrac12(2)(20^2)=400\\,\\mathrm{J}$. The resistor ultimately receives this energy as heat (ideal elements, negligible radiation).\n\n- **Outcome:** The heat dissipated equals $U_0$."
     },
     {
       "number": "22 (a)",
@@ -550,77 +578,82 @@
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.4 RLC Series Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.4 RLC Series Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-rlc-series-circuits"
         }
       ],
       "images": [
         "images/q22_rlc_series.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Inductive reactance: $X_L=2\\pi f L$.\n- **Key steps:** With $f=60\\,\\mathrm{Hz}$ and $L=2.0\\,\\mathrm{H}$, compute $X_L=2\\pi(60)(2.0)$.\n\n- **Use:** This sets the magnitude of inductor opposition at line frequency."
     },
     {
       "number": "22 (b)",
       "points": 3,
-      "question": "Find the capacitive reactance $X_C$ for the same circuit.",
+      "question": "For the series RLC circuit connected to a $110\\,\\mathrm{V}$, $60\\,\\mathrm{Hz}$ source with $R = 2.0\\,\\mathrm{k\\Omega}$, $L = 2.0\\,\\mathrm{H}$, and $C = 0.10\\,\\mu\\mathrm{F}$:\n\nFind the capacitive reactance $X_C$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.4 RLC Series Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.4 RLC Series Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-rlc-series-circuits"
         }
       ],
       "images": [
         "images/q22_rlc_series.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Capacitive reactance: $X_C=\\dfrac{1}{2\\pi f C}$.\n- **Key steps:** With $f=60\\,\\mathrm{Hz}$ and $C=0.10\\,\\mu\\mathrm{F}$, evaluate $X_C$.\n\n- **Use:** Compare to $X_L$ to determine whether the circuit is net inductive or capacitive."
     },
     {
       "number": "22 (c)",
       "points": 2,
-      "question": "Find the magnitude of the impedance $Z$.",
+      "question": "For the series RLC circuit connected to a $110\\,\\mathrm{V}$, $60\\,\\mathrm{Hz}$ source with $R = 2.0\\,\\mathrm{k\\Omega}$, $L = 2.0\\,\\mathrm{H}$, and $C = 0.10\\,\\mu\\mathrm{F}$:\n\nFind the magnitude of the impedance $Z$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.4 RLC Series Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.4 RLC Series Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-rlc-series-circuits"
         }
       ],
       "images": [
         "images/q22_rlc_series.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Series RLC impedance magnitude: $Z=\\sqrt{R^2+(X_L-X_C)^2}$.\n- **Key steps:** Insert $R=2.0\\,\\mathrm{k\\Omega}$ and the values from (a) and (b) to compute $Z$.\n\n- **Use:** $Z$ sets the current amplitude for a given source voltage."
     },
     {
       "number": "22 (d)",
       "points": 3,
-      "question": "Find the peak current $I_0$ through the resistor.",
+      "question": "For the series RLC circuit connected to a $110\\,\\mathrm{V}$, $60\\,\\mathrm{Hz}$ source with $R = 2.0\\,\\mathrm{k\\Omega}$, $L = 2.0\\,\\mathrm{H}$, and $C = 0.10\\,\\mu\\mathrm{F}$:\n\nFind the peak current $I_0$ through the resistor.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.4 RLC Series Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.4 RLC Series Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-rlc-series-circuits"
         }
       ],
       "images": [
         "images/q22_rlc_series.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Peak current in AC: $I_0=V_0/Z$ with $V_0=\\sqrt{2}\\,V_{\\text{rms}}$.\n- **Key steps:** Use $V_{\\text{rms}}=110\\,\\mathrm{V}$ to find $V_0$, then divide by $Z$ from (c).\n\n- **Use:** This yields the maximum instantaneous current through the resistor (same as series current)."
     },
     {
       "number": "22 (e)",
       "points": 2,
-      "question": "In this circuit, does the current lag or lead the source voltage?",
+      "question": "For the series RLC circuit connected to a $110\\,\\mathrm{V}$, $60\\,\\mathrm{Hz}$ source with $R = 2.0\\,\\mathrm{k\\Omega}$, $L = 2.0\\,\\mathrm{H}$, and $C = 0.10\\,\\mu\\mathrm{F}$:\n\nDoes the current lag or lead the source voltage?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution. Handwritten answer at very end of document",
       "resources": [
         {
-          "type": "OpenStax University Physics Vol. 2 – 15.4 RLC Series Circuits",
+          "type": "OpenStax University Physics Vol. 2 \u2013 15.4 RLC Series Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-rlc-series-circuits"
         }
       ],
       "images": [
         "images/q22_rlc_series.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Phase in series RLC: current **lags** if $X_L>X_C$ and **leads** if $X_C>X_L$.\n- **Key steps:** Compare the values found in (a) and (b). With a large $L$ and small $C$, typically $X_L\\gg X_C$ at $60\\,\\mathrm{Hz}$, so current lags.\n\n- **Outcome:** State \u201clags\u201d or \u201cleads\u201d accordingly."
     }
   ]
 }

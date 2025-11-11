@@ -14,6 +14,7 @@
       ],
       "answer": "(c) the rate of change of the magnetic flux",
       "explanation": "Faraday's law is $\\mathcal{E} = -d\\Phi_B/dt$, where $\\Phi_B$ is the magnetic flux through the loop.",
+      "detailed_explanation": "- Concept:\n  - Faraday's law relates the induced emf $\\mathcal{E}$ to how fast the magnetic flux $\\Phi_B$ through a circuit changes.\n- Key steps:\n  - Magnetic flux is $\\Phi_B = B A \\cos\\theta$, so it depends on field strength, area, and orientation.\n  - Any change in $B$, $A$, or $\\theta$ gives a nonzero $d\\Phi_B/dt$ and thus an induced emf.\n- Why (c) is correct:\n  - The law is explicitly $\\mathcal{E} = -\\dfrac{d\\Phi_B}{dt}$, so emf is proportional to the rate of change of magnetic flux, not just the field itself.\n- Why others are wrong:\n  - (a) ignores that flux also depends on area/orientation.\n  - (b) and (d) refer to electric quantities, which belong to other Maxwell equations.\n  - (e) contradicts both experiment and the formula.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
@@ -34,6 +35,7 @@
       ],
       "answer": "(e) only just after S is opened or closed",
       "explanation": "Only a changing current in the primary loop changes the magnetic flux through the secondary, inducing a transient emf when S is opened or closed.",
+      "detailed_explanation": "- Concept:\n  - Mutual induction: a changing current in one coil changes the magnetic flux through another coil and induces an emf there.\n- Key steps:\n  - When S is first closed, primary current rises from 0 to some value $I$; $\\Phi_B$ through the secondary changes, so G deflects briefly.\n  - With S held closed, current is (ideally) constant, so $d\\Phi_B/dt = 0$ and G reads zero.\n  - When S is opened, current falls to 0; $\\Phi_B$ changes again, giving another brief deflection.\n- Why (e) is correct:\n  - It captures both times when $dI/dt \\neq 0$ in the primary: just after closing and just after opening.\n- Why others are wrong:\n  - (c) incorrectly claims a steady reading with constant current; (d) ignores observed induction; (a) and (b) only include one of the two transients.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
@@ -54,6 +56,7 @@
       ],
       "answer": "(b) clockwise",
       "explanation": "As into-page flux decreases, the induced current must create into-page field to oppose the change, which is produced by a clockwise current.",
+      "detailed_explanation": "- Concept:\n  - Lenz's law: induced current flows so that its own magnetic field opposes the *change* in flux.\n- Key steps:\n  - Original field is into the page; its magnitude is decreasing, so into-page flux is decreasing.\n  - To oppose this decrease, the induced current must create an additional into-page field.\n  - A clockwise current (right-hand rule around the loop) produces a field into the page.\n- Why (b) is correct:\n  - Clockwise circulation gives the required into-page induced field.\n- Why others are wrong:\n  - Counterclockwise would create out-of-page field, reinforcing the change.\n  - (c), (d), (e) ignore that changing flux *must* induce an emf and describe directions that do not match Lenz's law.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
@@ -74,6 +77,7 @@
       ],
       "answer": "(e) is none of the above",
       "explanation": "The energy stored in an inductor is $U = \\tfrac12 L I^{2}$; it depends on $L$ and the square of the current, not on the sign or rate of change, and none of the listed statements is correct.",
+      "detailed_explanation": "- Concept:\n  - Inductors store energy in their magnetic field with $U = \\tfrac12 L I^2$.\n- Key steps:\n  - $U$ depends on inductance $L$ and the square of the current; the sign of $I$ does not matter because of $I^2$.\n  - The rate of change $dI/dt$ affects induced emf ($\\mathcal{E}_L = -L\\,dI/dt$), not the stored energy formula.\n  - Units: $[U] = \\text{J}$, not J/H.\n- Why (e) is correct:\n  - None of the given statements matches $U = \\tfrac12 L I^2$.\n- Why others are wrong:\n  - (a) suggests energy sign flips with current direction.\n  - (b) confuses energy with induced emf.\n  - (c) incorrectly uses $L^2$.\n  - (d) has incorrect units.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -94,6 +98,7 @@
       ],
       "answer": "(c) counterclockwise",
       "explanation": "Moving the wire closer increases into-page flux through the loop, so the induced current is counterclockwise to create an out-of-page field opposing the increase.",
+      "detailed_explanation": "- Concept:\n  - A current-carrying wire produces a magnetic field circling the wire; flux through a nearby loop can change if the wire moves.\n- Key steps:\n  - With current up, right-hand rule: above the wire field is into/out of page depending on geometry; for the loop, the net flux is into the page.\n  - Moving the wire closer increases the field at the loop, so into-page flux increases.\n  - Lenz's law: induced current must create an out-of-page field to oppose this increase.\n  - A counterclockwise current produces out-of-page field through the loop.\n- Why (c) is correct:\n  - It gives the current direction that opposes the increasing into-page flux.\n- Why (a) and others are wrong:\n  - (a) ignores changing flux; directions that yield into-page field would reinforce, not oppose, the change.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
@@ -114,6 +119,7 @@
       ],
       "answer": "(c) counterclockwise",
       "explanation": "An increasing current increases into-page flux; the loop responds with a counterclockwise current to produce an opposing out-of-page field.",
+      "detailed_explanation": "- Concept:\n  - Time-varying current in the wire changes the magnetic field and thus the flux through the loop.\n- Key steps:\n  - With current fixed in direction but increasing in magnitude, the into-page magnetic field at the loop grows.\n  - Into-page flux is increasing; induced current must produce an out-of-page field to oppose that increase.\n  - Counterclockwise current around the loop (right-hand rule) produces out-of-page field.\n- Why (c) is correct:\n  - It matches the Lenz's law requirement for opposing the increase in flux.\n- Why others are wrong:\n  - (a) ignores the changing flux; clockwise directions would enhance the into-page field.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
@@ -134,6 +140,7 @@
       ],
       "answer": "(c) $16L$",
       "explanation": "For similar geometry, inductance is proportional to $N^{2}$, so increasing turns by factor 4 multiplies $L$ by $16$.",
+      "detailed_explanation": "- Concept:\n  - For geometrically similar coils with the same core, inductance scales as $L \\propto N^2$.\n- Key steps:\n  - $N$ increases from 5 to 20, which is a factor of 4.\n  - Therefore $L_{\\text{new}}/L_{\\text{old}} = (20/5)^2 = 4^2 = 16$.\n- Why (c) is correct:\n  - It directly applies the $N^2$ dependence.\n- Why others are wrong:\n  - (a) $4L$ incorrectly assumes linear scaling.\n  - (b) and (d) invert the dependence.\n  - (e) ignores that more turns increase inductance.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -154,6 +161,7 @@
       ],
       "answer": "(d) $2.0\\,\\mathrm{mH}$",
       "explanation": "For parallel inductors, $1/L_{\\text{eq}} = 1/L_1 + 1/L_2$. Here $1/L_{\\text{eq}} \\approx 1/3.5 + 1/4.5$, giving $L_{\\text{eq}} \\approx 2.0\\,\\mathrm{mH}$.",
+      "detailed_explanation": "- Concept:\n  - Uncoupled inductors in parallel add like resistors in parallel: $\\dfrac{1}{L_{\\text{eq}}} = \\dfrac{1}{L_1} + \\dfrac{1}{L_2}$.\n- Key steps:\n  - Compute: $1/L_{\\text{eq}} = 1/3.5 + 1/4.5 \\approx 0.2857 + 0.2222 = 0.5079$ (in $\\mathrm{mH}^{-1}$).\n  - Then $L_{\\text{eq}} \\approx 1 / 0.5079 \\approx 1.97\\,\\mathrm{mH}$, rounded to $2.0\\,\\mathrm{mH}$.\n- Why (d) is correct:\n  - It matches the proper parallel formula and the numerical result.\n- Why others are wrong:\n  - Values larger than $3.5\\,\\mathrm{mH}$ are impossible for parallel; very small values come from arithmetic errors.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -174,6 +182,7 @@
       ],
       "answer": "(b) decreasing",
       "explanation": "The inductor's emf always opposes changes in current. If the induced emf is in the same direction as $i$, it is trying to maintain the current against a decrease, so $i$ must be decreasing.",
+      "detailed_explanation": "- Concept:\n  - Self-induced emf of an inductor is $\\mathcal{E}_L = -L\\,dI/dt$ and always opposes the change in current.\n- Key steps:\n  - If $I$ is increasing, the induced emf points opposite to $I$.\n  - If $I$ is decreasing, the induced emf points in the **same** direction as $I$ to try to keep it from dropping.\n  - The diagram shows induced emf and $i$ both to the right.\n- Why (b) is correct:\n  - This configuration corresponds to $dI/dt < 0$ (current decreasing).\n- Why others are wrong:\n  - (a) would require emf opposite to $i$; (c) would give zero induced emf.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -193,6 +202,7 @@
       ],
       "answer": "(d) using $2L$ and $2C$",
       "explanation": "The frequency is $f = 1/(2\\pi\\sqrt{LC})$. Only choice (d) increases $LC$ by factor 4, reducing $f$ by factor 2.",
+      "detailed_explanation": "- Concept:\n  - LC oscillation frequency is $f = \\dfrac{1}{2\\pi\\sqrt{LC}}$.\n- Key steps:\n  - To decrease $f$, you must increase the product $LC$.\n  - (a) $L/2$, $C/2$: $LC$ becomes $LC/4$ $\\Rightarrow$ $f$ doubles.\n  - (b) $L/2$, $2C$: $LC$ unchanged $\\Rightarrow$ $f$ unchanged.\n  - (c) $2L$, $C/2$: $LC$ unchanged.\n  - (d) $2L$, $2C$: $LC$ becomes $4LC$ $\\Rightarrow$ $f$ reduced by factor 2.\n- Why (d) is correct:\n  - It produces the largest increase in $LC$ and thus the largest decrease in frequency.\n- Why others are wrong:\n  - They either leave $LC$ unchanged or reduce it.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -217,6 +227,7 @@
       ],
       "answer": "(b) $C_1/4$",
       "explanation": "Since $f \\propto 1/\\sqrt{C}$, doubling $f$ requires $C$ four times smaller.",
+      "detailed_explanation": "- Concept:\n  - In an LC tuner, $f = \\dfrac{1}{2\\pi\\sqrt{LC}}$ so $f \\propto 1/\\sqrt{C}$ for fixed $L$.\n- Key steps:\n  - Initial frequency $f_1 = 600\\,\\mathrm{kHz}$ with capacitance $C_1$.\n  - New frequency $f_2 = 1200\\,\\mathrm{kHz} = 2f_1$.\n  - Then $f_2/f_1 = \\sqrt{C_1/C_2}$, so $2 = \\sqrt{C_1/C_2} \\Rightarrow C_2 = C_1/4$.\n- Why (b) is correct:\n  - It gives the capacitance needed to double the tuner frequency.\n- Why others are wrong:\n  - Options that increase $C$ would lower $f$; $C_1/2$ is not small enough; $\\sqrt{2}C_1$ moves in the wrong direction.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -240,6 +251,7 @@
       ],
       "answer": "(b) Jeffrey: step-up; Manhattan: step-down.",
       "explanation": "Voltage is stepped up at the plant for transmission and stepped down near consumers.",
+      "detailed_explanation": "- Concept:\n  - Power transmission uses high voltage to reduce $I$ and hence $P_{\\text{loss}} = I^2 R$.\n- Key steps:\n  - At the plant (Jeffrey), a step-up transformer raises voltage for long-distance transmission.\n  - Near the loads (Manhattan), step-down transformers reduce voltage to safe levels.\n- Why (b) is correct:\n  - It matches standard grid design: step-up at generation, step-down near consumers.\n- Why others are wrong:\n  - (a), (c), (d) either waste power or provide unsafe voltages at the user end.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
@@ -260,6 +272,7 @@
       ],
       "answer": "(c) a large resistance",
       "explanation": "Damping in an RLC circuit is controlled by $R$; large $R$ gives strong damping and rapid decay.",
+      "detailed_explanation": "- Concept:\n  - Damping of oscillations in a series RLC is governed by the resistance $R$.\n- Key steps:\n  - The envelope decays roughly as $e^{-Rt/(2L)}$; larger $R$ means faster decay.\n  - Large $L$ or $C$ mainly affects frequency, not directly the damping rate.\n- Why (c) is correct:\n  - A large resistance dissipates energy quickly, causing the charge/current to die out in only a few cycles.\n- Why others are wrong:\n  - Small $R$ would give weak damping; varying $L$ or $C$ alone cannot explain very rapid decay.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -284,6 +297,7 @@
       ],
       "answer": "(c) $\\omega_0$",
       "explanation": "The current amplitude is maximal at resonance when $\\omega = \\omega_0$.",
+      "detailed_explanation": "- Concept:\n  - In series RLC, impedance is $Z = \\sqrt{R^2 + (X_L - X_C)^2}$.\n  - Resonance occurs when $X_L = X_C$ (i.e., $\\omega = \\omega_0$).\n- Key steps:\n  - At $\\omega_0$, $Z$ is minimized ($Z = R$), so current amplitude $I_0 = V_0/Z$ is maximized.\n  - Away from $\\omega_0$, $|X_L - X_C|$ increases and $Z$ grows, reducing $I_0$.\n- Why (c) is correct:\n  - It is exactly the resonant frequency of the circuit.\n- Why others are wrong:\n  - Frequencies much smaller or larger than $\\omega_0$ yield larger reactance and thus smaller currents.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -308,6 +322,7 @@
       ],
       "answer": "(b) it is halved",
       "explanation": "Capacitive reactance is $X_C = 1/(\\omega C)$; doubling $\\omega$ halves $X_C$.",
+      "detailed_explanation": "- Concept:\n  - Capacitive reactance: $X_C = \\dfrac{1}{\\omega C}$.\n- Key steps:\n  - If frequency doubles ($\\omega \\to 2\\omega$), then $X_C \\to 1/(2\\omega C) = X_C/2$.\n- Why (b) is correct:\n  - It states the correct inverse proportionality of $X_C$ with frequency.\n- Why others are wrong:\n  - (a) reverses the dependence; (c)-(e) talk about impedance/current, not $X_C$ specifically.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -331,6 +346,7 @@
       ],
       "answer": "(d) $0\\,\\mathrm{V}$",
       "explanation": "A transformer requires changing flux; with a DC battery there is no time-varying magnetic field, so no sustained emf is induced in the secondary.",
+      "detailed_explanation": "- Concept:\n  - Ideal transformers rely on time-varying magnetic flux: $\\mathcal{E}_s = -N_2\\,d\\Phi_B/dt$.\n- Key steps:\n  - A DC battery quickly produces a constant current (ignoring tiny transients).\n  - Constant current $\\Rightarrow$ constant flux $\\Rightarrow d\\Phi_B/dt = 0$.\n  - With $d\\Phi_B/dt = 0$, induced emf in the secondary is zero.\n- Why (d) is correct:\n  - After the brief switching transient, there is no sustained secondary voltage.\n- Why others are wrong:\n  - They incorrectly apply the turns ratio $V_s/V_p = N_2/N_1$ to a DC situation where it does not hold.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
@@ -344,6 +360,7 @@
       "question": "In the sliding rod setup with rails separated by distance $L$ and rod at position $x$ from the end strip in a uniform field $B$ out of the page, find the magnetic flux through the rectangular loop.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Magnetic flux through a loop is $\\Phi_B = B A$ when $\\vec{B}$ is perpendicular to the plane.\n- Key steps:\n  - The loop area is the rail separation times the rod position: $A = L x$.\n  - With $B$ uniform and out of the page, $\\Phi_B = B L x$.\n- Why this is the correct expression:\n  - It captures how flux increases linearly with rod position, which is essential for finding the motional emf in later parts.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
@@ -354,9 +371,10 @@
     {
       "number": "17 (b)",
       "points": 3,
-      "question": "For $B = 0.50\\,\\mathrm{T}$, $L = 0.10\\,\\mathrm{m}$, and rod speed $v = 0.10\\,\\mathrm{m/s}$, what is the magnitude of the induced emf?",
+      "question": "In the sliding rod setup with rails separated by distance $L$ and rod at position $x$ from the end strip in a uniform field $B$ out of the page, for $B = 0.50\\,\\mathrm{T}$, $L = 0.10\\,\\mathrm{m}$, and rod speed $v = 0.10\\,\\mathrm{m/s}$:\n\nWhat is the magnitude of the induced emf?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Motional emf for a rod moving perpendicular to $\\vec{B}$ and rails: $\\mathcal{E} = B L v$.\n- Key steps:\n  - Substitute: $\\mathcal{E} = (0.50)(0.10)(0.10) = 5.0 \\times 10^{-3}\\,\\mathrm{V}$.\n- Why this is correct:\n  - It matches $\\mathcal{E} = -d\\Phi_B/dt$ using $\\Phi_B = B L x$ with $x = vt$.\n- Interpretation:\n  - The small emf is typical for modest $B$, $L$, and $v$ values.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
@@ -367,9 +385,10 @@
     {
       "number": "17 (c)",
       "points": 3,
-      "question": "If the rod has resistance $10\\,\\Omega$ and the rails and strip have negligible resistance, what is the current in the rod?",
+      "question": "In the sliding rod setup with rails separated by distance $L$ and rod at position $x$ from the end strip in a uniform field $B$ out of the page, with $B = 0.50\\,\\mathrm{T}$, $L = 0.10\\,\\mathrm{m}$, and rod speed $v = 0.10\\,\\mathrm{m/s}$. The rod has resistance $10\\,\\Omega$ and the rails and strip have negligible resistance.\n\nWhat is the current in the rod?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Once you know the induced emf, the loop is effectively a simple resistor circuit.\n- Key steps:\n  - Using $\\mathcal{E} = 5.0 \\times 10^{-3}\\,\\mathrm{V}$ from part (b) and total resistance $R = 10\\,\\Omega$.\n  - Current: $I = \\mathcal{E}/R = (5.0 \\times 10^{-3})/10 = 5.0 \\times 10^{-4}\\,\\mathrm{A}$.\n- Physical insight:\n  - The tiny current reflects both small emf and relatively large resistance.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
@@ -380,9 +399,10 @@
     {
       "number": "17 (d)",
       "points": 4,
-      "question": "What external force is required to pull the rod to the right at constant speed?",
+      "question": "In the sliding rod setup with rails separated by distance $L$ and rod at position $x$ from the end strip in a uniform field $B$ out of the page, with $B = 0.50\\,\\mathrm{T}$, $L = 0.10\\,\\mathrm{m}$, and rod speed $v = 0.10\\,\\mathrm{m/s}$. The rod has resistance $10\\,\\Omega$ and the rails and strip have negligible resistance.\n\nWhat external force is required to pull the rod to the right at constant speed?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - The induced current in the rod experiences a magnetic force $F_B = I L B$ opposing the motion.\n- Key steps:\n  - Use $I = 5.0 \\times 10^{-4}\\,\\mathrm{A}$, $L = 0.10\\,\\mathrm{m}$, $B = 0.50\\,\\mathrm{T}$.\n  - $F_B = I L B = (5.0 \\times 10^{-4})(0.10)(0.50) = 2.5 \\times 10^{-5}\\,\\mathrm{N}$.\n  - To keep constant speed, external force $F_{\\text{ext}}$ must equal this in magnitude and opposite in direction.\n- Why this matters:\n  - Demonstrates energy conservation: mechanical work pulling the rod is converted into electrical energy dissipated as heat in the resistor.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
@@ -396,6 +416,7 @@
       "question": "A $10\\,\\mathrm{cm}$ long air-core solenoid has $20{,}000$ turns and cross-sectional area $1.0\\,\\mathrm{cm^{2}}$, carrying $3.0\\,\\mathrm{A}$. Show that the magnetic field inside is $B \\approx 0.75\\,\\mathrm{T}$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Field inside a long solenoid: $B = \\mu_0 n I$ with turn density $n = N/\\ell$.\n- Key steps:\n  - $\\ell = 0.10\\,\\mathrm{m}$, $N = 20{,}000$ so $n = 2.0 \\times 10^{5}\\,\\mathrm{m^{-1}}$.\n  - $B = (4\\pi \\times 10^{-7})(2.0 \\times 10^{5})(3.0) \\approx 0.75\\,\\mathrm{T}$.\n- Interpretation:\n  - Large turn density and current produce a strong, nearly uniform internal magnetic field.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -406,9 +427,10 @@
     {
       "number": "18 (b)",
       "points": 3,
-      "question": "Show that the total flux linkage (sum over all turns) is $\\Phi_B = 1.5\\,\\mathrm{Wb}$.",
+      "question": "A $10\\,\\mathrm{cm}$ long air-core solenoid has $20{,}000$ turns and cross-sectional area $1.0\\,\\mathrm{cm^{2}}$, carrying $3.0\\,\\mathrm{A}$.\n\nShow that the total flux linkage (sum over all turns) is $\\Phi_B = 1.5\\,\\mathrm{Wb}$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Flux linkage is $N\\Phi_B$ where $\\Phi_B$ is flux through one turn.\n- Key steps:\n  - Cross-sectional area: $A = 1.0 \\times 10^{-4}\\,\\mathrm{m^2}$.\n  - Flux per turn: $\\Phi_B^{(1)} = B A \\approx (0.75)(1.0 \\times 10^{-4}) = 7.5 \\times 10^{-5}\\,\\mathrm{Wb}$.\n  - Total linkage: $N \\Phi_B^{(1)} = 20{,}000 \\times 7.5 \\times 10^{-5} = 1.5\\,\\mathrm{Wb}$.\n- Why this matters:\n  - This quantity directly connects to inductance via $L = N\\Phi_B/I$.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -419,9 +441,10 @@
     {
       "number": "18 (c)",
       "points": 3,
-      "question": "Determine the inductance of the coil.",
+      "question": "A $10\\,\\mathrm{cm}$ long air-core solenoid has $20{,}000$ turns and cross-sectional area $1.0\\,\\mathrm{cm^{2}}$, carrying $3.0\\,\\mathrm{A}$.\n\nDetermine the inductance of the coil.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Inductance definition: $L = N\\Phi_B/I$ using total flux linkage.\n- Key steps:\n  - From part (b), $N\\Phi_B = 1.5\\,\\mathrm{Wb}$ at $I = 3.0\\,\\mathrm{A}$.\n  - $L = (1.5)/(3.0) = 0.50\\,\\mathrm{H}$.\n- Interpretation:\n  - This matches expectations for a tightly wound, high-turn air-core solenoid with these dimensions.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -435,6 +458,7 @@
       "question": "In the circuit with a $6\\,\\mathrm{V}$ battery of internal resistance $5\\,\\Omega$, an ideal $0.5\\,\\mathrm{H}$ inductor, and a $120\\,\\Omega$ bulb connected as shown, find the bulb current just after the switch is closed.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - At $t = 0^+$ in an RL circuit, inductor current cannot jump, so the inductor behaves like an open circuit.\n- Key steps:\n  - Immediately after closing, $I_L = 0$, so no current flows through the inductor branch.\n  - Current can only flow through the path containing the bulb and internal resistance (series).\n  - Bulb current: $I = \\dfrac{6\\,\\mathrm{V}}{5\\,\\Omega + 120\\,\\Omega}$ (use the actual circuit connections from the diagram).\n- Interpretation:\n  - This gives a small initial bulb current; as time goes on, the inductor current grows and the current distribution changes.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -451,6 +475,7 @@
       "question": "A long time after the switch is closed in Question 19, show that the inductor current is $1.2\\,\\mathrm{A}$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - As $t \\to \\infty$ in an RL circuit, the inductor behaves like a wire (zero voltage across ideal $L$).\n- Key steps:\n  - Redraw the circuit with the inductor replaced by a short.\n  - Compute the resulting series resistance in the path containing the battery and inductor branch.\n  - Use Ohm's law: $I_{L,\\infty} = 6\\,\\mathrm{V}/(R_{\\text{effective}})$, which evaluates to $1.2\\,\\mathrm{A}$ with the given numbers.\n- Physical insight:\n  - The inductor ends up carrying the majority of the current once its opposition to change is overcome.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -467,6 +492,7 @@
       "question": "After the circuit reaches steady state, the switch is reopened. Find the bulb current just after reopening.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Inductor current is continuous; it cannot drop instantaneously when the switch opens.\n- Key steps:\n  - At steady state, inductor current is $I_0$ (from part (b)).\n  - When the switch is opened, the inductor drives current through the available path containing the bulb.\n  - Just after opening, bulb current equals the previous inductor current (direction such that it maintains $I$).\n- Insight:\n  - This explains why bulbs often flash briefly when an inductive circuit is opened.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -483,6 +509,7 @@
       "question": "How long after reopening the switch will the bulb current drop to one third of its maximum value?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - After the switch opens, current decays exponentially in the RL loop: $I(t) = I_0 e^{-tR/L}$.\n- Key steps:\n  - For $I(t) = I_0/3$, solve $I_0/3 = I_0 e^{-tR/L}$.\n  - This gives $t = (L/R)\\ln 3$, where $R$ is the resistance in the discharge path.\n- Interpretation:\n  - Time constant $\\tau = L/R$ characterizes how quickly the bulb dims.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
@@ -499,6 +526,7 @@
       "question": "In the circuit with capacitors $C_1 = 4.00\\,\\mu\\mathrm{F}$, $C_2 = 2.50\\,\\mu\\mathrm{F}$, and $C_3 = 3.50\\,\\mu\\mathrm{F}$ in parallel, what is the effective capacitance?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Capacitors in parallel add directly: $C_{\\text{eq}} = C_1 + C_2 + C_3$.\n- Key steps:\n  - Compute: $C_{\\text{eq}} = 4.00 + 2.50 + 3.50 = 10.0\\,\\mu\\mathrm{F}$.\n- Why this is correct:\n  - Each capacitor shares the same voltage; charges add, so capacitances add.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -519,6 +547,7 @@
       "question": "For driving frequency $f_d = 50\\,\\mathrm{Hz}$, determine the capacitive reactance of the effective capacitance.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Capacitive reactance: $X_C = \\dfrac{1}{2\\pi f_d C_{\\text{eq}}}$.\n- Key steps:\n  - Use $C_{\\text{eq}} = 10.0\\,\\mu\\mathrm{F}$ from part (a).\n  - Substitute into $X_C = 1/(2\\pi f_d C_{\\text{eq}})$ to find the numerical value.\n- Interpretation:\n  - This $X_C$ tells how strongly the capacitor combination impedes AC at 50 Hz.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -539,6 +568,7 @@
       "question": "With inductors $L_1 = 1.70\\,\\mathrm{mH}$ and $L_2 = 2.30\\,\\mathrm{mH}$ in series, what is the effective inductance?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Inductors in series add directly (neglecting coupling): $L_{\\text{eq}} = L_1 + L_2$.\n- Key steps:\n  - $L_{\\text{eq}} = 1.70 + 2.30 = 4.00\\,\\mathrm{mH}$.\n- Interpretation:\n  - Series inductors behave like a single longer coil.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -559,6 +589,7 @@
       "question": "For $f_d = 50\\,\\mathrm{Hz}$, determine the inductive reactance of the effective inductance.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Inductive reactance: $X_L = 2\\pi f_d L_{\\text{eq}}$.\n- Key steps:\n  - Use $L_{\\text{eq}} = 4.00\\,\\mathrm{mH}$ from part (c).\n  - Substitute into $X_L = 2\\pi f_d L_{\\text{eq}}$ to compute the value.\n- Interpretation:\n  - Shows how even small inductances give noticeable reactance at AC frequencies.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -579,6 +610,7 @@
       "question": "What is the resonant frequency of the circuit?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - Resonant frequency for an RLC with effective $L$ and $C$ is $f_0 = \\dfrac{1}{2\\pi\\sqrt{L_{\\text{eq}} C_{\\text{eq}}}}$.\n- Key steps:\n  - Use $L_{\\text{eq}}$ from (c) and $C_{\\text{eq}}$ from (a).\n  - Insert into formula to compute $f_0$.\n- Interpretation:\n  - At $f_0$, inductive and capacitive reactances cancel, leaving only $R$.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",
@@ -599,6 +631,7 @@
       "question": "At the resonant frequency, the generator provides a peak voltage $V_0 = 171\\,\\mathrm{V}$. What is the peak current in the circuit?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
+      "detailed_explanation": "- Concept:\n  - At resonance in a series RLC, $Z = R$ (reactances cancel), so $I_0 = V_0/R$.\n- Key steps:\n  - Use the total series resistance $R$ of the circuit (from the diagram/statement).\n  - Compute peak current: $I_0 = 171\\,\\mathrm{V} / R$.\n- Interpretation:\n  - Shows how resonance can yield large currents if $R$ is small, emphasizing why component ratings matter.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 15.2 Simple AC Circuits",

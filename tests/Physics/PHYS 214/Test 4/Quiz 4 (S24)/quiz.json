@@ -20,7 +20,8 @@
       ],
       "images": [
         "images/q1_magnet_pulled_out.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Lenz's law states that the induced current opposes the change in magnetic flux that causes it.\n- **Key steps:** (1) As the north pole moves left (away), the rightward flux through the loop decreases. (2) To oppose this decrease, the induced magnetic field must point to the right (toward the receding magnet). (3) Viewed from the left, using the right-hand rule: fingers curl counterclockwise, thumb points right (toward magnet).\n- **Why correct:** Choice (b) counterclockwise creates the required rightward field.\n- **Why others are wrong:** (a) would create a leftward field, reinforcing the flux decrease; (c) ignores Faraday's law."
     },
     {
       "number": 2,
@@ -41,7 +42,8 @@
       ],
       "images": [
         "images/q2_magnet_pushed_in.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Apply Lenz's law to determine the direction of induced current when flux changes.\n- **Key steps:** (1) Pushing the south pole in from the right increases leftward flux (into the loop). (2) The induced field must point rightward (out of the loop) to oppose this increase. (3) Viewed from the left, using the right-hand rule: counterclockwise current produces a rightward (out of page) field.\n- **Why correct:** Choice (b) counterclockwise opposes the flux increase.\n- **Why others are wrong:** (a) would enhance the flux increase; (c) ignores the changing flux."
     },
     {
       "number": 3,
@@ -60,7 +62,8 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** The quantity $\\Phi_B = \\int \\vec{B} \\cdot d\\vec{A}$ measures how much magnetic field passes through a surface.\n- **Key steps:** (1) This integral calculates the total magnetic field threading through an area. (2) It's called magnetic flux, measured in webers (Wb).\n- **Why correct:** The correct answer defines this as magnetic flux.\n- **Physical meaning:** Flux quantifies the 'amount' of magnetic field lines passing through a given area, crucial for Faraday's law of electromagnetic induction."
     },
     {
       "number": 4,
@@ -78,7 +81,8 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Magnetic flux is a surface integral, not a volume or line integral.\n- **Key steps:** (1) The flux integral $\\Phi_B = \\int \\vec{B} \\cdot d\\vec{A}$ sums contributions over a surface area. (2) For Faraday's law, this surface is bounded by the conducting loop. (3) The induced emf is then $\\mathcal{E} = -d\\Phi_B/dt$ around that loop's boundary.\n- **Why correct:** Choice (b) correctly identifies the integration domain as a surface.\n- **Why others are wrong:** (a) and (c) confuse flux with other types of integrals."
     },
     {
       "number": 5,
@@ -97,7 +101,8 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Faraday's law states that a changing magnetic flux induces an electric field in space, whether or not a conductor is present.\n- **Key steps:** (1) The induced emf $\\mathcal{E} = \\oint \\vec{E} \\cdot d\\vec{\\ell} = -d\\Phi_B/dt$ exists around any closed path in the changing flux region. (2) No conducting material is required for the emf to exist. (3) However, without a conductor, no current will flow.\n- **Why correct:** Choice (a) — emf is induced regardless of material.\n- **Why others are wrong:** (b), (c), (d) incorrectly limit induction to conducting materials only."
     },
     {
       "number": 6,
@@ -119,7 +124,8 @@
       ],
       "images": [
         "images/q6_rl_circuit.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Current through an inductor cannot change instantaneously due to the inductor's opposition to current changes.\n- **Key steps:** (1) Before $t=0$, the circuit is open and $I=0$. (2) At $t=0^+$ (just after closing), the inductor prevents any sudden change in current. (3) Therefore, $I(0^+) = I(0^-) = 0$.\n- **Why correct:** Choice (b) $0.0\\,\\mathrm{A}$ reflects current continuity in inductors.\n- **Why others are wrong:** (a) would be the steady-state current; (c) and (d) are dimensionally or numerically incorrect."
     },
     {
       "number": 7,
@@ -141,7 +147,8 @@
       ],
       "images": [
         "images/q6_rl_circuit.png"
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** In an RL circuit, current approaches steady state exponentially with time constant $\\tau = L/R = 1/100 = 0.01\\,\\mathrm{s}$.\n- **Key steps:** (1) After $t \\gg \\tau$ (here $t = 34985\\,\\mathrm{s} \\gg 0.01\\,\\mathrm{s}$), current reaches steady state. (2) In steady state, $dI/dt = 0$, so the inductor acts like a wire. (3) Apply Ohm's law: $I = V/R = 10/100 = 0.1\\,\\mathrm{A}$.\n- **Why correct:** Choice (a) gives the steady-state current.\n- **Why others are wrong:** (b) is the initial current; (c) and (d) are incorrect."
     },
     {
       "number": 8,
@@ -160,7 +167,8 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Inductance of a toroid: $L = \\mu N^2 A / (2\\pi r)$, where $\\mu = \\mu_0 \\kappa_M$ for a material with relative permeability $\\kappa_M$.\n- **Key steps:** (1) Initially: $L_1 = 1\\,\\mathrm{mH}$ with air core ($\\kappa_M = 1$) and $N$ turns. (2) With ferrous core: $\\mu' = \\mu_0 \\kappa_M = 1000\\mu_0$, so $\\mu$ increases by factor of 1000. (3) Doubling turns: $N' = 2N$, so $N^2 \\to 4N^2$ (factor of 4). (4) New inductance: $L_2 = 1000 \\times 4 \\times L_1 = 4000 \\times 1\\,\\mathrm{mH} = 4\\,\\mathrm{H}$.\n- **Why correct:** Choice (d) correctly applies both scaling factors.\n- **Why others are wrong:** (a)-(c) miss one or both scaling factors."
     },
     {
       "number": 9,
@@ -183,7 +191,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** AC voltages are specified as rms (root-mean-square) values, related to amplitude by $V_{rms} = V_0/\\sqrt{2}$.\n- **Key steps:** (1) Given: $V_{rms} = 110\\,\\mathrm{V}$. (2) Solve for amplitude: $V_0 = \\sqrt{2} V_{rms} = \\sqrt{2} \\times 110 \\approx 1.414 \\times 110 \\approx 156\\,\\mathrm{V}$.\n- **Why correct:** Choice (b) gives the correct amplitude.\n- **Why others are wrong:** (a) is the rms value, not amplitude; (c) is too small; (d) is a frequency unit."
     },
     {
       "number": 10,
@@ -206,7 +215,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Inductive reactance $X_L = \\omega L = 2\\pi f L$ increases with frequency.\n- **Key steps:** (1) At low frequencies ($f \\to 0$): $X_L \\to 0$, inductor acts like a short circuit (wire). (2) At high frequencies ($f \\to \\infty$): $X_L \\to \\infty$, inductor acts like an open circuit (blocks current).\n- **Why correct:** Choice (a) correctly describes frequency-dependent behavior.\n- **Why others are wrong:** (b) reverses the behavior; (c) and (d) are incorrect."
     },
     {
       "number": 11,
@@ -229,7 +239,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Capacitive reactance $X_C = 1/(\\omega C) = 1/(2\\pi f C)$ decreases with increasing frequency.\n- **Key steps:** (1) At low frequencies ($f \\to 0$): $X_C \\to \\infty$, capacitor acts like an open circuit (blocks DC). (2) At high frequencies ($f \\to \\infty$): $X_C \\to 0$, capacitor acts like a short circuit (passes AC easily).\n- **Why correct:** Choice (b) correctly describes the inverse relationship with frequency.\n- **Why others are wrong:** (a) reverses the behavior; (c) and (d) are incorrect."
     },
     {
       "number": 12,
@@ -252,7 +263,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** For an AC inductor circuit, current is determined by inductive reactance: $I_{rms} = V_{rms}/X_L$ where $X_L = 2\\pi f L$.\n- **Key steps:** (1) Calculate reactance: $X_L = 2\\pi(50)(1) = 100\\pi \\approx 314\\,\\Omega$. (2) Calculate current: $I_{rms} = 110/314 \\approx 0.35\\,\\mathrm{A}$.\n- **Why correct:** Choice (b) matches the calculation.\n- **Why others are wrong:** (a), (c), (d) use incorrect values or formulas."
     },
     {
       "number": 13,
@@ -275,7 +287,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Ideal reactive elements (inductors and capacitors) store and release energy but do not dissipate it. Average power is zero.\n- **Key steps:** (1) For an ideal inductor, voltage and current are $90^{\\circ}$ out of phase ($\\phi = 90^{\\circ}$). (2) Average power: $P_{avg} = V_{rms}I_{rms}\\cos\\phi = V_{rms}I_{rms}\\cos(90^{\\circ}) = 0$.\n- **Why correct:** Choice (a) — no power is dissipated in an ideal inductor.\n- **Why others are wrong:** (b), (c), (d) incorrectly assume power dissipation."
     },
     {
       "number": 14,
@@ -298,7 +311,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Identify circuit type by observing how current varies with frequency.\n- **Key steps:** (1) If current decreases as frequency increases, then impedance/reactance increases with frequency. (2) Inductive reactance $X_L = \\omega L$ increases linearly with $\\omega$. (3) Capacitive reactance $X_C = 1/(\\omega C)$ decreases with $\\omega$. (4) Since current drops with increasing frequency, the circuit must be predominantly inductive.\n- **Why correct:** Choice (b) inductive matches the observed behavior.\n- **Why others are wrong:** (a) resistive would show no frequency dependence; (c) capacitive would show increasing current; (d) is humor."
     },
     {
       "number": 15,
@@ -322,7 +336,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Resonance in an LC circuit occurs at frequency $f_0 = 1/(2\\pi\\sqrt{LC})$.\n- **Key steps:** (1) Given: $f_0 = 97.9\\,\\mathrm{MHz} = 97.9 \\times 10^6\\,\\mathrm{Hz}$, $L = 2.5\\,\\mu\\mathrm{H} = 2.5 \\times 10^{-6}\\,\\mathrm{H}$. (2) Solve for $C$: $C = 1/(4\\pi^2 f_0^2 L)$. (3) Calculate: $C = 1/(4\\pi^2 (97.9 \\times 10^6)^2 (2.5 \\times 10^{-6})) \\approx 1.06 \\times 10^{-12}\\,\\mathrm{F} = 1.06\\,\\mathrm{pF}$.\n- **Why correct:** Choice (b) matches the resonance condition calculation.\n- **Why others are wrong:** (a), (c), (d) are orders of magnitude off; (e) is humor."
     },
     {
       "number": 16,
@@ -341,7 +356,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Power transmission efficiency: Step up voltage at the source to reduce current (and $I^2R$ losses), then step down at the destination.\n- **Key steps:** (1) At Jeffrey Energy Center (power plant), voltage is stepped up for long-distance transmission. (2) Near Manhattan (consumer location), voltage is stepped down to usable levels. (3) This minimizes power loss in transmission lines.\n- **Why correct:** Choice (b) — step-up at source, step-down at destination.\n- **Why others are wrong:** (a), (c), (d) don't follow the standard power transmission architecture."
     },
     {
       "number": "17 (a)",
@@ -362,7 +378,7 @@
     {
       "number": "17 (b)",
       "points": 3,
-      "question": "For the same loop, find the magnitude of the induced emf at $t = 1.0\\,\\mathrm{s}$.",
+      "question": "The magnetic flux through the square loop in the figure is $\\Phi_B(t) = a + bt^{2}$ with $a = 0.10\\,\\mathrm{Wb}$, $b = 0.15\\,\\mathrm{Wb/s^{2}}$, and side length $2.5\\,\\mathrm{cm}$. Assuming uniform $\\vec{B}$:\n\nFind the magnitude of the induced emf at $t = 1.0\\,\\mathrm{s}$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -378,7 +394,7 @@
     {
       "number": "17 (c)",
       "points": 3,
-      "question": "If the battery emf is $\\mathcal{E}_{\\text{bat}} = 3.0\\,\\mathrm{V}$ and the induced emf opposes the battery, what is the magnitude of the net emf around the loop at $t = 1.0\\,\\mathrm{s}$?",
+      "question": "The magnetic flux through the square loop in the figure is $\\Phi_B(t) = a + bt^{2}$ with $a = 0.10\\,\\mathrm{Wb}$, $b = 0.15\\,\\mathrm{Wb/s^{2}}$, and side length $2.5\\,\\mathrm{cm}$. A battery with emf $\\mathcal{E}_{\\text{bat}} = 3.0\\,\\mathrm{V}$ is in series with the loop.\n\nIf the induced emf opposes the battery, what is the magnitude of the net emf around the loop at $t = 1.0\\,\\mathrm{s}$?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -394,7 +410,7 @@
     {
       "number": "17 (d)",
       "points": 2,
-      "question": "At $t = 1.0\\,\\mathrm{s}$, is the current in the loop clockwise, counterclockwise, or zero?",
+      "question": "The magnetic flux through the square loop in the figure is $\\Phi_B(t) = a + bt^{2}$ with $a = 0.10\\,\\mathrm{Wb}$, $b = 0.15\\,\\mathrm{Wb/s^{2}}$, and side length $2.5\\,\\mathrm{cm}$. A battery with emf $\\mathcal{E}_{\\text{bat}} = 3.0\\,\\mathrm{V}$ is in series with the loop.\n\nAt $t = 1.0\\,\\mathrm{s}$, is the current in the loop clockwise, counterclockwise, or zero?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -410,7 +426,7 @@
     {
       "number": "17 (e)",
       "points": 3,
-      "question": "Find a time $t > 0$ when there is no current flowing through the battery (net emf zero).",
+      "question": "The magnetic flux through the square loop in the figure is $\\Phi_B(t) = a + bt^{2}$ with $a = 0.10\\,\\mathrm{Wb}$, $b = 0.15\\,\\mathrm{Wb/s^{2}}$, and side length $2.5\\,\\mathrm{cm}$. A battery with emf $\\mathcal{E}_{\\text{bat}} = 3.0\\,\\mathrm{V}$ is in series with the loop.\n\nFind a time $t > 0$ when there is no current flowing through the battery (net emf zero).",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -442,7 +458,7 @@
     {
       "number": "18 (b)",
       "points": 4,
-      "question": "A long time after the switch is closed, what are $i_1$ and $i_2$?",
+      "question": "In the circuit with $E = 60\\,\\mathrm{V}$, $R_1 = 20\\,\\Omega$, $R_2 = R_3 = 40\\,\\Omega$, and $L = 3.0\\,\\mathrm{H}$, a long time after switch $S$ is closed:\n\nWhat are currents $i_1$ and $i_2$ (directions as labeled)?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -458,7 +474,7 @@
     {
       "number": "18 (c)",
       "points": 4,
-      "question": "After reaching steady state, the switch is reopened. Just then, what are $i_1$ and $i_2$?",
+      "question": "In the circuit with $E = 60\\,\\mathrm{V}$, $R_1 = 20\\,\\Omega$, $R_2 = R_3 = 40\\,\\Omega$, and $L = 3.0\\,\\mathrm{H}$, after reaching steady state with switch $S$ closed, the switch is reopened.\n\nJust then, what are currents $i_1$ and $i_2$ (directions as labeled)?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -474,7 +490,7 @@
     {
       "number": "19 (a)",
       "points": 1,
-      "question": "Draw a schematic of the RLC circuit using the given solenoid, capacitor, resistor, and AC source.",
+      "question": "A $20\\,\\mathrm{cm}$ long air-core solenoid consists of $10{,}000$ turns of wire wrapped around a $2\\,\\mathrm{cm^2}$ cross-sectional area. The solenoid is connected in series to a $0.1\\,\\mu\\mathrm{F}$ capacitor and a $20\\,\\Omega$ resistor. The resultant RLC circuit is connected to an AC power supply providing voltage with an amplitude of $400\\,\\mathrm{V}$ at a frequency that can be varied.\n\nDraw a schematic of the RLC circuit using the given solenoid, capacitor, resistor, and AC source.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -491,7 +507,7 @@
     {
       "number": "19 (b)",
       "points": 4,
-      "question": "A $20\\,\\mathrm{cm}$ long air-core solenoid with $10{,}000$ turns and cross-sectional area $2.0\\,\\mathrm{cm^{2}}$ forms the inductor. Calculate its inductance.",
+      "question": "A $20\\,\\mathrm{cm}$ long air-core solenoid consists of $10{,}000$ turns of wire wrapped around a $2\\,\\mathrm{cm^2}$ cross-sectional area. The solenoid is connected in series to a $0.1\\,\\mu\\mathrm{F}$ capacitor and a $20\\,\\Omega$ resistor. The resultant RLC circuit is connected to an AC power supply providing voltage with an amplitude of $400\\,\\mathrm{V}$ at a frequency that can be varied.\n\nCalculate the inductance of the solenoid.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -508,7 +524,7 @@
     {
       "number": "19 (c)",
       "points": 3,
-      "question": "The capacitor has $C = 0.10\\,\\mu\\mathrm{F}$. What driving frequency $f_0$ maximizes heating of the resistor?",
+      "question": "A $20\\,\\mathrm{cm}$ long air-core solenoid consists of $10{,}000$ turns of wire wrapped around a $2\\,\\mathrm{cm^2}$ cross-sectional area. The solenoid is connected in series to a $0.1\\,\\mu\\mathrm{F}$ capacitor and a $20\\,\\Omega$ resistor. The resultant RLC circuit is connected to an AC power supply providing voltage with an amplitude of $400\\,\\mathrm{V}$ at a frequency that can be varied.\n\nWhat driving frequency $f_0$ maximizes heating of the resistor?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -525,7 +541,7 @@
     {
       "number": "19 (d)",
       "points": 4,
-      "question": "At $f_0$, calculate the average power dissipated in the $20\\,\\Omega$ resistor for a source with amplitude $400\\,\\mathrm{V}$.",
+      "question": "A $20\\,\\mathrm{cm}$ long air-core solenoid consists of $10{,}000$ turns of wire wrapped around a $2\\,\\mathrm{cm^2}$ cross-sectional area. The solenoid is connected in series to a $0.1\\,\\mu\\mathrm{F}$ capacitor and a $20\\,\\Omega$ resistor. The resultant RLC circuit is connected to an AC power supply providing voltage with an amplitude of $400\\,\\mathrm{V}$ at a frequency that can be varied.\n\nAt the resonant frequency $f_0$, calculate the average power dissipated in the resistor.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -555,7 +571,7 @@
     {
       "number": "20 (b)",
       "points": 6,
-      "question": "Propose a circuit using the solenoids and iron core to provide a $9\\,\\mathrm{V}$ AC output to the toy from the $27\\,\\mathrm{V}$ AC supply.",
+      "question": "A toy requires $9\\,\\mathrm{V}$ AC at $50\\,\\mathrm{Hz}$. You have D batteries, solenoids, an iron core, and a $27\\,\\mathrm{V}$ AC, $50\\,\\mathrm{Hz}$ power supply.\n\nPropose a circuit using the solenoids and iron core to provide a $9\\,\\mathrm{V}$ AC output to the toy from the $27\\,\\mathrm{V}$ AC supply.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -568,7 +584,7 @@
     {
       "number": "20 (c)",
       "points": 2,
-      "question": "If the toy requires $15\\,\\mathrm{W}$, estimate the current drawn from the primary source when it is running.",
+      "question": "A toy requires $9\\,\\mathrm{V}$ AC at $50\\,\\mathrm{Hz}$. You have D batteries, solenoids, an iron core, and a $27\\,\\mathrm{V}$ AC, $50\\,\\mathrm{Hz}$ power supply. A transformer circuit is used to step down from $27\\,\\mathrm{V}$ to $9\\,\\mathrm{V}$.\n\nIf the toy requires $15\\,\\mathrm{W}$, estimate the current drawn from the primary source when it is running.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
