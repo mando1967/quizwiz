@@ -18,7 +18,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
-      "detailed_explanation": "- **Concept:** Lenz's law—the induced current creates a magnetic field that **opposes** the change in flux.\n- **Key steps:** The approaching south pole increases upward flux through the coil. The induced field must point downward (into the page when viewed from above) to oppose this increase. Using the right-hand rule, a counterclockwise current produces a downward magnetic field.\n- **Why correct:** Choice (b) matches the direction required by Lenz's law.\n- **Why others are wrong:** (a) would enhance the flux increase; (c) ignores Faraday's law."
+      "detailed_explanation": "- **Concept:** Lenz's law—the induced current creates a magnetic field that **opposes** the change in flux.\n- **Key steps:** The approaching south pole increases upward flux through the coil. The induced field must point downward (into the page when viewed from above) to oppose this increase. Using the right-hand rule, a counterclockwise current produces a downward magnetic field.\n- **Why correct:** Choice (b) matches the direction required by Lenz's law.\n- **Why others are wrong:** (a) would enhance the flux increase; (c) ignores Faraday's law.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 2,
@@ -37,7 +38,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
-      "detailed_explanation": "- **Concept:** Induced emf requires $d\\Phi_B/dt \\neq 0$. With everything fixed, flux is constant.\n- **Key steps:** When both magnet and coil are stationary, $\\Phi_B$ does not change, so $\\mathcal{E} = -d\\Phi_B/dt = 0$.\n- **Why correct:** Choice (c) correctly states no current flows when flux is constant.\n- **Why others are wrong:** Without changing flux, Faraday's law gives zero emf regardless of field strength."
+      "detailed_explanation": "- **Concept:** Induced emf requires $d\\Phi_B/dt \\neq 0$. With everything fixed, flux is constant.\n- **Key steps:** When both magnet and coil are stationary, $\\Phi_B$ does not change, so $\\mathcal{E} = -d\\Phi_B/dt = 0$.\n- **Why correct:** Choice (c) correctly states no current flows when flux is constant.\n- **Why others are wrong:** Without changing flux, Faraday's law gives zero emf regardless of field strength.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 3,
@@ -56,7 +58,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
       ],
-      "detailed_explanation": "- **Concept:** Moving away from the north pole decreases downward (into-page) flux through the coil.\n- **Key steps:** The north pole below creates downward flux. As the coil moves upward away, this flux decreases. To oppose the decrease, the induced field must be downward. By the right-hand rule, a counterclockwise current (viewed from above) produces a downward field.\n- **Why correct:** Choice (b) gives the current direction that opposes the flux decrease.\n- **Why others are wrong:** (a) would create an upward field, reinforcing rather than opposing the change."
+      "detailed_explanation": "- **Concept:** Moving away from the north pole decreases downward (into-page) flux through the coil.\n- **Key steps:** The north pole below creates downward flux. As the coil moves upward away, this flux decreases. To oppose the decrease, the induced field must be downward. By the right-hand rule, a counterclockwise current (viewed from above) produces a downward field.\n- **Why correct:** Choice (b) gives the current direction that opposes the flux decrease.\n- **Why others are wrong:** (a) would create an upward field, reinforcing rather than opposing the change.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 4,
@@ -80,7 +83,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
       ],
-      "detailed_explanation": "- **Concept:** Capacitive reactance $X_C = 1/(\\omega C)$ is inversely proportional to frequency.\n- **Key steps:** At low $\\omega$, $X_C$ is large (high impedance, acting like an open circuit). At high $\\omega$, $X_C$ is small (low impedance, acting like a short circuit).\n- **Why correct:** Choice (b) correctly describes the frequency dependence.\n- **Why others are wrong:** (a) reverses the behavior; (c) and (d) are incorrect—capacitors are essential in AC applications."
+      "detailed_explanation": "- **Concept:** Capacitive reactance $X_C = 1/(\\omega C)$ is inversely proportional to frequency.\n- **Key steps:** At low $\\omega$, $X_C$ is large (high impedance, acting like an open circuit). At high $\\omega$, $X_C$ is small (low impedance, acting like a short circuit).\n- **Why correct:** Choice (b) correctly describes the frequency dependence.\n- **Why others are wrong:** (a) reverses the behavior; (c) and (d) are incorrect—capacitors are essential in AC applications.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 5,
@@ -104,7 +108,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
       ],
-      "detailed_explanation": "- **Concept:** Inductive reactance $X_L = \\omega L$ is directly proportional to frequency.\n- **Key steps:** At low $\\omega$, $X_L$ is small (low impedance, almost a short circuit). At high $\\omega$, $X_L$ is large (high impedance, acting like an open circuit).\n- **Why correct:** Choice (a) correctly describes the frequency dependence.\n- **Why others are wrong:** (b) reverses the behavior; (c) and (d) are incorrect."
+      "detailed_explanation": "- **Concept:** Inductive reactance $X_L = \\omega L$ is directly proportional to frequency.\n- **Key steps:** At low $\\omega$, $X_L$ is small (low impedance, almost a short circuit). At high $\\omega$, $X_L$ is large (high impedance, acting like an open circuit).\n- **Why correct:** Choice (a) correctly describes the frequency dependence.\n- **Why others are wrong:** (b) reverses the behavior; (c) and (d) are incorrect.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 6,
@@ -128,7 +133,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
       ],
-      "detailed_explanation": "- **Concept:** For an ideal resistor, $V = IR$ with no frequency dependence—resistance is constant.\n- **Key steps:** Unlike capacitors and inductors, a resistor's impedance does not vary with $\\omega$.\n- **Why correct:** Choice (c) states that resistance is frequency-independent.\n- **Why others are wrong:** (a) and (b) confuse resistors with reactive elements; (d) is false."
+      "detailed_explanation": "- **Concept:** For an ideal resistor, $V = IR$ with no frequency dependence—resistance is constant.\n- **Key steps:** Unlike capacitors and inductors, a resistor's impedance does not vary with $\\omega$.\n- **Why correct:** Choice (c) states that resistance is frequency-independent.\n- **Why others are wrong:** (a) and (b) confuse resistors with reactive elements; (d) is false.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 7,
@@ -152,7 +158,8 @@
       "images": [
         "images/q07_lr_circuit.png"
       ],
-      "detailed_explanation": "- **Concept:** In an LR circuit, the inductor opposes changes in current. Initially acts like an open circuit, then gradually becomes a short circuit.\n- **Key steps:** (1) At $t=0^+$ when switch closes, inductor opposes current change, so $I=0$ and bulb is bright (all voltage across it). (2) Current grows with time constant $\\tau=L/R_{total}$. (3) As $t\\to\\infty$, inductor acts like a wire, shunting current away from the bulb, which dims.\n- **Why correct:** Choice (c) correctly describes the bulb coming on then dimming as the inductor transitions from high to low impedance.\n- **Why others are wrong:** (a) ignores the initial transient; (b) ignores steady-state behavior; (d) and (e) are physically incorrect."
+      "detailed_explanation": "- **Concept:** In an LR circuit, the inductor opposes changes in current. Initially acts like an open circuit, then gradually becomes a short circuit.\n- **Key steps:** (1) At $t=0^+$ when switch closes, inductor opposes current change, so $I=0$ and bulb is bright (all voltage across it). (2) Current grows with time constant $\\tau=L/R_{total}$. (3) As $t\\to\\infty$, inductor acts like a wire, shunting current away from the bulb, which dims.\n- **Why correct:** Choice (c) correctly describes the bulb coming on then dimming as the inductor transitions from high to low impedance.\n- **Why others are wrong:** (a) ignores the initial transient; (b) ignores steady-state behavior; (d) and (e) are physically incorrect.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 8,
@@ -175,7 +182,8 @@
       "images": [
         "images/q07_lr_circuit.png"
       ],
-      "detailed_explanation": "- **Concept:** In steady state, an ideal inductor has zero resistance and acts as a short circuit.\n- **Key steps:** After a long time, $dI/dt = 0$, so the inductor's back-emf is zero. All current flows through the zero-resistance inductor path, bypassing the lamp. With $I_{lamp}\\approx 0$, power dissipation $P = I^2R = 0$ in the lamp. The inductor also has $R=0$, so $P=0$ there too.\n- **Why correct:** Choice (b) correctly states both remain cold due to zero power dissipation.\n- **Why others are wrong:** (a), (c), and (d) incorrectly assume significant power dissipation when current has fully established."
+      "detailed_explanation": "- **Concept:** In steady state, an ideal inductor has zero resistance and acts as a short circuit.\n- **Key steps:** After a long time, $dI/dt = 0$, so the inductor's back-emf is zero. All current flows through the zero-resistance inductor path, bypassing the lamp. With $I_{lamp}\\approx 0$, power dissipation $P = I^2R = 0$ in the lamp. The inductor also has $R=0$, so $P=0$ there too.\n- **Why correct:** Choice (b) correctly states both remain cold due to zero power dissipation.\n- **Why others are wrong:** (a), (c), and (d) incorrectly assume significant power dissipation when current has fully established.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 9,
@@ -198,7 +206,8 @@
       "images": [
         "images/q07_lr_circuit.png"
       ],
-      "detailed_explanation": "- **Concept:** When a switch in an RL circuit is opened, the inductor opposes the sudden decrease in current by generating a large back-emf.\n- **Key steps:** (1) Before opening, steady current flows through inductor (lamp bypassed). (2) When switch opens, the only path for current is through the lamp. (3) The inductor maintains current flow, creating a new RL decay circuit with time constant $\\tau' = L/R_{lamp}$. (4) Current decays from its initial value, causing the bulb to shine brightly then dim exponentially.\n- **Why correct:** Choice (c) describes the bright flash followed by gradual dimming.\n- **Why others are wrong:** (a) requires a continuous power source; (b) ignores the inductor's stored energy; (d) would require $\\tau'$ to be extremely small."
+      "detailed_explanation": "- **Concept:** When a switch in an RL circuit is opened, the inductor opposes the sudden decrease in current by generating a large back-emf.\n- **Key steps:** (1) Before opening, steady current flows through inductor (lamp bypassed). (2) When switch opens, the only path for current is through the lamp. (3) The inductor maintains current flow, creating a new RL decay circuit with time constant $\\tau' = L/R_{lamp}$. (4) Current decays from its initial value, causing the bulb to shine brightly then dim exponentially.\n- **Why correct:** Choice (c) describes the bright flash followed by gradual dimming.\n- **Why others are wrong:** (a) requires a continuous power source; (b) ignores the inductor's stored energy; (d) would require $\\tau'$ to be extremely small.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 10,
@@ -222,7 +231,8 @@
       "images": [
         "images/q10_capacitor_parallel_plates.png"
       ],
-      "detailed_explanation": "- **Concept:** Displacement current $i_d$ is defined to maintain current continuity in Ampère's law. It has the same direction as the conduction current would have if charge could flow through the capacitor.\n- **Key steps:** (1) Conduction current flows leftward in the wire, depositing positive charge on the left plate. (2) The electric field between plates increases, creating a changing electric flux. (3) By Maxwell's modification, $i_d = \\epsilon_0 d\\Phi_E/dt$ flows in the same direction as the conduction current.\n- **Why correct:** Choice (a) correctly identifies leftward displacement current.\n- **Why others are wrong:** (b) reverses the direction; (c) ignores Maxwell's crucial insight; (d) and (e) are incorrect."
+      "detailed_explanation": "- **Concept:** Displacement current $i_d$ is defined to maintain current continuity in Ampère's law. It has the same direction as the conduction current would have if charge could flow through the capacitor.\n- **Key steps:** (1) Conduction current flows leftward in the wire, depositing positive charge on the left plate. (2) The electric field between plates increases, creating a changing electric flux. (3) By Maxwell's modification, $i_d = \\epsilon_0 d\\Phi_E/dt$ flows in the same direction as the conduction current.\n- **Why correct:** Choice (a) correctly identifies leftward displacement current.\n- **Why others are wrong:** (b) reverses the direction; (c) ignores Maxwell's crucial insight; (d) and (e) are incorrect.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 11,
@@ -244,7 +254,8 @@
       "images": [
         "images/q10_capacitor_parallel_plates.png"
       ],
-      "detailed_explanation": "- **Concept:** Displacement current creates a magnetic field just like conduction current does. Use the right-hand rule with the displacement current direction.\n- **Key steps:** (1) From Q10, displacement current is leftward between the plates. (2) Apply right-hand rule: thumb points left (current direction), fingers curl to show field direction. (3) At point P (shown in diagram), the circular field lines point into the page.\n- **Why correct:** Choice (a) matches the right-hand rule prediction.\n- **Why others are wrong:** (b) reverses the field direction; (c) contradicts Maxwell's equations—displacement current does create magnetic fields."
+      "detailed_explanation": "- **Concept:** Displacement current creates a magnetic field just like conduction current does. Use the right-hand rule with the displacement current direction.\n- **Key steps:** (1) From Q10, displacement current is leftward between the plates. (2) Apply right-hand rule: thumb points left (current direction), fingers curl to show field direction. (3) At point P (shown in diagram), the circular field lines point into the page.\n- **Why correct:** Choice (a) matches the right-hand rule prediction.\n- **Why others are wrong:** (b) reverses the field direction; (c) contradicts Maxwell's equations—displacement current does create magnetic fields.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 12,
@@ -265,7 +276,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/16-3-displacement-current"
         }
       ],
-      "detailed_explanation": "- **Concept:** Displacement current density $J_d$ is uniform across the capacitor area, so $i_d$ through any area is proportional to that area.\n- **Key steps:** (1) Total displacement current equals conduction current: $I_d = I = 2.0\\,\\mathrm{A}$. (2) Current density is $J_d = I_d/A_{total} = 2.0/1.0 = 2.0\\,\\mathrm{A/m^2}$. (3) Through area $A' = 0.20\\,\\mathrm{m^2}$: $i_d = J_d \\cdot A' = 2.0 \\times 0.20 = 0.40\\,\\mathrm{A}$. Alternatively, $i_d = I(A'/A) = 2.0(0.20/1.0) = 0.40\\,\\mathrm{A}$.\n- **Why correct:** Choice (d) correctly applies proportional scaling.\n- **Why others are wrong:** (a) ignores area ratio; (b), (c), (e) use incorrect proportions."
+      "detailed_explanation": "- **Concept:** Displacement current density $J_d$ is uniform across the capacitor area, so $i_d$ through any area is proportional to that area.\n- **Key steps:** (1) Total displacement current equals conduction current: $I_d = I = 2.0\\,\\mathrm{A}$. (2) Current density is $J_d = I_d/A_{total} = 2.0/1.0 = 2.0\\,\\mathrm{A/m^2}$. (3) Through area $A' = 0.20\\,\\mathrm{m^2}$: $i_d = J_d \\cdot A' = 2.0 \\times 0.20 = 0.40\\,\\mathrm{A}$. Alternatively, $i_d = I(A'/A) = 2.0(0.20/1.0) = 0.40\\,\\mathrm{A}$.\n- **Why correct:** Choice (d) correctly applies proportional scaling.\n- **Why others are wrong:** (a) ignores area ratio; (b), (c), (e) use incorrect proportions.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 13,
@@ -290,7 +302,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
       ],
-      "detailed_explanation": "- **Concept:** Capacitive reactance $X_C = 1/(\\omega C) = 1/(2\\pi f C)$ is inversely proportional to frequency.\n- **Key steps:** (1) Initial frequency $f_1$, reactance $X_{C1} = 1/(2\\pi f_1 C)$. (2) New frequency $f_2 = f_1/2$. (3) New reactance $X_{C2} = 1/(2\\pi f_2 C) = 1/(2\\pi (f_1/2) C) = 2/(2\\pi f_1 C) = 2X_{C1}$.\n- **Why correct:** Choice (a) correctly states $X_C$ doubles when frequency halves.\n- **Why others are wrong:** (b) confuses with inductive reactance behavior; (c), (d), (e) make incorrect assumptions about total impedance and current without knowing R and L."
+      "detailed_explanation": "- **Concept:** Capacitive reactance $X_C = 1/(\\omega C) = 1/(2\\pi f C)$ is inversely proportional to frequency.\n- **Key steps:** (1) Initial frequency $f_1$, reactance $X_{C1} = 1/(2\\pi f_1 C)$. (2) New frequency $f_2 = f_1/2$. (3) New reactance $X_{C2} = 1/(2\\pi f_2 C) = 1/(2\\pi (f_1/2) C) = 2/(2\\pi f_1 C) = 2X_{C1}$.\n- **Why correct:** Choice (a) correctly states $X_C$ doubles when frequency halves.\n- **Why others are wrong:** (b) confuses with inductive reactance behavior; (c), (d), (e) make incorrect assumptions about total impedance and current without knowing R and L.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 14,
@@ -316,7 +329,8 @@
       "images": [
         "images/q14_Emf_current_waveforms.png"
       ],
-      "detailed_explanation": "- **Concept:** In AC circuits, the phase relationship between voltage and current reveals the circuit's character: current leads voltage in capacitive circuits, lags in inductive circuits.\n- **Key steps:** (1) Examine the graph: the current (green) reaches its peak **after** the voltage (red) does. (2) This means current **lags** voltage by some phase angle $\\phi > 0$. (3) In an RLC circuit, $\\tan\\phi = (X_L - X_C)/R$. If $\\phi > 0$, then $X_L > X_C$, indicating net inductive behavior.\n- **Why correct:** Choice (b) correctly identifies the circuit as mainly inductive.\n- **Why others are wrong:** (a) would show current leading voltage; (c) is incorrect as the graph clearly shows a phase difference."
+      "detailed_explanation": "- **Concept:** In AC circuits, the phase relationship between voltage and current reveals the circuit's character: current leads voltage in capacitive circuits, lags in inductive circuits.\n- **Key steps:** (1) Examine the graph: the current (green) reaches its peak **after** the voltage (red) does. (2) This means current **lags** voltage by some phase angle $\\phi > 0$. (3) In an RLC circuit, $\\tan\\phi = (X_L - X_C)/R$. If $\\phi > 0$, then $X_L > X_C$, indicating net inductive behavior.\n- **Why correct:** Choice (b) correctly identifies the circuit as mainly inductive.\n- **Why others are wrong:** (a) would show current leading voltage; (c) is incorrect as the graph clearly shows a phase difference.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 15,
@@ -337,7 +351,8 @@
           "url": "https://openstax.org/books/university-physics-volume-3/pages/2-5-polarization"
         }
       ],
-      "detailed_explanation": "- **Concept:** Polarized light has its electric field oscillating in a specific, predictable direction (or set of directions), rather than randomly.\n- **Key steps:** (1) For linearly polarized light, $\\vec{E}$ oscillates in a fixed plane containing the propagation direction. (2) This defines the polarization plane. (3) Options (a), (c), and (d) are true for **all** EM waves (polarized or not) due to transverse wave properties and Maxwell's equations.\n- **Why correct:** Choice (b) uniquely characterizes polarization—$\\vec{E}$ and propagation direction lie in a fixed plane.\n- **Why others are wrong:** (a), (c), (d) describe general EM wave properties, not polarization specifically; (e) is humor."
+      "detailed_explanation": "- **Concept:** Polarized light has its electric field oscillating in a specific, predictable direction (or set of directions), rather than randomly.\n- **Key steps:** (1) For linearly polarized light, $\\vec{E}$ oscillates in a fixed plane containing the propagation direction. (2) This defines the polarization plane. (3) Options (a), (c), and (d) are true for **all** EM waves (polarized or not) due to transverse wave properties and Maxwell's equations.\n- **Why correct:** Choice (b) uniquely characterizes polarization—$\\vec{E}$ and propagation direction lie in a fixed plane.\n- **Why others are wrong:** (a), (c), (d) describe general EM wave properties, not polarization specifically; (e) is humor.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 16,
@@ -358,7 +373,8 @@
           "url": "https://openstax.org/books/university-physics-volume-3/pages/2-5-polarization"
         }
       ],
-      "detailed_explanation": "- **Concept:** Unpolarized light can be thought of as having equal intensity components in all transverse directions. A polarizer transmits only the component parallel to its axis.\n- **Key steps:** (1) Unpolarized light has random polarization directions. (2) On average, the component along any given axis is $I_0/2$. (3) An ideal polarizer absorbs the perpendicular component and transmits the parallel component, giving $I_1 = I_0/2$.\n- **Why correct:** Choice (d) correctly applies the factor of 1/2 for unpolarized light through a polarizer.\n- **Why others are wrong:** (a) would mean total absorption; (b), (c), (e) don't match the unpolarized light formula."
+      "detailed_explanation": "- **Concept:** Unpolarized light can be thought of as having equal intensity components in all transverse directions. A polarizer transmits only the component parallel to its axis.\n- **Key steps:** (1) Unpolarized light has random polarization directions. (2) On average, the component along any given axis is $I_0/2$. (3) An ideal polarizer absorbs the perpendicular component and transmits the parallel component, giving $I_1 = I_0/2$.\n- **Why correct:** Choice (d) correctly applies the factor of 1/2 for unpolarized light through a polarizer.\n- **Why others are wrong:** (a) would mean total absorption; (b), (c), (e) don't match the unpolarized light formula.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 17,
@@ -379,10 +395,9 @@
           "url": "https://openstax.org/books/university-physics-volume-3/pages/2-5-polarization"
         }
       ],
-      "detailed_explanation": "- **Concept:** Malus's law: when polarized light passes through a polarizer, transmitted intensity is $I = I_{in}\\cos^2\\theta$, where $\\theta$ is the angle between the incident polarization and the polarizer axis.\n- **Key steps:** (1) After first polarizer: $I_1 = I_0/2$ (from Q16), now polarized at $0^{\\circ}$. (2) Second polarizer at $45^{\\circ}$ relative angle. (3) Apply Malus's law: $I_2 = I_1\\cos^2(45^{\\circ}) = (I_0/2)(1/2) = I_0/4$.\n- **Why correct:** Choice (b) correctly applies both the unpolarized→polarized reduction and Malus's law.\n- **Why others are wrong:** (a) would require $\\theta = 90^{\\circ}$; (c), (d), (e) don't match the calculation."
+      "detailed_explanation": "- **Concept:** Malus's law: when polarized light passes through a polarizer, transmitted intensity is $I = I_{in}\\cos^2\\theta$, where $\\theta$ is the angle between the incident polarization and the polarizer axis.\n- **Key steps:** (1) After first polarizer: $I_1 = I_0/2$ (from Q16), now polarized at $0^{\\circ}$. (2) Second polarizer at $45^{\\circ}$ relative angle. (3) Apply Malus's law: $I_2 = I_1\\cos^2(45^{\\circ}) = (I_0/2)(1/2) = I_0/4$.\n- **Why correct:** Choice (b) correctly applies both the unpolarized→polarized reduction and Malus's law.\n- **Why others are wrong:** (a) would require $\\theta = 90^{\\circ}$; (c), (d), (e) don't match the calculation.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
-
-
     {
       "number": "18 (a)",
       "points": 2,
@@ -398,10 +413,9 @@
       "images": [
         "images/q18_flux_loop.png"
       ],
-      "detailed_explanation": "- **Concept:** Faraday's law: $\\mathcal{E} = -d\\Phi_B/dt$.\n- **Key steps:** (1) Given $\\Phi_B(t) = (2.0t^2 - 3.2t)\\,\\mathrm{mWb}$. (2) Take the time derivative: $d\\Phi_B/dt = (4.0t - 3.2)\\,\\mathrm{mV}$. (3) Apply Faraday's law: $\\mathcal{E}(t) = -(4.0t - 3.2)\\,\\mathrm{mV}$.\n- **Result:** $\\mathcal{E}(t) = (3.2 - 4.0t)\\,\\mathrm{mV}$ for $t > 0$."
+      "detailed_explanation": "- **Concept:** Faraday's law: $\\mathcal{E} = -d\\Phi_B/dt$.\n- **Key steps:** (1) Given $\\Phi_B(t) = (2.0t^2 - 3.2t)\\,\\mathrm{mWb}$. (2) Take the time derivative: $d\\Phi_B/dt = (4.0t - 3.2)\\,\\mathrm{mV}$. (3) Apply Faraday's law: $\\mathcal{E}(t) = -(4.0t - 3.2)\\,\\mathrm{mV}$.\n- **Result:** $\\mathcal{E}(t) = (3.2 - 4.0t)\\,\\mathrm{mV}$ for $t > 0$.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
-
-
     {
       "number": "18 (b)",
       "points": 2,
@@ -417,10 +431,9 @@
       "images": [
         "images/q18_flux_loop.png"
       ],
-      "detailed_explanation": "- **Concept:** Use the emf expression from part (a) and evaluate at the specified time.\n- **Key steps:** (1) From part (a): $\\mathcal{E}(t) = (3.2 - 4.0t)\\,\\mathrm{mV}$. (2) At $t = 2.0\\,\\mathrm{s}$: $\\mathcal{E}(2.0) = 3.2 - 4.0(2.0) = 3.2 - 8.0 = -4.8\\,\\mathrm{mV}$. (3) Magnitude: $|\\mathcal{E}| = 4.8\\,\\mathrm{mV}$.\n- **Result:** The magnitude of induced emf at $t = 2.0\\,\\mathrm{s}$ is $4.8\\,\\mathrm{mV}$."
+      "detailed_explanation": "- **Concept:** Use the emf expression from part (a) and evaluate at the specified time.\n- **Key steps:** (1) From part (a): $\\mathcal{E}(t) = (3.2 - 4.0t)\\,\\mathrm{mV}$. (2) At $t = 2.0\\,\\mathrm{s}$: $\\mathcal{E}(2.0) = 3.2 - 4.0(2.0) = 3.2 - 8.0 = -4.8\\,\\mathrm{mV}$. (3) Magnitude: $|\\mathcal{E}| = 4.8\\,\\mathrm{mV}$.\n- **Result:** The magnitude of induced emf at $t = 2.0\\,\\mathrm{s}$ is $4.8\\,\\mathrm{mV}$.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
-
-
     {
       "number": "18 (c)",
       "points": 4,
@@ -436,10 +449,9 @@
       "images": [
         "images/q18_flux_loop.png"
       ],
-      "detailed_explanation": "- **Concept:** Apply Lenz's law to determine current direction. The induced current opposes the change in flux.\n- **Key steps:** (1) At $t = 2.0\\,\\mathrm{s}$: $d\\Phi_B/dt = 4.0(2.0) - 3.2 = 4.8\\,\\mathrm{mV/s} > 0$, so flux is **increasing** (field out of page). (2) By Lenz's law, induced field must point **into** the page to oppose this increase. (3) Using right-hand rule for the loop: to create field into page, current must flow **clockwise** when viewed from front. (4) Through resistor R (top of loop), current flows from **left to right**.\n- **Result:** Current flows **right** through the resistor at $t = 2.0\\,\\mathrm{s}$."
+      "detailed_explanation": "- **Concept:** Apply Lenz's law to determine current direction. The induced current opposes the change in flux.\n- **Key steps:** (1) At $t = 2.0\\,\\mathrm{s}$: $d\\Phi_B/dt = 4.0(2.0) - 3.2 = 4.8\\,\\mathrm{mV/s} > 0$, so flux is **increasing** (field out of page). (2) By Lenz's law, induced field must point **into** the page to oppose this increase. (3) Using right-hand rule for the loop: to create field into page, current must flow **clockwise** when viewed from front. (4) Through resistor R (top of loop), current flows from **left to right**.\n- **Result:** Current flows **right** through the resistor at $t = 2.0\\,\\mathrm{s}$.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
-
-
     {
       "number": "18 (d)",
       "points": 2,
@@ -455,7 +467,8 @@
       "images": [
         "images/q18_flux_loop.png"
       ],
-      "detailed_explanation": "- **Concept:** Induced current is zero when induced emf is zero, i.e., when $d\\Phi_B/dt = 0$.\n- **Key steps:** (1) From part (a): $d\\Phi_B/dt = (4.0t - 3.2)\\,\\mathrm{mV}$. (2) Set equal to zero: $4.0t - 3.2 = 0$. (3) Solve for $t$: $t = 3.2/4.0 = 0.80\\,\\mathrm{s}$.\n- **Result:** No induced current at $t = 0.80\\,\\mathrm{s}$ (the instant when flux reaches its minimum and momentarily stops changing)."
+      "detailed_explanation": "- **Concept:** Induced current is zero when induced emf is zero, i.e., when $d\\Phi_B/dt = 0$.\n- **Key steps:** (1) From part (a): $d\\Phi_B/dt = (4.0t - 3.2)\\,\\mathrm{mV}$. (2) Set equal to zero: $4.0t - 3.2 = 0$. (3) Solve for $t$: $t = 3.2/4.0 = 0.80\\,\\mathrm{s}$.\n- **Result:** No induced current at $t = 0.80\\,\\mathrm{s}$ (the instant when flux reaches its minimum and momentarily stops changing).",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "19 (a)",
@@ -473,7 +486,11 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
       ],
-      "detailed_explanation": "- **Concept:** Draw a circuit schematic showing an AC source connected to an inductor L and capacitor C in series (or other configuration as specified).\n- **Key steps:** (1) Use standard circuit symbols: AC source (~), inductor (coil), capacitor (parallel plates). (2) Label components clearly. (3) The problem describes an LC circuit for resonance analysis."
+      "images": [
+        "images/q19_lc_circuit.png"
+      ],
+      "detailed_explanation": "- **Concept:** Draw a circuit schematic showing an AC source connected to an inductor L and capacitor C in series (or other configuration as specified).\n- **Key steps:** (1) Use standard circuit symbols: AC source (~), inductor (coil), capacitor (parallel plates). (2) Label components clearly. (3) The problem describes an LC circuit for resonance analysis.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "19 (b)",
@@ -491,7 +508,11 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
       ],
-      "detailed_explanation": "- **Concept:** Inductance of a solenoid: $L = \\mu_0 \\mu_r N^2 A / \\ell$, where $A = \\pi r^2$ is cross-sectional area.\n- **Key steps:** (1) Convert units: $\\ell = 0.20\\,\\mathrm{m}$, $r = 0.030\\,\\mathrm{m}$. (2) Calculate area: $A = \\pi(0.030)^2 \\approx 2.83 \\times 10^{-3}\\,\\mathrm{m^2}$. (3) Use $\\mu_0 = 4\\pi \\times 10^{-7}\\,\\mathrm{H/m}$, $\\mu_r = 600$, $N = 1000$. (4) Calculate: $L = (4\\pi \\times 10^{-7})(600)(1000)^2(2.83 \\times 10^{-3})/0.20 \\approx 10.7\\,\\mathrm{H}$."
+      "images": [
+        "images/q19_lc_circuit.png"
+      ],
+      "detailed_explanation": "- **Concept:** Inductance of a solenoid: $L = \\mu_0 \\mu_r N^2 A / \\ell$, where $A = \\pi r^2$ is cross-sectional area.\n- **Key steps:** (1) Convert units: $\\ell = 0.20\\,\\mathrm{m}$, $r = 0.030\\,\\mathrm{m}$. (2) Calculate area: $A = \\pi(0.030)^2 \\approx 2.83 \\times 10^{-3}\\,\\mathrm{m^2}$. (3) Use $\\mu_0 = 4\\pi \\times 10^{-7}\\,\\mathrm{H/m}$, $\\mu_r = 600$, $N = 1000$. (4) Calculate: $L = (4\\pi \\times 10^{-7})(600)(1000)^2(2.83 \\times 10^{-3})/0.20 \\approx 10.7\\,\\mathrm{H}$.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "19 (c)",
@@ -509,7 +530,11 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
       ],
-      "detailed_explanation": "- **Concept:** Parallel-plate capacitor: $C = \\epsilon_0 A / d$.\n- **Key steps:** (1) Convert units: $A = 20\\,\\mathrm{cm^2} = 20 \\times 10^{-4}\\,\\mathrm{m^2} = 2.0 \\times 10^{-3}\\,\\mathrm{m^2}$, $d = 1.0\\,\\mathrm{mm} = 1.0 \\times 10^{-3}\\,\\mathrm{m}$. (2) Use $\\epsilon_0 = 8.85 \\times 10^{-12}\\,\\mathrm{F/m}$. (3) Calculate: $C = (8.85 \\times 10^{-12})(2.0 \\times 10^{-3})/(1.0 \\times 10^{-3}) = 1.77 \\times 10^{-11}\\,\\mathrm{F} \\approx 17.7\\,\\mathrm{pF}$."
+      "images": [
+        "images/q19_lc_circuit.png"
+      ],
+      "detailed_explanation": "- **Concept:** Parallel-plate capacitor: $C = \\epsilon_0 A / d$.\n- **Key steps:** (1) Convert units: $A = 20\\,\\mathrm{cm^2} = 20 \\times 10^{-4}\\,\\mathrm{m^2} = 2.0 \\times 10^{-3}\\,\\mathrm{m^2}$, $d = 1.0\\,\\mathrm{mm} = 1.0 \\times 10^{-3}\\,\\mathrm{m}$. (2) Use $\\epsilon_0 = 8.85 \\times 10^{-12}\\,\\mathrm{F/m}$. (3) Calculate: $C = (8.85 \\times 10^{-12})(2.0 \\times 10^{-3})/(1.0 \\times 10^{-3}) = 1.77 \\times 10^{-11}\\,\\mathrm{F} \\approx 17.7\\,\\mathrm{pF}$.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "19 (d)",
@@ -527,7 +552,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
       ],
-      "detailed_explanation": "- **Concept:** Resonance in an LC (or RLC) circuit occurs when $X_L = X_C$, giving resonance frequency $f_0 = 1/(2\\pi\\sqrt{LC})$.\n- **Key steps:** (1) Use $L$ from part (b) and $C$ from part (c). (2) Calculate: $f_0 = 1/(2\\pi\\sqrt{LC})$. (3) At resonance, impedance is minimized (in series RLC), current is maximized, and power dissipation in any resistance is maximized.\n- **Physical interpretation:** Resonance maximizes energy transfer to the resistive element (the wire), causing maximum heating."
+      "detailed_explanation": "- **Concept:** Resonance in an LC (or RLC) circuit occurs when $X_L = X_C$, giving resonance frequency $f_0 = 1/(2\\pi\\sqrt{LC})$.\n- **Key steps:** (1) Use $L$ from part (b) and $C$ from part (c). (2) Calculate: $f_0 = 1/(2\\pi\\sqrt{LC})$. (3) At resonance, impedance is minimized (in series RLC), current is maximized, and power dissipation in any resistance is maximized.\n- **Physical interpretation:** Resonance maximizes energy transfer to the resistive element (the wire), causing maximum heating.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "20",
@@ -548,7 +574,8 @@
       "images": [
         "images/q20_rlc_circuit.png"
       ],
-      "detailed_explanation": "- **Concept:** For a series RLC circuit: (1) Resonance frequency $f_0 = 1/(2\\pi\\sqrt{LC})$. (2) Impedance $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ where $X_L = 2\\pi f L$ and $X_C = 1/(2\\pi f C)$. (3) Current amplitude $I_0 = V_0/Z$. (4) Phase angle $\\phi = \\arctan[(X_L - X_C)/R]$.\n- **Key steps:** (1) Calculate $f_0 = 1/(2\\pi\\sqrt{(20 \\times 10^{-3})(0.60 \\times 10^{-6})}) \\approx 1.45\\,\\mathrm{kHz}$. (2) At resonance ($f = f_0$): $Z = R$, so current is maximum: $I_{max} = V_{rms}/R = 120/10 = 12\\,\\mathrm{A}$, and $\\phi = 0$. (3) For $f < f_0$: $X_C > X_L$, circuit is capacitive, current leads voltage ($\\phi < 0$). (4) For $f > f_0$: $X_L > X_C$, circuit is inductive, current lags voltage ($\\phi > 0$).\n- **Summary:** Resonance at $\\approx 1.45\\,\\mathrm{kHz}$ with maximum current 12 A and zero phase shift."
+      "detailed_explanation": "- **Concept:** For a series RLC circuit: (1) Resonance frequency $f_0 = 1/(2\\pi\\sqrt{LC})$. (2) Impedance $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ where $X_L = 2\\pi f L$ and $X_C = 1/(2\\pi f C)$. (3) Current amplitude $I_0 = V_0/Z$. (4) Phase angle $\\phi = \\arctan[(X_L - X_C)/R]$.\n- **Key steps:** (1) Calculate $f_0 = 1/(2\\pi\\sqrt{(20 \\times 10^{-3})(0.60 \\times 10^{-6})}) \\approx 1.45\\,\\mathrm{kHz}$. (2) At resonance ($f = f_0$): $Z = R$, so current is maximum: $I_{max} = V_{rms}/R = 120/10 = 12\\,\\mathrm{A}$, and $\\phi = 0$. (3) For $f < f_0$: $X_C > X_L$, circuit is capacitive, current leads voltage ($\\phi < 0$). (4) For $f > f_0$: $X_L > X_C$, circuit is inductive, current lags voltage ($\\phi > 0$).\n- **Summary:** Resonance at $\\approx 1.45\\,\\mathrm{kHz}$ with maximum current 12 A and zero phase shift.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "21 (a)",
@@ -562,7 +589,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
         }
       ],
-      "detailed_explanation": "- **Concept:** For EM waves: $c = \\lambda f$. If frequency decreases by a factor, wavelength increases by the same factor.\n- **Key steps:** (1) Given: $\\lambda_{in} = 128\\,\\mathrm{nm}$, $f_{out} = f_{in}/3.5$. (2) Since $\\lambda f = c$ is constant: $\\lambda_{out} f_{out} = \\lambda_{in} f_{in}$. (3) Substitute: $\\lambda_{out} (f_{in}/3.5) = \\lambda_{in} f_{in}$. (4) Solve: $\\lambda_{out} = 3.5 \\lambda_{in} = 3.5 \\times 128 = 448\\,\\mathrm{nm}$.\n- **Result:** Re-emitted wavelength is $448\\,\\mathrm{nm}$ (visible blue light)."
+      "detailed_explanation": "- **Concept:** For EM waves: $c = \\lambda f$. If frequency decreases by a factor, wavelength increases by the same factor.\n- **Key steps:** (1) Given: $\\lambda_{in} = 128\\,\\mathrm{nm}$, $f_{out} = f_{in}/3.5$. (2) Since $\\lambda f = c$ is constant: $\\lambda_{out} f_{out} = \\lambda_{in} f_{in}$. (3) Substitute: $\\lambda_{out} (f_{in}/3.5) = \\lambda_{in} f_{in}$. (4) Solve: $\\lambda_{out} = 3.5 \\lambda_{in} = 3.5 \\times 128 = 448\\,\\mathrm{nm}$.\n- **Result:** Re-emitted wavelength is $448\\,\\mathrm{nm}$ (visible blue light).",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "21 (b)",
@@ -576,7 +604,8 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
         }
       ],
-      "detailed_explanation": "- **Concept:** For EM waves, intensity $I \\propto E_0^2 \\propto B_0^2$. Since $E_0 = cB_0$, if $I_{out}/I_{in} = 1/2$, then $B_{out}/B_{in} = \\sqrt{I_{out}/I_{in}}$.\n- **Key steps:** (1) Intensity ratio: $I_{out}/I_{in} = 1/2$. (2) Since $I \\propto B_0^2$: $(B_{out}/B_{in})^2 = I_{out}/I_{in} = 1/2$. (3) Take square root: $B_{out}/B_{in} = 1/\\sqrt{2} \\approx 0.707$.\n- **Result:** Magnetic field amplitude ratio is $B_{out}/B_{in} = 1/\\sqrt{2} \\approx 0.707$ or about $70.7\\%$."
+      "detailed_explanation": "- **Concept:** For EM waves, intensity $I \\propto E_0^2 \\propto B_0^2$. Since $E_0 = cB_0$, if $I_{out}/I_{in} = 1/2$, then $B_{out}/B_{in} = \\sqrt{I_{out}/I_{in}}$.\n- **Key steps:** (1) Intensity ratio: $I_{out}/I_{in} = 1/2$. (2) Since $I \\propto B_0^2$: $(B_{out}/B_{in})^2 = I_{out}/I_{in} = 1/2$. (3) Take square root: $B_{out}/B_{in} = 1/\\sqrt{2} \\approx 0.707$.\n- **Result:** Magnetic field amplitude ratio is $B_{out}/B_{in} = 1/\\sqrt{2} \\approx 0.707$ or about $70.7\\%$.",
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     }
   ]
 }

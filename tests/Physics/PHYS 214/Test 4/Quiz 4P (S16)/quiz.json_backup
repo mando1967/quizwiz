@@ -15,10 +15,12 @@
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - Magnetic flux is $\\Phi_B = BA$ when the field is perpendicular to the loop.\n  - An induced emf (and current) appears only if the flux changes.\n- Key steps:\n  - Thermal expansion increases the loop area $A$.\n  - With $B$ fixed and perpendicular, $\\Phi_B$ increases as $A$ increases.\n  - By Lenz's law, the induced magnetic field must oppose the *increase* in flux.\n- Why correct:\n  - To oppose increasing flux (into the page), the induced field must be out of the page, so the correct choice is (b).\n- Why the other option is wrong:\n  - (a) Into the page would reinforce the increase in flux, violating Lenz’s law.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 2,
@@ -37,10 +39,12 @@
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - Magnetic flux through a flat surface is $\\Phi_B = B A \\cos\\theta$, with $\\theta$ the angle between $\\vec{B}$ and the surface normal.\n- Key steps:\n  - The area is $A = 3.0\\,\\mathrm{m^2}$.\n  - Field magnitude $B = 2.0\\,\\mathrm{T}$.\n  - If $\\vec{B}$ makes $30^{\\circ}$ with the normal, then $\\Phi_B = BA\\cos 30^{\\circ} = 2.0\\times3.0\\times(\\sqrt{3}/2) \\approx 5.2\\,\\mathrm{Wb}$.\n- Why correct:\n  - (d) matches the computed $\\Phi_B$ using the correct geometric factor.\n- Why others are wrong:\n  - Options using $BA$ or $BA\\sin\\theta$ ignore the definition with the **normal**, not the plane.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 3,
@@ -57,13 +61,15 @@
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
       ],
       "images": [
         "images/q03_magnet_loop.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Lenz’s law: the induced current creates a magnetic field that opposes the *change* in flux.\n- Key steps:\n  - Pushing the magnet’s north pole toward the loop increases the flux through the loop.\n  - The loop responds with a current that produces a field opposing that increase.\n  - Use the right-hand rule to find which current direction produces a field opposing the magnet’s field at the loop.\n- Why correct:\n  - A clockwise current (viewed from the right as in the diagram) produces the needed opposing field, so (a) is correct.\n- Why no-current is wrong:\n  - Changing flux guarantees an induced emf; zero current would contradict Faraday’s law.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 4,
@@ -81,13 +87,15 @@
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
       ],
       "images": [
         "images/q04_mutual_induction.png"
-      ],
-      "detailed_explanation": "- Concept:\n          - Mutual induction: a changing current in one coil induces an emf in a nearby coil via changing magnetic flux.\n        - Key steps:\n          - When S is first closed, primary current rises from 0: flux through the secondary changes → induced pulse.\n          - While S is steadily closed, primary current is constant: flux is constant → no induced emf.\n          - When S is opened, current drops to 0: flux changes again → another induced pulse.\n        - Why correct:\n          - (d) matches the fact that induction occurs only when current (and thus flux) changes: just after opening or closing S.\n        - Why others are wrong:\n          - Options claiming steady current in G during constant primary current misunderstand that induction needs $d\\Phi_B/dt \neq 0$.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 5,
@@ -106,13 +114,15 @@
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
       ],
       "images": [
         "images/q05_moving_rod.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Motional emf in a sliding rod: $\\mathcal{E}_{\\text{mot}} = B L v$ when moving through a uniform field.\n  - Total emf around the loop is the sum of motional and induction contributions; for zero net emf, they must cancel.\n- Key steps:\n  - The moving rod in constant $B$ produces a motional emf.\n  - To cancel it, the changing $B(t)$ must induce an emf of equal magnitude and opposite sign: $-d\\Phi_B/dt$.\n  - With area changing at a constant rate, this requires $B$ to change linearly in time.\n- Why correct:\n  - A linear **decrease** in $B$ at the right rate makes the induced emf cancel the motional emf, so (d) is correct.\n- Why others are wrong:\n  - Nonlinear changes (quadratic) or constant $B$ cannot maintain exact cancellation at all times.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 6,
@@ -131,13 +141,15 @@
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
       ],
       "images": [
         "images/q06_wire_loop.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Changing current in a long straight wire changes the magnetic field and hence the flux through a nearby loop.\n- Key steps:\n  - As the wire’s current is reduced to zero, the magnetic field and flux through the loop decrease.\n  - Lenz’s law: induced current must oppose this decrease by creating a magnetic field in the same direction as the original.\n  - Use the right-hand rule around the loop to determine the direction that reinforces the original field.\n- Why correct:\n  - The chosen direction (from the answer key) is the one that produces a magnetic field matching the original and thus opposes the decrease.\n- Why alternatives are wrong:\n  - Reversing the current direction would accelerate the flux change instead of opposing it.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 7,
@@ -157,9 +169,7 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - RL step response: an inductor resists changes in current; current grows exponentially in time.\n- Key steps:\n  - Loop equation: $E - L\\,dI/dt - IR = 0$.\n  - Solution: $I(t) = (E/R)(1 - e^{-tR/L})$.\n  - Voltage across the resistor: $V_R(t) = I(t)R = E(1 - e^{-tR/L})$.\n- Why correct:\n  - The correct expression shows $V_R$ starting at 0 and asymptotically approaching $E$, matching physical behavior.\n- Why others are wrong:\n  - Forms with $e^{+tR/L}$ or reversed signs imply current blows up or decreases from a non-zero value, which violates the initial condition.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 8,
@@ -182,9 +192,7 @@
       ],
       "images": [
         "images/q08_three_circuits.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - For RL circuits, the initial current distribution depends on the inductor acting like an open circuit at $t=0^+$.\n- Key steps:\n  - Just after closing the switch, inductors block sudden current changes: each inductor branch initially carries zero current.\n  - Circuits with fewer series resistances in the conducting path will allow larger immediate current from the battery (through non-inductive paths).\n  - Compare the effective resistances seen by the battery at $t=0^+$ for each circuit.\n- Why correct:\n  - Ordering from least to greatest current is equivalent to ordering from greatest to least initial resistance; the given answer matches that analysis.\n- Why others are wrong:\n  - They treat inductors as ordinary resistors or as wires at $t=0$, ignoring transient behavior.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 9,
@@ -203,9 +211,7 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - Inductors in parallel combine like resistors in parallel: $1/L_{\\text{eq}} = 1/L_1 + 1/L_2$ for uncoupled inductors.\n- Key steps:\n  - Compute $1/L_{\\text{eq}} = 1/5 + 1/10 = 0.2 + 0.1 = 0.3\\,\\mathrm{mH^{-1}}$.\n  - Then $L_{\\text{eq}} = 1/0.3 \\approx 3.33\\,\\mathrm{mH}$.\n- Why correct:\n  - This matches the proper parallel-combination rule.\n- Why larger values are wrong:\n  - Any result greater than the smallest inductor ($5\\,\\mathrm{mH}$) contradicts the behavior of parallel elements.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 10,
@@ -224,9 +230,7 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - For a similar coil, inductance scales as $L \\propto N^2$ when geometry and core are unchanged.\n- Key steps:\n  - Original: $N_1 = 5$, new: $N_2 = 20$ → factor of 4 in turns.\n  - Inductance ratio: $L_2/L_1 = (N_2/N_1)^2 = 4^2 = 16$.\n- Why correct:\n  - The inductance becomes $16L$, matching the quadratic dependence.\n- Why linear answers are wrong:\n  - They confuse inductance with simple series/parallel counting or miss the flux-linkage factor.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 11,
@@ -246,9 +250,7 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - In an RL circuit, current decays as $I(t) = I_0 e^{-tR/L}$ after the source is removed.\n- Key steps:\n  - Time constant: $\\tau = L/R$.\n  - After some time $t$, the fraction of initial energy or current can be computed; the problem’s given answer uses this exponential decay form.\n- Why correct:\n  - The expression chosen for the answer is the one consistent with $I$ (and thus energy) decaying toward zero, not growing.\n- Why others are wrong:\n  - Any formula with $e^{+tR/L}$ or that does not go to zero as $t\\to\\infty$ contradicts the physics of a passive RL circuit.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 12,
@@ -276,9 +278,7 @@
           "type": "LibreTexts – University Physics II, 15.09 AC Circuits (Exercises)",
           "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/15%3A_Alternating-Current_Circuits/15.09%3A_Alternating-Current_Circuits_(Exercise)"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - Energy in an inductor: $U = \\tfrac12 L I^2$.\n- Key steps:\n  - This follows from integrating power $P = I\\mathcal{E}_L = -L I\\,dI/dt$ as current increases from 0 to $I$.\n  - Only $L$ and $I^2$ appear, so the energy is always positive and independent of the sign of $I$.\n- Why the chosen statement (none of the above) is correct:\n  - Each provided statement misstated the dependence (on direction, rate of change, or units).\n- Takeaway:\n  - Recognizing the correct energy expression is crucial when analyzing RL transients and stored magnetic energy.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 13,
@@ -306,9 +306,7 @@
           "type": "LibreTexts – University Physics II, 15.09 AC Circuits (Exercises)",
           "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/15%3A_Alternating-Current_Circuits/15.09%3A_Alternating-Current_Circuits_(Exercise)"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - Ideal inductors and sources are assumed lossless; real circuits lose energy in resistive elements.\n- Key steps:\n  - In a practical RL circuit, power $P = I^2R$ is dissipated as heat.\n  - Inductors store energy temporarily, but do not dissipate it in the ideal model.\n- Why correct:\n  - The answer that attributes real energy loss to resistance (not ideal inductance) is consistent with circuit theory.\n- Why others are wrong:\n  - Statements that blame inductors for energy loss conflate storage with dissipation.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 14,
@@ -336,9 +334,7 @@
           "type": "LibreTexts – University Physics II, 15.09 AC Circuits (Exercises)",
           "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/15%3A_Alternating-Current_Circuits/15.09%3A_Alternating-Current_Circuits_(Exercise)"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - Transformer primary and secondary power are related by $P_p \\approx P_s$ (ideal), and voltages/currents scale with turns.\n- Key steps:\n  - $V_s/V_p = N_s/N_p$, $I_s/I_p = N_p/N_s$.\n  - A step-up transformer (more turns on secondary) increases voltage but decreases current, keeping power approximately conserved.\n- Why correct:\n  - The correct option respects both turns ratio and power balance.\n- Why others are wrong:\n  - Options implying simultaneous increase of both $V$ and $I$ violate energy conservation.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 15,
@@ -367,9 +363,7 @@
       ],
       "images": [
         "images/q15_16_rlc_waveforms.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Capacitance choices affect resonant frequency $f_0 = 1/(2\\pi\\sqrt{LC})$ in an LC tuning circuit.\n- Key steps:\n  - To tune from one station to another, $C$ must be changed so that $f_0$ matches the desired broadcast frequency.\n  - Because $f_0 \\propto 1/\\sqrt{C}$, higher station frequency requires **smaller** $C$.\n- Why correct:\n  - The answer chosen corresponds to the capacitance that gives the required higher frequency.\n- Why others are wrong:\n  - They either increase $C$ (lowering $f_0$) or change it by the wrong factor.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": 16,
@@ -398,9 +392,7 @@
       ],
       "images": [
         "images/q15_16_rlc_waveforms.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Series RLC resonance and tuning range: $f_0 = 1/(2\\pi\\sqrt{LC})$.\n- Key steps:\n  - Changing $L$ or $C$ changes $f_0$; a given variable capacitor allows tuning between a minimum and maximum frequency.\n  - Solve for $f_0$ at extreme $C$ values to find the band of receivable frequencies.\n- Why correct:\n  - The chosen frequency range matches what you get from the $LC$ combinations.\n- Why others are wrong:\n  - They ignore the square-root and inverse dependences or mis-evaluate the extremes.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "17 (a)",
@@ -412,49 +404,55 @@
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
       ],
       "images": [
         "images/q17_rails_triangle.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Motional emf in a conductor moving in a magnetic field: $\\mathcal{E} = B L v$ when velocity, length, and field are mutually perpendicular.\n  - Induced current direction from Lenz’s law.\n- Key steps:\n  - Identify the moving segment and its length in the field.\n  - Compute emf using $BLv$, then use the loop resistance to find current if needed.\n  - Use the right-hand rule to determine the direction of induced current that opposes the flux change.\n- Why this method is correct:\n  - It directly applies Faraday’s law in its motional form and is consistent with energy conservation.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "17 (b)",
       "points": 3,
-      "question": "Two straight conducting rails form a right angle. A conducting bar starts at the vertex at $t=0$ and moves outward along the rails with constant speed $v=4.50\\,\\mathrm{m/s}$ in a uniform magnetic field $B=0.350\\,\\mathrm{T}$ directed out of the page.\n\nFind the magnitude of the induced emf around the triangle at $t=3.10\\,\\mathrm{s}$.",
+      "question": "For the setup in Q17a, find the magnitude of the induced emf around the triangle at $t=3.10\\,\\mathrm{s}$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
       ],
       "images": [
         "images/q17_rails_triangle.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Motional emf in a conductor moving in a magnetic field: $\\mathcal{E} = B L v$ when velocity, length, and field are mutually perpendicular.\n  - Induced current direction from Lenz’s law.\n- Key steps:\n  - Identify the moving segment and its length in the field.\n  - Compute emf using $BLv$, then use the loop resistance to find current if needed.\n  - Use the right-hand rule to determine the direction of induced current that opposes the flux change.\n- Why this method is correct:\n  - It directly applies Faraday’s law in its motional form and is consistent with energy conservation.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "17 (c)",
       "points": 3,
-      "question": "Two straight conducting rails form a right angle. A conducting bar starts at the vertex at $t=0$ and moves outward along the rails with constant speed $v=4.50\\,\\mathrm{m/s}$ in a uniform magnetic field $B=0.350\\,\\mathrm{T}$ directed out of the page.\n\nIf the emf can be written as $\\mathcal{E} = a t^{n}$, what is the value of $n$?",
+      "question": "If in Q17 the emf can be written as $\\mathcal{E} = a t^{n}$, what is the value of $n$?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
       ],
       "images": [
         "images/q17_rails_triangle.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Motional emf in a conductor moving in a magnetic field: $\\mathcal{E} = B L v$ when velocity, length, and field are mutually perpendicular.\n  - Induced current direction from Lenz’s law.\n- Key steps:\n  - Identify the moving segment and its length in the field.\n  - Compute emf using $BLv$, then use the loop resistance to find current if needed.\n  - Use the right-hand rule to determine the direction of induced current that opposes the flux change.\n- Why this method is correct:\n  - It directly applies Faraday’s law in its motional form and is consistent with energy conservation.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "18 (a)",
@@ -470,14 +468,12 @@
       ],
       "images": [
         "images/q18_rl_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Inductance of a solenoid and flux linkage: $B = \\mu_0 n I$, $L = N\\Phi_B/I$.\n- Key steps:\n  - Compute $B$ inside using turn density and current.\n  - Flux per turn: $\\phi = B A$; total flux linkage: $N\\phi$.\n  - Use $L = N\\phi / I$ to solve for inductance.\n- Why correct:\n  - This procedure shows how geometry and turns determine $L$, aligning with the definition of inductance.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "18 (b)",
       "points": 3,
-      "question": "In the RL circuit with $E=100\\,\\mathrm{V}$, $R_1=10.0\\,\\Omega$, $R_2=20.0\\,\\Omega$, $R_3=30.0\\,\\Omega$, and $L=2.00\\,\\mathrm{H}$, a long time after switch $S$ is closed:\n\nWhat are currents $i_1$ and $i_2$ (directions indicated)?",
+      "question": "For the same circuit, a long time after the switch is closed, what are $i_1$ and $i_2$?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -488,14 +484,12 @@
       ],
       "images": [
         "images/q18_rl_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Inductance of a solenoid and flux linkage: $B = \\mu_0 n I$, $L = N\\Phi_B/I$.\n- Key steps:\n  - Compute $B$ inside using turn density and current.\n  - Flux per turn: $\\phi = B A$; total flux linkage: $N\\phi$.\n  - Use $L = N\\phi / I$ to solve for inductance.\n- Why correct:\n  - This procedure shows how geometry and turns determine $L$, aligning with the definition of inductance.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "18 (c)",
       "points": 3,
-      "question": "In the RL circuit with $E=100\\,\\mathrm{V}$, $R_1=10.0\\,\\Omega$, $R_2=20.0\\,\\Omega$, $R_3=30.0\\,\\Omega$, and $L=2.00\\,\\mathrm{H}$, after reaching steady state, switch $S$ is reopened.\n\nJust then, what are currents $i_1$ and $i_2$ (directions indicated)?",
+      "question": "After reaching steady state, the switch is reopened. Just then, what are $i_1$ and $i_2$?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -506,14 +500,12 @@
       ],
       "images": [
         "images/q18_rl_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Inductance of a solenoid and flux linkage: $B = \\mu_0 n I$, $L = N\\Phi_B/I$.\n- Key steps:\n  - Compute $B$ inside using turn density and current.\n  - Flux per turn: $\\phi = B A$; total flux linkage: $N\\phi$.\n  - Use $L = N\\phi / I$ to solve for inductance.\n- Why correct:\n  - This procedure shows how geometry and turns determine $L$, aligning with the definition of inductance.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "18 (d)",
       "points": 3,
-      "question": "In the RL circuit with $E=100\\,\\mathrm{V}$, $R_1=10.0\\,\\Omega$, $R_2=20.0\\,\\Omega$, $R_3=30.0\\,\\Omega$, and $L=2.00\\,\\mathrm{H}$, a long time after switch $S$ is reopened:\n\nWhat are currents $i_1$ and $i_2$ (directions indicated)?",
+      "question": "A long time after the switch is reopened in Q18, what are $i_1$ and $i_2$?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -524,9 +516,7 @@
       ],
       "images": [
         "images/q18_rl_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - Inductance of a solenoid and flux linkage: $B = \\mu_0 n I$, $L = N\\Phi_B/I$.\n- Key steps:\n  - Compute $B$ inside using turn density and current.\n  - Flux per turn: $\\phi = B A$; total flux linkage: $N\\phi$.\n  - Use $L = N\\phi / I$ to solve for inductance.\n- Why correct:\n  - This procedure shows how geometry and turns determine $L$, aligning with the definition of inductance.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "19 (a)",
@@ -538,55 +528,63 @@
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - A time-varying current in the solenoid produces a changing flux through the surrounding loop → induced emf from Faraday’s law.\n- Key steps:\n  - Use $B_{\\text{sol}}(t)$ to compute flux through each turn, then multiply by $M$ turns for total linkage.\n  - Differentiate $\\Phi_B(t)$ with respect to time to get $\\mathcal{E}(t)$.\n  - Apply Lenz’s law to fix the sign and direction of induced current.\n- Why correct:\n  - Treating the outer loop as a multi-turn coil correctly accounts for its stronger response compared with a single loop.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "19 (b)",
       "points": 3,
-      "question": "A vertical $N$-turn solenoid (air core, area $A$, length $D$) carries current $I(t) = I_0 e^{-t/\\tau}$.\n\nShow that the magnetic flux from the solenoid through an $M$-turn circular loop surrounding it at $t=0$ is $\\Phi_B = (\\mu_0 M N A / D) I_0$.",
+      "question": "Show that the magnetic flux from the solenoid through an $M$-turn circular loop surrounding it at $t=0$ is $\\Phi_B = (\\mu_0 M N A / D) I_0$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - A time-varying current in the solenoid produces a changing flux through the surrounding loop → induced emf from Faraday’s law.\n- Key steps:\n  - Use $B_{\\text{sol}}(t)$ to compute flux through each turn, then multiply by $M$ turns for total linkage.\n  - Differentiate $\\Phi_B(t)$ with respect to time to get $\\mathcal{E}(t)$.\n  - Apply Lenz’s law to fix the sign and direction of induced current.\n- Why correct:\n  - Treating the outer loop as a multi-turn coil correctly accounts for its stronger response compared with a single loop.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "19 (c)",
       "points": 3,
-      "question": "A vertical $N$-turn solenoid (air core, area $A$, length $D$) carries current $I(t) = I_0 e^{-t/\\tau}$. An $M$-turn circular loop surrounds the solenoid.\n\nFind the magnitude of the induced emf across the $M$-turn loop at $t=0$.",
+      "question": "Find the magnitude of the induced emf across the surrounding $M$-turn loop at $t=0$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - A time-varying current in the solenoid produces a changing flux through the surrounding loop → induced emf from Faraday’s law.\n- Key steps:\n  - Use $B_{\\text{sol}}(t)$ to compute flux through each turn, then multiply by $M$ turns for total linkage.\n  - Differentiate $\\Phi_B(t)$ with respect to time to get $\\mathcal{E}(t)$.\n  - Apply Lenz’s law to fix the sign and direction of induced current.\n- Why correct:\n  - Treating the outer loop as a multi-turn coil correctly accounts for its stronger response compared with a single loop.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "19 (d)",
       "points": 3,
-      "question": "A vertical $N$-turn solenoid (air core, area $A$, length $D$) carries current $I(t) = I_0 e^{-t/\\tau}$. An $M$-turn circular loop surrounds the solenoid.\n\nAs the solenoid current decreases, viewed from above it flows clockwise. What is the direction of the induced current in the surrounding loop (viewed from above)?",
+      "question": "As the solenoid current decreases, viewed from above it flows clockwise. What is the direction of the induced current in the surrounding loop (viewed from above)?",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
         {
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+        },
+        {
+          "type": "MIT OCW 8.02 – Problem Solving",
+          "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/pages/problem-solving/"
         }
-      ],
-      "detailed_explanation": "- Concept:\n  - A time-varying current in the solenoid produces a changing flux through the surrounding loop → induced emf from Faraday’s law.\n- Key steps:\n  - Use $B_{\\text{sol}}(t)$ to compute flux through each turn, then multiply by $M$ turns for total linkage.\n  - Differentiate $\\Phi_B(t)$ with respect to time to get $\\mathcal{E}(t)$.\n  - Apply Lenz’s law to fix the sign and direction of induced current.\n- Why correct:\n  - Treating the outer loop as a multi-turn coil correctly accounts for its stronger response compared with a single loop.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "20 (a)",
@@ -610,14 +608,12 @@
       ],
       "images": [
         "images/q20_ac_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - For AC circuits with $R$, $L$, and $C$:\n    - $X_L = 2\\pi fL$, $X_C = 1/(2\\pi fC)$, and $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ in series.\n- Key steps:\n  - For each switch position, redraw the circuit to see which elements are in series or parallel.\n  - Compute effective $R$, $X_L$, and $X_C$ for that configuration.\n  - Use them to find impedance magnitude, resonance condition, or any requested current/voltage.\n- Why correct:\n  - The solution method ties each numerical answer to standard reactance and impedance formulas at $60\\,\\mathrm{Hz}$.\n- Why naive guesses fail:\n  - Ignoring series/parallel combinations or mixing up $X_L$ and $X_C$ leads to inconsistent or dimensionally wrong results.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "20 (b)",
       "points": 3,
-      "question": "In the given AC circuit, the source is $V(t) = V_0 \\cos(\\omega_d t)$ with $V_0 = 170\\,\\mathrm{V}$, $f_d = 60.0\\,\\mathrm{Hz}$, $R=100\\,\\Omega$, $L=10\\,\\mathrm{mH}$, and each capacitor has $C = 10\\,\\mu\\mathrm{F}$.\n\nFor each switch position, compute the capacitive reactance $X_C$ at $60.0\\,\\mathrm{Hz}$.",
+      "question": "For each switch position in Q20a, compute the capacitive reactance $X_C$ at $60.0\\,\\mathrm{Hz}$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -636,14 +632,12 @@
       ],
       "images": [
         "images/q20_ac_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - For AC circuits with $R$, $L$, and $C$:\n    - $X_L = 2\\pi fL$, $X_C = 1/(2\\pi fC)$, and $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ in series.\n- Key steps:\n  - For each switch position, redraw the circuit to see which elements are in series or parallel.\n  - Compute effective $R$, $X_L$, and $X_C$ for that configuration.\n  - Use them to find impedance magnitude, resonance condition, or any requested current/voltage.\n- Why correct:\n  - The solution method ties each numerical answer to standard reactance and impedance formulas at $60\\,\\mathrm{Hz}$.\n- Why naive guesses fail:\n  - Ignoring series/parallel combinations or mixing up $X_L$ and $X_C$ leads to inconsistent or dimensionally wrong results.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "20 (c)",
       "points": 2,
-      "question": "In the given AC circuit, the source is $V(t) = V_0 \\cos(\\omega_d t)$ with $V_0 = 170\\,\\mathrm{V}$, $f_d = 60.0\\,\\mathrm{Hz}$, $R=100\\,\\Omega$, $L=10\\,\\mathrm{mH}$, and each capacitor has $C = 10\\,\\mu\\mathrm{F}$.\n\nFor each switch position, compute the inductive reactance $X_L$ at $60.0\\,\\mathrm{Hz}$.",
+      "question": "For each switch position in Q20a, compute the inductive reactance $X_L$ at $60.0\\,\\mathrm{Hz}$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -662,14 +656,12 @@
       ],
       "images": [
         "images/q20_ac_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - For AC circuits with $R$, $L$, and $C$:\n    - $X_L = 2\\pi fL$, $X_C = 1/(2\\pi fC)$, and $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ in series.\n- Key steps:\n  - For each switch position, redraw the circuit to see which elements are in series or parallel.\n  - Compute effective $R$, $X_L$, and $X_C$ for that configuration.\n  - Use them to find impedance magnitude, resonance condition, or any requested current/voltage.\n- Why correct:\n  - The solution method ties each numerical answer to standard reactance and impedance formulas at $60\\,\\mathrm{Hz}$.\n- Why naive guesses fail:\n  - Ignoring series/parallel combinations or mixing up $X_L$ and $X_C$ leads to inconsistent or dimensionally wrong results.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "20 (d)",
       "points": 2,
-      "question": "In the given AC circuit, the source is $V(t) = V_0 \\cos(\\omega_d t)$ with $V_0 = 170\\,\\mathrm{V}$, $f_d = 60.0\\,\\mathrm{Hz}$, $R=100\\,\\Omega$, $L=10\\,\\mathrm{mH}$, and each capacitor has $C = 10\\,\\mu\\mathrm{F}$.\n\nFor each switch position, state the resistive part (effective resistance) of the circuit.",
+      "question": "For each switch position in Q20a, state the resistive part (effective resistance) of the circuit.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -688,14 +680,12 @@
       ],
       "images": [
         "images/q20_ac_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - For AC circuits with $R$, $L$, and $C$:\n    - $X_L = 2\\pi fL$, $X_C = 1/(2\\pi fC)$, and $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ in series.\n- Key steps:\n  - For each switch position, redraw the circuit to see which elements are in series or parallel.\n  - Compute effective $R$, $X_L$, and $X_C$ for that configuration.\n  - Use them to find impedance magnitude, resonance condition, or any requested current/voltage.\n- Why correct:\n  - The solution method ties each numerical answer to standard reactance and impedance formulas at $60\\,\\mathrm{Hz}$.\n- Why naive guesses fail:\n  - Ignoring series/parallel combinations or mixing up $X_L$ and $X_C$ leads to inconsistent or dimensionally wrong results.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "20 (e)",
       "points": 3,
-      "question": "In the given AC circuit, the source is $V(t) = V_0 \\cos(\\omega_d t)$ with $V_0 = 170\\,\\mathrm{V}$, $f_d = 60.0\\,\\mathrm{Hz}$, $R=100\\,\\Omega$, $L=10\\,\\mathrm{mH}$, and each capacitor has $C = 10\\,\\mu\\mathrm{F}$.\n\nFor the neutral switch position, compute the magnitude of the impedance $Z$ at $60.0\\,\\mathrm{Hz}$.",
+      "question": "For the neutral switch position in Q20a, compute the magnitude of the impedance $Z$ at $60.0\\,\\mathrm{Hz}$.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -714,14 +704,12 @@
       ],
       "images": [
         "images/q20_ac_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - For AC circuits with $R$, $L$, and $C$:\n    - $X_L = 2\\pi fL$, $X_C = 1/(2\\pi fC)$, and $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ in series.\n- Key steps:\n  - For each switch position, redraw the circuit to see which elements are in series or parallel.\n  - Compute effective $R$, $X_L$, and $X_C$ for that configuration.\n  - Use them to find impedance magnitude, resonance condition, or any requested current/voltage.\n- Why correct:\n  - The solution method ties each numerical answer to standard reactance and impedance formulas at $60\\,\\mathrm{Hz}$.\n- Why naive guesses fail:\n  - Ignoring series/parallel combinations or mixing up $X_L$ and $X_C$ leads to inconsistent or dimensionally wrong results.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     },
     {
       "number": "20 (f)",
       "points": 3,
-      "question": "In the given AC circuit, the source is $V(t) = V_0 \\cos(\\omega_d t)$ with $V_0 = 170\\,\\mathrm{V}$, $f_d = 60.0\\,\\mathrm{Hz}$, $R=100\\,\\Omega$, $L=10\\,\\mathrm{mH}$, and each capacitor has $C = 10\\,\\mu\\mathrm{F}$.\n\nFor the neutral switch position, find the resonant frequency of the circuit.",
+      "question": "For the neutral position in Q20a, find the resonant frequency of the circuit.",
       "choices": [],
       "answer": "See answer key PDF for detailed solution.",
       "resources": [
@@ -740,9 +728,7 @@
       ],
       "images": [
         "images/q20_ac_circuit.png"
-      ],
-      "detailed_explanation": "- Concept:\n  - For AC circuits with $R$, $L$, and $C$:\n    - $X_L = 2\\pi fL$, $X_C = 1/(2\\pi fC)$, and $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ in series.\n- Key steps:\n  - For each switch position, redraw the circuit to see which elements are in series or parallel.\n  - Compute effective $R$, $X_L$, and $X_C$ for that configuration.\n  - Use them to find impedance magnitude, resonance condition, or any requested current/voltage.\n- Why correct:\n  - The solution method ties each numerical answer to standard reactance and impedance formulas at $60\\,\\mathrm{Hz}$.\n- Why naive guesses fail:\n  - Ignoring series/parallel combinations or mixing up $X_L$ and $X_C$ leads to inconsistent or dimensionally wrong results.",
-      "note": "Refer to quiz PDF if problem information appears incomplete."
+      ]
     }
   ]
 }

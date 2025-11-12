@@ -323,9 +323,15 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
         console.log('✅ Using TUTORIAL rendering');
         console.log('Explanation content:', data.explanation?.substring(0, 200));
 
+        // Add note if available
+        const noteHtml = data.note
+          ? `<div class="problem-note">⚠️ ${data.note}</div>`
+          : '';
+
         // Tutorial mode: Show concept and examples together (no "Show Answer" needed)
         card.innerHTML = `
           <div class="question-section">
+            ${noteHtml}
             <div class="term"><span class="question-title">${data.title || term}</span></div>
           </div>
           <div class="answer" style="display: block;">
@@ -505,8 +511,14 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
             ).join('')
           : (imagePath ? `<img src="${imagePath}" alt="Diagram" onerror="this.style.display='none'" />` : '');
 
+        // Add note if available
+        const noteHtml = data.note
+          ? `<div class="problem-note">⚠️ ${data.note}</div>`
+          : '';
+
         card.innerHTML = `
           <div class="question-section">
+            ${noteHtml}
             <div class="term"><span class="question-title">${data.title || term}</span></div>
             ${choicesHtml}
             ${imagesHtml}
@@ -875,6 +887,11 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
       // Add seeKey flag if present
       if (q.seeKey) {
         card.seeKey = true;
+      }
+      
+      // Add note if present
+      if (q.note) {
+        card.note = q.note;
       }
       
       cards.push(card);

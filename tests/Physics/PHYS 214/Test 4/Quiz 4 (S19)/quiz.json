@@ -20,7 +20,8 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 2,
@@ -41,7 +42,11 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "images": [
+        "images/q02_mutual_inductance.png"
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 3,
@@ -62,7 +67,8 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 4,
@@ -83,7 +89,8 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 5,
@@ -104,7 +111,11 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],      
+      "images": [
+        "images/q05_q06_straight_wire.png"
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 6,
@@ -125,7 +136,11 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "images": [
+        "images/q05_q06_straight_wire.png"
+      ],      
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 7,
@@ -146,7 +161,8 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 8,
@@ -167,7 +183,8 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 9,
@@ -188,7 +205,11 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ]
+      ],
+      "images": [
+        "images/q09_inductor_emf.png"
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 10,
@@ -212,7 +233,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 11,
@@ -237,7 +259,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 12,
@@ -257,7 +280,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 13,
@@ -282,7 +306,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 14,
@@ -307,7 +332,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 15,
@@ -332,7 +358,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.5 Resonance in an AC Circuit",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-resonance-in-an-ac-circuit"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": 16,
@@ -352,7 +379,8 @@
           "type": "OpenStax University Physics Vol. 2 – 15.6 Transformers",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "17 (a)",
@@ -366,7 +394,11 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "images": [
+        "images/q17_metal_rod.png"
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "17 (b)",
@@ -380,7 +412,11 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "images": [
+        "images/q17_metal_rod.png"
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "17 (c)",
@@ -394,7 +430,11 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "images": [
+        "images/q17_metal_rod.png"
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "17 (d)",
@@ -408,7 +448,11 @@
           "type": "OpenStax University Physics Vol. 2 – 13.1 Faraday’s Law",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
         }
-      ]
+      ],
+      "images": [
+        "images/q17_metal_rod.png"
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "18 (a)",
@@ -422,7 +466,8 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "18 (b)",
@@ -436,7 +481,8 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "18 (c)",
@@ -450,7 +496,8 @@
           "type": "OpenStax University Physics Vol. 2 – 14.4 RL Circuits",
           "url": "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
         }
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "19 (a)",
@@ -467,7 +514,8 @@
       ],
       "images": [
         "images/q19_rl_lamp_circuit.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "19 (b)",
@@ -484,7 +532,8 @@
       ],
       "images": [
         "images/q19_rl_lamp_circuit.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "19 (c)",
@@ -501,7 +550,8 @@
       ],
       "images": [
         "images/q19_rl_lamp_circuit.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "19 (d)",
@@ -518,7 +568,8 @@
       ],
       "images": [
         "images/q19_rl_lamp_circuit.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "20 (a)",
@@ -539,7 +590,8 @@
       ],
       "images": [
         "images/q20_rlc_network.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "20 (b)",
@@ -560,7 +612,8 @@
       ],
       "images": [
         "images/q20_rlc_network.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "20 (c)",
@@ -581,7 +634,8 @@
       ],
       "images": [
         "images/q20_rlc_network.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "20 (d)",
@@ -602,7 +656,8 @@
       ],
       "images": [
         "images/q20_rlc_network.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "20 (e)",
@@ -623,7 +678,8 @@
       ],
       "images": [
         "images/q20_rlc_network.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     },
     {
       "number": "20 (f)",
@@ -644,7 +700,8 @@
       ],
       "images": [
         "images/q20_rlc_network.png"
-      ]
+      ],
+      "note": "Refer to quiz PDF if problem information appears incomplete."
     }
   ]
 }
