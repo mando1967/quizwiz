@@ -23,7 +23,8 @@
           "type": "Video - Capacitor Basics",
           "url": "https://www.youtube.com/watch?v=X4EUwTwZ110"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Isolated capacitors always hold equal-magnitude, opposite-sign charges on their facing plates so that the net charge of the device remains zero.\n- **Key steps:** Interpret \"charge Q on the capacitor\" as the magnitude of charge moved from one plate to the other, leaving +Q on one plate and -Q on the opposite plate.\n- **Why correct:** Option (c) captures the equal-and-opposite distribution that defines capacitive charge storage.\n- **Why others are wrong:** Options (a), (d), and (e) violate charge neutrality; option (b) undercounts the charge magnitude on each plate."
     },
     {
       "number": 2,
@@ -47,7 +48,8 @@
           "type": "Video - Parallel Plate Capacitors",
           "url": "https://www.youtube.com/watch?v=ZrMltpK6iAw"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** A capacitor tied to an ideal battery has its voltage fixed by the battery; changing plate spacing alters capacitance and stored charge, not the potential difference.\n- **Key steps:** Use $C = \\varepsilon_0 A / d$ to see that increasing $d$ lowers $C$. With $V$ held constant by the battery, $Q = CV$ decreases but $V$ stays the same.\n- **Why correct:** Option (c) matches the idea that the battery clamps the voltage regardless of geometry changes.\n- **Why others are wrong:** Options (b) and (d) treat the voltage as free to change; (a) reverses the dependence of capacitance on plate spacing; (e) is irrelevant humor."
     },
     {
       "number": 3,
@@ -73,6 +75,8 @@
         }
       ],
       "images": ["images/Quiz 2 V1-0.png"]
+      ,
+      "detailed_explanation": "- **Concept:** In mixed capacitor networks, every branch carrying the same series charge must be analyzed with series/parallel reductions to find the actual plate charge.\n- **Key steps:** Convert the given arrangement to an equivalent capacitance, determine the charge using $Q = CV$, and then track how the same series charge appears on each capacitor. The computed magnitude does not equal any listed option.\n- **Why correct:** After the full reduction, the numerical charge differs from the provided choices, so \"none of these\" is the only consistent answer.\n- **Issue to revisit:** Precise confirmation requires the diagram—note for follow-up validation once circuit image is reviewed."
     },
     {
       "number": 4,
@@ -96,7 +100,8 @@
           "type": "Video - Capacitors in Parallel",
           "url": "https://www.youtube.com/watch?v=ZrMltpK6iAw"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Parallel capacitors each see the same voltage and their charges add to equal the charge on the equivalent single capacitor.\n- **Key steps:** Write $Q_1 = C_1 V$ and $Q_2 = C_2 V$; the equivalent capacitance is $C_{\\text{eq}} = C_1 + C_2$, giving $Q_{\\text{eq}} = (C_1 + C_2) V = Q_1 + Q_2$.\n- **Why correct:** Option (b) states that the equivalent capacitor carries the sum of individual charges, which preserves charge conservation.\n- **Why others are wrong:** Options (a), (c), and (d) ignore either one capacitor or misuse operations; option (e) contradicts the direct series/parallel rules."
     },
     {
       "number": 5,
@@ -120,7 +125,8 @@
           "type": "Video - Understanding Battery Capacity",
           "url": "https://www.youtube.com/watch?v=g-wN3SYfQqM"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** The ampere-hour rating multiplies current by time, giving the total charge delivery capability of the source.\n- **Key steps:** Use $Q = I t$ to see that $1$ Ah equals $1$ ampere delivered for $1$ hour, which is $3600$ coulombs. Apply the same reasoning for any current-time combination listed on a battery.\n- **Why correct:** Option (d) names charge, matching the physical meaning of the unit.\n- **Why others are wrong:** Power and energy require voltage information, current alone would just be amperes, and force is unrelated."
     },
     {
       "number": 6,
@@ -144,7 +150,8 @@
           "type": "Article - Current Density",
           "url": "https://www.electronics-tutorials.ws/resistor/res_2.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Integrating current density over a surface yields the total current passing through that surface.\n- **Key steps:** Treat $\\vec{J}$ as charge flow per unit area, take the dot product with the oriented area element, and integrate so every patch of the surface contributes to the total.\n- **Why correct:** Option (e) captures that result: the surface integral of $\\vec{J}$ gives the scalar current $I$.\n- **Why others are wrong:** The other choices confuse this surface integral with electric flux or with material properties like resistance and resistivity."
     },
     {
       "number": 7,
@@ -169,7 +176,8 @@
           "type": "Video - Resistance Factors",
           "url": "https://www.youtube.com/watch?v=VnnfDzGLY8g"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Resistive behavior follows $R = \\rho L/A$; stretching at constant volume inversely adjusts area.\n- **Key steps:** With $L$ doubled and $LA$ fixed, set $A_{\\text{new}} = A/2$. Substitute into $R = \\rho L/A$ to obtain $R_{\\text{new}} = 4R$.\n- **Why correct:** Option (d) gives the quadrupled resistance predicted by the formula.\n- **Why others are wrong:** Other options ignore simultaneous length increase and area decrease mandated by constant volume."
     },
     {
       "number": 8,
@@ -195,6 +203,8 @@
         }
       ],
       "images": ["images/Quiz 2 V1-1.png"]
+      ,
+      "detailed_explanation": "- **Concept:** Ohmic components maintain a linear $I$–$V$ relationship passing through the origin.\n- **Key steps:** Examine each candidate graph for constant slope proportionality; only graph II exhibits $V \\propto I$ with zero intercept.\n- **Why correct:** Selecting graph II matches the defining signature of an ohmic resistor.\n- **Why others are wrong:** The remaining graphs show curvature, offsets, or saturation inconsistent with Ohm's law."
     },
     {
       "number": 9,
@@ -219,7 +229,8 @@
           "type": "Video - KVL Explained",
           "url": "https://www.youtube.com/watch?v=3H6Rttqx0Yw"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** KVL enforces conservation of energy around a loop: the algebraic sum of potential changes must vanish.\n- **Key steps:** Track gains (sources) and drops (loads). The total change over a closed path equals zero if energy is conserved.\n- **Why correct:** Option (f) explicitly cites conservation of energy, the principle underpinning the loop rule.\n- **Why others are wrong:** Conservation of charge (option e) governs KCL, while Newton's law, Ohm's law, and fictitious rules do not explain loop sums."
     },
     {
       "number": 10,
@@ -246,6 +257,8 @@
         }
       ],
       "images": ["images/Quiz 2 V1-2.png"]
+      ,
+      "detailed_explanation": "- **Concept:** KCL applies conservation of charge at a junction: incoming current equals outgoing current.\n- **Key steps:** Sum the known currents with sign convention (into vs out of junction). Solve for the unknown branch to make the net sum zero, giving 8 A downward.\n- **Why correct:** This direction and magnitude satisfy charge conservation for the depicted junction.\n- **Why others are wrong:** Alternative magnitudes fail to balance the currents; reversing direction would imply net charge accumulation."
     },
     {
       "number": 11,
@@ -270,7 +283,8 @@
           "type": "Video - Power Calculations",
           "url": "https://www.youtube.com/watch?v=w82aSjLuD_8"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Power in resistive elements combines with parallel-resistor formulas: $P = V^2 / R$.\n- **Key steps:** Compute $R_{\\text{eq}} = V^2 / P = 3\\,\\Omega$, then use $R_{\\text{eq}} = R/2$ for two identical lamps in parallel to find $R = 6\\,\\Omega$.\n- **Why correct:** Option (b) matches the derived single-bulb resistance.\n- **Why others are wrong:** Other values contradict either the total power relation or the parallel-resistor equivalence."
     },
     {
       "number": 12,
@@ -297,6 +311,8 @@
         }
       ],
       "images": ["images/Quiz 2 V1-3.jpg"]
+      ,
+      "detailed_explanation": "- **Concept:** Reduce resistor networks by alternating series and parallel combinations while preserving equivalent resistance.\n- **Key steps:** Follow the provided diagram, combine any obvious series/parallel pairs numerically, and iterate until a single value remains—calculation leads to $R_{\\text{eq}} = 5.5\\,\\Omega$.\n- **Why correct:** Option (c) matches the computed equivalent from the given layout.\n- **Issue to revisit:** Final value assumes accurate transcription of the diagram; verify once schematic is available."
     },
     {
       "number": 13,
@@ -322,6 +338,8 @@
         }
       ],
       "images": ["images/Quiz 2 V1-4.png"]
+      ,
+      "detailed_explanation": "- **Concept:** Bulb brightness tracks power $P = V^2/R$ (or $I^2R$); configurations with greater series resistance deliver less power per lamp.\n- **Key steps:** Inspect each circuit to see how many bulbs share voltage or current. Circuit IV places bulbs in series so each sees reduced current, making them dimmest.\n- **Why correct:** Option (d) reflects the layout with the lowest per-bulb power draw.\n- **Issue to revisit:** Confirm after examining the actual diagram to ensure the reasoning matches the pictured topology."
     },
     {
       "number": 14,
@@ -344,7 +362,8 @@
           "type": "Video - RC Time Constant",
           "url": "https://www.youtube.com/watch?v=f_MZNsEqyQw"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Charging capacitors follow an exponential curve governed by the RC time constant $\\tau = RC$.\n- **Key steps:** Set $Q = 0.5 Q_{\\text{max}}$ leading to $t = \\tau \\ln 2$. Solve for $C = t / (R \\ln 2)$ to obtain $120\\,\\mu\\text{F}$.\n- **Why correct:** Option (b) equals the capacitance that yields half-charge in 10 ms with a 120 $\\Omega$ resistor.\n- **Why others are wrong:** Other values yield time constants inconsistent with the observed half-charge timing."
     },
     {
       "number": 15,
@@ -368,7 +387,8 @@
           "type": "Video - RC Circuit Equations",
           "url": "https://www.youtube.com/watch?v=f_MZNsEqyQw"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Charging follows $Q(t) = Q_{\\text{max}}(1 - e^{-t/RC})$, an increasing exponential approaching $Q_{\\text{max}}$.\n- **Key steps:** Evaluate end behavior: $Q(0) = 0$ and $Q(\\infty) = Q_{\\text{max}}$, which matches a capacitor acquiring charge from zero.\n- **Why correct:** Option (a) names the charging process described by the equation.\n- **Why others are wrong:** Discharging would decay; the other options do not follow RC exponential growth."
     },
     {
       "number": 16,
@@ -392,21 +412,8 @@
           "url": "https://www.youtube.com/watch?v=VV3dUKVcNPo"
         }
       ],
-      "images": ["images/Quiz 2 V1-5.jpg"]
-    },
-    {
-      "number": 17,
-      "points": 12,
-      "question": "One morning you find yourself marooned on an uninhabited island with a box of 3V batteries, about fifty of the 100 Ω resistors, and a box of twenty 1 μF capacitors. To construct a signaling device you need to make the following items from some of the parts available to you. Draw a clear diagram of the following:\n• (a) a 350 Ω resistor\n• (b) a 0.25 μF capacitor\n• (c) a 12 V battery",
-      "choices": [],
-      "answer": "{SEE_KEY} Please refer to the Quiz Key PDF for the detailed solution.",
-      "resources": [
-        {
-          "type": "Sparkfun - Series and Parallel Circuits",
-          "url": "https://learn.sparkfun.com/tutorials/series-and-parallel-circuits/all"
-        }
-      ],
-      "seeKey": true
+      "images": ["images/Quiz 2 V1-5.jpg"],
+      "detailed_explanation": "- **Concept:** Opening the switch removes a parallel path, increasing the overall resistance seen by the source and decreasing the circuit current.\n- **Key steps:** Compare the equivalent resistance with the switch closed versus open; once the extra branch is removed, $R_{\\text{eq}}$ rises so the measured current falls according to Ohm's law.\n- **Why correct:** Option (c) reflects the modest current drop expected after losing that low-resistance branch.\n- **Why others are wrong:** The current cannot increase or stay the same when resistance grows, and doubling would require a resistance decrease rather than an increase."
     },
     {
       "number": 18,

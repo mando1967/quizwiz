@@ -1,0 +1,578 @@
+{
+  "title": "PHYS 214 - Test 5, Quiz 5P (S00)",
+  "questions": [
+    {
+      "number": 1,
+      "points": 2,
+      "question": "The figure below shows a parallel-plate capacitor and the current in the connecting wire that is discharging the capacitor. Select the correct statement below: [IMAGE:images/Quiz 5P (S00)-1.png]",
+      "choices": [
+        "(a) The direction of the displacement current $i_d$ between the plates is leftward",
+        "(b) The direction of the displacement current $i_d$ between the plates is rightward",
+        "(c) The displacement current is zero, i.e., no direction"
+      ],
+      "answer": "(a) The direction of the displacement current $i_d$ between the plates is leftward",
+      "explanation": "The displacement current is defined as $i_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}$. When a capacitor is discharging, the electric field between the plates is decreasing. Based on the circuit diagram orientation, the displacement current flows leftward, in the same direction as the decreasing electric flux would indicate.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "note": "Refer to quiz PDF for circuit diagram orientation.",
+      "images": [
+        "images/Quiz 5P (S00)-1.png"
+      ]
+    },
+    {
+      "number": 2,
+      "points": 2,
+      "question": "Select the correct statement below: [IMAGE:images/Quiz 5P (S00)-1.png]",
+      "choices": [
+        "(a) The magnetic field at point P is directed into the page",
+        "(b) The magnetic field at point P is directed out of the page",
+        "(c) There is no magnetic field at point P because there is no actual current of charged particles between the plates"
+      ],
+      "answer": "(a) The magnetic field at point P is directed into the page",
+      "explanation": "The displacement current creates a magnetic field just like a real current would. Using the right-hand rule: if the displacement current points to the left (as established in Problem 1), and point P is above the current, the magnetic field at P points into the page.\n\nNote: Option (c) is incorrect because displacement current does produce a magnetic field, even though no actual charges flow between the plates.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "note": "Refer to quiz PDF for point P location.",
+      "images": [
+        "images/Quiz 5P (S00)-1.png"
+      ]
+    },
+    {
+      "number": 3,
+      "points": 2,
+      "question": "A current of 10 A is used to charge a parallel plate capacitor with square plates. If the area of each plate is 0.5 m², the displacement current through a 0.15 m² area wholly between the capacitor plates and parallel to them is",
+      "choices": [
+        "(a) 1 A",
+        "(b) 0.25 A",
+        "(c) 3 A",
+        "(d) 10 A",
+        "(e) 5 A"
+      ],
+      "answer": "(c) 3 A",
+      "explanation": "The displacement current is uniformly distributed across the capacitor plates. The displacement current through a smaller area is proportional to that area:\n\n$$i_d = I \\times \\frac{A_{small}}{A_{plate}} = 10 \\times \\frac{0.15}{0.5} = 10 \\times 0.3 = 3 \\text{ A}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": 2,
+      "question": "The figure below shows the electric and magnetic fields of an electromagnetic wave at a certain instant. What is the direction of the propagation of the wave? [IMAGE:images/Quiz 5P (S00)-2.png]",
+      "choices": [
+        "(a) to the left",
+        "(b) to the right",
+        "(c) into the page",
+        "(d) out of the page",
+        "(e) to the top"
+      ],
+      "answer": "(c) into the page",
+      "explanation": "The direction of propagation of an EM wave is given by $\\vec{E} \\times \\vec{B}$. Based on the field orientations shown in the figure, using the right-hand rule, the cross product points into the page.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ],
+      "note": "Refer to quiz PDF for figure showing E and B field orientations.",
+      "images": [
+        "images/Quiz 5P (S00)-2.png"
+      ]
+    },
+    {
+      "number": 5,
+      "points": 2,
+      "question": "Which of the following is NOT true for electromagnetic waves?",
+      "choices": [
+        "(a) they transport energy",
+        "(b) they transport momentum",
+        "(c) they travel at different speeds in vacuum, depending on their frequency",
+        "(d) they consist of changing electric and magnetic fields",
+        "(e) they can be reflected"
+      ],
+      "answer": "(c) they travel at different speeds in vacuum, depending on their frequency",
+      "explanation": "All electromagnetic waves travel at the same speed in vacuum: $c = 3 \\times 10^8$ m/s, regardless of their frequency or wavelength. This is a fundamental property of EM waves. The other statements are all true: EM waves transport energy and momentum, consist of oscillating E and B fields, and can be reflected.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": 2,
+      "question": "We perceive intensity for sound wave as volume. What do we perceive intensity for light waves?",
+      "choices": [
+        "(a) Color",
+        "(b) Brightness",
+        "(c) Opacity",
+        "(d) Shininess"
+      ],
+      "answer": "(b) Brightness",
+      "explanation": "Just as we perceive sound wave intensity as loudness/volume, we perceive light wave intensity as brightness. Color is related to frequency/wavelength, not intensity. Opacity and shininess are material properties, not perceptions of wave intensity.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-3-energy-carried-by-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 2,
+      "question": "Polarized light passes through a single polarizer with an intensity of 10.00 mW/m². The polarization plane of the light is aligned with the polarization axis of the polarizer. What is the intensity of the light upon exiting the polarizer?",
+      "choices": [
+        "(a) 0.0 mW/m²",
+        "(b) 2.50 mW/m²",
+        "(c) 5.00 mW/m²",
+        "(d) 10.00 mW/m²"
+      ],
+      "answer": "(d) 10.00 mW/m²",
+      "explanation": "When polarized light passes through a polarizer, the transmitted intensity follows Malus's law: $I = I_0 \\cos^2\\theta$. When the polarization plane is aligned with the polarizer axis, $\\theta = 0°$, so:\n\n$$I = 10.00 \\times \\cos^2(0°) = 10.00 \\times 1 = 10.00 \\text{ mW/m}^2$$\n\nAll the light passes through.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-4-polarization"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": 2,
+      "question": "Which property of a light wave does not change as the wave passes from one transparent medium to another:",
+      "choices": [
+        "(a) Frequency",
+        "(b) Wavelength",
+        "(c) Phase velocity",
+        "(d) Amplitude"
+      ],
+      "answer": "(a) Frequency",
+      "explanation": "When light passes from one medium to another, its frequency remains constant. This is because the frequency is determined by the source. However, the wavelength changes ($\\lambda = v/f$), the phase velocity changes ($v = c/n$), and the amplitude may change due to reflection at the interface.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": 2,
+      "question": "Diverging lens can make",
+      "choices": [
+        "(a) real images",
+        "(b) virtual images",
+        "(c) can do both real and virtual images"
+      ],
+      "answer": "(b) virtual images",
+      "explanation": "Diverging lenses (negative focal length) can only produce virtual images. The diverging lens causes parallel rays to spread apart, appearing to come from a virtual focal point. The image is always virtual, upright, and reduced in size, located on the same side as the object.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": 2,
+      "question": "Considering what you would observe on a nice day, which color of light do you think scatters most in the atmosphere?",
+      "choices": [
+        "(a) Blue",
+        "(b) Red",
+        "(c) Yellow",
+        "(d) White (all colors scatter the same)"
+      ],
+      "answer": "(a) Blue",
+      "explanation": "Rayleigh scattering causes shorter wavelengths to scatter more than longer wavelengths. The scattering intensity is proportional to $1/\\lambda^4$. Blue light has a shorter wavelength than red, yellow, or other visible colors, so it scatters most strongly. This is why the sky appears blue on a clear day.",
+      "resources": [
+        {
+          "type": "HyperPhysics",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": 2,
+      "question": "The physical phenomenon that makes fiber optic signal transmission possible is",
+      "choices": [
+        "(a) Dispersion",
+        "(b) Polarization by reflection",
+        "(c) Small angle refraction",
+        "(d) Total internal reflection"
+      ],
+      "answer": "(d) Total internal reflection",
+      "explanation": "Fiber optic cables work by total internal reflection. Light traveling through the high-index glass core reflects completely at the core-cladding boundary when the angle of incidence exceeds the critical angle. This allows light to propagate along the fiber with minimal loss over long distances.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": 2,
+      "question": "You are looking at the mirror and notice that when you are close to it, you see yourself upright and magnified. As you move away from it, at one moment you see your image flip over and become inverted and de-magnified. This mirror is",
+      "choices": [
+        "(a) convex",
+        "(b) concave",
+        "(c) planar",
+        "(d) impossible... you are sleeping. Wake up!"
+      ],
+      "answer": "(b) concave",
+      "explanation": "This behavior is characteristic of a concave mirror:\n- When you're closer than the focal point, you see a virtual, upright, magnified image\n- When you're beyond the focal point, you see a real, inverted image\n- The image flips when you cross the focal point\n\nConvex and plane mirrors always produce upright images and cannot cause this flip.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": 2,
+      "question": "Interference of light is evidence that",
+      "choices": [
+        "(a) Light is electromagnetic in character",
+        "(b) The speed of light is very large",
+        "(c) Light does not obey conservation of energy",
+        "(d) Light is a wave phenomenon",
+        "(e) Light is a transverse wave"
+      ],
+      "answer": "(d) Light is a wave phenomenon",
+      "explanation": "Interference is a characteristic property of waves. When two waves meet, they can constructively or destructively interfere depending on their phase relationship. The observation of interference patterns (like in Young's double-slit experiment) provides direct evidence that light behaves as a wave.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": 2,
+      "question": "Suppose one of two beams of green light (λ = 510 nm) split equally from the same laser travels 6.375 μm farther in reaching the same spot than the other. The intensity of light at that spot will be",
+      "choices": [
+        "(a) Zero",
+        "(b) The same as that of either beam by itself",
+        "(c) Double that of either beam by itself",
+        "(d) Four times that of either beam by itself"
+      ],
+      "answer": "(a) Zero",
+      "explanation": "Path difference = 6.375 μm = 6375 nm\n\n$$\\frac{6375 \\text{ nm}}{510 \\text{ nm}} = 12.5$$\n\nSince 12.5 = 12 + 0.5, the path difference is $(n + 1/2)\\lambda$, which corresponds to destructive interference. When two coherent beams of equal intensity interfere destructively, the resulting intensity is zero.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": 2,
+      "question": "What is the energy of a single photon of green light (λ = 510 nm)?",
+      "choices": [
+        "(a) Zero",
+        "(b) 2.4 eV",
+        "(c) 5.1 eV",
+        "(d) 1.96 mV",
+        "(e) impossible to say"
+      ],
+      "answer": "(b) 2.4 eV",
+      "explanation": "Photon energy is given by $E = hf = hc/\\lambda$.\n\nUsing the shortcut formula: $E = \\frac{1240 \\text{ eV·nm}}{\\lambda}$\n\n$$E = \\frac{1240}{510} = 2.43 \\text{ eV} \\approx 2.4 \\text{ eV}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/6-2-photoelectric-effect"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": 2,
+      "question": "If you shine a green light (λ = 510 nm) on a metal with a work function φ = 3.2 eV, can you knock electrons from metal out?",
+      "choices": [
+        "(a) yes, maximal kinetic energy of electrons would be about 2.1 eV",
+        "(b) yes, maximal kinetic energy of electrons would be about 2.4 eV",
+        "(c) yes, maximal kinetic energy of electrons would be about 0.3 eV",
+        "(d) no, not possible"
+      ],
+      "answer": "(d) no, not possible",
+      "explanation": "The photon energy of green light at 510 nm is about 2.4 eV (from previous problem). Since the work function φ = 3.2 eV is greater than the photon energy (2.4 eV), the photons don't have enough energy to overcome the work function and eject electrons.\n\nFor photoelectric emission: $E_{photon} > \\phi$ is required.\n\n$$2.4 \\text{ eV} < 3.2 \\text{ eV}$$\n\nNo electrons can be ejected.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/6-2-photoelectric-effect"
+        }
+      ]
+    },
+    {
+      "number": "17 (a)",
+      "points": 2,
+      "question": "A 1 cm tall object is placed 5 cm in front of a convex mirror with radius of curvature 20 cm.\n\n(a) Find focal length of the mirror, including the sign.",
+      "choices": [],
+      "answer": "$f = -10$ cm",
+      "explanation": "For a convex mirror, the focal length is negative:\n\n$$f = -\\frac{R}{2} = -\\frac{20}{2} = -10 \\text{ cm}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "17 (b)",
+      "points": 2,
+      "question": "A 1 cm tall object is placed 5 cm in front of a convex mirror with radius of curvature 20 cm.\n\n(b) Find location of the image.",
+      "choices": [],
+      "answer": "$i = -3.33$ cm (behind the mirror)",
+      "explanation": "Using the mirror equation:\n$$\\frac{1}{p} + \\frac{1}{i} = \\frac{1}{f}$$\n\n$$\\frac{1}{5} + \\frac{1}{i} = \\frac{1}{-10}$$\n\n$$\\frac{1}{i} = -0.1 - 0.2 = -0.3$$\n\n$$i = -3.33 \\text{ cm}$$\n\nThe negative sign indicates the image is behind the mirror (virtual).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "17 (c)",
+      "points": 2,
+      "question": "A 1 cm tall object is placed 5 cm in front of a convex mirror with radius of curvature 20 cm.\n\n(c) Is image virtual or real? Is it inverted or erect?",
+      "choices": [],
+      "answer": "Virtual and erect (upright)",
+      "explanation": "Since $i = -3.33$ cm is negative, the image is virtual (located behind the mirror).\n\nMagnification: $m = -\\frac{i}{p} = -\\frac{-3.33}{5} = +0.67$\n\nSince m > 0, the image is erect (upright, not inverted).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "17 (d)",
+      "points": 2,
+      "question": "A 1 cm tall object is placed 5 cm in front of a convex mirror with radius of curvature 20 cm.\n\n(d) What is the height of the image?",
+      "choices": [],
+      "answer": "$h_i = 0.67$ cm",
+      "explanation": "Using magnification:\n$$m = \\frac{h_i}{h_o} = 0.67$$\n\n$$h_i = m \\times h_o = 0.67 \\times 1 = 0.67 \\text{ cm}$$\n\nThe image is reduced (smaller than the object).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "17 (e)",
+      "points": 6,
+      "question": "A 1 cm tall object is placed 5 cm in front of a convex mirror with radius of curvature 20 cm.\n\n(e) Check your answers with a ray diagram. Draw the mirror and the object. Use at least two rays to describe the location of the image. Please label rays or if you forgot the naming notation, briefly describe ray properties on the image.",
+      "choices": [],
+      "answer": "See answer key for ray diagram",
+      "explanation": "The ray diagram for a convex mirror should show:\n1. A ray parallel to the principal axis reflects as if coming from the focal point behind the mirror\n2. A ray aimed at the center of curvature reflects back on itself\n3. A ray aimed at the focal point reflects parallel to the axis\n\nThe virtual image appears behind the mirror, upright and reduced.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "18 (a)",
+      "points": 3,
+      "question": "A 1 cm tall object is placed 5 cm in front of a symmetric biconcave lens constructed of n = 1.55 polystyrene plastic. Both surfaces of the lens have a radius of curvature |R| = 10 cm.\n\n(a) Find focal length of the lens, including the sign.",
+      "choices": [],
+      "answer": "$f = -9.09$ cm",
+      "explanation": "Using the lensmaker's equation for a biconcave lens:\n$$\\frac{1}{f} = (n-1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)$$\n\nFor a biconcave lens: $R_1 = -10$ cm (first surface curves away from light), $R_2 = +10$ cm (second surface curves toward light).\n\n$$\\frac{1}{f} = (1.55-1)\\left(\\frac{1}{-10} - \\frac{1}{10}\\right) = 0.55 \\times (-0.2) = -0.11$$\n\n$$f = -9.09 \\text{ cm}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "18 (b)",
+      "points": 2,
+      "question": "A 1 cm tall object is placed 5 cm in front of a symmetric biconcave lens constructed of n = 1.55 polystyrene plastic. Both surfaces of the lens have a radius of curvature |R| = 10 cm.\n\n(b) Find location of the image.",
+      "choices": [],
+      "answer": "$i = -3.23$ cm (same side as object)",
+      "explanation": "Using the thin lens equation:\n$$\\frac{1}{p} + \\frac{1}{i} = \\frac{1}{f}$$\n\n$$\\frac{1}{5} + \\frac{1}{i} = \\frac{1}{-9.09}$$\n\n$$\\frac{1}{i} = -0.11 - 0.2 = -0.31$$\n\n$$i = -3.23 \\text{ cm}$$\n\nThe negative sign indicates the image is on the same side as the object (virtual).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "18 (c)",
+      "points": 2,
+      "question": "A 1 cm tall object is placed 5 cm in front of a symmetric biconcave lens constructed of n = 1.55 polystyrene plastic. Both surfaces of the lens have a radius of curvature |R| = 10 cm.\n\n(c) Find height of the image.",
+      "choices": [],
+      "answer": "$h_i = 0.65$ cm",
+      "explanation": "Magnification:\n$$m = -\\frac{i}{p} = -\\frac{-3.23}{5} = +0.65$$\n\nImage height:\n$$h_i = m \\times h_o = 0.65 \\times 1 = 0.65 \\text{ cm}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "18 (d)",
+      "points": 2,
+      "question": "A 1 cm tall object is placed 5 cm in front of a symmetric biconcave lens constructed of n = 1.55 polystyrene plastic. Both surfaces of the lens have a radius of curvature |R| = 10 cm.\n\n(d) Is image virtual or real? Is image inverted or erect?",
+      "choices": [],
+      "answer": "Virtual and erect (upright)",
+      "explanation": "Since $i < 0$, the image is virtual (on the same side as the object).\n\nSince $m > 0$, the image is erect (upright, not inverted).\n\nThis is typical behavior for a diverging lens.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "18 (e)",
+      "points": 6,
+      "question": "A 1 cm tall object is placed 5 cm in front of a symmetric biconcave lens constructed of n = 1.55 polystyrene plastic. Both surfaces of the lens have a radius of curvature |R| = 10 cm.\n\n(e) Check your answers with a ray diagram.",
+      "choices": [],
+      "answer": "See answer key for ray diagram",
+      "explanation": "For a diverging lens, the ray diagram should show:\n1. A ray parallel to the principal axis diverges as if coming from the near focal point\n2. A ray aimed at the far focal point emerges parallel to the axis\n3. A ray through the center passes straight through\n\nThe virtual image appears upright and reduced on the same side as the object.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "19 (a)",
+      "points": 4,
+      "question": "Like any good Kansan, you enjoy catching catfish with your bare hands (\"noodling\"). On one particular noodling expedition, you see a catfish in the water directly below you at a depth that exactly coincides with the location of your reflected image of your face. Your eyes are positioned 1.5 m above the surface of the water, which has an index of refraction n = 1.33.\n\n(a) How far under the surface of the water is your reflected image?",
+      "choices": [],
+      "answer": "1.5 m below the surface",
+      "explanation": "When you look at your reflection in the water surface, the water acts like a plane mirror. For a plane mirror, the image is located the same distance behind the reflecting surface as the object is in front of it.\n\nSince your eyes are 1.5 m above the water surface, your reflected image appears 1.5 m below the water surface.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "19 (b)",
+      "points": 6,
+      "question": "Like any good Kansan, you enjoy catching catfish with your bare hands (\"noodling\"). On one particular noodling expedition, you see a catfish in the water directly below you at a depth that exactly coincides with the location of your reflected image of your face. Your eyes are positioned 1.5 m above the surface of the water, which has an index of refraction n = 1.33.\n\n(b) How far underneath the surface is the catfish?",
+      "choices": [],
+      "answer": "Approximately 2.0 m",
+      "explanation": "The catfish appears to be at the same depth as your reflected image (1.5 m below surface). However, due to refraction, objects underwater appear closer than they actually are.\n\nApparent depth = Actual depth / n\n\n$$1.5 = \\frac{d_{actual}}{1.33}$$\n\n$$d_{actual} = 1.5 \\times 1.33 = 2.0 \\text{ m}$$\n\nThe catfish is actually 2.0 m below the surface.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (a)",
+      "points": 2,
+      "question": "Does the spacing between fringes in a two-slit interference pattern increase, decrease, or stay the same under each of the following conditions? (You need to explain your answer for full credit!)\n\n(a) If the slit separation is increased.",
+      "choices": [],
+      "answer": "Decrease",
+      "explanation": "The fringe spacing is given by $\\Delta y = \\frac{\\lambda L}{d}$, where d is the slit separation.\n\nIf d increases, $\\Delta y$ decreases (inverse relationship). The fringes become closer together.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (b)",
+      "points": 2,
+      "question": "Does the spacing between fringes in a two-slit interference pattern increase, decrease, or stay the same under each of the following conditions? (You need to explain your answer for full credit!)\n\n(b) If the color of the light is switched from red to blue.",
+      "choices": [],
+      "answer": "Decrease",
+      "explanation": "The fringe spacing is $\\Delta y = \\frac{\\lambda L}{d}$.\n\nBlue light has a shorter wavelength than red light. Since $\\Delta y \\propto \\lambda$, switching from red to blue (decreasing λ) causes the fringe spacing to decrease.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (c)",
+      "points": 3,
+      "question": "Does the spacing between fringes in a two-slit interference pattern increase, decrease, or stay the same under each of the following conditions? (You need to explain your answer for full credit!)\n\n(c) If the whole apparatus is submerged in generic beer (assume that index of refraction of generic beer is pretty much close to water, or n ≈ 1.33).",
+      "choices": [],
+      "answer": "Decrease",
+      "explanation": "When light enters a medium with refractive index n, its wavelength becomes $\\lambda_{medium} = \\lambda_0/n$.\n\nThe fringe spacing becomes:\n$$\\Delta y = \\frac{\\lambda_{medium} L}{d} = \\frac{\\lambda_0 L}{nd}$$\n\nSince n > 1, the wavelength in the medium is shorter, and the fringe spacing decreases.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (d)",
+      "points": 2,
+      "question": "Does the spacing between fringes in a two-slit interference pattern increase, decrease, or stay the same under each of the following conditions? (You need to explain your answer for full credit!)\n\n(d) What happens to the interference pattern if you close one of the slits completely?",
+      "choices": [],
+      "answer": "The interference pattern disappears",
+      "explanation": "With only one slit open, there is no second wave to interfere with. The two-slit interference pattern disappears entirely. Instead, you would see a single-slit diffraction pattern, which is a broad central maximum with much weaker secondary maxima.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (e)",
+      "points": 2,
+      "question": "Does the spacing between fringes in a two-slit interference pattern increase, decrease, or stay the same under each of the following conditions? (You need to explain your answer for full credit!)\n\n(e) What happens to the interference pattern if you shine blue light through one slit, and red through the other?",
+      "choices": [],
+      "answer": "No interference pattern is observed",
+      "explanation": "For interference to occur, the two light sources must be coherent—they must have the same frequency and a constant phase relationship. Blue and red light have different frequencies, so they cannot interfere with each other. You would see overlapping single-slit diffraction patterns from each color, but no interference fringes.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ],
+      "seeKey": true
+    }
+  ]
+}

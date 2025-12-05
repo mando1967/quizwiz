@@ -20,7 +20,8 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magfor.html"
         }
       ],
-      "images": ["images/Quiz 3 (S16)_p2_img1_prob1-2-3.png"]
+      "images": ["images/Quiz 3 (S16)_p2_img1_prob1-2-3.png"],
+      "detailed_explanation": "- **Concept:** The magnetic force on a moving charge depends on the cross product of velocity and magnetic field.\n- **Key steps:** Identify that the proton moves parallel to the field lines near the pole; therefore $\\vec{v} \\times \\vec{B} = 0$.\n- **Why correct:** Option (e) notes negligible deflection.\n- **Why others are wrong:** Any lateral deflection requires a component of velocity perpendicular to the field."
     },
     {
       "number": 2,
@@ -41,7 +42,8 @@
           "url": "https://www.khanacademy.org/science/in-in-class-12th-physics-india/moving-charges-and-magnetism/x51bd77206da864f3:lorentz-force-definition-of-magnetic-field/v/magnetism-2"
         }
       ],
-      "images": ["images/Quiz 3 (S16)_p2_img1_prob1-2-3.png"]
+      "images": ["images/Quiz 3 (S16)_p2_img1_prob1-2-3.png"],
+      "detailed_explanation": "- **Concept:** Magnetic force direction follows the right-hand rule and reverses for negative charges.\n- **Key steps:** Point fingers along velocity, curl toward field to find force direction; reverse for electron to get out-of-page.\n- **Why correct:** Option (d) matches the reversed direction.\n- **Why others are wrong:** Left/right deflections contradict the cross-product geometry when velocity is perpendicular to the field."
     },
     {
       "number": 3,
@@ -61,7 +63,8 @@
           "type": "Article - Force Between Wires",
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/wirfor.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Parallel currents attract and antiparallel currents repel.\n- **Key steps:** Apply Ampere's force law for two long wires.\n- **Why correct:** Option (e) captures both the 1/r scaling and attraction.\n- **Why others are wrong:** Options with repulsion or 1/r² dependence contradict the standard result."
     },
     {
       "number": 4,
@@ -80,7 +83,8 @@
           "type": "Article - Charged Particle Motion",
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/cyclot.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Radius of uniform circular motion in a magnetic field is proportional to mass for equal charge and velocity.\n- **Key steps:** Substitute known mass ratio into R = mv/(qB).\n- **Why correct:** Option (d) equals m_e/m_p.\n- **Why others are wrong:** Other ratios invert or ignore the heavy proton."
     },
     {
       "number": 5,
@@ -100,7 +104,8 @@
           "url": "https://www.khanacademy.org/science/bridge-course-class-12th-physics/x3cfc85e6d33cc178:magnetic-effects-of-current/x3cfc85e6d33cc178:magnetism-ii/v/magnetic-fields-through-solenoids"
         }
       ],
-      "images": ["images/Quiz 3 (S16)_p3_img1_prob4-5-6-7.png"]
+      "images": ["images/Quiz 3 (S16)_p3_img1_prob4-5-6-7.png"],
+      "detailed_explanation": "- **Concept:** Magnetic field inside a long solenoid depends on turn density and current.\n- **Key steps:** Estimate turns per unit length from the figure and plug into B = μ₀ n I.\n- **Why correct:** Option (a) matches the computed 4 mT field.\n- **Why others are wrong:** Other values correspond to halved or doubled n or arithmetic errors.\n- **Issue to revisit:** Confirm turn count from the figure when finalizing."
     },
     {
       "number": 6,
@@ -120,7 +125,8 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html"
         }
       ],
-      "images": ["images/Quiz 3 (S16)_p3_img1_prob4-5-6-7.png"]
+      "images": ["images/Quiz 3 (S16)_p3_img1_prob4-5-6-7.png"],
+      "detailed_explanation": "- **Concept:** Magnetic field inside a solenoid aligns with the loop normal given by the right-hand rule.\n- **Key steps:** Point curled fingers with current; thumb (field direction) points to the right.\n- **Why correct:** Option (b) follows from the rule.\n- **Why others are wrong:** Leftward or radial options ignore the established solenoid geometry."
     },
     {
       "number": 7,
@@ -139,7 +145,8 @@
           "type": "Article - Magnetic Force Work",
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magfor.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Magnetic forces change direction but not speed of charges, doing zero work.\n- **Key steps:** Note $\\vec{F}$ remains perpendicular to motion so the dot product vanishes.\n- **Why correct:** Option (a) states zero work.\n- **Why others are wrong:** Positive or negative work would require a component of force along displacement."
     },
     {
       "number": 8,
@@ -160,7 +167,8 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/toroid.html"
         }
       ],
-      "images": ["images/Quiz 3 (S16)_p4_img1_prob8-9-10-11.png"]
+      "images": ["images/Quiz 3 (S16)_p4_img1_prob8-9-10-11.png"],
+      "detailed_explanation": "- **Concept:** Magnetic field inside a toroid falls off as 1/r from the center.\n- **Key steps:** Apply Ampere's law around a circular path of radius r.\n- **Why correct:** Option (c) reflects the inverse proportionality.\n- **Why others are wrong:** Uniform or squared relations conflict with the standard formula."
     },
     {
       "number": 9,
@@ -180,7 +188,8 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/toroid.html"
         }
       ],
-      "images": ["images/Quiz 3 (S16)_p4_img1_prob8-9-10-11.png"]
+      "images": ["images/Quiz 3 (S16)_p4_img1_prob8-9-10-11.png"],
+      "detailed_explanation": "- **Concept:** Field lines inside a toroid form closed loops around the current direction.\n- **Key steps:** Determine current wrapping, apply right-hand rule to find field circulation.\n- **Why correct:** Option (a) agrees with the indicated current flow.\n- **Why others are wrong:** Counter-clockwise or radial options misapply the rule."
     },
     {
       "number": 10,
@@ -200,6 +209,8 @@
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magfor.html"
         }
       ]
+      ,
+      "detailed_explanation": "- **Concept:** Magnetic force direction is given by $\\vec{v} \\times \\vec{B}$ with sign of charge.\n- **Key steps:** Compute direction for positive charge (downward) then reverse for negative charge to get upward.\n- **Why correct:** Option (a) reflects the reversed direction.\n- **Why others are wrong:** Downward would apply to a positive charge; east/west deflections are inconsistent with the cross product."
     },
     {
       "number": 11,
@@ -219,7 +230,8 @@
           "type": "Article - Earth's Magnetic Field",
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magearth.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Earth's field resembles a dipole; local field lines point toward the magnetic north pole.\n- **Key steps:** Recognize that the compass aligns with the field direction at any location.\n- **Why correct:** Option (a) says the needle still points north.\n- **Why others are wrong:** Reversing north/south would require the local field to flip, which it does not."
     },
     {
       "number": 12,
@@ -232,13 +244,14 @@
         "(d) $5 \\times 10^{-1}\\,\\mathrm{N}$"
       ],
       "answer": "(b) $5 \\times 10^{-3}\\,\\mathrm{N}$",
-      "explanation": "$F = ILB = (1\\,\\text{A})(100\\,\\text{m})(5 \\times 10^{-5}\\,\\text{T}) = 5 \\times 10^{-3}$ N.",
+      "explanation": "$F = ILB = (1\\,\\text{A})(100\\,\\text{m})(5 \\times 10^{-5}\\,\\text{T}) = 5 \\times 10^{-3}\\,\\text{N}$.",
       "resources": [
         {
           "type": "Article - Force on Wire",
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/wirfor.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Magnetic force on a current-carrying wire equals ILB when current and field are perpendicular.\n- **Key steps:** Use Earth's field magnitude (~5×10⁻⁵ T) pointing north, wire length 100 m, current 1 A.\n- **Why correct:** Option (b) matches the computed product.\n- **Why others are wrong:** Alternative magnitudes result from mis-using the field value or forgetting unit conversions."
     },
     {
       "number": 13,
@@ -257,7 +270,8 @@
           "type": "Article - Ampere's Law vs Biot-Savart",
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/amplaw.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Choose Ampere's law for systems with high symmetry and Biot-Savart for finite coils.\n- **Key steps:** Recognize the N-turn coil lacks continuous symmetry while coaxial cable is highly symmetric.\n- **Why correct:** Option (b) pairs each geometry with the efficient method.\n- **Why others are wrong:** Using Ampere's law on the coil or Biot-Savart on the coax misses the symmetry advantage."
     },
     {
       "number": 14,
@@ -279,6 +293,8 @@
         }
       ],
       "images": ["images/Quiz 3 (S16)_p5_img1_prob12-13-14-15.png"]
+      ,
+      "detailed_explanation": "- **Concept:** Potential energy of a magnetic dipole equals −μ·B.\n- **Key steps:** Compute dipole moment magnitude and direction from N, I, and area using the right-hand rule, then dot with B.\n- **Why correct:** Option (b) matches the negative energy found.\n- **Why others are wrong:** Sign or magnitude errors follow from misidentifying dipole direction or ignoring the vector dot product."
     },
     {
       "number": 15,
@@ -297,7 +313,8 @@
           "type": "Article - Ferromagnetism",
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/ferro.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Ferromagnets exhibit large relative permeability and retain magnetization.\n- **Key steps:** Compare applied field (2 mT) to measured field (200 mT) to infer strong amplification.\n- **Why correct:** Option (a) describes materials with large internal response.\n- **Why others are wrong:** Diamagnets and paramagnets produce only weak responses; nonmagnetic materials show little effect."
     },
     {
       "number": 16,
@@ -316,7 +333,8 @@
           "type": "Article - Ferromagnetic Materials",
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/ferro.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Ferromagnetic metals like iron exhibit strong permeability and remanence.\n- **Key steps:** Note the material both amplifies the field and keeps magnetization, pointing to iron.\n- **Why correct:** Option (b) identifies the canonical ferromagnet.\n- **Why others are wrong:** Copper, aluminum, water, or Play-Doh are not ferromagnetic and would not retain magnetization."
     },
     {
       "number": 17,

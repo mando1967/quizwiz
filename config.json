@@ -108,6 +108,44 @@
               "isQuizJson": true
             }
           ]
+        },
+        {
+          "id": "phys214-test5",
+          "name": "PHYS 214 - Test 5",
+          "quizPath": "Physics/PHYS 214/Test 5",
+          "tutorPath": "Physics/PHYS 214/Test 5",
+          "quizVersions": [
+            {
+              "id": "quiz5-s21",
+              "name": "Quiz 5 (S21)",
+              "imageCount": 2,
+              "isQuizJson": true
+            },
+            {
+              "id": "quiz5-s22",
+              "name": "Quiz 5 (S22)",
+              "imageCount": 2,
+              "isQuizJson": true
+            },
+            {
+              "id": "quiz5-s24",
+              "name": "Quiz 5 (S24)",
+              "imageCount": 5,
+              "isQuizJson": true
+            },
+            {
+              "id": "quiz5p-s00",
+              "name": "Quiz 5P (S00)",
+              "imageCount": 2,
+              "isQuizJson": true
+            },
+            {
+              "id": "quiz5p-s16",
+              "name": "Quiz 5P (S16)",
+              "imageCount": 5,
+              "isQuizJson": true
+            }
+          ]
         }
       ]
     },

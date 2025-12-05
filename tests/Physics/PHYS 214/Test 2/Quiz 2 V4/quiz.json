@@ -12,13 +12,14 @@
         "(d) is something I learned in January, but not really sure what it is and how it relates to anything"
       ],
       "answer": "(a) is always perpendicular to equipotential surfaces",
-      "explanation": "Electric field lines are always perpendicular to equipotential surfaces because no work is done moving along an equipotential surface.",
+      "explanation": "Electric field lines cross equipotential surfaces at right angles; otherwise, charges could move along the surface with nonzero work.",
       "resources": [
         {
           "type": "Khan Academy - Electric Field",
           "url": "https://www.khanacademy.org/science/physics/electric-charge-electric-force-and-voltage/electric-field/v/electric-field-direction"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Equipotential surfaces represent constant potential, so the gradient (electric field) points normal to the surface.\n- **Key steps:** If the field had a tangential component, moving along the surface would involve work, contradicting the definition of equipotential.\n- **Why correct:** Option (a) states this perpendicular relationship.\n- **Why others are wrong:** Parallel or arbitrary orientations would produce nonzero work; option (d) is humorous but incorrect."
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@
         "(e) the work done when 1 coulomb of charge is moved through a potential difference of 1 volt"
       ],
       "answer": "(c) the energy gained by an electron in moving through a potential difference of 1 volt",
-      "explanation": "1 eV = 1.6 × 10⁻¹⁹ J. It's the kinetic energy gained by a single electron when accelerated through a potential difference of 1 volt."
+      "explanation": "One electron volt equals 1.602×10⁻¹⁹ J, the work done by a 1 V potential on a single electron.",
+      "detailed_explanation": "- **Concept:** Potential energy change equals charge times potential difference.\n- **Key steps:** Multiply the elementary charge (1.602×10⁻¹⁹ C) by 1 V to get the energy in joules.\n- **Why correct:** Option (c) describes this definition.\n- **Why others are wrong:** Other options confuse force or macroscopic work with the single-charge energy change."
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@
         "(e) Dr. Maravin makes very hard quizzes"
       ],
       "answer": "(b) the electric force is conservative",
-      "explanation": "Only conservative forces allow us to define potential energy. The work done by conservative forces is path-independent."
+      "explanation": "Electric potential exists because electric force is conservative, making work path-independent.",
+      "detailed_explanation": "- **Concept:** A conservative force permits definition of a scalar potential energy function.\n- **Key steps:** Recognize that electric force derives from the gradient of potential, implying path-independent work.\n- **Why correct:** Option (b) states this conservative property.\n- **Why others are wrong:** Nonconservative forces or path-dependent work contradict the existence of potential."
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@
         "(e) 3.7 × 10⁷ J"
       ],
       "answer": "(c) 1.6 × 10⁻³ J",
-      "explanation": "$U = qV = (6.5 \\times 10^{-6}\\,\\mathrm{C})(240\\,\\mathrm{V}) = 1.56 \\times 10^{-3}\\,\\mathrm{J} \\approx 1.6 \\times 10^{-3}\\,\\mathrm{J}$"
+      "explanation": "Potential energy equals charge times potential: U = qV = 6.5 µC × 240 V ≈ 1.6×10⁻³ J.",
+      "detailed_explanation": "- **Concept:** Electric potential energy is the work needed to bring charge q to potential V.\n- **Key steps:** Convert microcoulombs to coulombs (6.5×10⁻⁶ C) and multiply by 240 V.\n- **Why correct:** Option (c) gives the resulting energy.\n- **Why others are wrong:** Other options correspond to using volts as energy or mis-scaling the charge."
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@
         "(e) 6.0 × 10⁻⁶ J"
       ],
       "answer": "(a) 0 J",
-      "explanation": "Since the particle returns to its starting point, the net work done by a conservative force is zero. The work for a closed path is always zero for conservative forces."
+      "explanation": "Net work over a closed path in a conservative field is zero because starting and ending potentials match.",
+      "detailed_explanation": "- **Concept:** Conservative forces depend only on endpoints, making the work around a loop zero.\n- **Key steps:** The particle moves from 5 V to 6 V and back, so total potential change is zero.\n- **Why correct:** Option (a) reflects zero net work.\n- **Why others are wrong:** Any nonzero value contradicts conservation of energy in electrostatics."
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@
         "(e) normal component of electric field and voltage"
       ],
       "answer": "(c) voltage",
-      "explanation": "In electrostatic equilibrium, a conductor is an equipotential - all points have the same voltage. Surface charge density varies with local curvature."
+      "explanation": "A conductor in electrostatic equilibrium is an equipotential object; voltage is constant everywhere on it.",
+      "detailed_explanation": "- **Concept:** Charges move until electric field inside the conductor is zero, forcing equal potential.\n- **Key steps:** Recognize that surface charge rearranges to cancel internal fields, leaving uniform potential but variable surface charge density.\n- **Why correct:** Option (c) notes that only voltage is uniform.\n- **Why others are wrong:** Surface charge density and field components vary with geometry."
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@
         "(e) none of these"
       ],
       "answer": "(b) 10 µF",
-      "explanation": "$C = \\frac{Q}{V} = \\frac{1 \\times 10^{-3}\\,\\mathrm{C}}{100\\,\\mathrm{V}} = 10 \\times 10^{-6}\\,\\mathrm{F} = 10\\,\\mu\\mathrm{F}$"
+      "explanation": "Capacitance equals stored charge divided by voltage: C = Q/V = 1 mC / 100 V = 10 µF.",
+      "detailed_explanation": "- **Concept:** Capacitance links charge and voltage linearly.\n- **Key steps:** Convert 1 mC to 1×10⁻³ C and divide by 100 V.\n- **Why correct:** Option (b) matches the calculation.\n- **Why others are wrong:** Other values arise from missing the milli- to micro- conversion."
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@
         "(e) the surface charge density is not changed on either plate"
       ],
       "answer": "(d) the electric field is doubled",
-      "explanation": "Capacitance depends only on geometry. $E = \\frac{\\sigma}{\\epsilon_0}$, and if Q doubles, σ doubles, so E doubles."
+      "explanation": "With fixed plate spacing, doubling charge doubles surface charge density and therefore doubles the electric field.",
+      "detailed_explanation": "- **Concept:** For a parallel-plate capacitor, E = σ/ε₀, and σ ∝ Q.\n- **Key steps:** Keep geometry constant, double Q → double σ → double E. Capacitance stays constant.\n- **Why correct:** Option (d) states the field change accurately.\n- **Why others are wrong:** Capacitance does not depend on charge; field is not halved when charge doubles."
     },
     {
       "number": 9,
@@ -129,7 +137,8 @@
         "(d) neither of the above"
       ],
       "answer": "(a) reduces the electric field in the capacitor",
-      "explanation": "Dielectric material reduces the electric field by a factor of κ (dielectric constant), allowing more charge storage at the same voltage."
+      "explanation": "Inserting a dielectric polarizes the material, partially canceling the field and permitting more charge at the same voltage.",
+      "detailed_explanation": "- **Concept:** Dielectrics reduce effective field by introducing bound charges.\n- **Key steps:** Recall E_with_dielectric = E₀/κ.\n- **Why correct:** Option (a) states the reduction effect.\n- **Why others are wrong:** The field does not increase, and protection from discharge is a secondary effect."
     },
     {
       "number": 10,
@@ -142,7 +151,8 @@
         "(d) none of the above"
       ],
       "answer": "(a) in series with the rest of the circuit",
-      "explanation": "A fuse must be in series so that all circuit current flows through it. If wired in parallel, the current would bypass the fuse."
+      "explanation": "Placing the fuse in series ensures all current passes through it; excessive current then melts the fuse and opens the circuit.",
+      "detailed_explanation": "- **Concept:** Protective devices must interrupt the sole current path to be effective.\n- **Key steps:** Identify that series placement makes the fuse part of the only conduction route.\n- **Why correct:** Option (a) captures this requirement.\n- **Why others are wrong:** Parallel placement leaves an alternate path, so the fuse never blows."
     },
     {
       "number": 11,
@@ -156,7 +166,8 @@
         "(e) none of the above"
       ],
       "answer": "(c) 144 Ω",
-      "explanation": "$P = \\frac{V^2}{R}$, so $R = \\frac{V^2}{P} = \\frac{(120\\,\\mathrm{V})^2}{100\\,\\mathrm{W}} = \\frac{14400}{100} = 144\\,\\Omega$"
+      "explanation": "Resistance follows R = V²/P = 120² / 100 = 144 Ω.",
+      "detailed_explanation": "- **Concept:** Power dissipated by a resistor relates to voltage and resistance via P = V²/R.\n- **Key steps:** Square the voltage, divide by power, and ensure units reduce to ohms.\n- **Why correct:** Option (c) matches the computed resistance.\n- **Why others are wrong:** Alternative answers stem from misapplying the formula or misplacing decimals."
     },
     {
       "number": 12,
@@ -170,7 +181,8 @@
         "(e) 3000000000"
       ],
       "answer": "(c) 300",
-      "explanation": "Each bulb uses $P = 60/10 = 6\\,\\mathrm{W}$. Total power: $P_{max} = 120 \\times 15 = 1800\\,\\mathrm{W}$. Number of bulbs: $1800/6 = 300$"
+      "explanation": "Each efficient bulb draws 6 W, so a 15 A breaker at 120 V (1800 W max) allows 1800/6 = 300 bulbs.",
+      "detailed_explanation": "- **Concept:** Power in parallel adds, and breaker limits total current.\n- **Key steps:** Compute bulb power (60/10 = 6 W), total allowable power (120×15 = 1800 W), divide to find bulb count.\n- **Why correct:** Option (c) equals the computed limit.\n- **Why others are wrong:** Other counts underuse or exceed the allowable power."
     },
     {
       "number": 13,
@@ -184,7 +196,8 @@
         "(e) cannot tell without knowing the resistance of the circuit"
       ],
       "answer": "(d) 48 W",
-      "explanation": "$P = \\mathcal{E} I = (12\\,\\mathrm{V})(4.0\\,\\mathrm{A}) = 48\\,\\mathrm{W}$"
+      "explanation": "An ideal battery delivers power P = VI = 12 V × 4 A = 48 W.",
+      "detailed_explanation": "- **Concept:** Power equals the product of terminal voltage and current in ideal sources.\n- **Key steps:** Multiply the given emf by the current; resistance information is unnecessary.\n- **Why correct:** Option (d) matches the product.\n- **Why others are wrong:** Other numbers miscalculate V×I or assume extra data is needed."
     },
     {
       "number": 14,

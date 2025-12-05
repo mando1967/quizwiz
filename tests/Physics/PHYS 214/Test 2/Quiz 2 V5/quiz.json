@@ -13,7 +13,8 @@
         "(e) 1/1840 eV"
       ],
       "answer": "(a) 1 eV",
-      "explanation": "An electron volt (eV) is the energy gained by a particle with charge magnitude e moving through 1 V potential difference. A proton also has charge magnitude e, so a \"proton volt\" equals 1 eV (mass doesn't affect the definition)."
+      "explanation": "Electron volts measure energy gained by charge magnitude e across 1 V; protons have the same charge magnitude, so a \"proton volt\" is also 1 eV.",
+      "detailed_explanation": "- **Concept:** Potential energy change equals qΔV; only the charge magnitude matters, not mass.\n- **Key steps:** Substitute q = e and ΔV = 1 V to get 1 eV for either particle.\n- **Why correct:** Option (a) states 1 eV.\n- **Why others are wrong:** Mass ratios do not enter the energy per unit charge definition."
     },
     {
       "number": 2,
@@ -27,7 +28,8 @@
         "(e) the work done on a charged particle depends on the path it takes"
       ],
       "answer": "(a) the electric force is conservative",
-      "explanation": "Only conservative forces allow us to define potential energy. For conservative forces, work is path-independent and the work around a closed loop is zero."
+      "explanation": "Defining electric potential energy requires the electric force to be conservative, making work path-independent.",
+      "detailed_explanation": "- **Concept:** Conservative forces permit scalar potentials; electric force derives from such a potential.\n- **Key steps:** Recognize that closed-loop work must vanish if potential is defined.\n- **Why correct:** Option (a) describes this requirement.\n- **Why others are wrong:** Statements about zero reference points or path dependence contradict conservative behavior."
     },
     {
       "number": 3,
@@ -41,7 +43,8 @@
         "(e) $6.0 \\times 10^7$ J"
       ],
       "answer": "(a) $3.0 \\times 10^9$ J",
-      "explanation": "Energy $U = q \\Delta V = (30\\,\\mathrm{C})(1.0 \\times 10^8\\,\\mathrm{V}) = 3.0 \\times 10^9\\,\\mathrm{J}$. The time is not needed for energy calculation."
+      "explanation": "Energy transfer equals charge times potential difference: U = 30 C × 1.0×10⁸ V = 3.0×10⁹ J.",
+      "detailed_explanation": "- **Concept:** Electric potential energy depends on charge and voltage, independent of time.\n- **Key steps:** Multiply q by ΔV; ignore the given time for energy calculation.\n- **Why correct:** Option (a) matches the computed product.\n- **Why others are wrong:** Other values misuse qΔV or incorrectly use power relations."
     },
     {
       "number": 4,
@@ -55,7 +58,8 @@
         "(e) Q/2, Q/2"
       ],
       "answer": "(c) Q, −Q",
-      "explanation": "In a capacitor, one plate carries +Q and the other carries −Q (equal and opposite charges). The capacitance Q refers to the magnitude of charge on each plate."
+      "explanation": "Capacitor plates accumulate equal-magnitude, opposite-sign charges so overall neutrality is preserved.",
+      "detailed_explanation": "- **Concept:** Charge conservation ensures that charge leaving one plate appears on the other.\n- **Key steps:** Identify that Q denotes magnitude; actual plate charges are +Q and −Q.\n- **Why correct:** Option (c) restates this.\n- **Why others are wrong:** Options with identical signs violate neutrality."
     },
     {
       "number": 5,
@@ -67,8 +71,9 @@
         "(c) 4, then 1 and 2 tie, then 5, then 3",
         "(d) 3, then 5, then 1 and 2 tie, then 4"
       ],
-      "answer": "Need image data to determine correct ranking",
-      "explanation": "For parallel-plate capacitors, $C = \\epsilon_0 \\frac{A}{d}$. Capacitance is proportional to area A and inversely proportional to separation d. Calculate $A/d$ for each to rank them."
+      "answer": "Refer to method",
+      "explanation": "Capacitance varies with area over separation (A/d); use the provided dimensions in the image to compute each value.",
+      "detailed_explanation": "- **Concept:** Uniform capacitors follow C ∝ A/d for fixed permittivity.\n- **Key steps:** For each capacitor in the figure, compute A divided by d and order the results.\n- **Why correct:** Ranking by A/d directly reflects relative capacitances.\n- **Issue to revisit:** Actual ranking requires the specific geometric data from the diagram."
     },
     {
       "number": 6,
@@ -82,7 +87,8 @@
         "(e) none of these"
       ],
       "answer": "(a) R",
-      "explanation": "For an isolated sphere, $C = 4\\pi\\epsilon_0 R$, so capacitance is directly proportional to radius R."
+      "explanation": "An isolated sphere has capacitance C = 4πϵ₀R, showing direct proportionality to radius.",
+      "detailed_explanation": "- **Concept:** Solving Laplace’s equation for a sphere yields C proportional to radius.\n- **Key steps:** Recall the standard result C = 4πϵ₀R.\n- **Why correct:** Option (a) states linear dependence on R.\n- **Why others are wrong:** Squares or inverse powers conflict with the analytic solution."
     },
     {
       "number": 7,
@@ -96,7 +102,8 @@
         "(e) energy"
       ],
       "answer": "(b) charge",
-      "explanation": "An ampere-hour is a unit of electric charge: $1\\,\\mathrm{A \\cdot h} = 3600\\,\\mathrm{C}$"
+      "explanation": "Ampere-hour combines current and time, giving total charge moved: 1 A·h = 3600 C.",
+      "detailed_explanation": "- **Concept:** Current is charge per time; multiply by time to recover charge.\n- **Key steps:** Convert hours to seconds, multiply by amperes.\n- **Why correct:** Option (b) identifies charge.\n- **Why others are wrong:** Power or energy require voltage information."
     },
     {
       "number": 8,
@@ -110,7 +117,8 @@
         "(e) the direction of the current vector"
       ],
       "answer": "(b) the direction that positive charge carriers would move",
-      "explanation": "Conventional current arrows show the direction positive charges would move, which is opposite to electron flow."
+      "explanation": "Conventional current direction follows hypothetical positive charge motion, opposite actual electron movement.",
+      "detailed_explanation": "- **Concept:** Historical definitions of current predate electron discovery.\n- **Key steps:** Understand that current arrows reflect positive charge flow.\n- **Why correct:** Option (b) states the convention.\n- **Why others are wrong:** Electrons move opposite, and charge carriers could be negative."
     },
     {
       "number": 9,
@@ -124,7 +132,8 @@
         "(e) 2.0 A"
       ],
       "answer": "(e) 2.0 A",
-      "explanation": "$I = J \\cdot A$ where $A = \\pi r^2 = \\pi(1.5 \\times 10^{-4})^2 \\approx 7.07 \\times 10^{-8}\\,\\mathrm{m}^2$. Thus $I = (2.8 \\times 10^7)(7.07 \\times 10^{-8}) \\approx 1.98 \\approx 2.0\\,\\mathrm{A}$"
+      "explanation": "Current density times cross-sectional area gives I ≈ 2.0 A for the given dimensions.",
+      "detailed_explanation": "- **Concept:** I = J × A relates microscopic current density to macroscopic current.\n- **Key steps:** Convert radius to meters, compute area πr², multiply by J.\n- **Why correct:** Option (e) matches the calculation.\n- **Why others are wrong:** Alternate answers result from unit or arithmetic errors."
     },
     {
       "number": 10,
@@ -137,8 +146,9 @@
         "(d) 1, 3, 4, 2, 5",
         "(e) 1, 2, 3, 4, 5"
       ],
-      "answer": "Need image data to determine correct answer",
-      "explanation": "For cylindrical wires, $R = \\rho \\frac{L}{A} = \\rho \\frac{L}{\\pi r^2}$. Resistance is proportional to length L and inversely proportional to $r^2$. Calculate $L/r^2$ for each wire to rank them."
+      "answer": "Refer to method",
+      "explanation": "Resistance depends on L/r²; use the provided wire dimensions to compute each ratio and rank from least to greatest.",
+      "detailed_explanation": "- **Concept:** Resistivity is constant for identical materials, so geometry controls resistance.\n- **Key steps:** For each wire, calculate L divided by r²; larger ratios mean larger resistance.\n- **Why correct:** This procedure directly compares resistances.\n- **Issue to revisit:** Actual ordering needs the values shown in the image."
     },
     {
       "number": 11,
@@ -151,7 +161,8 @@
         "(d) Less current flows through lightbulb A than lightbulb B"
       ],
       "answer": "(d) Less current flows through lightbulb A than lightbulb B",
-      "explanation": "$I = P/V$. $I_A = 60/120 = 0.50\\,\\mathrm{A}$, $I_B = 40/120 = 0.33\\,\\mathrm{A}$. More current flows through A than B, so (d) is false."
+      "explanation": "In parallel both bulbs share 120 V; computing I = P/V shows 0.50 A for the 60 W bulb and 0.33 A for the 40 W bulb, so statement (d) is false.",
+      "detailed_explanation": "- **Concept:** Parallel loads experience equal voltage; current scales with power rating.\n- **Key steps:** Calculate currents for each bulb and compare with each statement.\n- **Why correct:** Option (d) is the only incorrect statement, making it the answer.\n- **Why others are wrong:** Statements (a)-(c) are all true."
     },
     {
       "number": 12,
@@ -164,7 +175,8 @@
         "(d) All of the above"
       ],
       "answer": "(d) All of the above",
-      "explanation": "Internal resistance causes voltage drop ($V = \\mathcal{E} - Ir$), power dissipation (heating), and limits current below the ideal value. All effects occur."
+      "explanation": "Internal resistance leads to terminal voltage sag, internal heating, and reduced current compared to ideal predictions.",
+      "detailed_explanation": "- **Concept:** Model real batteries as ideal sources in series with internal resistance.\n- **Key steps:** Use V = emf − I r and note power dissipation I²r.\n- **Why correct:** Option (d) includes each consequence.\n- **Why others are wrong:** Individual statements capture only part of the real behavior."
     },
     {
       "number": 13,
@@ -177,7 +189,8 @@
         "(d) The two capacitors store the same energy"
       ],
       "answer": "(b) The two capacitors have the same voltage between their leads",
-      "explanation": "In parallel, each capacitor has the same voltage across it (9 V). The charge varies: $Q = CV$."
+      "explanation": "Parallel components share node connections, so each capacitor sees the full 9 V.",
+      "detailed_explanation": "- **Concept:** Parallel arrangement forces equal voltage because terminals connect to common nodes.\n- **Key steps:** Identify that both capacitors tie directly to battery terminals.\n- **Why correct:** Option (b) states the defining property of parallel capacitors.\n- **Why others are wrong:** Equal charge or energy doesn't hold for different capacitances."
     },
     {
       "number": 14,
@@ -190,7 +203,8 @@
         "(d) 9.0 V"
       ],
       "answer": "(d) 9.0 V",
-      "explanation": "The voltage across the entire battery circuit from left lead of $C_L$ to right lead of $C_R$ equals the battery voltage: 9.0 V."
+      "explanation": "Traveling from the left node to the right node spans the battery terminals, giving 9.0 V.",
+      "detailed_explanation": "- **Concept:** Potential difference across series connections of ideal wire equals the battery voltage.\n- **Key steps:** The left lead connects to the positive terminal, the right lead to the negative terminal, so the full 9 V applies.\n- **Why correct:** Option (d) reflects this.\n- **Why others are wrong:** Any smaller voltage would require intermediate drops not present in the diagram."
     },
     {
       "number": 15,
@@ -203,7 +217,8 @@
         "(d) $2.88\\,\\mu\\mathrm{C}$"
       ],
       "answer": "(d) $2.88\\,\\mu\\mathrm{C}$",
-      "explanation": "In parallel, $C_{total} = 0.1 + 0.22 = 0.32\\,\\mu\\mathrm{F}$. $Q = CV = (0.32 \\times 10^{-6})(9) = 2.88 \\times 10^{-6}\\,\\mathrm{C} = 2.88\\,\\mu\\mathrm{C}$"
+      "explanation": "Equivalent capacitance is 0.32 µF, giving total charge Q = C_total × V = 2.88 µC.",
+      "detailed_explanation": "- **Concept:** Parallel capacitances add; total charge is the equivalent capacitance times voltage.\n- **Key steps:** Sum 0.1 and 0.22 µF, convert to farads, multiply by 9 V.\n- **Why correct:** Option (d) matches the calculation.\n- **Why others are wrong:** Other options use incorrect sums or miss unit conversions."
     },
     {
       "number": 16,
@@ -216,7 +231,8 @@
         "(d) 9.0 V"
       ],
       "answer": "(d) 9.0 V",
-      "explanation": "In parallel, each capacitor has the full battery voltage across it: 9.0 V."
+      "explanation": "Because CL is wired directly across the battery terminals, its voltage equals 9.0 V.",
+      "detailed_explanation": "- **Concept:** Parallel components share the same potential difference as the source.\n- **Key steps:** Trace the leads of CL to confirm direct connection to the battery.\n- **Why correct:** Option (d) states the shared voltage.\n- **Why others are wrong:** Smaller voltages imply intermediate drops that are absent."
     },
     {
       "number": 17,

@@ -13,7 +13,8 @@
         "(e) Brandi Lohman"
       ],
       "answer": "(e) Brandi Lohman",
-      "explanation": "Professor Brandi Lohman teaches the EP2 course at KSU."
+      "explanation": "Professor Brandi Lohman teaches the EP2 course at KSU.",
+      "detailed_explanation": "- **Concept:** This opener checks awareness of the course context rather than physics.\n- **Key steps:** Recall the instructor listed for EP2 this semester.\n- **Why correct:** Option (e) names the current EP2 professor.\n- **Why others are wrong:** The other names are unrelated historical figures or instructors from different courses."
     },
     {
       "number": 2,
@@ -33,7 +34,8 @@
           "type": "Khan Academy - Right Hand Rule",
           "url": "https://www.khanacademy.org/science/ap-physics-2/ap-magnetic-forces-and-magnetic-fields/x0e2f5a2c:magnetism-and-current-carrying-wires/v/oersteds-experiment-magnetic-field-due-to-current"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** The right-hand rule encodes the orientation of cross products in electromagnetism.\n- **Key steps:** Extend the thumb, index, and middle finger of the right hand to represent current, field, and force directions.\n- **Why correct:** Option (b) states that the right hand must be used.\n- **Why others are wrong:** Using the left hand or other body parts reverses or destroys the conventional orientation."
     },
     {
       "number": 3,
@@ -47,7 +49,8 @@
         "(e) Cryptozoology"
       ],
       "answer": "(b) Engineering physics II",
-      "explanation": "EP2 stands for Engineering Physics II, covering electricity and magnetism."
+      "explanation": "EP2 stands for Engineering Physics II, covering electricity and magnetism.",
+      "detailed_explanation": "- **Concept:** Course shorthand EP2 refers to Engineering Physics II.\n- **Key steps:** Recall the curriculum focus on electricity and magnetism.\n- **Why correct:** Option (b) matches the course name.\n- **Why others are wrong:** The remaining options are joke or unrelated course titles."
     },
     {
       "number": 4,
@@ -67,7 +70,8 @@
           "type": "Article - Electric Motors",
           "url": "https://www.explainthatstuff.com/electricmotors.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Motor torque is proportional to coil area for fixed current and field.\n- **Key steps:** Apply $\\tau = NBI A \\sin\\theta$; reducing A reduces torque linearly.\n- **Why correct:** Option (c) halves A, so torque drops.\n- **Why others are wrong:** Increasing turns, current, or improving magnetic coupling all raise torque."
     },
     {
       "number": 5,
@@ -87,7 +91,8 @@
           "type": "Khan Academy - Lorentz Force",
           "url": "https://www.khanacademy.org/science/in-in-class-12th-physics-india/moving-charges-and-magnetism/x51bd77206da864f3:lorentz-force-definition-of-magnetic-field/v/magnetism-2"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Lorentz force direction follows $\\vec{v} \\times \\vec{B}$.\n- **Key steps:** At the equator, $\\vec{B}$ points north; with $\\vec{v}$ downward, the right-hand rule gives eastward force for positive charge.\n- **Why correct:** Option (c) states east.\n- **Why others are wrong:** Other directions correspond to reversing charge sign or misusing the right-hand rule."
     },
     {
       "number": 6,
@@ -107,7 +112,8 @@
           "type": "Article - Earth's Magnetic Field",
           "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magearth.html"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Magnetic force magnitude depends on the sine of the angle between velocity and field.\n- **Key steps:** Near the pole, $\\vec{B}$ is nearly vertical; with velocity also vertical, the cross product vanishes.\n- **Why correct:** Option (e) states negligible deflection.\n- **Why others are wrong:** Substantial deflection would require perpendicular velocity components."
     },
     {
       "number": 7,
@@ -127,7 +133,8 @@
           "type": "Khan Academy - Magnetic Field from Wire",
           "url": "https://www.khanacademy.org/science/ap-physics-2/ap-magnetic-forces-and-magnetic-fields/x0e2f5a2c:magnetism-and-current-carrying-wires/v/oersteds-experiment-magnetic-field-due-to-current"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Ampere's law for a straight wire yields a field inversely proportional to radius.\n- **Key steps:** Evaluate $B(r) = \\mu_0 I/(2\\pi r)$.\n- **Why correct:** Option (b) captures the 1/r dependence.\n- **Why others are wrong:** Square or linear dependencies contradict the derived expression."
     },
     {
       "number": 8,
@@ -141,14 +148,15 @@
         "(e) can be -6 A or 6 A, depending on the choice of the path in the integral."
       ],
       "answer": "(e) can be -6 A or 6 A, depending on the choice of the path in the integral.",
-      "explanation": "By Ampère's law, $\\frac{1}{\\mu_0}\\oint \\vec{B}\\cdot d\\vec{l} = I_{enc}$. The value depends on which currents are enclosed by the chosen loop path.",
+      "explanation": "By Ampere's law, $\\frac{1}{\\mu_0}\\oint \\vec{B}\\cdot d\\vec{l} = I_{enc}$. The value depends on which currents are enclosed by the chosen loop path.",
       "resources": [
         {
           "type": "Khan Academy - Ampere's Law",
           "url": "https://www.khanacademy.org/science/in-in-class-12th-physics-india/moving-charges-and-magnetism/x51bd77206da864f3:ampere-s-circuital-law/v/ampere-s-circuital-law-with-examples"
         }
       ],
-      "images": ["images/Quiz 3 (S22)_p3_img1_prob6-7-8.png"]
+      "images": ["images/Quiz 3 (S22)_p3_img1_prob6-7-8.png"],
+      "detailed_explanation": "- **Concept:** Ampere's law equates the circulation integral to enclosed current.\n- **Key steps:** Depending on loop orientation and enclosed currents, the integral yields +6 A or −6 A.\n- **Why correct:** Option (e) acknowledges both possibilities.\n- **Why others are wrong:** Choosing a single fixed value ignores orientation or different loop choices."
     },
     {
       "number": 9,
@@ -169,7 +177,8 @@
           "url": "https://www.khanacademy.org/science/bridge-course-class-12th-physics/x3cfc85e6d33cc178:magnetic-effects-of-current/x3cfc85e6d33cc178:magnetism-ii/v/magnetic-fields-through-solenoids"
         }
       ],
-      "images": ["images/Quiz 3 (S22)_p4_img1_prob9-10-11.png"]
+      "images": ["images/Quiz 3 (S22)_p4_img1_prob9-10-11.png"],
+      "detailed_explanation": "- **Concept:** Internal solenoid field is proportional to turn density n and current.\n- **Key steps:** Estimate n from the drawing, substitute into B = μ₀ n I, and compare with answer choices.\n- **Why correct:** Option (e) is the only answer on the correct order of magnitude.\n- **Why others are wrong:** Other magnitudes differ by powers of ten inconsistent with the calculation.\n- **Issue to revisit:** Confirm the actual turn count from the figure when available."
     },
     {
       "number": 10,
@@ -183,7 +192,8 @@
       ],
       "answer": "(a) A or no deflection",
       "explanation": "Using the right-hand rule with current flowing left to right at bottom of solenoid, the magnetic field inside points upward (out of the top). At the top compass position, the field exits and curves around, pointing approximately upward where the arrow already points (A), so minimal deflection.",
-      "images": ["images/Quiz 3 (S22)_p4_img1_prob9-10-11.png"]
+      "images": ["images/Quiz 3 (S22)_p4_img1_prob9-10-11.png"],
+      "detailed_explanation": "- **Concept:** Field lines inside a solenoid run from south to north; outside they loop back.\n- **Key steps:** Determine the external field direction at the compass location; it aligns with the existing arrow.\n- **Why correct:** Option (a) indicates no significant change.\n- **Why others are wrong:** Other letters imply perpendicular deflection absent in this geometry."
     },
     {
       "number": 11,
@@ -197,7 +207,8 @@
       ],
       "answer": "(a) A or no deflection",
       "explanation": "The magnetic field lines loop back around the outside of the solenoid from north to south pole. On the left side, the external field points upward (from S to N pole), toward direction A.",
-      "images": ["images/Quiz 3 (S22)_p4_img1_prob9-10-11.png"]
+      "images": ["images/Quiz 3 (S22)_p4_img1_prob9-10-11.png"],
+      "detailed_explanation": "- **Concept:** Outside the solenoid, fields emerge from the north pole and enter the south pole.\n- **Key steps:** Identify the local direction of the returning field on the left side; it points upward.\n- **Why correct:** Option (a) shows the compass already aligned with that direction.\n- **Why others are wrong:** Other letters represent directions inconsistent with the field loop."
     },
     {
       "number": 12,

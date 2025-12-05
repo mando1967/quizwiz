@@ -1,0 +1,583 @@
+{
+  "title": "PHYS 214 - Test 5, Quiz 5 (S24)",
+  "questions": [
+    {
+      "number": 1,
+      "points": 2,
+      "question": "The EM wave moves in the positive direction of the y-axis. The instantaneous snapshot of electric field vectors $\\vec{E}$ are given in the figure below. Which way does the magnetic field point at the origin? [IMAGE:images/Quiz 5 (S24)-1.png] [IMAGE:images/Quiz 5 (S24)-1.png]",
+      "choices": [
+        "(a) Nowhere, it must be zero",
+        "(b) Along the positive direction of the x-axis",
+        "(c) Along the positive direction of the z-axis",
+        "(d) Along the negative direction of the x-axis",
+        "(e) Along the negative direction of the z-axis"
+      ],
+      "answer": "(b) Along the positive direction of the x-axis",
+      "explanation": "For an EM wave, the direction of propagation is given by $\\vec{E} \\times \\vec{B}$. If the wave propagates in the +y direction and $\\vec{E}$ points in the +z direction at the origin (from the figure), then $\\vec{B}$ must satisfy $\\hat{z} \\times \\vec{B} = \\hat{y}$. Using the right-hand rule, $\\vec{B}$ points along the positive x-axis.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ],
+      "note": "Refer to quiz PDF for the figure showing electric field vectors.",
+      "images": [
+        "images/Quiz 5 (S24)-1.png",
+        "images/Quiz 5 (S24)-1.png"
+      ]
+    },
+    {
+      "number": 2,
+      "points": 2,
+      "question": "Which property of a light wave does not change as the wave passes from one transparent medium to another with different indices of refraction?",
+      "choices": [
+        "(a) Frequency",
+        "(b) Wavelength",
+        "(c) Velocity",
+        "(d) Amplitude",
+        "(e) Nothing is changing"
+      ],
+      "answer": "(a) Frequency",
+      "explanation": "When light passes from one medium to another, its frequency remains constant. This is because the frequency is determined by the source. However:\n- Wavelength changes: $\\lambda = v/f$\n- Velocity changes: $v = c/n$\n- Amplitude may change due to reflection at the interface",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "points": 2,
+      "question": "Where should you aim your bow to shoot a smallmouth bass illustrated in the figure below? [IMAGE:images/Quiz 5 (S24)-2.png] [IMAGE:images/Quiz 5 (S24)-2.png]",
+      "choices": [
+        "(a) A",
+        "(b) B",
+        "(c) C",
+        "(d) It is not possible to shoot the fish with the bow, you need to have a hook, line, and fishing rod instead (and some bait)"
+      ],
+      "answer": "(a) A",
+      "explanation": "Due to refraction, the fish appears to be at a shallower depth than it actually is. Light bends away from the normal when going from water to air, making the fish appear higher than its true position. To hit the actual fish, you must aim below where you see it - at point A, which is below the apparent position of the fish.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ],
+      "note": "Refer to quiz PDF for the figure showing the fish and aiming points.",
+      "images": [
+        "images/Quiz 5 (S24)-2.png",
+        "images/Quiz 5 (S24)-2.png"
+      ]
+    },
+    {
+      "number": 4,
+      "points": 2,
+      "question": "The most important characteristic of light that leads to the optical fiber's superior data transmission capability is?",
+      "choices": [
+        "(a) Frequency",
+        "(b) Amplitude",
+        "(c) Polarization",
+        "(d) Intensity",
+        "(e) There is nothing superior in fiber optics. It is all government conspiracy or aliens"
+      ],
+      "answer": "(a) Frequency",
+      "explanation": "The high frequency of light (around 10¹⁴ Hz) is what gives fiber optics its superior data transmission capability. Higher frequency means more oscillations per second, which allows for higher bandwidth - more data can be encoded and transmitted per unit time compared to lower frequency signals like radio waves.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": 2,
+      "question": "Unpolarized light with an intensity of 10.00 mW/m² passes through a single polarizer. The polarization axis of the polarizer is unknown. What is the intensity of the light upon exiting the polarizer?",
+      "choices": [
+        "(a) 0.00 mW/m²",
+        "(b) 2.50 mW/m²",
+        "(c) 5.00 mW/m²",
+        "(d) 10.00 mW/m²",
+        "(e) We cannot identify the intensity of the light as we do not know the orientation of the polarization axis"
+      ],
+      "answer": "(c) 5.00 mW/m²",
+      "explanation": "When unpolarized light passes through a polarizer, exactly half the intensity is transmitted, regardless of the polarizer's orientation. This is because unpolarized light has equal components in all polarization directions.\n\n$$I_{out} = \\frac{I_{in}}{2} = \\frac{10.00}{2} = 5.00 \\text{ mW/m}^2$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-4-polarization"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": 2,
+      "question": "A photometer is an instrument that measures the intensity of light at a particular location. For which type of image would a photometer register a non-zero intensity due to the image of a given luminous object?",
+      "choices": [
+        "(a) virtual image only",
+        "(b) real or virtual image",
+        "(c) real image only",
+        "(d) neither; detectable light only exists at the object"
+      ],
+      "answer": "(c) real image only",
+      "explanation": "A photometer measures actual light intensity at a location. Real images are formed where light rays actually converge, so a photometer placed there would detect light. Virtual images are formed where light rays appear to diverge from but don't actually pass through, so no light is present at that location to be measured.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 2,
+      "question": "To what distance should you focus your camera to take a picture of your image from a plane mirror located 3 m in front of you?",
+      "choices": [
+        "(a) 3.00 m",
+        "(b) 0.33 m",
+        "(c) 4.00 m",
+        "(d) 6.00 m",
+        "(e) It is impossible to make a picture of yourself through the mirror as the image is virtual"
+      ],
+      "answer": "(d) 6.00 m",
+      "explanation": "In a plane mirror, the image appears at the same distance behind the mirror as the object is in front. If you are 3 m in front of the mirror, your image is 3 m behind the mirror. The total distance from you (and your camera) to the image is 3 + 3 = 6 m.\n\nNote: You can photograph virtual images because the light rays that form them do reach your camera.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": 2,
+      "question": "Diverging lens can make",
+      "choices": [
+        "(a) diverging images",
+        "(b) real images",
+        "(c) virtual images",
+        "(d) can do both real and virtual images"
+      ],
+      "answer": "(c) virtual images",
+      "explanation": "Diverging lenses (negative focal length) can only produce virtual images. The diverging lens causes parallel rays to spread apart, appearing to come from a virtual focal point. The image is always virtual, upright, and reduced in size, located on the same side as the object.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": 2,
+      "question": "Concave mirror can make",
+      "choices": [
+        "(a) diverging images",
+        "(b) real images",
+        "(c) virtual images",
+        "(d) can do both real and virtual images"
+      ],
+      "answer": "(d) can do both real and virtual images",
+      "explanation": "A concave mirror can produce both real and virtual images:\n- Real images: when object is beyond the focal point (p > f)\n- Virtual images: when object is between the focal point and mirror (p < f)\n\nThe type of image depends on where the object is placed relative to the focal point.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": 2,
+      "question": "Interference of light is evidence that",
+      "choices": [
+        "(a) Light is electromagnetic in character",
+        "(b) The speed of light is very large",
+        "(c) Light does not obey the conservation of energy",
+        "(d) Light is a wave phenomenon",
+        "(e) Light is a transverse wave"
+      ],
+      "answer": "(d) Light is a wave phenomenon",
+      "explanation": "Interference is a characteristic property of waves. When two waves meet, they can constructively or destructively interfere depending on their phase relationship. The observation of interference patterns (like in Young's double-slit experiment) provides direct evidence that light behaves as a wave.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": 2,
+      "question": "What is the smallest angle an eye of a proctor with a pupil diameter of 5 mm could resolve for a λ = 410 nm light?",
+      "choices": [
+        "(a) 100 mrad",
+        "(b) 10 mrad",
+        "(c) 1 mrad",
+        "(d) 0.1 mrad",
+        "(e) Proctor cannot see anything since he is asleep!"
+      ],
+      "answer": "(d) 0.1 mrad",
+      "explanation": "The angular resolution is given by the Rayleigh criterion:\n\n$$\\theta = 1.22 \\frac{\\lambda}{D} = 1.22 \\times \\frac{410 \\times 10^{-9}}{5 \\times 10^{-3}}$$\n$$\\theta = 1.22 \\times 8.2 \\times 10^{-5} = 1.0 \\times 10^{-4} \\text{ rad} = 0.1 \\text{ mrad}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/4-6-limits-of-resolution-the-rayleigh-criterion"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": 2,
+      "question": "Optical path length difference units are",
+      "choices": [
+        "(a) Hz/m",
+        "(b) 1/m",
+        "(c) m/Hz",
+        "(d) m",
+        "(e) m/s"
+      ],
+      "answer": "(d) m",
+      "explanation": "Optical path length (OPL) is defined as the product of the geometric path length and the refractive index: OPL = n × d. Since refractive index is dimensionless and distance is in meters, optical path length has units of meters (m).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-3-multiple-slit-diffraction"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": 2,
+      "question": "If two coherent beams of equal intensity blue light (λ = 450 nm) reach a point on a screen with the second beam traveling 900 nm farther than the first, the intensity of the light on the screen will be",
+      "choices": [
+        "(a) zero",
+        "(b) the same as that of either of the two beams by itself",
+        "(c) twice that of either beam by itself",
+        "(d) four times that of either beam by itself"
+      ],
+      "answer": "(d) four times that of either beam by itself",
+      "explanation": "Path difference = 900 nm\n\n$$\\frac{900}{450} = 2$$\n\nSince 2 is an integer, the path difference is $n\\lambda$ (constructive interference).\n\nFor constructive interference with two equal-intensity beams, the amplitudes add: $A_{total} = 2A$. Since intensity is proportional to amplitude squared:\n$$I_{total} = (2A)^2 = 4A^2 = 4I_{single}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": 2,
+      "question": "If two coherent beams of equal intensity red light (λ = 670 nm) reach a point on a screen with the second beam traveling 335 nm farther than the first, the intensity of the light on the screen will be",
+      "choices": [
+        "(a) zero",
+        "(b) the same as that of either of the two beams by itself",
+        "(c) twice that of either beam by itself",
+        "(d) four times that of either beam by itself"
+      ],
+      "answer": "(a) zero",
+      "explanation": "Path difference = 335 nm\n\n$$\\frac{335}{670} = 0.5$$\n\nSince 0.5 = (0 + 1/2), the path difference is $(n + 1/2)\\lambda$ (destructive interference).\n\nFor destructive interference, the waves are completely out of phase and cancel each other, resulting in zero intensity.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": 2,
+      "question": "Beams of green (λ = 530 nm) and red (λ = 670 nm) light are both passed through a 3 μm width slit and viewed on a second screen. What is the best description of what we would expect to see?",
+      "choices": [
+        "(a) The green and red light will be sharply concentrated only in the region of the viewing screen directly behind the slit",
+        "(b) Both beams will form a central spot on the viewing screen that is spread out, with the red light spread more than the green light",
+        "(c) Both beams will form a central spot on the viewing screen that is spread out, with the green light spread more than the red light",
+        "(d) Both beams will spread out uniformly over the entire area of the viewing screen"
+      ],
+      "answer": "(b) Both beams will form a central spot on the viewing screen that is spread out, with the red light spread more than the green light",
+      "explanation": "Single-slit diffraction causes light to spread out. The angular width of the central maximum is proportional to $\\lambda/a$, where a is the slit width.\n\nSince red light has a longer wavelength than green light, red light will spread more (wider diffraction pattern).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/4-1-single-slit-diffraction"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": 2,
+      "question": "Diffraction plays an important role in which of the following phenomena?",
+      "choices": [
+        "(a) The sun appears as a disk rather than a point to the naked eye",
+        "(b) Light is bent as it passes through a glass prism",
+        "(c) A cheerleader yells through a megaphone",
+        "(d) A farsighted person uses eyeglasses of positive focal length",
+        "(e) A thin soap film exhibits colors when illuminated with white light"
+      ],
+      "answer": "(c) A cheerleader yells through a megaphone",
+      "explanation": "Diffraction occurs when waves bend around obstacles or spread out after passing through openings. A megaphone uses diffraction to spread sound waves in a particular direction.\n\n- (a) is due to the sun's actual size\n- (b) is refraction/dispersion\n- (d) is refraction through lenses\n- (e) is thin-film interference",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/4-1-single-slit-diffraction"
+        }
+      ]
+    },
+    {
+      "number": "17 (a)",
+      "points": 3,
+      "question": "In a figure below, a light ray in an underlying material is incident at angle θ₁ = 40° on a boundary with water, and some of the light reflects back into material and some refracts into the water. The index of refraction of the material is n₁ and that of water is n₂ = 1.3.\n\n(a) What is the angle of refraction θ₂ (provide an expression that is a function of n₁)? [IMAGE:images/Quiz 5 (S24)-3.png] [IMAGE:images/Quiz 5 (S24)-3.png]",
+      "choices": [],
+      "answer": "$\\theta_2 = \\arcsin\\left(\\frac{n_1 \\sin(40°)}{1.3}\\right) = \\arcsin\\left(\\frac{0.643 n_1}{1.3}\\right)$",
+      "explanation": "Using Snell's law:\n$$n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$$\n$$\\sin\\theta_2 = \\frac{n_1 \\sin(40°)}{n_2} = \\frac{n_1 \\times 0.643}{1.3}$$\n$$\\theta_2 = \\arcsin\\left(\\frac{0.643 n_1}{1.3}\\right)$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5 (S24)-3.png",
+        "images/Quiz 5 (S24)-3.png"
+      ]
+    },
+    {
+      "number": "17 (b)",
+      "points": 3,
+      "question": "In a figure below, a light ray in an underlying material is incident at angle θ₁ = 40° on a boundary with water, and some of the light reflects back into material and some refracts into the water. The index of refraction of the material is n₁ and that of water is n₂ = 1.3.\n\n(b) If n₁ > n₂, is angle of refraction θ₂ bigger or smaller than θ₁? [IMAGE:images/Quiz 5 (S24)-3.png] [IMAGE:images/Quiz 5 (S24)-3.png]",
+      "choices": [],
+      "answer": "θ₂ > θ₁ (bigger)",
+      "explanation": "When light travels from a higher-index medium (n₁) to a lower-index medium (n₂), it bends away from the normal.\n\nFrom Snell's law: $\\sin\\theta_2 = \\frac{n_1}{n_2}\\sin\\theta_1$\n\nIf n₁ > n₂, then $\\frac{n_1}{n_2} > 1$, so $\\sin\\theta_2 > \\sin\\theta_1$, meaning θ₂ > θ₁.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5 (S24)-3.png",
+        "images/Quiz 5 (S24)-3.png"
+      ]
+    },
+    {
+      "number": "17 (c)",
+      "points": 4,
+      "question": "In a figure below, a light ray in an underlying material is incident at angle θ₁ = 40° on a boundary with water, and some of the light reflects back into material and some refracts into the water. The index of refraction of the material is n₁ and that of water is n₂ = 1.3.\n\n(c) Assuming that n₁ = 1.8, at some range of incident angles θ₁, refraction into water is not possible and all light is reflected back into the material. Find this range of angles θ₁. [IMAGE:images/Quiz 5 (S24)-3.png] [IMAGE:images/Quiz 5 (S24)-3.png]",
+      "choices": [],
+      "answer": "$\\theta_1 > 46.2°$ (from critical angle to 90°)",
+      "explanation": "Total internal reflection occurs when $\\theta_1 > \\theta_c$.\n\nCritical angle:\n$$\\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{1.3}{1.8} = 0.722$$\n$$\\theta_c = 46.2°$$\n\nTotal internal reflection occurs for $46.2° < \\theta_1 \\leq 90°$.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5 (S24)-3.png",
+        "images/Quiz 5 (S24)-3.png"
+      ]
+    },
+    {
+      "number": "18 (a)",
+      "points": 2,
+      "question": "Impressed by the excellent performance of students in EP2 Quiz 5, Dr. Maravin decided to give extra points for extra rays in ray tracing problems 18 and 19. However, he noticed that he could not focus well on the grade book to read students' names. On that particular morning, he could focus only on the computer screen from a distance of 1.0 meter away!\n\n(a) What is Dr. Maravin's near point?",
+      "choices": [],
+      "answer": "1.0 m (100 cm)",
+      "explanation": "The near point is the closest distance at which the eye can focus clearly. Since Dr. Maravin can only focus on objects at least 1.0 m away, his near point is 1.0 m.\n\nThis is much farther than the normal near point of about 25 cm, indicating farsightedness (hyperopia).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-6-the-eye"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "18 (b)",
+      "points": 4,
+      "question": "Impressed by the excellent performance of students in EP2 Quiz 5, Dr. Maravin decided to give extra points for extra rays in ray tracing problems 18 and 19. However, he noticed that he could not focus well on the grade book to read students' names. On that particular morning, he could focus only on the computer screen from a distance of 1.0 meter away!\n\n(b) Dr. Maravin wants to see clearly at a closer distance, so he puts on his contact lenses. With these contact lenses, he can see the gradebook clearly at a distance of 25 cm from his eyes. Where is the image that contact lenses create? Explain in words and provide the value of i.",
+      "choices": [],
+      "answer": "i = -1.0 m (image is 1.0 m on the same side as the object)",
+      "explanation": "The contact lens must create a virtual image at Dr. Maravin's near point (1.0 m) when the object (gradebook) is at 25 cm.\n\nThe image is virtual and on the same side as the object, so i = -1.0 m (negative by sign convention).\n\nThis virtual image at 1.0 m is what Dr. Maravin's eye can then focus on.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-6-the-eye"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "18 (c)",
+      "points": 4,
+      "question": "Impressed by the excellent performance of students in EP2 Quiz 5, Dr. Maravin decided to give extra points for extra rays in ray tracing problems 18 and 19. However, he noticed that he could not focus well on the grade book to read students' names. On that particular morning, he could focus only on the computer screen from a distance of 1.0 meter away!\n\n(c) Determine the focal length of his contact lenses.",
+      "choices": [],
+      "answer": "$f \\approx +33.3$ cm",
+      "explanation": "Using the thin lens equation with p = 25 cm and i = -100 cm:\n\n$$\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{i} = \\frac{1}{25} + \\frac{1}{-100}$$\n$$\\frac{1}{f} = 0.04 - 0.01 = 0.03$$\n$$f = 33.3 \\text{ cm}$$\n\nThe positive focal length indicates a converging lens, which is correct for correcting farsightedness.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-6-the-eye"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "18 (d)",
+      "points": 4,
+      "question": "Impressed by the excellent performance of students in EP2 Quiz 5, Dr. Maravin decided to give extra points for extra rays in ray tracing problems 18 and 19. However, he noticed that he could not focus well on the grade book to read students' names. On that particular morning, he could focus only on the computer screen from a distance of 1.0 meter away!\n\n(d) Is image virtual or real? Is it magnified or demagnified?",
+      "choices": [],
+      "answer": "Virtual and magnified",
+      "explanation": "Since i = -100 cm is negative, the image is virtual (on the same side as the object).\n\nMagnification:\n$$m = -\\frac{i}{p} = -\\frac{-100}{25} = +4$$\n\nSince |m| > 1 and m > 0, the image is magnified and upright.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "18 (e)",
+      "points": 4,
+      "question": "Impressed by the excellent performance of students in EP2 Quiz 5, Dr. Maravin decided to give extra points for extra rays in ray tracing problems 18 and 19. However, he noticed that he could not focus well on the grade book to read students' names. On that particular morning, he could focus only on the computer screen from a distance of 1.0 meter away!\n\n(e) Check your answers with a ray diagram in the space below (use at least two rays, label them or explain in words how to draw them. The third ray is a bonus 1 point) [IMAGE:images/Quiz 5 (S24)-4.png] [IMAGE:images/Quiz 5 (S24)-4.png]",
+      "choices": [],
+      "answer": "See answer key for ray diagram",
+      "explanation": "For a converging lens with object inside the focal length:\n1. A ray parallel to the axis refracts through the far focal point\n2. A ray through the center passes straight through\n3. A ray aimed at the near focal point emerges parallel\n\nThe virtual image appears upright and magnified on the same side as the object.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5 (S24)-4.png",
+        "images/Quiz 5 (S24)-4.png"
+      ]
+    },
+    {
+      "number": "19 (a)",
+      "points": 2,
+      "question": "A 0.25 m tall arrow is placed at the indicated location in front of a spherical mirror with properties shown in the figure below.\n\n(a) Determine the focal length of the mirror, including the sign. [IMAGE:images/Quiz 5 (S24)-5.png]",
+      "choices": [],
+      "answer": "See answer key (depends on figure values)",
+      "explanation": "The focal length depends on the radius of curvature shown in the figure:\n- For a concave mirror: $f = +R/2$\n- For a convex mirror: $f = -R/2$\n\nRead the value from the figure and apply the appropriate sign.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for the figure showing mirror properties.",
+      "images": [
+        "images/Quiz 5 (S24)-5.png"
+      ]
+    },
+    {
+      "number": "19 (b)",
+      "points": 4,
+      "question": "A 0.25 m tall arrow is placed at the indicated location in front of a spherical mirror with properties shown in the figure below.\n\n(b) Using ray tracing methods that employ at least two rays (any extra ray gets +1 bonus point), determine whether the image formed by the mirror is real or virtual, inverted or non-inverted, and magnified or demagnified. Label the rays or explain how they are plotted. [IMAGE:images/Quiz 5 (S24)-5.png] [IMAGE:images/Quiz 5 (S24)-5.png]",
+      "choices": [],
+      "answer": "See answer key for ray diagram and image properties",
+      "explanation": "Standard rays for mirror ray tracing:\n1. A ray parallel to the principal axis reflects through (or as if from) the focal point\n2. A ray through the center of curvature reflects back on itself\n3. A ray through (or toward) the focal point reflects parallel to the axis\n4. A ray to the vertex reflects at equal angle\n\nThe image properties depend on the object position relative to the focal point.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for the figure.",
+      "images": [
+        "images/Quiz 5 (S24)-5.png",
+        "images/Quiz 5 (S24)-5.png"
+      ]
+    },
+    {
+      "number": "19 (c)",
+      "points": 6,
+      "question": "A 0.25 m tall arrow is placed at the indicated location in front of a spherical mirror with properties shown in the figure below.\n\n(c) Using algebraic methods, determine the location and size of the image. Compare your results with those obtained by the ray tracing methods. [IMAGE:images/Quiz 5 (S24)-5.png] [IMAGE:images/Quiz 5 (S24)-5.png]",
+      "choices": [],
+      "answer": "See answer key for calculations",
+      "explanation": "Use the mirror equation and magnification:\n$$\\frac{1}{p} + \\frac{1}{i} = \\frac{1}{f}$$\n$$m = -\\frac{i}{p} = \\frac{h_i}{h_o}$$\n\nSolve for i using the given p and f values, then find the image height using magnification.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for the figure values.",
+      "images": [
+        "images/Quiz 5 (S24)-5.png",
+        "images/Quiz 5 (S24)-5.png"
+      ]
+    },
+    {
+      "number": "20 (a)",
+      "points": 3,
+      "question": "You are given Young's double slit experiment with a separation between the slits d = 0.2 mm, width of each slit a = 0.04 mm, and a source of coherent light with the wavelength λ = 500 nm.\n\n(a) Determine the angular separation between individual interference maxima on a screen produced by this double-slit setup.",
+      "choices": [],
+      "answer": "$\\Delta\\theta = 2.5 \\times 10^{-3}$ rad = 2.5 mrad",
+      "explanation": "For double-slit interference, maxima occur at:\n$$d\\sin\\theta = n\\lambda$$\n\nFor small angles, the angular separation between adjacent maxima is:\n$$\\Delta\\theta \\approx \\frac{\\lambda}{d} = \\frac{500 \\times 10^{-9}}{0.2 \\times 10^{-3}} = 2.5 \\times 10^{-3} \\text{ rad}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (b)",
+      "points": 3,
+      "question": "You are given Young's double slit experiment with a separation between the slits d = 0.2 mm, width of each slit a = 0.04 mm, and a source of coherent light with the wavelength λ = 500 nm.\n\n(b) Determine the angle between the center and the first diffraction minimum.",
+      "choices": [],
+      "answer": "$\\theta_1 = 0.0125$ rad = 12.5 mrad",
+      "explanation": "For single-slit diffraction, the first minimum occurs at:\n$$a\\sin\\theta = \\lambda$$\n\nFor small angles:\n$$\\theta_1 \\approx \\frac{\\lambda}{a} = \\frac{500 \\times 10^{-9}}{0.04 \\times 10^{-3}} = 0.0125 \\text{ rad} = 12.5 \\text{ mrad}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/4-1-single-slit-diffraction"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (c)",
+      "points": 2,
+      "question": "You are given Young's double slit experiment with a separation between the slits d = 0.2 mm, width of each slit a = 0.04 mm, and a source of coherent light with the wavelength λ = 500 nm.\n\n(c) How many interference maxima are located between the center and the first diffraction minimum?",
+      "choices": [],
+      "answer": "4 maxima (not counting the central maximum)",
+      "explanation": "The ratio of the diffraction envelope angle to the interference fringe spacing:\n$$\\frac{\\theta_{diff}}{\\Delta\\theta_{int}} = \\frac{\\lambda/a}{\\lambda/d} = \\frac{d}{a} = \\frac{0.2}{0.04} = 5$$\n\nThis means there are 5 interference maxima within the central diffraction envelope on each side. Between the center and the first diffraction minimum, there are 4 interference maxima (the 5th coincides with the diffraction minimum and is suppressed).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/4-3-double-slit-diffraction"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (d)",
+      "points": 2,
+      "question": "You are given Young's double slit experiment with a separation between the slits d = 0.2 mm, width of each slit a = 0.04 mm, and a source of coherent light with the wavelength λ = 500 nm.\n\n(d) Sketch a light pattern that you would expect to observe on the screen produced by this double-slit experiment.",
+      "choices": [],
+      "answer": "See answer key for sketch",
+      "explanation": "The pattern shows:\n- A central bright maximum (most intense)\n- Interference fringes (alternating bright and dark bands) within a diffraction envelope\n- The diffraction envelope causes the intensity to decrease away from center\n- Every 5th interference maximum is missing (suppressed by diffraction minima)\n- The pattern is symmetric about the center",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/4-3-double-slit-diffraction"
+        }
+      ],
+      "seeKey": true
+    }
+  ]
+}

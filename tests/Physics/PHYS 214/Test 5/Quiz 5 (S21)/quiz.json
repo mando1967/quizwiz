@@ -1,0 +1,564 @@
+{
+  "title": "PHYS 214 - Test 5, Quiz 5 (S21)",
+  "questions": [
+    {
+      "number": 1,
+      "points": 2,
+      "question": "EP2 is almost over. Good luck!\n\nAh, a question (sorry, not a multiple choice one): Are you ready to ace this quiz??? [IMAGE:images/Quiz 5 (S21)-1.png]",
+      "choices": [
+        "Yes"
+      ],
+      "answer": "Yes",
+      "explanation": "This is a warm-up question to get you started. Good luck on the quiz!",
+      "images": [
+        "images/Quiz 5 (S21)-1.png"
+      ]
+    },
+    {
+      "number": 2,
+      "points": 2,
+      "question": "An AC voltage is applied across a capacitor. Initially, the current is flowing up. At that moment, what is the orientation of the magnetic field between the capacitor plates? [IMAGE:images/Quiz 5 (S21)-2.png]",
+      "choices": [
+        "Up",
+        "Down",
+        "Clockwise looking from above",
+        "Counterclockwise looking from above",
+        "There is no magnetic field"
+      ],
+      "answer": "Counterclockwise looking from above",
+      "explanation": "When current flows upward (charging the capacitor), the displacement current between the plates also flows upward. Using the right-hand rule, if you point your thumb upward (direction of displacement current), your fingers curl counterclockwise when viewed from above. This gives the direction of the magnetic field.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "images": [
+        "images/Quiz 5 (S21)-2.png"
+      ]
+    },
+    {
+      "number": 3,
+      "points": 2,
+      "question": "An electromagnetic wave is propagating into the screen (page). At a given point of time and space, the electric field points up. Where does the magnetic field point?",
+      "choices": [
+        "up",
+        "down",
+        "left",
+        "right",
+        "into the screen/page",
+        "out of the screen/page"
+      ],
+      "answer": "right",
+      "explanation": "For an EM wave, the direction of propagation is given by $\\vec{E} \\times \\vec{B}$. If the wave propagates into the page and $\\vec{E}$ points up, then $\\vec{B}$ must point to the right so that $\\vec{E} \\times \\vec{B}$ points into the page.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "points": 2,
+      "question": "A vertically polarized light falls on a polarizer with a transmission plane oriented at 45 degrees with respect to vertical. If the original amplitude of the electric field was 1 V/m, what is the amplitude of the electric field of the wave after it emerges from the polarizer?",
+      "choices": [
+        "1 V/m",
+        "0.7 N/C",
+        "0.5 V/m",
+        "0.3 N/C",
+        "0.5 W/m²"
+      ],
+      "answer": "0.7 N/C",
+      "explanation": "When polarized light passes through a polarizer at angle θ, the transmitted amplitude is $E = E_0 \\cos\\theta$.\n\n$$E = 1 \\times \\cos(45°) = 1 \\times 0.707 \\approx 0.7 \\text{ V/m (or N/C)}$$\n\nNote: V/m and N/C are equivalent units for electric field.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-4-polarization"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": 2,
+      "question": "While digging your yard without checking for underlying cables you cut through the fiber-optics AT&T pipe and your backyard is now prettily illuminated with blue lights emanating from the severed cable. What is the frequency of the AT&T transmission signal?",
+      "choices": [
+        "About 400 nm",
+        "About 7.5 × 10¹⁴",
+        "About 7.5 × 10¹⁴ s⁻¹",
+        "About 400 Hz",
+        "About 7.5 m"
+      ],
+      "answer": "About 7.5 × 10¹⁴ s⁻¹",
+      "explanation": "Blue light has a wavelength of approximately 400-450 nm. Using $c = f\\lambda$:\n\n$$f = \\frac{c}{\\lambda} = \\frac{3 \\times 10^8}{400 \\times 10^{-9}} = 7.5 \\times 10^{14} \\text{ Hz (or s}^{-1}\\text{)}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": 2,
+      "question": "While observing the ruined AT&T fiber optic cable from the previous question you wonder about the physical phenomenon that makes fiber optic signal transmission possible. What is it?",
+      "choices": [
+        "dispersion",
+        "polarization by reflection",
+        "small angle refraction",
+        "total internal reflection"
+      ],
+      "answer": "total internal reflection",
+      "explanation": "Fiber optic cables work by total internal reflection. Light traveling through the high-index glass core reflects completely at the core-cladding boundary when the angle of incidence exceeds the critical angle, allowing light to propagate along the fiber with minimal loss.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 2,
+      "question": "What kind of image does a plane mirror create?",
+      "choices": [
+        "real, upright",
+        "virtual, upright",
+        "real, inverted",
+        "virtual, inverted",
+        "either real or virtual, depending on the distance, always upright"
+      ],
+      "answer": "virtual, upright",
+      "explanation": "A plane mirror always creates a virtual, upright image. The image appears to be behind the mirror at the same distance as the object is in front. The image is the same size as the object (magnification = 1) and is laterally inverted (left-right reversed) but not vertically inverted.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": 2,
+      "question": "You have a concave mirror with a radius of curvature of 10 cm. Where do you need to place the object to produce a real image of the object that is neither magnified nor demagnified?",
+      "choices": [
+        "p = 10 cm",
+        "p = 5 cm",
+        "p = 0 cm",
+        "p = -5 cm",
+        "p = -10 cm"
+      ],
+      "answer": "p = 10 cm",
+      "explanation": "For a real image with magnification m = -1 (same size, inverted), the object must be at the center of curvature.\n\nFor a concave mirror with R = 10 cm:\n- Focal length: $f = R/2 = 5$ cm\n- Center of curvature: $C = R = 10$ cm\n\nWhen the object is at the center of curvature (p = 10 cm), the image forms at the same location with m = -1.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": 2,
+      "question": "A mystery mirror can produce real and virtual images. What kind of mirror is that?",
+      "choices": [
+        "convex",
+        "concave",
+        "plain",
+        "plain or concave",
+        "plain or convex"
+      ],
+      "answer": "concave",
+      "explanation": "A concave mirror can produce both real and virtual images:\n- Real images: when object is beyond the focal point (p > f)\n- Virtual images: when object is between the focal point and mirror (p < f)\n\nConvex mirrors can only produce virtual images. Plane mirrors always produce virtual images.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": 2,
+      "question": "Another mystery mirror can produce only virtual images. What kind of mirror is that?",
+      "choices": [
+        "convex",
+        "concave",
+        "plain",
+        "plane or concave",
+        "plane or convex"
+      ],
+      "answer": "plane or convex",
+      "explanation": "Both plane mirrors and convex mirrors can only produce virtual images:\n- Plane mirrors: always produce virtual, upright, same-size images\n- Convex mirrors: always produce virtual, upright, reduced images\n\nConcave mirrors can produce both real and virtual images depending on object position.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": 2,
+      "question": "A convex mirror of a radius of 20 cm produces an image of an object placed at an unknown distance p from the mirror. The object itself is 2 cm in height, while the image is 1 cm. What is the value of p?",
+      "choices": [
+        "20 cm",
+        "10 cm",
+        "5 cm",
+        "-5 cm",
+        "-10 cm",
+        "None of the above"
+      ],
+      "answer": "10 cm",
+      "explanation": "For a convex mirror: $f = -R/2 = -10$ cm\n\nMagnification: $m = h_i/h_o = 1/2 = 0.5$\n\nAlso, $m = -i/p$, so $i = -mp = -0.5p$\n\nUsing the mirror equation:\n$$\\frac{1}{p} + \\frac{1}{i} = \\frac{1}{f}$$\n$$\\frac{1}{p} + \\frac{1}{-0.5p} = \\frac{1}{-10}$$\n$$\\frac{1}{p} - \\frac{2}{p} = -\\frac{1}{10}$$\n$$-\\frac{1}{p} = -\\frac{1}{10}$$\n$$p = 10 \\text{ cm}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": 2,
+      "question": "An old person is wearing reading glasses while reading a book (kind of an iPad but without batteries and need for wi-fi). While reading a book, glasses produce",
+      "choices": [
+        "virtual images",
+        "real images",
+        "no images"
+      ],
+      "answer": "virtual images",
+      "explanation": "Reading glasses are converging lenses used to correct farsightedness (hyperopia). When you hold a book at reading distance (closer than the focal length of the glasses), the lens produces a virtual, upright, magnified image that appears farther away, where the eye can focus on it.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": 2,
+      "question": "A lens is made from a material with n = 1.5 and it makes an image of the sun at the distance of 10 cm from the lens. If you place the lens in the isopropyl alcohol that has n = 1.5, where will the image of the sun be?",
+      "choices": [
+        "Same distance, 10 cm",
+        "Somewhat closer to the lens, smaller than 10 cm",
+        "A bit further away",
+        "Nowhere, the lens will not converge light",
+        "What kind of questions are these???"
+      ],
+      "answer": "Nowhere, the lens will not converge light",
+      "explanation": "The lensmaker's equation is:\n$$\\frac{1}{f} = (n_{lens}/n_{medium} - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)$$\n\nWhen the lens (n = 1.5) is placed in a medium with the same refractive index (n = 1.5), the ratio $n_{lens}/n_{medium} = 1$, making $(n_{lens}/n_{medium} - 1) = 0$.\n\nThis means $1/f = 0$, so $f = \\infty$. The lens has no focusing power when immersed in a medium of the same refractive index.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": 2,
+      "question": "Which lens will always produce an image that is closer to the lens than the object?",
+      "choices": [
+        "it is not possible",
+        "converging",
+        "diverging",
+        "can be either converging or diverging"
+      ],
+      "answer": "diverging",
+      "explanation": "A diverging lens (negative focal length) always produces a virtual image that is:\n- Closer to the lens than the object\n- Upright\n- Reduced in size\n\nThe image is always on the same side as the object, between the lens and the focal point.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": 2,
+      "question": "You are looking at a tiny insect, trying to determine whether it is dangerous or not. To see it better, you should",
+      "choices": [
+        "bring it as close as possible to your eye without touching it",
+        "get a lens with f > 0 and look at the insect through it",
+        "get a lens with f < 0 and look at the insect through it",
+        "ask your favorite prof with a microscope to do it and send you a report instead"
+      ],
+      "answer": "get a lens with f > 0 and look at the insect through it",
+      "explanation": "A converging lens (f > 0) acts as a magnifying glass when the object is placed within the focal length. It creates a virtual, upright, magnified image that allows you to see small details more clearly.\n\nA diverging lens (f < 0) would make the insect appear smaller, which is not helpful.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-8-the-simple-magnifier"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": 2,
+      "question": "You have a laser beam with λ = 400 nm that you split into two independent secondary beams of light. One of the secondary light beams travels about 4 cm further than the other one before they reach the same spot on the screen. The intensity of the light on the screen will be",
+      "choices": [
+        "zero",
+        "the same as the intensity of the original, primary beam",
+        "twice the intensity of the original, primary beam",
+        "four times the intensity of the original, primary beam"
+      ],
+      "answer": "twice the intensity of the original, primary beam",
+      "explanation": "Path difference = 4 cm = 40,000,000 nm\n\nNumber of wavelengths: $40,000,000 / 400 = 100,000$ (an integer)\n\nSince the path difference is an integer multiple of the wavelength, we have constructive interference. When two beams of equal intensity interfere constructively, the amplitude doubles and the intensity quadruples compared to one beam.\n\nHowever, since each beam has half the original intensity, the total is twice the original beam intensity.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "points": 2,
+      "question": "Two laser lights with λ = 650 nm that were split from the original laser beam travel to the same spot on the screen. One of the beams travels 4.875 μm further than the other. The intensity of the light on the screen will be",
+      "choices": [
+        "zero",
+        "the same as that of either beam by itself",
+        "double that of either beam by itself",
+        "Four times that of either beam by itself"
+      ],
+      "answer": "zero",
+      "explanation": "Path difference = 4.875 μm = 4875 nm\n\nNumber of wavelengths: $4875 / 650 = 7.5$\n\nSince 7.5 = 7 + 0.5, the path difference is $(n + 1/2)\\lambda$, which means destructive interference. The two waves arrive completely out of phase and cancel each other out, resulting in zero intensity.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "points": 2,
+      "question": "Suppose you replaced the two lights in the Young experiment with lights of the same wavelength, but one of the lights is unpolarized, while the other one is vertically polarized. Will you be able to see the interference pattern?",
+      "choices": [
+        "No",
+        "Yes",
+        "Not enough information to answer this question"
+      ],
+      "answer": "No",
+      "explanation": "For interference to occur, the two light sources must be coherent - they must have the same frequency AND a constant phase relationship. Unpolarized light consists of waves with randomly varying polarization directions, which means it cannot maintain a constant phase relationship with the polarized light. Without coherence, no stable interference pattern can form.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference"
+        }
+      ]
+    },
+    {
+      "number": "19 (a)",
+      "points": 3,
+      "question": "Evil Professor Maravin, whose height is 1.9 m, stands 2 m in front of a concave spherical mirror that has a radius of curvature of 5 m.\n\n(a) Find the focal length of the mirror, including the sign.",
+      "choices": [],
+      "answer": "$f = +2.5$ m",
+      "explanation": "For a concave mirror, the focal length is positive:\n\n$$f = \\frac{R}{2} = \\frac{5}{2} = +2.5 \\text{ m}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "19 (b)",
+      "points": 2,
+      "question": "Evil Professor Maravin, whose height is 1.9 m, stands 2 m in front of a concave spherical mirror that has a radius of curvature of 5 m.\n\n(b) Find the location of Evil Professor Maravin's image.",
+      "choices": [],
+      "answer": "$i = -10$ m (behind the mirror)",
+      "explanation": "Using the mirror equation:\n$$\\frac{1}{p} + \\frac{1}{i} = \\frac{1}{f}$$\n\n$$\\frac{1}{2} + \\frac{1}{i} = \\frac{1}{2.5}$$\n\n$$\\frac{1}{i} = 0.4 - 0.5 = -0.1$$\n\n$$i = -10 \\text{ m}$$\n\nThe negative sign indicates the image is behind the mirror (virtual).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "19 (c)",
+      "points": 2,
+      "question": "Evil Professor Maravin, whose height is 1.9 m, stands 2 m in front of a concave spherical mirror that has a radius of curvature of 5 m.\n\n(c) Determine the virtuality and inversion state of Evil Professor Maravin's image.",
+      "choices": [],
+      "answer": "Virtual and upright (erect)",
+      "explanation": "Since $i = -10$ m is negative, the image is virtual (located behind the mirror).\n\nMagnification: $m = -\\frac{i}{p} = -\\frac{-10}{2} = +5$\n\nSince m > 0, the image is upright (erect, not inverted).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "19 (d)",
+      "points": 2,
+      "question": "Evil Professor Maravin, whose height is 1.9 m, stands 2 m in front of a concave spherical mirror that has a radius of curvature of 5 m.\n\n(d) Find the height of Maravin's image.",
+      "choices": [],
+      "answer": "$h_i = 9.5$ m",
+      "explanation": "Using magnification:\n$$m = \\frac{h_i}{h_o} = 5$$\n\n$$h_i = m \\times h_o = 5 \\times 1.9 = 9.5 \\text{ m}$$\n\nThe image is magnified (5× larger than the object).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "19 (e)",
+      "points": 5,
+      "question": "Evil Professor Maravin, whose height is 1.9 m, stands 2 m in front of a concave spherical mirror that has a radius of curvature of 5 m.\n\n(e) Check your answers with a ray diagram. One bonus point if you use all four valid rays.",
+      "choices": [],
+      "answer": "See answer key for ray diagram",
+      "explanation": "The ray diagram for a concave mirror with object inside the focal point should show:\n1. A ray parallel to the principal axis reflects through the focal point\n2. A ray through the center of curvature reflects back on itself\n3. A ray aimed at the focal point reflects parallel to the axis\n4. A ray to the vertex reflects at equal angle\n\nThe virtual image appears behind the mirror, upright and magnified.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (a)",
+      "points": 4,
+      "question": "A thin symmetric lens has a focal length f = -0.2 m. An object of height 10 cm is placed at a distance of 40 cm to the left of the lens.\n\n(a) Find the distance of the image to the lens and whether the image is on the left or right of the lens.",
+      "choices": [],
+      "answer": "$i = -13.3$ cm (left of the lens, same side as object)",
+      "explanation": "Using the thin lens equation:\n$$\\frac{1}{p} + \\frac{1}{i} = \\frac{1}{f}$$\n\n$$\\frac{1}{40} + \\frac{1}{i} = \\frac{1}{-20}$$\n\n$$\\frac{1}{i} = -0.05 - 0.025 = -0.075$$\n\n$$i = -13.3 \\text{ cm}$$\n\nThe negative sign indicates the image is on the same side as the object (left of the lens), which is characteristic of a diverging lens.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (b)",
+      "points": 3,
+      "question": "A thin symmetric lens has a focal length f = -0.2 m. An object of height 10 cm is placed at a distance of 40 cm to the left of the lens.\n\n(b) Find the height of the image, its virtuality, and the inversion state.",
+      "choices": [],
+      "answer": "$h_i = 3.3$ cm, virtual, upright",
+      "explanation": "Magnification:\n$$m = -\\frac{i}{p} = -\\frac{-13.3}{40} = +0.33$$\n\nImage height:\n$$h_i = m \\times h_o = 0.33 \\times 10 = 3.3 \\text{ cm}$$\n\nSince $i < 0$: image is virtual\nSince $m > 0$: image is upright (erect)",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (c)",
+      "points": 5,
+      "question": "A thin symmetric lens has a focal length f = -0.2 m. An object of height 10 cm is placed at a distance of 40 cm to the left of the lens.\n\n(c) Check your answers with a ray diagram. One bonus point if you use three valid rays.",
+      "choices": [],
+      "answer": "See answer key for ray diagram",
+      "explanation": "For a diverging lens, the ray diagram should show:\n1. A ray parallel to the principal axis diverges as if coming from the near focal point\n2. A ray aimed at the far focal point emerges parallel to the axis\n3. A ray through the center passes straight through\n\nThe virtual image appears upright and reduced on the same side as the object.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "21 (a)",
+      "points": 3,
+      "question": "Dr. Maravin's eyes have lenses that can change their focal distance between 1.693 cm and 1.631 cm. The effective distance between his eye's lenses and the retina where the image is formed is 1.7 cm.\n\n(a) Find the closest distance where Dr. Maravin's eyes can focus on (near point).",
+      "choices": [],
+      "answer": "Near point ≈ 40 cm",
+      "explanation": "For the near point, use the shortest focal length (f = 1.631 cm) and image distance i = 1.7 cm:\n\n$$\\frac{1}{p} + \\frac{1}{i} = \\frac{1}{f}$$\n$$\\frac{1}{p} = \\frac{1}{1.631} - \\frac{1}{1.7} = 0.613 - 0.588 = 0.025$$\n$$p = 40 \\text{ cm}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-6-the-eye"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "21 (b)",
+      "points": 3,
+      "question": "Dr. Maravin's eyes have lenses that can change their focal distance between 1.693 cm and 1.631 cm. The effective distance between his eye's lenses and the retina where the image is formed is 1.7 cm.\n\n(b) Find the furthest distance where Dr. Maravin's eyes can focus on (far point).",
+      "choices": [],
+      "answer": "Far point ≈ 412 cm (about 4.1 m)",
+      "explanation": "For the far point, use the longest focal length (f = 1.693 cm) and image distance i = 1.7 cm:\n\n$$\\frac{1}{p} = \\frac{1}{1.693} - \\frac{1}{1.7} = 0.591 - 0.588 = 0.00243$$\n$$p \\approx 412 \\text{ cm} = 4.12 \\text{ m}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-6-the-eye"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "21 (c)",
+      "points": 4,
+      "question": "Dr. Maravin's eyes have lenses that can change their focal distance between 1.693 cm and 1.631 cm. The effective distance between his eye's lenses and the retina where the image is formed is 1.7 cm.\n\n(c) Find the focal distance of the corrective contact lens that would allow Dr. Maravin to see distant stars sharply.",
+      "choices": [],
+      "answer": "$f_{corrective} \\approx -4.1$ m",
+      "explanation": "To see distant objects (at infinity), the corrective lens must create a virtual image at Dr. Maravin's far point (4.12 m).\n\nFor the contact lens: object at infinity (p = ∞), image at far point (i = -4.12 m, negative because virtual)\n\n$$\\frac{1}{f} = \\frac{1}{\\infty} + \\frac{1}{-4.12} = -0.243$$\n$$f \\approx -4.1 \\text{ m}$$\n\nA diverging lens is needed.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-6-the-eye"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "21 (d)",
+      "points": 4,
+      "question": "Dr. Maravin's eyes have lenses that can change their focal distance between 1.693 cm and 1.631 cm. The effective distance between his eye's lenses and the retina where the image is formed is 1.7 cm.\n\n(d) Find the focal distance of the corrective contact lens that would allow Dr. Maravin to focus on this screen from a distance of 0.25 m.",
+      "choices": [],
+      "answer": "See answer key for calculation",
+      "explanation": "To focus at 25 cm, the corrective lens must create a virtual image at Dr. Maravin's near point (40 cm).\n\nFor the contact lens: object at p = 25 cm, image at i = -40 cm (negative because virtual, on same side as object)\n\n$$\\frac{1}{f} = \\frac{1}{25} + \\frac{1}{-40} = 0.04 - 0.025 = 0.015$$\n$$f \\approx 67 \\text{ cm}$$\n\nA converging lens is needed.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-6-the-eye"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "22 (a)",
+      "points": 6,
+      "question": "In one of the obscure experiments, a deep-diver was asked to dive into a deep pool filled with oil (n = 1.46). When the deep-diver reached the bottom of the oil tank and started his ascent toward the surface, he noticed that he could only see the world outside the oil tank in a circular spot right above his head - the surface of the oil was dark outside the light spot.\n\n(a) Determine the radius R of the circular spot when the deep-diver is at the depth of 10 meters.",
+      "choices": [],
+      "answer": "$R \\approx 9.3$ m",
+      "explanation": "This is total internal reflection. The critical angle:\n$$\\sin\\theta_c = \\frac{n_{air}}{n_{oil}} = \\frac{1}{1.46} = 0.685$$\n$$\\theta_c = 43.2°$$\n\nThe radius of the visible circle:\n$$R = d \\tan\\theta_c = 10 \\times \\tan(43.2°) = 10 \\times 0.94 \\approx 9.4 \\text{ m}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "22 (b)",
+      "points": 2,
+      "question": "In one of the obscure experiments, a deep-diver was asked to dive into a deep pool filled with oil (n = 1.46). When the deep-diver reached the bottom of the oil tank and started his ascent toward the surface, he noticed that he could only see the world outside the oil tank in a circular spot right above his head - the surface of the oil was dark outside the light spot.\n\n(b) As the deep-diver raises to the surface, how does R change? (Stays the same, increase, decrease?)",
+      "choices": [],
+      "answer": "R decreases",
+      "explanation": "Since $R = d \\tan\\theta_c$, and the critical angle $\\theta_c$ remains constant (depends only on the refractive indices), the radius R is directly proportional to the depth d.\n\nAs the diver rises toward the surface, d decreases, so R decreases proportionally.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+        }
+      ],
+      "seeKey": true
+    }
+  ]
+}

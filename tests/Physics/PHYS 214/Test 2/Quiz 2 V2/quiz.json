@@ -22,7 +22,8 @@
           "type": "Video - How Capacitors Work",
           "url": "https://www.youtube.com/watch?v=X4EUwTwZ110"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** A capacitor is made of separated conductors that store equal and opposite charge and therefore electrical energy.\n- **Key steps:** Identify devices that rely on paired conductors with an insulating gap; capacitors fit this description while resistors, switches, and batteries do not.\n- **Why correct:** Option (d) matches the textbook definition of a capacitor.\n- **Why others are wrong:** Resistors and switches do not store charge, and batteries rely on chemical reactions rather than separated conductors."
     },
     {
       "number": 2,
@@ -45,7 +46,8 @@
           "type": "Article - Battery Basics",
           "url": "https://learn.sparkfun.com/tutorials/what-is-a-battery/all"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** A battery converts chemical potential into electrical energy using two dissimilar electrodes and an electrolyte.\n- **Key steps:** Recall that galvanic cells require separated metals and ionic medium; that construction distinguishes batteries from passive components.\n- **Why correct:** Option (b) describes exactly that electrochemical setup.\n- **Why others are wrong:** Resistors dissipate energy, capacitors store charge without chemistry, and switches simply open or close circuits."
     },
     {
       "number": 3,
@@ -63,7 +65,8 @@
           "type": "Article - Circuit Protection",
           "url": "https://www.blikai.com/blog/how-does-a-fuse-work-full-guide"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** A fuse must interrupt the only current path when it blows, so it belongs in series with the protected load.\n- **Key steps:** Follow current flow from the source through the circuit; inserting the fuse in series guarantees all current passes through the fuse element.\n- **Why correct:** Option (a) ensures an overcurrent opens the circuit.\n- **Why others are wrong:** A parallel fuse would bypass the load and never blow, and merely placing it nearby has no electrical effect."
     },
     {
       "number": 4,
@@ -87,7 +90,8 @@
           "type": "Video - Voltage Explained",
           "url": "https://www.youtube.com/watch?v=z8qfhFXjsrw"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Electric potential difference is work per unit charge and is path independent in electrostatics.\n- **Key steps:** Compute $V = W/q = 1000/25 = 40$ volts and note that the answer does not depend on path details.\n- **Why correct:** Option (b) reports the correct numerical value.\n- **Why others are wrong:** The other options misapply the formula or ignore the path independence of conservative electric fields."
     },
     {
       "number": 5,
@@ -111,7 +115,8 @@
           "type": "Video - Current and Charge",
           "url": "https://www.youtube.com/watch?v=8jB6hDUqN0Y"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Electric current measures charge flow rate, so total charge equals current times time.\n- **Key steps:** Convert one hour to 3600 seconds and compute $Q = I t = 0.5 \times 3600 = 1800$ coulombs.\n- **Why correct:** Option (c) matches that calculation.\n- **Why others are wrong:** The other values stem from missing the time conversion or multiplying incorrectly."
     },
     {
       "number": 6,
@@ -136,7 +141,8 @@
           "url": "https://www.youtube.com/watch?v=9lZNB-8dHRk"
         }
       ],
-      "images": ["images/Quiz 2 V2-2.png"]
+      "images": ["images/Quiz 2 V2-2.png"],
+      "detailed_explanation": "- **Concept:** Kirchhoff's Current Law enforces charge conservation at a node: currents entering equal currents leaving.\n- **Key steps:** Treat i0 as entering and i1, i2 as leaving; write i0 = i1 + i2 and solve for i1.\n- **Why correct:** Rearranging yields i1 = i0 − i2, option (d).\n- **Why others are wrong:** The other expressions either reverse signs or imply charge accumulation at the junction."
     },
     {
       "number": 7,
@@ -160,7 +166,8 @@
           "type": "Video - Resistance",
           "url": "https://www.youtube.com/watch?v=VnnfDzGLY8g"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** For an ohmic resistor the resistance depends on material and geometry (ρ, L, A) but not on the current flowing through it.\n- **Key steps:** Recall $R = ρL/A$; none of the variables involves current or drift velocity.\n- **Why correct:** Option (a) states that current does not change the resistance of an ohmic device.\n- **Why others are wrong:** Length, area, and resistivity explicitly appear in the formula, and drift velocity is a byproduct of current rather than a defining parameter."
     },
     {
       "number": 8,
@@ -184,7 +191,8 @@
           "type": "Video - Capacitor Behavior",
           "url": "https://www.youtube.com/watch?v=ZrMltpK6iAw"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** For an isolated capacitor the charge stays fixed, so changing plate separation alters capacitance and forces the voltage to adjust.\n- **Key steps:** Increasing distance decreases capacitance $C = ε_0 A/d$. With Q constant, the voltage follows $V = Q/C$, so V must rise.\n- **Why correct:** Option (b) correctly notes the voltage increase.\n- **Why others are wrong:** Options (a), (d), and (e) misstate the capacitance change, while (c) ignores that Q is locked in."
     },
     {
       "number": 9,
@@ -197,7 +205,9 @@
         "(d) Maravin's law",
         "(e) conservation of energy"
       ],
-      "answer": "(e) conservation of energy"
+      "answer": "(e) conservation of energy",
+      "explanation": "Kirchhoff's loop rule is an energy conservation statement: energy gained from sources equals energy lost across circuit elements over one loop.",
+      "detailed_explanation": "- **Concept:** The loop rule enforces conservation of energy in electrical circuits—no net energy is created or destroyed around a closed path.\n- **Key steps:** Traverse the loop, assigning sign to each emf or potential drop; the algebraic sum must be zero if all energy gains are balanced by losses.\n- **Why correct:** Option (e) names conservation of energy, the physical principle behind the loop rule.\n- **Why others are wrong:** Newton's laws address mechanics, not electrical potential sums, and \"Maravin's law\" is fictional."
     },
     {
       "number": 10,
@@ -211,6 +221,8 @@
         "(e) cannot tell without knowing the resistance of the circuit"
       ],
       "answer": "(d) 48 W, since P = VI = 12 V × 4 A",
+      "explanation": "Power delivered by an ideal source equals its emf times the circuit current: P = VI = 12 × 4 = 48 W.",
+      "detailed_explanation": "- **Concept:** Electrical power from a source equals voltage times current for ideal components.\n- **Key steps:** Multiply the given emf (12 V) by the current (4 A) to obtain 48 W; resistance details are unnecessary once current is known.\n- **Why correct:** Option (d) reports the computed product.\n- **Why others are wrong:** Other numerical choices misapply P = VI, and option (e) ignores that V and I fully determine power here.",
       "images": ["images/Quiz 2 V2-3.png"]
     },
     {
@@ -224,6 +236,8 @@
         "(d) A is in series with the parallel combination of B and C"
       ],
       "answer": "(c)",
+      "explanation": "The diagram shows capacitor A across the supply, while B and C share the remaining branch in series, making A parallel to the B–C series pair.",
+      "detailed_explanation": "- **Concept:** Capacitor grouping depends on whether elements share voltage (parallel) or current path (series).\n- **Key steps:** Trace the circuit: terminals of A connect directly across the battery, while B and C are chained along the other branch, so they see the same charge but split voltage.\n- **Why correct:** Option (c) captures that topology: A parallel with the series combination of B and C.\n- **Why others are wrong:** Statements claiming all-series or all-parallel contradict the node connections in the figure.",
       "images": ["images/Quiz 2 V2-3.png"]
     },
     {
@@ -237,6 +251,8 @@
         "(d) QA > QB = QC"
       ],
       "answer": "(c)",
+      "explanation": "Series capacitors share equal charge, so B and C carry the same Q. Being in series, their charge exceeds that on A, which sees only the equivalent series capacitance.",
+      "detailed_explanation": "- **Concept:** In a series branch, capacitors carry identical charge; in parallel branches, charge divides according to capacitance.\n- **Key steps:** Recognize B and C are in series, so $Q_B = Q_C$. Their equivalent capacitance is less than A's, forcing a larger voltage drop and the same charge, which exceeds QA.\n- **Why correct:** Option (c) states $Q_B = Q_C > Q_A$, aligning with the circuit.\n- **Why others are wrong:** Options (a), (b), and (d) either equate A's charge with the series branch or mis-order the magnitudes.\n- **Issue to revisit:** Precise verification depends on reading the capacitor orientations from the provided figure.",
       "images": ["images/Quiz 2 V2-3.png"]
     },
     {
@@ -250,7 +266,9 @@
         "(d) where three or more wires are joined",
         "(e) where only two wires are joined"
       ],
-      "answer": "(d)"
+      "answer": "(d)",
+      "explanation": "A junction, for purposes of Kirchhoff's rules, is any node where three or more conductors meet so current can split or merge.",
+      "detailed_explanation": "- **Concept:** Junctions are nodes with multiple branches, required for applying Kirchhoff's Current Law.\n- **Key steps:** Identify points in a circuit where current divides; at least three connected elements are needed to create branching.\n- **Why correct:** Option (d) states this definition.\n- **Why others are wrong:** Two-wire connections or single-component joints do not provide branching and thus are not junctions in KCL."
     },
     {
       "number": 14,
@@ -263,7 +281,15 @@
         "(d) 7.2 F",
         "(e) 10 F"
       ],
-      "answer": "(c) 20 µF, since 0.5 = 1 − e^{−t/RC} ⇒ RC = t/ln 2 = 0.010/0.693 ≈ 0.0144 s ⇒ C ≈ 0.0144/720 ≈ 2.0×10^{-5} F"
+      "answer": "(c) 20 µF, since 0.5 = 1 − e^{−t/RC} ⇒ RC = t/ln 2 = 0.010/0.693 ≈ 0.0144 s ⇒ C ≈ 0.0144/720 ≈ 2.0×10^{-5} F",
+      "explanation": "For charging, Q(t) = Qmax(1 − e^{−t/RC}). Setting Q = 0.5 Qmax gives t = RC ln 2, leading to C ≈ 20 µF with the given data.",
+      "detailed_explanation": "- **Concept:** The RC time constant sets the pace at which a charging capacitor approaches its final charge.\n- **Key steps:** Use the half-charge condition 0.5 = 1 − exp(−t/RC) to get RC = t / ln 2, then plug in t = 10 ms and R = 720 ohms to obtain C ≈ 2.0 × 10⁻⁵ F (20 µF).\n- **Why correct:** Option (c) matches that calculated capacitance.\n- **Why others are wrong:** The remaining options result from arithmetic slips or unit mistakes.",
+      "resources": [
+        {
+          "type": "Khan Academy - RC Circuits",
+          "url": "https://www.khanacademy.org/science/physics/circuits-topic/circuits-with-capacitors/v/ee-circuits-with-capacitors"
+        }
+      ]
     },
     {
       "number": 15,
@@ -276,6 +302,8 @@
         "(d) four"
       ],
       "answer": "(c)",
+      "explanation": "Only scheme three places the voltmeter across X while keeping the ammeter in series with X, matching ideal measurement practice.",
+      "detailed_explanation": "- **Concept:** Ideal voltmeters connect in parallel across elements, whereas ideal ammeters sit in series to measure current.\n- **Key steps:** Inspect each option: only diagram three routes the ammeter in series with X and leaves the voltmeter across X without shunting the circuit.\n- **Why correct:** Option (c) satisfies both measurement requirements simultaneously.\n- **Why others are wrong:** Alternative schemes either short the element with the ammeter or place the voltmeter incorrectly in series, corrupting readings.",
       "images": ["images/Quiz 2 V2-4.png"]
     },
     {
@@ -289,6 +317,8 @@
         "(d) four"
       ],
       "answer": "(d)",
+      "explanation": "Diagram four effectively places the ammeter across the source, creating a short that can exceed its fuse rating.",
+      "detailed_explanation": "- **Concept:** Ammeters have very low resistance; connecting them directly across a voltage source drives a large current that can blow the meter's fuse.\n- **Key steps:** Analyze each scheme: in diagram four the ammeter bypasses X and sits across the supply, drawing nearly unlimited current.\n- **Why correct:** Option (d) matches that hazardous configuration.\n- **Why others are wrong:** The other setups either keep the ammeter in series or do not short the source, so their currents remain within rating.\n- **Issue to revisit:** Confirmation depends on interpreting the schematic exactly; double-check when the original figure is available.",
       "images": ["images/Quiz 2 V2-4.png"]
     },
     {

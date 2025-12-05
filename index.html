@@ -449,29 +449,61 @@ Your flashcard history will be reset.">🧙 Clear Progress</button>
           : '';
 
         // Build search query with question and answer
-        let rawText = (data.title || term).replace(/^\d+\.\s*/, '').replace(/\(?\d+\s+points?\)?/i, '').trim();
-        // Remove LaTeX for readability, but keep the question structure
-        rawText = rawText.replace(/\$[^$]+\$/g, '[equation]').replace(/\[IMAGE:.*?\]/g, '').replace(/\s+/g, ' ').trim();
-        
-        // Limit question length for the search box (keep it reasonable)
-        if (rawText.length > 150) {
-          rawText = rawText.substring(0, 150) + '...';
+        const isPhys214Quiz4S24 = currentQuizSet && currentQuizSet.toLowerCase().includes('quiz4-s24');
+
+        // Base question cleanup helpers
+        const removePointLabel = (text = '') => text.replace(/^[^A-Za-z0-9(]*\d+\.\s*/, '').replace(/\(?\d+\s+points?\)?/i, '').trim();
+        const stripLatexToText = (text = '') => text.replace(/\$([^$]+)\$/g, '$1');
+        const sanitizeWhitespace = (text = '') => text.replace(/\s+/g, ' ').trim();
+
+        let questionText = removePointLabel(data.title || term || '');
+        questionText = stripLatexToText(questionText);
+        questionText = questionText.replace(/\[IMAGE:.*?\]/g, '').trim();
+
+        if (questionText.length > 150) {
+          questionText = questionText.substring(0, 150).replace(/\s+[^\s]*$/, '') + '...';
         }
-        
-        // Format the search query: Question + Answer + Request for detailed explanation
-        let searchQuery = `Provide a detailed explanation for: ${rawText}`;
-        
-        // Add the answer if available
+
+        let answerText = '';
         if (data.answer) {
-          // Clean up the answer - remove extra formatting but keep the core content
-          let cleanAnswer = data.answer.replace(/\$[^$]+\$/g, '[value]').replace(/\s+/g, ' ').trim();
-          if (cleanAnswer.length > 100) {
-            cleanAnswer = cleanAnswer.substring(0, 100) + '...';
+          answerText = sanitizeWhitespace(stripLatexToText(data.answer));
+          if (answerText.length > 120) {
+            answerText = answerText.substring(0, 120).replace(/\s+[^\s]*$/, '') + '...';
           }
-          searchQuery += ` Answer: ${cleanAnswer}.`;
         }
-        
-        searchQuery += ' Explain why this is correct.';
+
+        let searchQuery;
+
+        if (isPhys214Quiz4S24) {
+          // Derive a simple topic hint from the opening words of the question
+          const topicHint = questionText.split(/[\.\?]/)[0]?.split(/\s+/).slice(0, 10).join(' ') || 'Electromagnetic induction';
+          // Mention figures if present by interpreting file names
+          let figureHint = '';
+          if (data.images && data.images.length > 0) {
+            const friendlyNames = data.images.map(img => img.split('/').pop()?.replace(/[-_]/g, ' ').replace(/\.\w+$/, '') || '').filter(Boolean);
+            if (friendlyNames.length > 0) {
+              figureHint = ` Figure context: ${friendlyNames.join('; ')}.`;
+            }
+          }
+
+          searchQuery = `You are tutoring an undergraduate in PHYS 214 (Electricity & Magnetism). Topic focus: ${topicHint}.${figureHint ? figureHint : ''} Question: ${questionText}`;
+          if (answerText) {
+            searchQuery += ` Known correct answer: ${answerText}.`;
+          }
+          searchQuery += ' Provide a step-by-step explanation, highlight the governing formula(s) with defined symbols, note a common mistake, offer a concise real-world analogy, and suggest one follow-up practice question with its expected answer.';
+        } else {
+          // Default behavior for other quizzes
+          let rawText = questionText;
+          if (rawText.length > 150) {
+            rawText = rawText.substring(0, 150).replace(/\s+[^\s]*$/, '') + '...';
+          }
+
+          searchQuery = `Provide a detailed explanation for: ${rawText}`;
+          if (answerText) {
+            searchQuery += ` Answer: ${answerText}.`;
+          }
+          searchQuery += ' Explain why this is correct.';
+        }
         
         // Add Google AI search box - only show when answer is revealed
         const searchHtml = showingAnswer

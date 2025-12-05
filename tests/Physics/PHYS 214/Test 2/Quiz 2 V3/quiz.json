@@ -10,8 +10,8 @@
         "(b) the same electric field strength",
         "(c) the same charges"
       ],
-      "answer": "Equipotential surfaces are defined as surfaces where the electric potential is the same everywhere. Correct choice: (a) with the same potential.",
-      "explanation": "No work is required to move a charge along an equipotential surface. Diagram: concentric circles around a point charge represent equipotential surfaces in 2D.",
+      "answer": "(a) with the same potential",
+      "explanation": "Equipotential surfaces share a constant electric potential, so moving a charge along one requires no work.",
       "resources": [
         {
           "type": "Khan Academy - Equipotential Lines",
@@ -21,7 +21,8 @@
           "type": "Video - Electric Potential",
           "url": "https://www.youtube.com/watch?v=ZrMw3H9E6YU"
         }
-      ]
+      ],
+      "detailed_explanation": "- **Concept:** Equipotential surfaces connect points of identical electric potential, so the potential difference along the surface is zero.\n- **Key steps:** Recognize that work in electrostatics equals minus the charge times the potential difference; if the potential difference is zero, no work is done.\n- **Why correct:** Option (a) states that the potential is the same everywhere on the surface.\n- **Why others are wrong:** Equal electric field strength or charge distribution does not define an equipotential surface."
     },
     {
       "number": 2,
@@ -34,7 +35,9 @@
         "(d) 200 J",
         "(e) 100 J"
       ],
-      "answer": "$W = q\\,\\Delta V = (2\\,\\mathrm{C})(100\\,\\mathrm{V}) = 200\\,\\mathrm{J}$. Correct answer: (d) 200 J."
+      "answer": "(d) 200 J",
+      "explanation": "Work to move charge through a potential difference is W = q ΔV, giving 200 J for a 2 C charge across 100 V.",
+      "detailed_explanation": "- **Concept:** Electric potential difference tells how much work per unit charge is required for transport between two points.\n- **Key steps:** Multiply the charge (2 coulombs) by the potential difference (100 volts) to get 200 joules.\n- **Why correct:** Option (d) matches the computed work.\n- **Why others are wrong:** Other options arise from using the wrong operation or units (volts instead of joules)."
     },
     {
       "number": 3,
@@ -47,7 +50,9 @@
         "(d) Q, 0",
         "(e) Q/2, Q/2"
       ],
-      "answer": "The plates carry equal and opposite charges, +Q and −Q. Correct choice: (c)."
+      "answer": "(c) Q and −Q",
+      "explanation": "Capacitor plates store equal-magnitude, opposite-sign charge so the net charge remains zero.",
+      "detailed_explanation": "- **Concept:** A capacitor stores charge by displacing electrons from one plate to the other, creating +Q and −Q.\n- **Key steps:** Apply charge conservation: whatever leaves one plate appears on the other.\n- **Why correct:** Option (c) reflects the equal-and-opposite plate charges.\n- **Why others are wrong:** Options with equal-sign charges violate neutrality; options with zero omit the induced charge."
     },
     {
       "number": 4,
@@ -60,7 +65,9 @@
         "(d) force",
         "(e) energy"
       ],
-      "answer": "An ampere-hour is a unit of electric charge (1 A·h = 3600 C). Correct choice: (b)."
+      "answer": "(b) charge",
+      "explanation": "One ampere-hour equals one ampere times one hour, converting to 3600 coulombs of charge.",
+      "detailed_explanation": "- **Concept:** Current is charge per unit time, so multiplying by time recovers total charge moved.\n- **Key steps:** Convert one hour to 3600 seconds and multiply by one ampere to see the units reduce to coulombs.\n- **Why correct:** Option (b) identifies charge as the quantity described.\n- **Why others are wrong:** Power or energy would require voltage; current alone would be amperes, not ampere-hours."
     },
     {
       "number": 5,
@@ -72,8 +79,9 @@
         "(c) the direction of motion of the charge carriers",
         "(d) nothing, they are just a convenient drawing tool"
       ],
-      "answer": "Conventional current arrows show the direction positive charges would move. Correct choice: (b).",
-      "explanation": "Note: Electrons actually move opposite this direction."
+      "answer": "(b) the direction positive charge carriers would move",
+      "explanation": "Arrows in circuit diagrams indicate conventional current flow, defined by the motion of positive charges.",
+      "detailed_explanation": "- **Concept:** Conventional current direction predates electron discovery and corresponds to hypothetical positive charge flow.\n- **Key steps:** Remember that in metals electrons move opposite the arrows, but by convention we track positive flow.\n- **Why correct:** Option (b) states this convention.\n- **Why others are wrong:** Electrons move opposite (a), and option (c) ignores that charge carriers may be negative; option (d) dismisses the informational purpose."
     },
     {
       "number": 6,
@@ -86,7 +94,9 @@
         "(d) 26000 A",
         "(e) 2.0 A"
       ],
-      "answer": "$I = J\\,A$. Area $A = \\pi r^2 = \\pi(1.5\\times 10^{-4}\\,\\mathrm{m})^2 \\approx 7.07\\times 10^{-8}\\,\\mathrm{m}^2$. Thus $I = 2.8\\times 10^{7}\\,\\mathrm{A/m^2}\\;\\times\\;7.07\\times 10^{-8}\\,\\mathrm{m}^2 \\approx 1.98\\,\\mathrm{A} \\approx 2.0\\,\\mathrm{A}$. Correct choice: (e)."
+      "answer": "(e) 2.0 A",
+      "explanation": "Compute I = J·A using the cross-sectional area πr²; the current density given yields about 2.0 A.",
+      "detailed_explanation": "- **Concept:** Current density relates current to cross-sectional area by I = J × A.\n- **Key steps:** Convert the radius to meters (1.5×10⁻⁴ m), compute area πr² ≈ 7.1×10⁻⁸ m², then multiply by the given current density.\n- **Why correct:** The product gives roughly 2 A, matching option (e).\n- **Why others are wrong:** Other answers stem from area conversion mistakes or forgetting to multiply by π."
     },
     {
       "number": 7,
@@ -98,7 +108,9 @@
         "(c) Lightbulb B has a higher resistance than lightbulb A",
         "(d) Less current flows through lightbulb A than lightbulb B"
       ],
-      "answer": "For each bulb I = P/V. I_A = 60/120 = 0.50 A. I_B = 40/120 ≈ 0.33 A. So bulb A draws more current. Statement (d) is false. Correct answer: (d)."
+      "answer": "(d) Less current flows through lightbulb A than lightbulb B",
+      "explanation": "Power equals VI, so the 60 W bulb draws 0.50 A and the 40 W bulb draws 0.33 A; therefore statement (d) is false.",
+      "detailed_explanation": "- **Concept:** In parallel both bulbs see the same voltage, so current follows I = P/V.\n- **Key steps:** Compute currents: bulb A draws 0.50 A, bulb B draws 0.33 A; compare statements.\n- **Why correct:** Option (d) is the only false statement, so it is the answer to the question.\n- **Why others are wrong:** Statements (a)-(c) correctly describe the circuit behavior."
     },
     {
       "number": 8,
@@ -111,8 +123,11 @@
         "(d) 1, 3, 4, 2, 5",
         "(e) 1, 2, 3, 4, 5"
       ],
-      "answer": "Cannot solve fully without the missing length/radius data. Method: For same material, R ∝ L / r². Compute for each wire, rank smallest to largest.",
+      "answer": "Refer to method",
       "images": ["images/Quiz 2 V3-1.png"]
+      ,
+      "explanation": "Rank resistances using R ∝ L / r² for wires of identical material; combine the provided dimensions to order least to greatest.",
+      "detailed_explanation": "- **Concept:** Resistivity is constant for the material, so resistance depends only on the ratio of length to cross-sectional area.\n- **Key steps:** For each wire, compute the quantity L / r² (since area ∝ r²) and compare values to rank from smallest to largest resistance.\n- **Why correct:** This process matches the physics governing uniform cylindrical conductors.\n- **Issue to revisit:** Complete ranking requires the exact length and radius data from the associated diagram."
     },
     {
       "number": 9,
@@ -124,7 +139,9 @@
         "(c) The current supplied by the battery falls to less than the nominal battery voltage divided by the load resistance",
         "(d) All of the above"
       ],
-      "answer": "All of the above effects occur due to internal resistance. Correct choice: (d)."
+      "answer": "(d) All of the above",
+      "explanation": "Internal resistance causes terminal voltage sag, power loss as heat, and lower current than an ideal source prediction—all listed effects.",
+      "detailed_explanation": "- **Concept:** Real batteries behave like ideal sources in series with internal resistance.\n- **Key steps:** Apply V = emf − I r to see voltage drop, note power I²r heating inside the battery, and compute current using the total resistance including r.\n- **Why correct:** Option (d) encompasses every consequence of internal resistance.\n- **Why others are wrong:** Each single statement describes only part of the full effect."
     },
     {
       "number": 10,
@@ -137,17 +154,9 @@
         "(d) 1 mF",
         "(e) 1 F"
       ],
-      "answer": "Decay law: $V = V_0 e^{-t/RC}$. At $t=10\\,\\mathrm{s}$, $V/V_0 = 0.33$. So $e^{-10/RC} = 0.33 \\Rightarrow RC \\approx 9.0\\,\\mathrm{s}$. With $R = 10\\,\\Omega$, $C \\approx 0.9\\,\\mathrm{F}$. Closest choice: (e).",
-      "resources": [
-        {
-          "type": "Article - RC Circuits",
-          "url": "https://www.electronics-tutorials.ws/rc/rc_1.html"
-        },
-        {
-          "type": "Video - Capacitor Discharge",
-          "url": "https://www.youtube.com/watch?v=f_MZNsEqyQw"
-        }
-      ]
+      "answer": "(e) 1 F",
+      "explanation": "Use V = V₀ exp(−t/RC); with V/V₀ ≈ 0.33 after 10 s and R = 10 Ω, the capacitance is about 0.9 F (rounded to 1 F).",
+      "detailed_explanation": "- **Concept:** Exponential decay in an RC discharge relates voltage ratio to the time constant.\n- **Key steps:** Set V/V₀ = 0.33, solve for RC = t / ln(3) ≈ 9 s, then divide by R = 10 Ω to obtain C ≈ 0.9 F.\n- **Why correct:** Option (e) is the closest value to the computed capacitance.\n- **Why others are wrong:** Other choices are orders of magnitude away from the required time constant."
     },
     {
       "number": 11,
@@ -159,8 +168,9 @@
         "(c) The two capacitors have the same voltage between their leads",
         "(d) The two capacitors store the same energy"
       ],
-      "answer": "In parallel each capacitor has the same voltage across it (9 V). Correct choice: (c).",
-      "images": ["images/Quiz 2 V3-2.png"]
+      "answer": "(c) the two capacitors have the same voltage between their leads",
+      "explanation": "Parallel elements share the same potential difference, so both capacitors sit across the full 9 V battery.",
+      "detailed_explanation": "- **Concept:** Components connected in parallel experience the same voltage because their terminals join the same nodes.\n- **Key steps:** Trace each capacitor lead to the battery terminals to verify both see the full 9 volts.\n- **Why correct:** Option (c) matches the defining property of parallel capacitors.\n- **Why others are wrong:** Equal charge or energy does not generally hold for capacitors with different capacitances."
     },
     {
       "number": 12,
@@ -172,8 +182,9 @@
         "(c) 4.05 µJ",
         "(d) 8.91 µJ"
       ],
-      "answer": "$C_{\\text{total}} = 0.1 + 0.22 = 0.32\\,\\mu\\mathrm{F}$. Energy $U = \\tfrac{1}{2} C V^2 = 0.5\\times 0.32\\times 10^{-6}\\times 9^2 \\approx 12.96\\,\\mu\\mathrm{J} \\approx 13.0\\,\\mu\\mathrm{J}$. Correct choice: (b).",
-      "images": ["images/Quiz 2 V3-2.png"]
+      "answer": "(b) 13.0 µJ",
+      "explanation": "The parallel combination totals 0.32 µF; energy is ½ C V² ≈ 13 µJ at 9 V.",
+      "detailed_explanation": "- **Concept:** Equivalent capacitance for parallel capacitors adds directly, and stored energy follows U = ½ C V².\n- **Key steps:** Sum capacitances (0.1 + 0.22 µF), convert to farads, and evaluate ½ C V² with V = 9 V.\n- **Why correct:** Option (b) equals the computed energy.\n- **Why others are wrong:** Other choices mis-handle the capacitance sum or unit conversion."
     },
     {
       "number": 13,
@@ -185,8 +196,9 @@
         "(c) 2.88 µC",
         "(d) 1.44 µC"
       ],
-      "answer": "$Q = C_{\\text{total}}\\,V = 0.32\\times 10^{-6}\\,\\mathrm{F}\\times 9\\,\\mathrm{V} = 2.88\\,\\mu\\mathrm{C}$. Correct choice: (c).",
-      "images": ["images/Quiz 2 V3-2.png"]
+      "answer": "(c) 2.88 µC",
+      "explanation": "Total charge equals the equivalent capacitance (0.32 µF) times the 9 V battery, giving 2.88 µC.",
+      "detailed_explanation": "- **Concept:** Charge stored on capacitors in parallel is Q = C_total × V.\n- **Key steps:** Multiply 0.32 µF (convert to 3.2×10⁻⁷ F) by 9 V to get 2.88 µC.\n- **Why correct:** Option (c) matches this calculation.\n- **Why others are wrong:** The remaining options stem from arithmetic or conversion errors."
     },
     {
       "number": 14,
@@ -198,8 +210,10 @@
         "(c) 6.2 V",
         "(d) 9.0 V"
       ],
-      "answer": "In parallel, each capacitor has full battery voltage: 9 V. Correct choice: (d).",
-      "images": ["images/Quiz 2 V3-2.png"]
+      "answer": "(d) 9.0 V",
+      "explanation": "Since CL is in parallel with the battery, it sees the full 9 V potential difference.",
+      "images": ["images/Quiz 2 V3-2.png"],
+      "detailed_explanation": "- **Concept:** Parallel components have their terminals connected to the same two nodes, forcing the same voltage across each element.\n- **Key steps:** Trace both capacitor leads directly back to the 9 V source; no intermediate drops occur, so the voltage difference equals the battery voltage.\n- **Why correct:** Option (d) states 9.0 V, matching the parallel connection.\n- **Why others are wrong:** The other values would imply partial voltage sharing, which happens only in series circuits, not parallel ones."
     },
     {
       "number": 15,

@@ -1,0 +1,658 @@
+{
+  "title": "PHYS 214 - Test 5, Quiz 5P (S16)",
+  "questions": [
+    {
+      "number": 1,
+      "points": 2,
+      "question": "The figure below shows a parallel-plate capacitor and the current in the connecting wire that is charging the capacitor. Select the correct statement below: [IMAGE:images/Quiz 5P (S16)-1.png]",
+      "choices": [
+        "(a) The direction of the electric field $\\vec{E}$ between the plates is leftward and the electric flux through the vertical plane between the capacitor plates is increasing",
+        "(b) The direction of the electric field $\\vec{E}$ between the plates is rightward and the electric flux through the vertical plane between the capacitor plates is increasing",
+        "(c) The direction of the electric field $\\vec{E}$ between the plates is leftward and the electric flux through the vertical plane between the capacitor plates is decreasing",
+        "(d) The direction of the electric field $\\vec{E}$ between the plates is rightward and the electric flux through the vertical plane between the capacitor plates is decreasing"
+      ],
+      "answer": "(a) The direction of the electric field $\\vec{E}$ between the plates is leftward and the electric flux through the vertical plane between the capacitor plates is increasing",
+      "explanation": "When a capacitor is charging, the electric field points from the positive plate to the negative plate. Based on the current direction shown in the figure, the left plate becomes positive, so the field points leftward. Since the capacitor is charging, the charge on the plates is increasing, which means the electric field magnitude is increasing, and therefore the electric flux is increasing.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "note": "Refer to quiz PDF for circuit diagram orientation.",
+      "images": [
+        "images/Quiz 5P (S16)-1.png"
+      ]
+    },
+    {
+      "number": 2,
+      "points": 2,
+      "question": "Select the correct statement below: [IMAGE:images/Quiz 5P (S16)-1.png]",
+      "choices": [
+        "(a) The direction of the displacement current $i_d$ between the plates is leftward",
+        "(b) The direction of the displacement current $i_d$ between the plates is rightward",
+        "(c) The displacement current is zero, i.e., no direction"
+      ],
+      "answer": "(a) The direction of the displacement current $i_d$ between the plates is leftward",
+      "explanation": "The displacement current flows in the same direction as the rate of change of electric flux. When a capacitor is charging, the displacement current between the plates flows in the same direction as the conduction current in the wire. Based on the figure, the electric flux is increasing leftward, so the displacement current also points leftward.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "note": "Refer to quiz PDF for circuit diagram orientation.",
+      "images": [
+        "images/Quiz 5P (S16)-1.png"
+      ]
+    },
+    {
+      "number": 3,
+      "points": 2,
+      "question": "Select the correct statement below? [IMAGE:images/Quiz 5P (S16)-1.png]",
+      "choices": [
+        "(a) The magnetic field at point P is directed into the page",
+        "(b) The magnetic field at point P is directed out of the page",
+        "(c) There is no magnetic field at point P because there is no actual current of charged particles between the plates"
+      ],
+      "answer": "(a) The magnetic field at point P is directed into the page",
+      "explanation": "The displacement current creates a magnetic field just like a real current would. Using the right-hand rule: if the displacement current points to the right, and point P is above the current, the magnetic field at P points into the page.\n\nNote: Option (c) is incorrect because displacement current does produce a magnetic field, even though no actual charges flow between the plates.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "note": "Refer to quiz PDF for point P location.",
+      "images": [
+        "images/Quiz 5P (S16)-1.png"
+      ]
+    },
+    {
+      "number": 4,
+      "points": 2,
+      "question": "Gauss' law for magnetism:",
+      "choices": [
+        "(a) can be used to find $\\vec{B}$ due to given currents, provided there is enough symmetry",
+        "(b) is false because there are no magnetic charges",
+        "(c) can be used with open surfaces because there are no magnetic charges",
+        "(d) contradicts Faraday's law because one says $\\Phi_B = 0$ and the other says $\\mathcal{E} = -d\\Phi_B/dt$",
+        "(e) none of the above"
+      ],
+      "answer": "(e) none of the above",
+      "explanation": "Let's analyze each option:\n- (a) Incorrect: Gauss's law for magnetism ($\\oint \\vec{B} \\cdot d\\vec{A} = 0$) cannot be used to find $\\vec{B}$; Ampère's law is used for that.\n- (b) Incorrect: Gauss's law for magnetism is TRUE precisely because there are no magnetic monopoles.\n- (c) Incorrect: Gauss's law requires closed surfaces.\n- (d) Incorrect: There's no contradiction. Gauss's law says net flux through a closed surface is zero; Faraday's law involves flux through an open surface.\n\nNone of the above statements are correct.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "points": 2,
+      "question": "Suppose you are looking into one end of a long cylindrical tube in which there is a uniform electric field, pointing away from you. If the magnitude of the field is decreasing with time the direction of the induced magnetic field is:",
+      "choices": [
+        "(a) clockwise",
+        "(b) toward you",
+        "(c) counterclockwise",
+        "(d) away from you",
+        "(e) to your right"
+      ],
+      "answer": "(c) counterclockwise",
+      "explanation": "According to the Maxwell-Ampère law, a changing electric field induces a magnetic field. If the electric field points away from you and is decreasing, the rate of change $d\\vec{E}/dt$ points toward you (opposite to $\\vec{E}$).\n\nUsing the right-hand rule with thumb pointing toward you (direction of $-d\\vec{E}/dt$), the induced magnetic field curls counterclockwise when viewed from your position.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "points": 2,
+      "question": "A current of 1 A is used to charge a parallel plate capacitor with square plates. If the area of each plate is 0.6 m², the displacement current through a 0.3 m² area wholly between the capacitor plates and parallel to them is",
+      "choices": [
+        "(a) 0.5 A",
+        "(b) 0.25 A",
+        "(c) 0.7 A",
+        "(d) 1 A",
+        "(e) 2 A"
+      ],
+      "answer": "(a) 0.5 A",
+      "explanation": "The displacement current is uniformly distributed across the capacitor plates. The displacement current through a smaller area is proportional to that area:\n\n$$i_d = I \\times \\frac{A_{small}}{A_{plate}} = 1 \\times \\frac{0.3}{0.6} = 1 \\times 0.5 = 0.5 \\text{ A}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "points": 2,
+      "question": "Select the correct statement:",
+      "choices": [
+        "(a) blue light has a higher frequency than X rays",
+        "(b) radio waves have a higher frequency than gamma rays",
+        "(c) ultraviolet light has a longer wavelength than infrared",
+        "(d) gamma rays have a higher frequency than infrared waves",
+        "(e) electrons are a type of electromagnetic wave"
+      ],
+      "answer": "(d) gamma rays have a higher frequency than infrared waves",
+      "explanation": "The electromagnetic spectrum in order of increasing frequency is: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays.\n\n- (a) False: X-rays have higher frequency than blue light\n- (b) False: Gamma rays have higher frequency than radio waves\n- (c) False: Infrared has longer wavelength than ultraviolet\n- (d) TRUE: Gamma rays have the highest frequency in the EM spectrum\n- (e) False: Electrons are particles, not electromagnetic waves",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "points": 2,
+      "question": "Consider radio waves (r), visible light (v), infrared (i), X rays (x), and ultraviolet (u). In order of increasing frequency, they are:",
+      "choices": [
+        "(a) i, r, v, u, x",
+        "(b) x, u, v, i, r",
+        "(c) r, v, i, x, u",
+        "(d) r, i, v, u, x",
+        "(e) r, i, v, x, u"
+      ],
+      "answer": "(d) r, i, v, u, x",
+      "explanation": "The electromagnetic spectrum in order of increasing frequency:\n\nRadio waves → Infrared → Visible light → Ultraviolet → X-rays\n\nSo: r, i, v, u, x",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "points": 2,
+      "question": "Radio waves differ from visible light waves in that radio waves:",
+      "choices": [
+        "(a) have a higher frequency",
+        "(b) travel faster",
+        "(c) travel slower",
+        "(d) have a lower frequency",
+        "(e) require a material medium to propagate"
+      ],
+      "answer": "(d) have a lower frequency",
+      "explanation": "Radio waves and visible light are both electromagnetic waves. They:\n- Travel at the same speed in vacuum (c = 3 × 10⁸ m/s)\n- Do not require a medium to propagate\n\nThe key difference is that radio waves have a much lower frequency (and longer wavelength) than visible light.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "points": 2,
+      "question": "Which of the following is NOT true for electromagnetic waves?",
+      "choices": [
+        "(a) they transport energy",
+        "(b) they transport momentum",
+        "(c) they consist of changing electric and magnetic fields",
+        "(d) they travel at different speeds in vacuum, depending on their frequency",
+        "(e) they can be reflected"
+      ],
+      "answer": "(d) they travel at different speeds in vacuum, depending on their frequency",
+      "explanation": "All electromagnetic waves travel at the same speed in vacuum: $c = 3 \\times 10^8$ m/s, regardless of their frequency or wavelength. This is a fundamental property of EM waves. The other statements are all true: EM waves transport energy and momentum, consist of oscillating E and B fields, and can be reflected.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "points": 2,
+      "question": "The sun is about $1.5 \\times 10^{11}$ m away. The time for light to travel this distance is about:",
+      "choices": [
+        "(a) $4.5 \\times 10^{19}$ seconds",
+        "(b) 8 seconds",
+        "(c) 8 hours",
+        "(d) 8 minutes",
+        "(e) 8 years"
+      ],
+      "answer": "(d) 8 minutes",
+      "explanation": "Time = Distance / Speed\n\n$$t = \\frac{1.5 \\times 10^{11} \\text{ m}}{3 \\times 10^8 \\text{ m/s}} = 5 \\times 10^2 \\text{ s} = 500 \\text{ s}$$\n\n$$500 \\text{ s} \\times \\frac{1 \\text{ min}}{60 \\text{ s}} \\approx 8.3 \\text{ minutes}$$\n\nLight from the Sun takes about 8 minutes to reach Earth.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "points": 2,
+      "question": "If the electric field in a plane electromagnetic wave is given by $E_m \\sin[(3 \\times 10^6 \\text{ m}^{-1})x - \\omega t]$, the value of ω is:",
+      "choices": [
+        "(a) 0.01 rad/s",
+        "(b) 10 rad/s",
+        "(c) 100 rad/s",
+        "(d) $9 \\times 10^{14}$ rad/s",
+        "(e) $9 \\times 10^{16}$ rad/s"
+      ],
+      "answer": "(d) $9 \\times 10^{14}$ rad/s",
+      "explanation": "For an electromagnetic wave, $\\omega = ck$ where $k$ is the wave number.\n\nGiven: $k = 3 \\times 10^6$ m⁻¹\n\n$$\\omega = c \\times k = (3 \\times 10^8 \\text{ m/s}) \\times (3 \\times 10^6 \\text{ m}^{-1}) = 9 \\times 10^{14} \\text{ rad/s}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "points": 2,
+      "question": "A man holds a rectangular card in front of and parallel to a plane mirror. In order for him to see the entire image of the card, the least mirror area needed is:",
+      "choices": [
+        "(a) that of the pupil of his eye",
+        "(b) one-half that of the card",
+        "(c) one-fourth that of the card",
+        "(d) an amount which decreases with his distance from the mirror",
+        "(e) that of the whole mirror, regardless of its size"
+      ],
+      "answer": "(c) one-fourth that of the card",
+      "explanation": "To see the entire image of a rectangular card held in front of a plane mirror, the minimum mirror area needed is one-fourth that of the card. This is because the mirror needs to be half the height AND half the width of the card (due to the geometry of reflection), resulting in an area that is (1/2) × (1/2) = 1/4 of the card's area.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "points": 2,
+      "question": "Which property of a light wave does not change as the wave passes from one transparent medium to another:",
+      "choices": [
+        "(a) Frequency",
+        "(b) Wavelength",
+        "(c) Phase velocity",
+        "(d) Amplitude"
+      ],
+      "answer": "(a) Frequency",
+      "explanation": "When light passes from one medium to another, its frequency remains constant. This is because the frequency is determined by the source. However, the wavelength changes ($\\lambda = v/f$), the phase velocity changes ($v = c/n$), and the amplitude may change due to reflection at the interface.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "points": 2,
+      "question": "An object is 2 m in front of a plane mirror. Its image is:",
+      "choices": [
+        "(a) virtual, inverted, and 2 m behind the mirror",
+        "(b) virtual, inverted, and 2 m in front of the mirror",
+        "(c) virtual, erect, and 2 m in front of the mirror",
+        "(d) real, erect, and 2 m behind the mirror",
+        "(e) none of the above"
+      ],
+      "answer": "(e) none of the above",
+      "explanation": "A plane mirror creates a virtual, erect (upright) image that appears to be located behind the mirror at the same distance as the object is in front of it.\n\nSo the image is: virtual, erect, and 2 m behind the mirror.\n\nLooking at the choices:\n- (a) says inverted - incorrect\n- (b) says inverted and in front - incorrect\n- (c) says in front - incorrect\n- (d) says real - incorrect\n\nThe correct description (virtual, erect, 2 m behind) is not listed, so the answer is (e).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "points": 2,
+      "question": "The physical phenomenon that makes fiber optic signal transmission possible is",
+      "choices": [
+        "(a) Dispersion",
+        "(b) Polarization by reflection",
+        "(c) Small angle refraction",
+        "(d) Total internal reflection"
+      ],
+      "answer": "(d) Total internal reflection",
+      "explanation": "Fiber optic cables work by total internal reflection. Light traveling through the high-index glass core reflects completely at the core-cladding boundary when the angle of incidence exceeds the critical angle. This allows light to propagate along the fiber with minimal loss over long distances.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+        }
+      ]
+    },
+    {
+      "number": "17 (a)",
+      "points": 2,
+      "question": "An AC voltage $V(t) = V_0 \\cos \\omega t$ is applied across a capacitor of capacitance C. The capacitor is made of two circular plates each of radius R.\n\n(a) Find the expression for the charge q on the capacitor as a function of time t. [IMAGE:images/Quiz 5P (S16)-2.png] [IMAGE:images/Quiz 5P (S16)-3.png]",
+      "choices": [],
+      "answer": "$q(t) = CV_0 \\cos \\omega t$",
+      "explanation": "For a capacitor, $q = CV$.\n\nWith $V(t) = V_0 \\cos \\omega t$:\n\n$$q(t) = C \\cdot V_0 \\cos \\omega t = CV_0 \\cos \\omega t$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/8-1-capacitors-and-capacitance"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5P (S16)-2.png",
+        "images/Quiz 5P (S16)-3.png"
+      ]
+    },
+    {
+      "number": "17 (b)",
+      "points": 2,
+      "question": "An AC voltage $V(t) = V_0 \\cos \\omega t$ is applied across a capacitor of capacitance C. The capacitor is made of two circular plates each of radius R.\n\n(b) Find the separation d between the capacitor plates in terms of $\\epsilon_0$, C and R. [IMAGE:images/Quiz 5P (S16)-2.png] [IMAGE:images/Quiz 5P (S16)-3.png]",
+      "choices": [],
+      "answer": "$d = \\frac{\\epsilon_0 \\pi R^2}{C}$",
+      "explanation": "For a parallel plate capacitor:\n$$C = \\frac{\\epsilon_0 A}{d}$$\n\nFor circular plates with radius R: $A = \\pi R^2$\n\nSolving for d:\n$$d = \\frac{\\epsilon_0 A}{C} = \\frac{\\epsilon_0 \\pi R^2}{C}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/8-1-capacitors-and-capacitance"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5P (S16)-2.png",
+        "images/Quiz 5P (S16)-3.png"
+      ]
+    },
+    {
+      "number": "17 (c)",
+      "points": 3,
+      "question": "An AC voltage $V(t) = V_0 \\cos \\omega t$ is applied across a capacitor of capacitance C. The capacitor is made of two circular plates each of radius R.\n\n(c) Use the result of (a) and (b) to find the expression for the electric field E(t) between the capacitor plates as a function of time t. [IMAGE:images/Quiz 5P (S16)-2.png] [IMAGE:images/Quiz 5P (S16)-3.png]",
+      "choices": [],
+      "answer": "$E(t) = \\frac{V_0}{d} \\cos \\omega t = \\frac{CV_0}{\\epsilon_0 \\pi R^2} \\cos \\omega t$",
+      "explanation": "The electric field between parallel plates:\n$$E = \\frac{V}{d}$$\n\nWith $V(t) = V_0 \\cos \\omega t$ and $d = \\frac{\\epsilon_0 \\pi R^2}{C}$:\n\n$$E(t) = \\frac{V_0 \\cos \\omega t}{d} = \\frac{CV_0 \\cos \\omega t}{\\epsilon_0 \\pi R^2}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/8-1-capacitors-and-capacitance"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5P (S16)-2.png",
+        "images/Quiz 5P (S16)-3.png"
+      ]
+    },
+    {
+      "number": "17 (d)",
+      "points": 3,
+      "question": "An AC voltage $V(t) = V_0 \\cos \\omega t$ is applied across a capacitor of capacitance C. The capacitor is made of two circular plates each of radius R.\n\n(d) Find the expression for the rate of change of the electric flux $\\frac{d\\Phi_E}{dt}$ through the circle of radius r centered at the radial axis of symmetry of the capacitor as a function of time t and position r inside the capacitor for r < R. [IMAGE:images/Quiz 5P (S16)-2.png] [IMAGE:images/Quiz 5P (S16)-3.png]",
+      "choices": [],
+      "answer": "$\\frac{d\\Phi_E}{dt} = -\\frac{CV_0 \\omega r^2}{\\epsilon_0 R^2} \\sin \\omega t$",
+      "explanation": "Electric flux through area of radius r:\n$$\\Phi_E = E \\cdot \\pi r^2 = \\frac{CV_0 \\cos \\omega t}{\\epsilon_0 \\pi R^2} \\cdot \\pi r^2 = \\frac{CV_0 r^2 \\cos \\omega t}{\\epsilon_0 R^2}$$\n\nTaking the derivative:\n$$\\frac{d\\Phi_E}{dt} = \\frac{CV_0 r^2}{\\epsilon_0 R^2} \\cdot (-\\omega \\sin \\omega t) = -\\frac{CV_0 \\omega r^2}{\\epsilon_0 R^2} \\sin \\omega t$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5P (S16)-2.png",
+        "images/Quiz 5P (S16)-3.png"
+      ]
+    },
+    {
+      "number": "17 (e)",
+      "points": 3,
+      "question": "An AC voltage $V(t) = V_0 \\cos \\omega t$ is applied across a capacitor of capacitance C. The capacitor is made of two circular plates each of radius R.\n\n(e) Repeat the work above for r > R. Assume that the electric field exists only between the plates of the capacitor. [IMAGE:images/Quiz 5P (S16)-2.png] [IMAGE:images/Quiz 5P (S16)-3.png]",
+      "choices": [],
+      "answer": "$\\frac{d\\Phi_E}{dt} = -\\frac{CV_0 \\omega}{\\epsilon_0} \\sin \\omega t$ (independent of r)",
+      "explanation": "For r > R, the electric field only exists within the capacitor plates (radius R), so the flux is:\n$$\\Phi_E = E \\cdot \\pi R^2 = \\frac{CV_0 \\cos \\omega t}{\\epsilon_0 \\pi R^2} \\cdot \\pi R^2 = \\frac{CV_0 \\cos \\omega t}{\\epsilon_0}$$\n\nTaking the derivative:\n$$\\frac{d\\Phi_E}{dt} = -\\frac{CV_0 \\omega}{\\epsilon_0} \\sin \\omega t$$\n\nNote: For r > R, the result is independent of r since all the flux is contained within radius R.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5P (S16)-2.png",
+        "images/Quiz 5P (S16)-3.png"
+      ]
+    },
+    {
+      "number": "17 (f)",
+      "points": 3,
+      "question": "An AC voltage $V(t) = V_0 \\cos \\omega t$ is applied across a capacitor of capacitance C. The capacitor is made of two circular plates each of radius R.\n\n(f) If $V_0 = 180$ V, $\\omega = 377$ rad/s, and $C = 10$ μF, what is the peak magnetic field (in Tesla) at the circumference (r = R) of the capacitor, where R = 5.00 cm? [IMAGE:images/Quiz 5P (S16)-2.png] [IMAGE:images/Quiz 5P (S16)-3.png]",
+      "choices": [],
+      "answer": "$B_{max} \\approx 2.7 \\times 10^{-6}$ T",
+      "explanation": "Using Maxwell-Ampère law at r = R:\n$$B \\cdot 2\\pi R = \\mu_0 \\epsilon_0 \\frac{d\\Phi_E}{dt}$$\n\nThe displacement current at r = R:\n$$i_d = \\epsilon_0 \\frac{d\\Phi_E}{dt} = -CV_0 \\omega \\sin \\omega t$$\n\nPeak displacement current: $i_{d,max} = CV_0 \\omega = (10 \\times 10^{-6})(180)(377) = 0.679$ A\n\nPeak magnetic field:\n$$B_{max} = \\frac{\\mu_0 i_{d,max}}{2\\pi R} = \\frac{(4\\pi \\times 10^{-7})(0.679)}{2\\pi(0.05)} \\approx 2.7 \\times 10^{-6} \\text{ T}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 2",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5P (S16)-2.png",
+        "images/Quiz 5P (S16)-3.png"
+      ]
+    },
+    {
+      "number": "18 (a)",
+      "points": 2,
+      "question": "The figure below shows the relative sensitivity of the average human eye to electromagnetic waves at different wavelengths.\n\n(a) From the figure, approximate the smaller wavelength at which the eye of a standard observer has half the eye's maximum sensitivity. [IMAGE:images/Quiz 5P (S16)-4.png]",
+      "choices": [],
+      "answer": "Approximately 510 nm",
+      "explanation": "Looking at the sensitivity curve, the half-maximum point on the shorter wavelength side occurs at approximately 510 nm (in the blue-green region).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for sensitivity curve figure.",
+      "images": [
+        "images/Quiz 5P (S16)-4.png"
+      ]
+    },
+    {
+      "number": "18 (b)",
+      "points": 2,
+      "question": "The figure below shows the relative sensitivity of the average human eye to electromagnetic waves at different wavelengths.\n\n(b) From the figure, approximate the larger wavelength at which the eye of a standard observer has half the eye's maximum sensitivity. [IMAGE:images/Quiz 5P (S16)-4.png]",
+      "choices": [],
+      "answer": "Approximately 610 nm",
+      "explanation": "Looking at the sensitivity curve, the half-maximum point on the longer wavelength side occurs at approximately 610 nm (in the orange region).",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for sensitivity curve figure.",
+      "images": [
+        "images/Quiz 5P (S16)-4.png"
+      ]
+    },
+    {
+      "number": "18 (c)",
+      "points": 2,
+      "question": "The figure below shows the relative sensitivity of the average human eye to electromagnetic waves at different wavelengths.\n\n(c) What is the wavelength of the light at which the eye is the most sensitive? [IMAGE:images/Quiz 5P (S16)-4.png]",
+      "choices": [],
+      "answer": "Approximately 555 nm (yellow-green)",
+      "explanation": "The human eye is most sensitive to light at approximately 555 nm, which corresponds to yellow-green light. This is the peak of the photopic (daylight) vision sensitivity curve.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for sensitivity curve figure.",
+      "images": [
+        "images/Quiz 5P (S16)-4.png"
+      ]
+    },
+    {
+      "number": "18 (d)",
+      "points": 3,
+      "question": "The figure below shows the relative sensitivity of the average human eye to electromagnetic waves at different wavelengths.\n\n(d) What is the frequency of the light at which the eye is most sensitive? [IMAGE:images/Quiz 5P (S16)-4.png]",
+      "choices": [],
+      "answer": "$f \\approx 5.4 \\times 10^{14}$ Hz",
+      "explanation": "Using $c = f\\lambda$ with $\\lambda = 555$ nm:\n\n$$f = \\frac{c}{\\lambda} = \\frac{3 \\times 10^8 \\text{ m/s}}{555 \\times 10^{-9} \\text{ m}} = 5.4 \\times 10^{14} \\text{ Hz}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5P (S16)-4.png"
+      ]
+    },
+    {
+      "number": "18 (e)",
+      "points": 3,
+      "question": "The figure below shows the relative sensitivity of the average human eye to electromagnetic waves at different wavelengths.\n\n(e) What is the period of the light at which the eye is the most sensitive? [IMAGE:images/Quiz 5P (S16)-4.png]",
+      "choices": [],
+      "answer": "$T \\approx 1.85 \\times 10^{-15}$ s",
+      "explanation": "Period is the inverse of frequency:\n\n$$T = \\frac{1}{f} = \\frac{1}{5.4 \\times 10^{14} \\text{ Hz}} \\approx 1.85 \\times 10^{-15} \\text{ s}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light"
+        }
+      ],
+      "seeKey": true,
+      "images": [
+        "images/Quiz 5P (S16)-4.png"
+      ]
+    },
+    {
+      "number": "19 (a)",
+      "points": 3,
+      "question": "In figure (a), a light ray in an underlying material is incident at angle θ₁ on a boundary with water, and some of the light refracts into the water. There are two choices of underlying material. For each, the angle of refraction θ₂ versus the incident angle θ₁ is given in figure (b). The horizontal axis scale is set by θ₁s = 50°.\n\n(a) Without calculation, determine whether the index of refraction of material 1 is greater or less than the index of water. Explain your reasoning. [IMAGE:images/Quiz 5P (S16)-5.png]",
+      "choices": [],
+      "answer": "Material 1 has a higher index of refraction than water",
+      "explanation": "From Snell's law: $n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$\n\nIf the refracted angle θ₂ is greater than the incident angle θ₁, then light is bending away from the normal, which means it's going from a higher-index medium to a lower-index medium.\n\nLooking at the graph, for material 1, θ₂ > θ₁, so material 1 has a higher index than water.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for figures (a) and (b).",
+      "images": [
+        "images/Quiz 5P (S16)-5.png"
+      ]
+    },
+    {
+      "number": "19 (b)",
+      "points": 3,
+      "question": "In figure (a), a light ray in an underlying material is incident at angle θ₁ on a boundary with water, and some of the light refracts into the water. There are two choices of underlying material. For each, the angle of refraction θ₂ versus the incident angle θ₁ is given in figure (b). The horizontal axis scale is set by θ₁s = 50°.\n\n(b) Without calculation, determine whether the index of refraction of material 2 is greater or less than the index of water. Explain your reasoning. [IMAGE:images/Quiz 5P (S16)-5.png]",
+      "choices": [],
+      "answer": "Material 2 has a lower index of refraction than water",
+      "explanation": "From Snell's law: $n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$\n\nIf the refracted angle θ₂ is less than the incident angle θ₁, then light is bending toward the normal, which means it's going from a lower-index medium to a higher-index medium.\n\nLooking at the graph, for material 2, θ₂ < θ₁, so material 2 has a lower index than water.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for figures (a) and (b).",
+      "images": [
+        "images/Quiz 5P (S16)-5.png"
+      ]
+    },
+    {
+      "number": "19 (c)",
+      "points": 3,
+      "question": "In figure (a), a light ray in an underlying material is incident at angle θ₁ on a boundary with water, and some of the light refracts into the water. There are two choices of underlying material. For each, the angle of refraction θ₂ versus the incident angle θ₁ is given in figure (b). The horizontal axis scale is set by θ₁s = 50°.\n\n(c) Determine the index of refraction of material 1. [IMAGE:images/Quiz 5P (S16)-5.png]",
+      "choices": [],
+      "answer": "See answer key for calculation based on graph values",
+      "explanation": "Using Snell's law: $n_1 \\sin\\theta_1 = n_{water} \\sin\\theta_2$\n\nRead a data point from the graph for material 1 (e.g., at θ₁ = 40°, read θ₂).\n\n$$n_1 = \\frac{n_{water} \\sin\\theta_2}{\\sin\\theta_1} = \\frac{1.33 \\sin\\theta_2}{\\sin\\theta_1}$$\n\nThe exact value depends on reading the graph accurately.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for graph values.",
+      "images": [
+        "images/Quiz 5P (S16)-5.png"
+      ]
+    },
+    {
+      "number": "19 (d)",
+      "points": 3,
+      "question": "In figure (a), a light ray in an underlying material is incident at angle θ₁ on a boundary with water, and some of the light refracts into the water. There are two choices of underlying material. For each, the angle of refraction θ₂ versus the incident angle θ₁ is given in figure (b). The horizontal axis scale is set by θ₁s = 50°.\n\n(d) Determine the index of refraction of material 2. [IMAGE:images/Quiz 5P (S16)-5.png]",
+      "choices": [],
+      "answer": "See answer key for calculation based on graph values",
+      "explanation": "Using Snell's law: $n_2 \\sin\\theta_1 = n_{water} \\sin\\theta_2$\n\nRead a data point from the graph for material 2 (e.g., at θ₁ = 40°, read θ₂).\n\n$$n_2 = \\frac{n_{water} \\sin\\theta_2}{\\sin\\theta_1} = \\frac{1.33 \\sin\\theta_2}{\\sin\\theta_1}$$\n\nThe exact value depends on reading the graph accurately.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+        }
+      ],
+      "seeKey": true,
+      "note": "Refer to quiz PDF for graph values.",
+      "images": [
+        "images/Quiz 5P (S16)-5.png"
+      ]
+    },
+    {
+      "number": "20 (a)",
+      "points": 4,
+      "question": "You look through a camera toward an image of a hummingbird in a very long plane mirror. The camera is 4.15 m in front of the mirror. The bird is at camera level, 5.15 m to your right and 3.25 m from the mirror.\n\n(a) What is the distance between the camera and the apparent position of the bird's image in the mirror? (Suggestion: Make a sketch, it will help with geometry).",
+      "choices": [],
+      "answer": "Approximately 8.9 m",
+      "explanation": "The bird's image appears 3.25 m behind the mirror (same distance as bird is in front).\n\nTotal distance from camera to image:\n- Camera to mirror: 4.15 m\n- Mirror to image: 3.25 m\n- Horizontal offset: 5.15 m\n\nUsing 3D distance formula:\n$$d = \\sqrt{(4.15 + 3.25)^2 + 5.15^2} = \\sqrt{7.4^2 + 5.15^2} = \\sqrt{54.76 + 26.52} = \\sqrt{81.28} \\approx 9.0 \\text{ m}$$",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (b)",
+      "points": 4,
+      "question": "You look through a camera toward an image of a hummingbird in a very long plane mirror. The camera is 4.15 m in front of the mirror. The bird is at camera level, 5.15 m to your right and 3.25 m from the mirror.\n\n(b) If a bird is moving directly towards the mirror, she will see itself as an image moving towards it. If a speed of a bird is 10 m/s, how quickly is the image moving towards the bird?",
+      "choices": [],
+      "answer": "20 m/s",
+      "explanation": "When an object moves toward a plane mirror at speed v, its image also moves toward the mirror at speed v (from the other side).\n\nThe relative speed between the bird and its image is:\n$$v_{relative} = v_{bird} + v_{image} = 10 + 10 = 20 \\text{ m/s}$$\n\nThe image appears to approach the bird at 20 m/s.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors"
+        }
+      ],
+      "seeKey": true
+    },
+    {
+      "number": "20 (c)",
+      "points": 2,
+      "question": "You look through a camera toward an image of a hummingbird in a very long plane mirror. The camera is 4.15 m in front of the mirror. The bird is at camera level, 5.15 m to your right and 3.25 m from the mirror.\n\n(c) As you are making a picture of a bird's image in the mirror, you realize that the image must be real and not virtual. Explain why is this reasoning incorrect.",
+      "choices": [],
+      "answer": "The reasoning is incorrect because plane mirrors always produce virtual images",
+      "explanation": "Plane mirrors always produce virtual images, not real images. The image appears to be behind the mirror, but no light actually passes through that point.\n\nThe camera can photograph the virtual image because:\n1. Light from the bird reflects off the mirror\n2. The reflected light enters the camera lens\n3. The camera focuses this light to form a real image on the sensor\n\nThe camera photographs the virtual image by capturing the reflected light rays, not by capturing light at the image location.",
+      "resources": [
+        {
+          "type": "OpenStax University Physics Vol. 3",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors"
+        }
+      ],
+      "seeKey": true
+    }
+  ]
+}

@@ -35,6 +35,8 @@
     button:hover { background: #0056b3; }
     button.export { background: #28a745; }
     button.export:hover { background: #218838; }
+    button.copy-btn { background: #6c757d; margin-bottom: 10px; }
+    button.copy-btn:hover { background: #545b62; }
     
     .problem-container {
       display: grid;
@@ -179,6 +181,8 @@
   <div id="output">
     <h2>Updated Quiz JSON</h2>
     <p>Copy this content and paste it into your quiz.json file:</p>
+    <button class="copy-btn" onclick="copyToClipboard()">📋 Copy JSON</button>
+    <span id="copyStatus" style="margin-left: 10px; color: #28a745; display: none;">✓ Copied!</span>
     <pre id="outputText"></pre>
   </div>
 
@@ -312,35 +316,54 @@
     }
 
     async function getAvailableImages(quiz) {
-      const imageCount = quiz.imageCount;
       const images = [];
+      const basePath = `tests/${currentTestSet.quizPath}/${quiz.name}/images`;
       
-      for (let i = 0; i < imageCount; i++) {
-        // Check both .png and .jpg
-        const pngPath = `tests/${currentTestSet.quizPath}/${quiz.name}/images/${quiz.name}-${i}.png`;
-        const jpgPath = `tests/${currentTestSet.quizPath}/${quiz.name}/images/${quiz.name}-${i}.jpg`;
-        
-        try {
-          const response = await fetch(pngPath, { method: 'HEAD' });
-          if (response.ok) {
-            // Store as "images/Quiz 2 V5-0.png" to match JSON format
-            const imagePath = `images/${quiz.name}-${i}.png`;
-            images.push({ imagePath: imagePath, fullPath: pngPath });
-            console.log(`Found image: ${imagePath}`);
-            continue;
+      // Try to fetch images.json manifest if it exists
+      try {
+        const manifestResponse = await fetch(`${basePath}/images.json`);
+        if (manifestResponse.ok) {
+          const manifest = await manifestResponse.json();
+          for (const filename of manifest) {
+            const imagePath = `images/${filename}`;
+            images.push({ imagePath: imagePath, fullPath: `${basePath}/${filename}` });
+            console.log(`Found image from manifest: ${imagePath}`);
           }
-        } catch (e) {}
-        
+          return images;
+        }
+      } catch (e) {}
+      
+      // Fallback: Try common naming patterns
+      const patterns = [
+        // Pattern 1: Quiz name format (Quiz 5 (S22)-0.png)
+        ...Array.from({length: 20}, (_, i) => `${quiz.name}-${i}.png`),
+        ...Array.from({length: 20}, (_, i) => `${quiz.name}-${i}.jpg`),
+        // Pattern 2: figure_N format
+        ...Array.from({length: 20}, (_, i) => `figure_${i + 1}.png`),
+        ...Array.from({length: 20}, (_, i) => `figure_${i + 1}.jpg`),
+        // Pattern 3: problem_N_fig_M format
+        ...Array.from({length: 25}, (_, p) => 
+          Array.from({length: 3}, (_, f) => `problem_${p + 1}_fig_${f + 1}.png`)
+        ).flat()
+      ];
+      
+      for (const filename of patterns) {
+        const fullPath = `${basePath}/${filename}`;
         try {
-          const response = await fetch(jpgPath, { method: 'HEAD' });
+          const response = await fetch(fullPath, { method: 'HEAD' });
           if (response.ok) {
-            // Store as "images/Quiz 2 V5-0.jpg" to match JSON format
-            const imagePath = `images/${quiz.name}-${i}.jpg`;
-            images.push({ imagePath: imagePath, fullPath: jpgPath });
-            console.log(`Found image: ${imagePath}`);
+            const imagePath = `images/${filename}`;
+            // Avoid duplicates
+            if (!images.find(img => img.imagePath === imagePath)) {
+              images.push({ imagePath: imagePath, fullPath: fullPath });
+              console.log(`Found image: ${imagePath}`);
+            }
           }
         } catch (e) {}
       }
+      
+      // Sort images by name for consistent display
+      images.sort((a, b) => a.imagePath.localeCompare(b.imagePath, undefined, {numeric: true}));
       
       console.log('All available images:', images.map(i => i.imagePath));
       return images;
@@ -442,7 +465,7 @@
       
       // Create the full quiz JSON structure
       const quizData = {
-        title: `PHYS 214 - Test 2, ${currentQuiz.name}`,
+        title: `${currentTestSet.name}, ${currentQuiz.name}`,
         questions: updatedQuestions
       };
       
@@ -455,6 +478,18 @@
     }
 
     // Removed automatic load - user must click "Load Quiz" button
+
+    function copyToClipboard() {
+      const outputText = document.getElementById('outputText').textContent;
+      navigator.clipboard.writeText(outputText).then(() => {
+        const status = document.getElementById('copyStatus');
+        status.style.display = 'inline';
+        setTimeout(() => { status.style.display = 'none'; }, 2000);
+      }).catch(err => {
+        console.error('Failed to copy:', err);
+        alert('Failed to copy to clipboard');
+      });
+    }
   </script>
 </body>
 </html>
